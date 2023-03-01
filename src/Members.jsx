@@ -71,6 +71,46 @@ const Members = () => {
                 </div>
             </section> 
 
+            
+            {/* update new */}
+            <section class="our-webcoderskull padding-lg">
+            <div class="container">
+                
+                <div ><div class="row heading heading-icon">
+                    <h2 style={{marginTop:"50px"}}>MENTORS</h2>
+                </div></div>
+             
+                <ul class="row">
+                    <li class="col-12 col-md-6 col-lg-3">
+                        <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                            <figure><img src="images/SIS.jpg" class="img-responsive" alt="" /></figure>
+                            <h3>Shivam Sharma </h3>
+                            <p></p>
+                            <ul class="follow-us clearfix">
+                                {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                <li><a href="https://instagram.com/blac._.knight?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/shivam-sharma-86a130179/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-lg-3">
+                        <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                            <figure><img src="images/TK.jpg" class="img-responsive" alt="" /></figure>
+                            <h3>Tanay Kumar</h3>
+                            <p></p>
+                            <ul class="follow-us clearfix">
+                                {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                <li><a href="https://instagram.com/the_tanay_kumar_show?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/tanay-kumar-898694142/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                  
+                    
+                </ul>
+            </div>
+            </section>
                  <section class="our-webcoderskull padding-lg">
                 
 
@@ -235,9 +275,9 @@ const Members = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha  8093308828</span>
+                            <span>Siddhartha Nanda  </span> 
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti  9337318011</span>
+                            <span>Sakti Swarup  </span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

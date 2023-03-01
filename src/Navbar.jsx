@@ -82,7 +82,7 @@ const Navbar1 = () => {
             <link rel="stylesheet" href="index.css" />
             {/* <h1 class="logo" style={{cursor:"pointer"}}>NITR<span>ICS</span></h1> */}
             <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:"-150px"}} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "65px", width: "70px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:"-100px",marginTop:"-13px"}} /></div>
                 </div>
             <ul>
                 <li><a href="/">Home</a></li>
