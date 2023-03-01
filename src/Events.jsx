@@ -482,9 +482,9 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha  8093308828</span>
+                            <span>Siddhartha Nanda</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti  9337318011</span>
+                            <span>Sakti Swarup</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

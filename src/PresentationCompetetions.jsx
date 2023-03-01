@@ -299,7 +299,7 @@ const Events1 = () => {
                 <Navbar />
             </div> */}
             {functionnav()}
-            <div class="container">
+            <div class="container container-1">
                 {/* <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
                 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
                 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -318,7 +318,7 @@ const Events1 = () => {
                     {/* PRESENTATION'S */}
                 </h3>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 card-effect">
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
@@ -332,7 +332,7 @@ const Events1 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 card-effect">
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
@@ -348,7 +348,7 @@ const Events1 = () => {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 card-effect">
                         <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
@@ -362,7 +362,7 @@ const Events1 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 card-effect">
                         <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
@@ -424,7 +424,7 @@ const Events1 = () => {
                     </div>
                     <div class="col-md-6">
                         <div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
-                            <div class="card-body d-flex flex-column align-items-start">
+                            <div class="card-body d-flex flex-column align-items-start shadow-effect">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
                                     <a class="text-white" href="#">Online Presentastion Competition-2</a>
