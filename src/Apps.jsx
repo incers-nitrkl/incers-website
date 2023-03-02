@@ -45,6 +45,8 @@ const Apps = () => {
         const width2 = 700;
         if (window.screen.width >= width2) {
             return <>
+            <div className='flash-card-1'>
+            <div className='flash-card'>
                 <a href="https://www.instagram.com/p/CDS1J9vFbij/" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
@@ -76,7 +78,30 @@ const Apps = () => {
                         <p id="para" style={{ color: "#000" }}>A person with a unique perspective, who saw opportunities even in the most challenging times, eventually pursued 3 Post Doctoral Researches in University of Arkansas (2013-14), Rutgers University (2010-13) and North Dakota State University (2009-10) .
                         </p>
                     </div>
-                </a></>
+                </a>
+            </div>
+                <div className='flash-card'>    
+                    <a href="https://www.instagram.com/p/CE_3lEvFcMb/" style={{ textDecoration: "none" }}>
+                        <div className="img_1">
+                            <img id="peacock" src="images/FF3.png" alt="mypic" />
+
+                            <h4 id="proff1" style={{ color: "#000" }}>Dr.Beda Mohanty</h4>
+                            <p id="para" style={{ color: "#000" }}>A person with a unique perspective, who saw opportunities even in the most challenging times, eventually pursued 3 Post Doctoral Researches in University of Arkansas (2013-14), Rutgers University (2010-13) and North Dakota State University (2009-10) .
+                            </p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/p/CE_3lEvFcMb/" style={{ textDecoration: "none" }}>
+                        <div className="img_1">
+                            <img id="peacock" src="images/FF3.png" alt="mypic" />
+
+                            <h4 id="proff1" style={{ color: "#000" }}>Dr.Beda Mohanty</h4>
+                            <p id="para" style={{ color: "#000" }}>A person with a unique perspective, who saw opportunities even in the most challenging times, eventually pursued 3 Post Doctoral Researches in University of Arkansas (2013-14), Rutgers University (2010-13) and North Dakota State University (2009-10) .
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                </>
 
         }
         else {
@@ -333,11 +358,11 @@ const Apps = () => {
                 <div className="image_div_1">
                     {functiondeal1()}
                 </div>
-                <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
+                {/* <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h2>
                     </div>
-                </div>
+                </div> */}
                 {functiondeal()}
                 <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
@@ -369,11 +394,11 @@ const Apps = () => {
                     {functiondeal2()}
                 </div>
 
-                <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
+                {/* <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside1">
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS....</h2>
                     </div>
-                </div>
+                </div> */}
                 {functiondeals()}
                 <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
@@ -414,9 +439,9 @@ const Apps = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha 8093308828</span>
+                            <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti  9337318011</span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

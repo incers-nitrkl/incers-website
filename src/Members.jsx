@@ -81,33 +81,84 @@ const Members = () => {
                 </div></div>
              
                 <ul class="row">
-                    <li class="col-12 col-md-6 col-lg-3">
-                        <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                            <figure><img src="images/SIS.jpg" class="img-responsive" alt="" /></figure>
-                            <h3>Shivam Sharma </h3>
-                            <p></p>
-                            <ul class="follow-us clearfix">
-                                {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                <li><a href="https://instagram.com/blac._.knight?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/shivam-sharma-86a130179/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-3">
-                        <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                            <figure><img src="images/TK.jpg" class="img-responsive" alt="" /></figure>
-                            <h3>Tanay Kumar</h3>
-                            <p></p>
-                            <ul class="follow-us clearfix">
-                                {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                <li><a href="https://instagram.com/the_tanay_kumar_show?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/tanay-kumar-898694142/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    
-                  
-                    
+                <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
+                                    <h3>Siddhartha Nanda</h3>
+                                    {/* <p>Web Developer</p> */}
+                                    {/* <h4>Chairperson</h4> */}
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://www.instagram.com/siddhartha_2008_nanda/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/SS.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
+                                    <h3>Sakti Swarup Mohapatra</h3>
+                                    {/* <p>Freelance Web Developer</p> */}
+                                    {/* <h4>Vice Chairperson</h4> */}
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://www.instagram.com/sakti__26/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/mohapatrasakti/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            {/* <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
+                                    <h3>Deepshikha Brahma</h3> */}
+                                    {/* <p>Freelance Developer</p> */}
+                                    {/* <h4>Secretary</h4>
+                                    <ul class="follow-us clearfix"> */}
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        {/* <li><a href="https://instagram.com/deepsikha_brahma?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/deepsikha-brahma-b8b5751b1"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li> */}
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/RP.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Riyali Priya</h3>
+                                    {/* <p>Freelance Developer</p> */}
+                                    {/* <h4>joint Secretary</h4> */}
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/riyali-priya-465a7520b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/IP.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Ipsita patra</h3>
+                                    {/* <p>Freelance Web Developer</p> */}
+                                    {/* <h4>Treasurer</h4> */}
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://instagram.com/ipso._?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/ipsita-patra-577393218"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/NK.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Naveen kumar Yadav</h3>
+                                    {/* <p>Freelance Web Developer</p> */}
+                                    {/* <h4>3rd yr Branch Representative</h4> */}
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
                 </ul>
             </div>
             </section>
@@ -122,8 +173,8 @@ const Members = () => {
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
-                                    <h3>Siddhartha Nanda</h3>
+                                    <figure><img src="images/DP.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
+                                    <h3>Deepsikha Brahma</h3>
                                     {/* <p>Web Developer</p> */}
                                     <h4>Chairperson</h4>
                                     <ul class="follow-us clearfix">
@@ -135,8 +186,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SS.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
-                                    <h3>Sakti Swarup Mohapatra</h3>
+                                    <figure><img src="images/PM.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
+                                    <h3>Partha Mishra</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>Vice Chairperson</h4>
                                     <ul class="follow-us clearfix">
@@ -148,8 +199,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3>Deepshikha Brahma</h3>
+                                    <figure><img src="images/RD.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
+                                    <h3>Rittwik</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>Secretary</h4>
                                     <ul class="follow-us clearfix">
@@ -161,8 +212,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/RP.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Riyali Priya</h3>
+                                    <figure><img src="images/A.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Aashya</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>joint Secretary</h4>
                                     <ul class="follow-us clearfix">
@@ -174,8 +225,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/IP.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Ipsita patra</h3>
+                                    <figure><img src="images/P.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Pratyush</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>Treasurer</h4>
                                     <ul class="follow-us clearfix">
@@ -187,8 +238,21 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/NK.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Naveen kumar Yadav</h3>
+                                    <figure><img src="images/JM.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Jyotishman Mohanty</h3>
+                                    {/* <p>Freelance Web Developer</p> */}
+                                    <h4>2nd yr Branch Representative</h4>
+                                    <ul class="follow-us clearfix">
+                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3">
+                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
+                                    <figure><img src="images/S.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Summit</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>3rd yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
@@ -200,8 +264,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SG.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Somdeb Ganguly</h3>
+                                    <figure><img src="images/U.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Uday</h3>
                                     <h4>4th yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
@@ -275,9 +339,9 @@ const Members = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha Nanda  </span> 
+                            <span>Deepsikha Brahma</span> 
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swarup  </span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
