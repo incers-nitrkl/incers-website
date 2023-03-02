@@ -16,8 +16,11 @@ const Mritika = () => {
 
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container">
+                    <div>
+                        <div id="logo" style={{ cursor: "pointer" }}><img src="images/mritika_logo.png" style={{ height: "65px", width: "65px", background: "100% 100%", borderRadius: "0px", padding: "0px" ,marginLeft:"-50px",marginTop:"-1rem"}} /></div>
+                    </div>
                     <a class="navbar-brand" href="/">
-                        <h3 class="my-heading ">NITR<span class="bg-main">ICS</span></h3>
+                        <h3 >InCerS</h3>
                     </a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars mfa-white"></span>
@@ -56,7 +59,10 @@ const Mritika = () => {
                 </div>
             </header>
 
-            <section class="testimonials" id="gobottom">
+
+            {/*  New comments */}
+
+            {/* <section class="testimonials" id="gobottom">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
@@ -64,6 +70,7 @@ const Mritika = () => {
                                 <img src="images/CR.jpg" class="img-fluid" />
                             </div>
                         </div>
+
                         <div class="col-md-8">
                             <div class="inner-section wow fadeInUp">
                                 <h3>Follow the <span class="bg-main">Next Event</span></h3>
@@ -89,10 +96,34 @@ const Mritika = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
-            </section>
+            </section>  */}
+
+
+            {/* New add */}
+
+            <div class="mritika-about">
+                <h3>About..</h3>
+                <div class="about-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit eius nihil 
+                        nesciunt molestiae earum odit quam laborum. Vero provident expedita laudantium aliquid accusamus 
+                        tempore magni in! At, recusandae a voluptatum molestiae dicta officiis voluptates nulla qui consequatur
+                        incidunt distinctio accusamus, doloribus facere animi nobis. Vero omnis repellat harum doloribus unde 
+                        similique fugit porro ut in quia. Aliquam fugit, fuga iusto vitae dicta aspernatur mollitia beatae
+                        obcaecati dignissimos minus possimus, adipisci repellendus accusamus ex. Iste at eos perferendis 
+                        harum adipisci?
+                    </p>
+                </div>
+                <div class="faculty-advisor">
+                    <p>cards</p>
+                </div>
+                <div class="executive-members">
+                    <p>executive-members</p>
+                </div>
+            </div>
+
 
             <section class="testimonials mybg-events1">
 
@@ -436,11 +467,56 @@ const Mritika = () => {
                                 </div>
                             </div>
                         </div>
+
+                         {/* Add new                    */}
+
+                         <div class="new-sponsers" style={{display:'flex', justifyContent:'center',marginLeft:"18rem", marginTop:"3rem"}}>
+                            <div style={{marginRight:"2rem"}} data-wow-duration="1.4s">
+                                <div class="card">
+                                    <img class="card-img-top h-262" src="images/S2.jpeg" />
+                                    <div class="card-block">
+
+                                        {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
+
+                                        <div class="card-text">
+                                            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        {/* <small>$ 170</small> */}
+                                        <a href="https://www.imerys.com/" class="pull-right">More Info</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div  data-wow-duration="1.4s">
+                                <div class="card">
+                                    <img class="card-img-top h-262" src="images/S2.jpeg" />
+                                    <div class="card-block">
+
+                                        {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
+
+                                        <div class="card-text">
+                                            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        {/* <small>$ 170</small> */}
+                                        <a href="https://www.imerys.com/" class="pull-right">More Info</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+
                     </div>
                 </div>
             </section>
 
-            <section class="testimonials text-center ">
+
+            {/* New comments */}
+            {/* <section class="testimonials text-center ">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
@@ -472,7 +548,10 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
 
                     </div>
                 </div>
-            </section>
+            </section> */}
+
+
+
             <div class="social_media_part">
                 <footer>
                     <div class="top_header">
