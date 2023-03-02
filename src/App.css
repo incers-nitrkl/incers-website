@@ -428,4 +428,28 @@
         width: 100%;
       }
 
-    
+      .competition-design{
+        background-color: #bbeded6e !important;
+        
+      }
+      .competition-design:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+      .competition-design2{
+        background-color: #ccedbb6e !important;
+      }
+      .competition-design2:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+      .competition-design3{
+        background-color: #524af9eb !important;
+      }
+      .competition-design3:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+      .competition-design4{
+        background-color: #61e93cd2 !important;
+      }
+      .competition-design4:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }

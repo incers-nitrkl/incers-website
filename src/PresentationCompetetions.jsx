@@ -319,7 +319,7 @@ const Events1 = () => {
                 </h3>
                 <div class="row">
                     <div class="col-md-6 card-effect">
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -333,7 +333,7 @@ const Events1 = () => {
                         </div>
                     </div>
                     <div class="col-md-6 card-effect">
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design2">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -349,7 +349,7 @@ const Events1 = () => {
                 </div>
                 <div class="row">
                     <div class="col-md-6 card-effect">
-                        <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 competition-design">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -363,7 +363,7 @@ const Events1 = () => {
                         </div>
                     </div>
                     <div class="col-md-6 card-effect">
-                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 competition-design2">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -379,7 +379,7 @@ const Events1 = () => {
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card text-white bg-primary flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card text-white  flex-md-row mb-4 shadow-sm h-md-250 competition-design3">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -393,7 +393,7 @@ const Events1 = () => {
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 competition-design4">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -409,7 +409,7 @@ const Events1 = () => {
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card text-white bg-primary flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 competition-design3">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -423,7 +423,7 @@ const Events1 = () => {
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card text-white bg-success flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 competition-design4">
                             <div class="card-body d-flex flex-column align-items-start shadow-effect">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -633,9 +633,9 @@ const Events1 = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha  8093308828</span>
+                            <span>Siddhartha </span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti   9337318011</span>
+                            <span>Sakti  </span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
