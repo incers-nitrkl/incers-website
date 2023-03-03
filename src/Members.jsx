@@ -200,7 +200,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/RD.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3>Rittwik</h3>
+                                    <h3>Rittwik Devdatta Das</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>Secretary</h4>
                                     <ul class="follow-us clearfix">
@@ -225,8 +225,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/P.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Pratyush</h3>
+                                    <figure><img src="images/PKS.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Pratyush Kundu</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>Treasurer</h4>
                                     <ul class="follow-us clearfix">
@@ -238,7 +238,7 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/JM.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <figure><img src="images/JM.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Jyotishman Mohanty</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>2nd yr Branch Representative</h4>
@@ -251,8 +251,8 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/S.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Summit</h3>
+                                    <figure><img src="images/SK.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <h3>Summit Kumar Oram</h3>
                                     {/* <p>Freelance Web Developer</p> */}
                                     <h4>3rd yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
@@ -264,7 +264,7 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/U.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <figure><img src="images/U.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Uday</h3>
                                     <h4>4th yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">

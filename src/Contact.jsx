@@ -39,7 +39,7 @@ const Contact = () => {
                                 <figure><img src="images/BB.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
                                 <h3><a href="https://www.linkedin.com/in/shanbehera/">Prof. Bibhuti Bhusan Nayak</a></h3>
                                 <p>Department of ceramic Engineering</p>
-                                <p>mail id: beherash@nitrkl.ac.in</p>
+                                <p>mail id: bbnayak[at]nitrkl.ac.in</p>
                                 {/* <p>Contact no: +91 8328928574</p> */}
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}

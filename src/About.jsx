@@ -110,7 +110,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                             To all material enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.</p>
                     </div> */}
                     <div>
-                        <iframe width="800" height="400" style={{ marginLeft: "200px" ,marginTop:"30px"}} src="https://www.youtube.com/watch?v=EziokCQ4aHU">
+                        <iframe width="800" height="400" style={{ marginLeft: "200px" ,marginTop:"30px"}} src="//www.youtube.com/watch?v=EziokCQ4aHU">
                         </iframe>
                     </div>
                 </div>
@@ -126,6 +126,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                     <div>
                         <iframe width="800" height="400" style={{ marginLeft: "200px" ,marginTop:"30px"}} src="https://www.youtube.com/watch?v=4P5MOOXSzZM">
                         </iframe>
+                        
                     </div>
                 </div>
             </div>

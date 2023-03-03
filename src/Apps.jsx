@@ -80,22 +80,24 @@ const Apps = () => {
                     </div>
                 </a>
             </div>
-                <div className='flash-card'>    
-                    <a href="https://www.instagram.com/p/CE_3lEvFcMb/" style={{ textDecoration: "none" }}>
-                        <div className="img_1">
-                            <img id="peacock" src="images/FF3.png" alt="mypic" />
 
-                            <h4 id="proff1" style={{ color: "#000" }}>Dr.Beda Mohanty</h4>
-                            <p id="para" style={{ color: "#000" }}>A person with a unique perspective, who saw opportunities even in the most challenging times, eventually pursued 3 Post Doctoral Researches in University of Arkansas (2013-14), Rutgers University (2010-13) and North Dakota State University (2009-10) .
+            {/* new card added 4 and 5 */}
+                <div className='flash-card'>    
+                    <a href="https://www.instagram.com/p/CGHED3elid2/?utm_source=ig_web_copy_link" style={{ textDecoration: "none" }}>
+                        <div className="img_1">
+                            <img id="peacock" src="images/FF4.jpg" alt="mypic" />
+
+                            <h4 id="proff1" style={{ color: "#000" }}>Mr.Shiv Kiran</h4>
+                            <p id="para" style={{ color: "#000" }}>Learning essential life values along the way to success further accelerates the process. Mr. Shiv Kiran V. is someone who accepts the shortcomings and works tirelessly to improve it.
                             </p>
                         </div>
                     </a>
-                    <a href="https://www.instagram.com/p/CE_3lEvFcMb/" style={{ textDecoration: "none" }}>
+                    <a href="https://www.instagram.com/p/CJgJbgnF_9w/?utm_source=ig_web_copy_link" style={{ textDecoration: "none" }}>
                         <div className="img_1">
-                            <img id="peacock" src="images/FF3.png" alt="mypic" />
+                            <img id="peacock" src="images/FF5.jpg" alt="mypic" />
 
-                            <h4 id="proff1" style={{ color: "#000" }}>Dr.Beda Mohanty</h4>
-                            <p id="para" style={{ color: "#000" }}>A person with a unique perspective, who saw opportunities even in the most challenging times, eventually pursued 3 Post Doctoral Researches in University of Arkansas (2013-14), Rutgers University (2010-13) and North Dakota State University (2009-10) .
+                            <h4 id="proff1" style={{ color: "#000" }}>Prof.Anshu Gaur</h4>
+                            <p id="para" style={{ color: "#000" }}>Combination of just the right amount of determination and practicality can lead us anywhere we want and Prof. Anshu Gaur is one of the best examples having this quality. Read on to find more about the outlook and journey of Prof. Anshu Gaur, batch of 1999.
                             </p>
                         </div>
                     </a>
@@ -363,7 +365,9 @@ const Apps = () => {
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h2>
                     </div>
                 </div> */}
-                {functiondeal()}
+                <div style={{marginTop:"38rem"}}>
+                    {functiondeal()}
+                </div>
                 <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
                         <div class="row">
