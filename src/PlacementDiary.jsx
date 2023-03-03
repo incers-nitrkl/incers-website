@@ -905,9 +905,9 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha  8093308828</span>
+                            <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti   9337318011</span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

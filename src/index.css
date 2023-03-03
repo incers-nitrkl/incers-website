@@ -1739,19 +1739,19 @@ ul {
 .mybg-dark {
   background: #000000 !important;
 }
-header.masthead1 {
+/* header.masthead1 {
   position: relative;
   height: 570px;
   background-color: #343a40;
-  background: url("https://yt3.ggpht.com/ytc/AKedOLTXJGtOK9aBUFyNu8Iat3_T-r73l8IknOLdTJlI=s900-c-k-c0x00ffffff-no-rj")
-    no-repeat center center;
+  background-image: url('/src/images/MRITTIKA2.0-bg.png');
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
+} */
 
 header.masthead1 .overlay {
   position: absolute;
@@ -1882,8 +1882,8 @@ button.btn.btn-light {
 }
 
 a.btn.btn-default.btn-scroll {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f31010;
+  color: #e55a5a;
   border-radius: 100%;
 }
 
@@ -2110,7 +2110,7 @@ section#group {
 }
 
 .card-title {
-  font-size: 1.28571429em;
+  /* font-size: 1.28571429em; */
   font-weight: 700;
   line-height: 1.2857em;
 }

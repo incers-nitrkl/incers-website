@@ -329,7 +329,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Silicon Sphere</p>
                                 <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp1.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                     <div class="col-md-6 card-effect">
@@ -343,7 +343,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Ceramic tempered Glass</p>
                                 <a class="btn btn-outline-success btn-sm" href="https://youtu.be/4xUInIdO8I0">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp2.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Metamaterials</p>
                                 <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/kZqFgkqj_QQ">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp3.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                     <div class="col-md-6 card-effect">
@@ -373,7 +373,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Conductive Ceramics</p>
                                 <a class="btn btn-outline-success btn-sm" href="https://youtu.be/04WUCfsfRSY">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp4.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                 </div>
@@ -389,7 +389,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">PZT</p>
                                 <a class="btn btn-outline-light btn-sm" role="button" href="https://youtu.be/2AYpTP9XBVU">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp5.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -403,7 +403,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Cereamics in aerospace</p>
                                 <a class="btn btn-outline-light btn-sm" href="https://youtu.be/KHoAPQDb94c">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp6.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                 </div>
@@ -419,7 +419,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Ceramics in Electronics</p>
                                 <a class="btn btn-outline-light btn-sm" role="button" href="https://youtu.be/cC4Ic--uNLY">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/arch" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp7.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -433,7 +433,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto">Ceramics in Electronics</p>
                                 <a class="btn btn-outline-light btn-sm" href="https://youtu.be/KA-fuWdq1UU">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="//placeimg.com/250/250/nature" style={{ width: "200px", height: "250px" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp8.jpeg" style={{ width: "200px", height: "250px" }} />
                         </div>
                     </div>
                 </div>
@@ -633,9 +633,9 @@ const Events1 = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha </span>
+                            <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti  </span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

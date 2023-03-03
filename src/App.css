@@ -405,28 +405,49 @@
       /* new changes */
      
       .mritika-about{
-        border:2px solid red;
-        height:600px;
+        /* border:2px solid red; */
+        height:1000px;
         display:flex;
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-
+        
       }
       .about-content{
-        border:2px solid red;
-        height: 200px;
+        /* border:2px solid red; */
+        height: 220px;
+        width: 100%;
+        padding: 10px 60px 10px 60px;
+        
       }
-      .faculty-advisor{
+      /* .faculty-advisor{
         border:2px solid red;
         height: 200px;
         width: 100%;
-      }
+        
+      } */
       .executive-members{
-        border:2px solid red;
-        height: 200px;
+        /* border:2px solid red; */
+        height: 650px;
         width: 100%;
       }
+      .student-members{
+        /* border:2px solid red; */
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .brochure19{
+        height:4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+
 
       .competition-design{
         background-color: #bbeded6e !important;
@@ -436,7 +457,7 @@
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
       }
       .competition-design2{
-        background-color: #ccedbb6e !important;
+        background-color: #c2f5a96e !important;
       }
       .competition-design2:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
@@ -452,4 +473,16 @@
       }
       .competition-design4:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+
+      .mrittika-bg{
+        position: relative;
+        height: 570px;
+        /* border:2px solid red; */
+        margin-top: 6rem;
+      }
+      .mrittika-img{
+        position: relative;
+        height: 570px;
+        width: 100%;
       }
