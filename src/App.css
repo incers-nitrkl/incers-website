@@ -413,3 +413,13 @@
         display: flex;
         flex-direction: column;
       }
+
+      /* changes */
+      
+
+      @media(max-width:430px){
+        .col-md-12{
+          margin-top: 16rem !important;
+          /* height: auto !important; */
+        }
+      }

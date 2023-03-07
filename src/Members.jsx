@@ -212,7 +212,7 @@ const Members = () => {
                             </li>
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/A.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                    <figure><img src="images/AS.png" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Aashya</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>joint Secretary</h4>

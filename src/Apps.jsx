@@ -82,7 +82,7 @@ const Apps = () => {
             </div>
 
             {/* new card added 4 and 5 */}
-                <div className='flash-card'>    
+                {/* <div className='flash-card'>    
                     <a href="https://www.instagram.com/p/CGHED3elid2/?utm_source=ig_web_copy_link" style={{ textDecoration: "none" }}>
                         <div className="img_1">
                             <img id="peacock" src="images/FF4.jpg" alt="mypic" />
@@ -101,7 +101,9 @@ const Apps = () => {
                             </p>
                         </div>
                     </a>
-                </div>
+                </div> */}
+
+
                 </div>
                 </>
 
@@ -236,7 +238,7 @@ const Apps = () => {
                 {
                     SliderData.map(product => {
                         return (<a href={product.reciever}>
-                            <Box textAlign="center" className={classes.wrapper}>
+                            <Box textAlign="center" className={classes.wrapper} >
                                 <img src={product.image} className={classes.image} />
                             </Box>
                         </a>)
@@ -304,6 +306,7 @@ const Apps = () => {
             {/* <Navbar /> */}
             {functionnav()}
             <div className="gallery_div">
+                <img style={{width:"100%",height: "500px",}} src="images/InCerS_newlogo.png" alt="image" srcset="" />
                 {/* <div>
                     <h1 className="headingname">WELCOME TO NITR ICS</h1>
                 </div>  */}
@@ -315,7 +318,7 @@ const Apps = () => {
             <section class="about-us py-5 " id="about-us">
                 <div class="container mt-5">
                     <div class="row">
-                        <div class="col-md-12" style={{ textAlign: "justify" }}>
+                        <div class="col-md-12" style={{ textAlign: "justify",marginBottom:"-7.3rem" }}>
                             <h1 class='text-success' style={{ fontSize: "27px" }}>OUR OBJECTIVES</h1>
                             {/* <h2>Know More About Us</h2> */}
                             <hr />
@@ -365,7 +368,7 @@ const Apps = () => {
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h2>
                     </div>
                 </div> */}
-                <div style={{marginTop:"38rem"}}>
+                <div style={{margin:"0 -30px"}}>
                     {functiondeal()}
                 </div>
                 <section class="about-us py-5 " id="about-us">
@@ -403,7 +406,10 @@ const Apps = () => {
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS....</h2>
                     </div>
                 </div> */}
-                {functiondeals()}
+                <div style={{margin:"0 -30px"}}>
+                    {functiondeals()}
+                </div>
+
                 <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
                         <div class="row">
