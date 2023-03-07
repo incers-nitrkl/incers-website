@@ -402,6 +402,7 @@
           }
       }
 
+
       /* new changes */
      
       .mritika-about{
@@ -420,12 +421,15 @@
         padding: 10px 60px 10px 60px;
         
       }
-      /* .faculty-advisor{
-        border:2px solid red;
-        height: 200px;
+      
+      .about-2023{
+        /* border: 2px solid red; */
         width: 100%;
-        
-      } */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 62rem;
+      }
       .executive-members{
         /* border:2px solid red; */
         height: 650px;
@@ -440,14 +444,42 @@
         width: 100%;
       }
       .brochure19{
-        height:4rem;
+        height:8rem;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         
       }
+      .vertical_dotted_line
+      {
+        margin-top: -1.65rem;
+        border-left: 3.5px dotted rgb(29, 226, 42);
+        height: 440px;
+      } 
 
-
+      .sponsers{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+      }
+      .sponsers1{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+      }
+      .guest-cards{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cards-1{
+        height: 26rem !important;
+        width: 62rem !important;
+        margin-left: -8rem;
+      }
 
       .competition-design{
         background-color: #bbeded6e !important;
@@ -486,3 +518,77 @@
         height: 570px;
         width: 100%;
       }
+
+      .TS-card{
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
+
+      /* media quary */
+  @media(max-width:430px){
+    .heading-1{
+      margin-left: 1.5rem !important;
+      
+    }
+    .heading-2{
+      margin-left: 1.5rem !important;
+    }
+    .ev-1{
+      width:auto !important;
+    }
+    .about-2023{
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 2rem !important;
+      margin-left: 3rem !important;
+    }
+    .btn-19{
+      transform: scale(0.7);
+    }
+    .sp-1{
+      transform: scale(0.5) !important;
+    }
+  }
+
+  @media only screen and (max-width: 1025px) and (min-width: 430px) {
+    .ev-1{
+      width:750px !important;
+    }
+    .about-2023{
+      margin-top: 3rem;
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 22rem !important;
+      margin-left: 3rem !important;
+    }
+    .btn-19{
+      transform: scale(0.8);
+    }
+    .overlay{
+      height: 35rem !important;
+    }
+    .overlay-1{
+      height: 35rem !important;
+      margin-top: 4.6rem;
+    }
+    .nav-1{
+      margin-right: -390px !important;
+    }
+    .nav-2{
+      margin-right: 0px !important;
+    }
+    .nav-3{
+      margin-left: 1px !important;
+      margin-top: 0px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .nav-3{
+      margin-left: -4rem !important;
+      margin-top: 0.5rem !important;
+    }
+  }

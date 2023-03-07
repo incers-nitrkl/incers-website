@@ -614,7 +614,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
             </section>
 
 
-            <section class="testimonials text-center">
+            {/* <section class="testimonials text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
@@ -702,7 +702,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                         </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* <section class="testimonials text-center mybg-music">
                         <div class="container">

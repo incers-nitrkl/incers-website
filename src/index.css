@@ -1739,19 +1739,19 @@ ul {
 .mybg-dark {
   background: #000000 !important;
 }
-/* header.masthead1 {
+header.masthead1 {
   position: relative;
-  height: 570px;
+  height: 686px;
   background-color: #343a40;
-  background-image: url('/src/images/MRITTIKA2.0-bg.png');
-  background-repeat: no-repeat;
+  background: url("https://yt3.ggpht.com/ytc/AKedOLTXJGtOK9aBUFyNu8Iat3_T-r73l8IknOLdTJlI=s900-c-k-c0x00ffffff-no-rj")
+    no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
-} */
+}
 
 header.masthead1 .overlay {
   position: absolute;
@@ -1760,7 +1760,7 @@ header.masthead1 .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 @media (min-width: 768px) {
@@ -2024,8 +2024,8 @@ hr.my-border {
   background-size: cover;
 }
 .mybg-events1 {
-  background: url("https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
-    no-repeat center center fixed;
+  /* background: url("https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") */
+    /* no-repeat center center fixed; */
   background-size: cover;
 }
 

@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Brochure from './images/brochure2019.pdf';
 
 
-const Mritika = () => {
+const Events3 = () => {
 
     return (<>
 
@@ -194,10 +194,10 @@ const Mritika = () => {
 
                                 <div  style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "230px" ,width:"200px"}}>
-                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/AS.png" />
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/AS.jpg" />
                                         <div class="card-block">
 
-                                            <h6 class="card-title text-center">Aashya</h6>
+                                            <h6 class="card-title text-center">Aashya Sanjay</h6>
                                             <h6 style={{color:"green"}}><strong>Joint Secretory</strong></h6>
 
                                         </div> 
@@ -1033,4 +1033,4 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
         </>);
 }
 
-export default Mritika
+export default Events3
