@@ -3,6 +3,22 @@ import Navbar from './Navbar';
 import Brochure from './images/brochure2019.pdf';
 
 
+const functionnav = ()=>{
+    const widths = 700
+    if(window.screen.width <= widths){
+        return(<>
+             <div class="top_div">
+            <div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+            </div>
+            <Navbar />
+        </div>
+        </>)
+    }
+        else{
+            return <Navbar />
+        }
+    }
 const Mritika = () => {
 
     return (<>
@@ -14,16 +30,16 @@ const Mritika = () => {
                     </div>
                     <Navbar />
                 </div> */}
-
+            {functionnav()}
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container">
-                    <div>
+                    {/* <div>
                         <div id="logo" style={{ cursor: "pointer" }}><img src="images/mritika_logo.png" style={{ height: "65px", width: "65px", background: "100% 100%", borderRadius: "0px", padding: "0px" ,marginLeft:"-180px",marginTop:"-1rem"}} /></div>
                     </div>
                     <h3 style={{marginRight:"-48rem"}}>InCerS NITR</h3>
                     <a class="navbar-brand" href="/">
                         <button class="btn btn-primary" style={{marginRight:"-30rem"}}>Home</button>
-                    </a>
+                    </a> */}
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars mfa-white"></span>
                     </button>
@@ -58,7 +74,7 @@ const Mritika = () => {
                             </a>
                             {/* <p>suraj</p> */}
                             <br />
-                            <a href="https://docs.google.com/document/d/1T6DjZZsHYflBi5Wr3VZnujt5EzYUa3KiZaqeuRzwj7E/edit?usp=sharing" title="Go to Brochure" style={{fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a>
+                            <a href="https://drive.google.com/file/d/1K9asBc6asHcyO1liHbnLvg-IGLVpE1Rb/view?usp=share_link" title="Go to Brochure" style={{fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a>
                         </div>
                         
                         <div class="col-md-12 text-center mt-5">
@@ -117,29 +133,19 @@ const Mritika = () => {
 
             <div class="mritika-about">
                 <div class="about-2023" style={{marginTop:"2rem",marginBottom:"2rem"}}>
-                    <h1 style={{marginLeft:"-4rem"}}>ABOUT</h1>
+                    <h1 style={{marginLeft:"4.5rem"}}>INCERS NITR</h1>
                     
                     <a  href="/mritika1">
                         <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
                     </a>
                 </div>
                 <div class="about-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit eius nihil 
-                        nesciunt molestiae earum odit quam laborum. Vero provident expedita laudantium aliquid accusamus 
-                        tempore magni in! At, recusandae a voluptatum molestiae dicta officiis voluptates nulla qui consequatur
-                        incidunt distinctio accusamus, doloribus facere animi nobis. Vero omnis repellat harum doloribus unde 
-                        similique fugit porro ut in quia. Aliquam fugit, fuga iusto vitae dicta aspernatur mollitia beatae
-                        obcaecati dignissimos minus possimus, adipisci repellendus accusamus ex. Iste at eos perferendis 
-                        harum adipisci?
+                    <p>The Indian Ceramic Society (InCerS) opened up its student chapter for the first time at NIT
+                        Rourkela in the year 2017 with the aim to ‘calcinate' the ever-evolving raw interest in materials
+                        and their properties and has been awarded for the Best Student's Chapter for its outstanding
+                        performance in the AY 21-22.
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit eius nihil 
-                        nesciunt molestiae earum odit quam laborum. Vero provident expedita laudantium aliquid accusamus 
-                        tempore magni in! At, recusandae a voluptatum molestiae dicta officiis voluptates nulla qui consequatur
-                        incidunt distinctio accusamus, doloribus facere animi nobis. Vero omnis repellat harum doloribus unde 
-                        similique fugit porro ut in quia. Aliquam fugit, fuga iusto vitae dicta aspernatur mollitia beatae
-                        obcaecati dignissimos minus possimus, adipisci repellendus accusamus ex. Iste at eos perferendis 
-                        harum adipisci?
-                    </p>
+                    
                 </div>
                 {/* <div class="faculty-advisor">
                     <p>cards</p>
@@ -940,6 +946,247 @@ const Mritika = () => {
                     </div>
                 </div>
             </section>
+
+
+            {/* Premritika events */}
+            
+            <div class="guest"> 
+
+                <div class="guest-cards" style={{marginTop:"3rem"}}>
+                    <h3 class="text-center font-weight-bold" >PRE-MRITIKA<span class="bg-main"> EVENTS </span></h3>
+                    {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>BOX CRICKET </h5> */}
+                    <div class="col-md-6 card-effect " style={{}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <br />
+                                {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
+                                <h4 class="mb-0" >
+                                    <a class="text-dark" href="#">BOX CRICKET</a>
+                                </h4>
+                                <br />
+                                <p>"Jo khel dil ko itna bhaye usko dekhe bina kese raha jaye" <br /><br />
+                                    MRITTIKA 2.0 brings you one of those 
+                                    exciting game which is loved by everyone and played by anyone, Cricket in the small pitch played 
+                                    by less players but watched by much people "Box cricket". <br /><br />
+                                    Gear up everyone to see the short format 
+                                    of cricket with boys and girls in a combined team of 7 players each, a huge crowd of NITR to watch 
+                                    out you so make your preparation at a fantastic level so that you can win awards and goodies worth 
+                                    1k  and felicitation ceremony for the players also so that you can have a memorable evening to have 
+                                    fun and test of your sportsmanship too.</p> 
+                                    <br />
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
+                        </div>
+                    </div>
+
+                    {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>BADMINTON </h5>     */}
+                    <div class="col-md-6 card-effect" style={{marginBottom:"3rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <br />
+                                {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">BADMINTON </a>
+                                </h4>
+                                <br />
+                                <p>"Challenge yourself and others in the ultimate badminton battle!" <br /> <br />
+                                    Come and join us for a day of fun as Mrittika’23 brings you the sport of badminton 
+                                    where you will be competing in singles. The competition will start with elimination 
+                                    rounds where only the best players will advance to the finals. At the end of the event,
+                                    winners will be awarded with rewards and goodies worth ₹1k. <br /><br />
+                                    So, don’t miss out on the electric atmosphere as players battle it out for victory.</p>
+                                    <br /><br />
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Theme  */}
+            <div style={{backgroundColor:"#F3F3EA",marginLeft:"16rem",marginRight:"16rem",paddingTop:"3rem",paddingBottom:"0.5rem"}}>
+                <h3 class="text-center font-weight-bold" >THEME OF THE<span class="bg-main"> CONFERENCE </span></h3>
+                <div style={{paddingLeft:"5rem",marginTop:"2rem",marginBottom:"5rem"}}>
+                    <ol>
+                        <li>
+                            Current status and Future Trends in the Manufacturing of Refractories.
+                        </li>
+                        <li>
+                            Diversified application of Refractories in Ferrous and Non-Ferrous Industries.
+                        </li>
+                        <li>
+                            Advancements in Glass Science and Technology.
+                        </li>
+                        <li>
+                            Sensors and Actuators
+                        </li>
+                        <li>
+                            Ceramic Membranes and Porous Materials for desalination, water treatment &
+                            purification for industrial waste disposal. 
+                        </li>
+                        <li>
+                            BioCeramics
+                        </li>
+                        <li>
+                            Ceramics for energy applications (Batteries, Supercapacitors, SOFC,
+                            Thermoelectric, Electrocatalyst, Photocatalysts, solar cell)
+                        </li>
+                        <li>
+                            Industry 4.0 & Lean Manufacturing concept in Ceramic Industry
+                        </li>
+                        <li>
+                            Reduction of Carbon Footprint and emergence of green manufacturing
+                        </li>
+                        <li>
+                            Recent Advancements in whiteware Industries
+                        </li>
+                        <li>
+                            Magnetics and Dielectric Ceramics
+                        </li>
+                        <li>
+                            Ceramics for building materials
+                        </li>
+                        <li>
+                            Additive Manufacturing in Ceramics
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            
+
+            {/* Technical session */}
+
+            <div class="guest"> 
+
+                <div class="guest-cards" >
+                    <h3 class="text-center font-weight-bold"  style={{marginTop:"5rem",marginBottom:"3rem"}}>TECHNICAL<span class="bg-main"> SESSION</span></h3>
+                    {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>Plenary Lectures/Invited Lectures </h5> */}
+                    <div class="col-md-6 card-effect " style={{}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design " style={{height:"41rem ",width:"62rem",marginLeft:"-8rem"}}>
+                            <div class="card-body d-flex flex-column align-items-start">
+                                
+                                {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
+                                <br />
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">Plenary Lectures/Invited Lectures </a>
+                                </h4>
+                                <br />
+                                <p>
+                                    Industry delegates/Academic Experts are invited for the same to share their words
+                                    of wisdom on the current affairs related to their ongoing work/Research: with a
+                                    base solely contemplating on the ceramic industry within a window of around half
+                                    an hour. Lectures proposed for the aforementioned issue are based on accountable
+                                    registrations.
+                                </p>
+
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">Contributory Lectures </a>
+                                </h4>
+                                <br />
+                                <p>
+                                    Industry delegates/Academic Experts who wish to present their ongoing work
+                                    /Research paper are also welcome to contribute to the conference with a base
+                                    solely contemplating on the ceramic industry within a window of around half an
+                                    hour. Lectures proposed for the aforementioned issue are based on accountable
+                                    registrations.
+                                </p>
+
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">Panel discussions</a>
+                                </h4>
+                                <br />
+                                <p>
+                                    Industry delegates/Academic Experts are also cordially welcomed to be a part of
+                                    the panel within a two-hour window per discussion in a conference of tentatively 10
+                                    panellists (liable to changes depending on registrations). The agenda might include
+                                    topics from both basic (refractory, glass etc.) and advanced ceramics (nanoceramics
+                                    etc.) that inculcate ongoing agenda the firm might be working on.
+                                </p>
+
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">Poster Presentations(open to all categories)</a>
+                                </h4>
+                                <br />
+                                <p>
+                                    Industry Delegates/Academic Experts/Research Scholars/Students can present
+                                    their research/project work in the form of a poster. The presenter can explain to
+                                    the audience their topic and based on the satisfaction level of the audience, cash
+                                    prizes/goodies will be provided.
+                                </p>
+
+                                
+                            </div>
+                            {/* <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} /> */}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            {/* Fun eventa */}
+
+            <div class="guest"> 
+
+                <div class="guest-cards" style={{marginTop:"3rem"}}>
+                    <h3 class="text-center font-weight-bold" >FUN<span class="bg-main"> EVENTS </span></h3>
+                    {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>PowerPoint Karaoke </h5> */}
+                    <div class="col-md-6 card-effect " style={{}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                
+                                {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">PowerPoint Karaoke</a>
+                                </h4>
+                                <br />
+                                <p>A fun PowerPoint Karaoke event to challenge both the author of the slide and the presenter to 
+                                    improve their communication skills. Submit or Present a Slide (or Both!)</p>
+                                <p> &emsp; Create a PowerPoint side with a contribution to your research or a materials science-related topic. <br />
+                                    &emsp;Don’t be too serious! Popular science topics aren’t the point; we’re looking for the funniest story or best &emsp; design! <br />
+                                    &emsp;Topics can range from your actual research to something silly, such as the use of rubber ducks. Be sure &emsp;to keep it simple <br />
+                                    &emsp;so that anyone can present, and keep it clean—inappropriate content will not be accepted.</p>
+                                <p>During the event, presenters will be assigned a random slide out of the pool of the submitted slides by the authors. Presenters will have five minutes to prepare a two-minute (maximum) presentation.
+                                    Winners will be selected by anonymous audience voting. Goodies will be awarded to the best three authors and presenters.</p><br />
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                            </div>
+                            {/* <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} /> */}
+                        </div>
+                    </div>
+
+                    {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>QUIZ (Mega Hunt Game) </h5>     */}
+                    <div class="col-md-6 card-effect" style={{marginBottom:"3rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <br />
+                                {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
+                                <h4 class="mb-0">
+                                    <a class="text-dark" href="#">QUIZ (Mega Hunt Game)</a>
+                                </h4>
+                                <br />
+                                <p>The quiz will involve some sort of gameplay where there will be different levels and each
+                                    level will first begin with a storyline which will be conveyed to the participants through
+                                    an audio-visual clip prepared by us followed by a series of situational-based questions.
+                                    The decision whether you proceed to the next level will be determined by your
+                                    performance in the former level. So basically, every story will have a situation of let's say
+                                    a combat or a clash where winning or losing will ultimately depend upon their exposure
+                                    to external factors like extreme temperature, acidic/basic environment, radiation etc.
+                                    The winners will be judged on how accurately they chose, which will decide finally
+                                    whether they survived all the levels or were eliminated in any particular level.</p>
+                                    <br />
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                            </div>
+                            {/* <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} /> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
             <div class="brochure19">
                 <a href={Brochure} download >

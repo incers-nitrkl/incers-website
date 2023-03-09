@@ -42,6 +42,7 @@ const responsive = {
 
 };
 
+
 const Events2 = () => {
     
     const functionnav = ()=>{

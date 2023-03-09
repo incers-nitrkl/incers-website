@@ -11,8 +11,25 @@
 
 import React from 'react';
 import Navbar from './Navbar';
+import Brochure from './images/brochure2019.pdf';
 
 
+const functionnav = ()=>{
+    const widths = 700
+    if(window.screen.width <= widths){
+        return(<>
+             <div class="top_div">
+            <div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+            </div>
+            <Navbar />
+        </div>
+        </>)
+    }
+        else{
+            return <Navbar />
+        }
+    }
 const Mritika1 = () => {
 
     return (<>
@@ -24,16 +41,16 @@ const Mritika1 = () => {
                     </div>
                     <Navbar />
                 </div> */}
-
+            {functionnav()}
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container">
-                    <div>
+                    {/* <div>
                         <div id="logo " style={{ cursor: "pointer" }}><img class="nav-3" src="images/mritika_logo.png" style={{ height: "65px", width: "65px", background: "100% 100%", borderRadius: "0px", padding: "0px" ,marginLeft:"-180px",marginTop:"-1rem"}} /></div>
                     </div>
                     <h3 class="nav-1" style={{marginRight:"-48rem"}}>InCerS NITR</h3>
                     <a class="navbar-brand nav-2" href="/">
                         <button class="btn btn-primary nav-2" style={{marginRight:"-30rem"}}>Home</button>
-                    </a>
+                    </a> */}
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars mfa-white"></span>
                     </button>
@@ -62,7 +79,10 @@ const Mritika1 = () => {
                             
                             <div style={{display:"flex",flexDirection:"column",marginTop:"6rem",justifyContent:"center",alignItems:"center"}}>
                                 <a style={{marginBottom:"10px"}} class="btn btn-primary btn-join" href="#">JOIN THE COMMUNITY</a>
-                                <a style={{marginTop:"10px"}} class="btn btn-primary btn-join" href="#">BROCHURE 2019</a>
+                                {/* <a style={{marginTop:"10px"}} class="btn btn-primary btn-join" href="#">BROCHURE 2019</a> */}
+                                <a style={{marginTop:"10px"}} href={Brochure} download >
+                                    <button type="button" class="btn btn-primary btn-join" >Brochure 2019</button>
+                                </a>
                             </div>
 
                         </div>
@@ -81,23 +101,25 @@ const Mritika1 = () => {
                     {/* <h3 style={{display:"flex",justifyContent:"center",alignItems:"center",fontSize:"2rem",fontWeight:"bold"}}>ABOUT</h3> */}
 
                     <div class="about-2023" style={{marginBottom:"2rem"}}>
-                        <h2 style={{marginLeft:"-3.5rem"}}>ABOUT</h2>
+                        <h2 style={{marginLeft:"-1.5rem"}}>INCERS NITR</h2>
                         
                         <a  href="/mritika">
                             <button class="btn btn-primary btn-19" style={{marginRight:"0rem",height:"4.8rem"}}><h4>Visit Upcoming <br/>Mrittika 2.0</h4></button>
                         </a>
                     </div>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla culpa ipsum rerum adipisci! 
-                        Eius velit molestias eveniet assumenda omnis odit dolores rerum quos nobis, vitae accusantium 
-                        ea nostrum incidunt exercitationem quis cum, molestiae ipsam harum ratione quaerat nemo ullam!
-                        Ad quod eos nihil necessitatibus quae vitae accusamus odio similique quos.</p>
+                    <p>The Indian Ceramic Society (InCerS) opened up its student chapter for the first time at NIT
+                        Rourkela in the year 2017 with the aim to ‘calcinate' the ever-evolving raw interest in materials
+                        and their properties and has been awarded for the Best Student's Chapter for its outstanding
+                        performance in the AY 21-22.
+                        The InCerS chapter of NIT Rourkela organized the 1st National Conference (MRITTIKA 1.0) in
+                        the year 2019, which comprised of Quiz competition, Model presentation and Paper
+                        presentation. The Session was graced by Industrial delegates, scientists and eminent
+                        personalities from TRL Krosaki, Kerneos aluminate, Aditya Birla Insulators, Tata steel, NALCO,
+                        CGCRI and many more. The session was a confluence of young minds, Ceramic advancements
+                        and industrial big shots. The brainstorming events brought up hefty goodies for exceptionally
+                        performing candidates.</p>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, deserunt nobis. 
-                        Animi quos eos dolorem sapiente voluptates magnam rem odio qui officiis quae
-                        temporibus fugiat fugit totam at iste necessitatibus voluptate, amet, ut doloribus
-                        quisquam. Iste, iusto! Cumque itaque voluptatibus dolor fuga earum optio, ut,
-                        dicta exercitationem similique vero omnis?</p>
                 </div>
 
 
@@ -364,7 +386,9 @@ const Mritika1 = () => {
             {/* for brochure of 2019 */}
             
             <div style={{height:"4rem",display:"flex",justifyContent:"center",alignItems:"center"}}>
-                <a class="btn btn-primary btn-join" href="#">BROCHURE 2019</a>
+                <a style={{marginTop:"10px"}} href={Brochure} download >
+                    <button type="button" class="btn btn-primary btn-join" >Brochure 2019</button>
+                </a>
             </div>
             
 
