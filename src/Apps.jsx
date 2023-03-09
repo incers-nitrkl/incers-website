@@ -306,7 +306,7 @@ const Apps = () => {
             {/* <Navbar /> */}
             {functionnav()}
             <div className="gallery_div">
-                <img style={{width:"100%",height: "500px",}} src="images/InCerS_newlogo.png" alt="image" srcset="" />
+                <img style={{width:"100%",height: "500px",borderRadius:"0px"}} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
                 {/* <div>
                     <h1 className="headingname">WELCOME TO NITR ICS</h1>
                 </div>  */}

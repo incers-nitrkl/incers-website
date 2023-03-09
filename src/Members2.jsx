@@ -18,7 +18,7 @@ const functionnav = ()=>{
             return <Navbar />
         }
     }
-const Members = () => {
+const Members2 = () => {
     return (
         <><div class="main_div">
             {/* <div class="top_div">
@@ -77,7 +77,7 @@ const Members = () => {
             <div class="container">
                 
                 <div ><div class="row heading heading-icon">
-                    <h2 style={{marginTop:"50px"}}>MENTORS 22-23</h2>
+                    <h2 style={{marginTop:"50px"}}>MENTORS 20-21</h2>
                 </div></div>
              
                 <ul class="row">
@@ -168,7 +168,7 @@ const Members = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>EC BODY 22-23</h2>
+                            <h2>EC BODY 20-21</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
@@ -283,7 +283,7 @@ const Members = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>DEVELOPMENT TEAM 22-23</h2>
+                            <h2>DEVELOPMENT TEAM 20-21</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
@@ -373,4 +373,4 @@ const Members = () => {
     );
 }
 
-export default Members;
+export default Members2;

@@ -139,7 +139,25 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                 </div>
 
                 
-            </div>
+                <div style={{marginTop:"6rem",marginLeft:"5rem",marginRight:"5rem",marginBottom:"3rem",paddingLeft:"5rem",paddingRight:"0rem"}}>
+                    <h2 style={{display:"flex",alignItems:"center",justifyContent:"center",textDecoration:""}}><u>InCerS NITR Teams</u></h2>
+                    <h3 style={{color:"green"}}>Content Team</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
+                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
+                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
+                    eligendi dolor dolore!</p>
+                    <h3 style={{color:"green"}}>Design Team</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
+                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
+                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
+                    eligendi dolor dolore!</p>
+                    <h3 style={{color:"green"}}>Development Team</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
+                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
+                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
+                    eligendi dolor dolore!</p>
+                </div>
+            {/* </div>
             <h2 id="heading" style={{marginTop:"21rem",marginBottom:"-15rem", marginLeft: "90px" }}>FLASHBACK FRIDAY</h2>
             <div style={{marginTop:"16rem",marginBottom:"-18rem", marginLeft:"5.5rem",marginRight:"3rem"}}>
                 <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.</p>
@@ -147,7 +165,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
             <div class="container" style={{marginTop:"260px",marginBottom:"10px"}}>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe style={{transform:"scale(0.7)"}} class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
-            </div>
+            </div> */}
 
             <div className="social_media_part">
 
@@ -186,6 +204,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                         Copyright © 2021 NITRICS - All rights reserved
                     </div>
                 </footer>
+            </div>
             </div>
         </div></>);
 }
