@@ -243,7 +243,7 @@
   text-align: justify;
 }
 #gallerydiv {
-  height: 350px;
+  height: 500px;
   margin: 30px;
 }
 #paragraphmemo {
@@ -298,6 +298,7 @@ img {
 }
 .img_1 {
   margin: 10px;
+  margin-left: 5px;
   text-align: justify;
   /* border:2px solid rgba(0, 0, 0, 0.4); */
   border: 2px solid whitesmoke;
@@ -318,18 +319,18 @@ img {
   color: #000;
 }
 
-.gallery_div {
-  width: 100%;
-  height: 550px;
-  background-image: url("images/imgb2.jpg");
+/* .gallery_div { */
+  /* width: 100%; */
+  /* height: 550px;
+  background-image: url("images/InCerS_newlogo.png");
   background-size: cover;
 
   overflow-x: hidden;
   object-fit: contain;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: difference;
-}
+  background-blend-mode: difference; */
+/* } */
 
 /* .gallery_div {
   width: 100%;

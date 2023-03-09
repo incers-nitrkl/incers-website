@@ -54,7 +54,15 @@ const Navbar1 = () => {
                 <ul class="mainMenu">
                     <li><a href="/"> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Home</span></h3></a></li>
                     <li><a href="/about"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">About</span></h3></a></li>
-                    <li><a href="/members"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members</span></h3></a></li>
+                    <li>
+                        <div className="menu_1">
+                            <ul>
+                                <NavLink to="/members1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2020-21</span></h3></li> </NavLink>
+                                {/* <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Presentation-Competetions</span></h3></li> </NavLink> */}
+                                {/* <li><h3>hello</h3></li> */}
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="/contact"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Contact</span></h3></a></li>
                     <li>
                         <div className="menu_1">
@@ -82,12 +90,22 @@ const Navbar1 = () => {
             <link rel="stylesheet" href="index.css" />
             {/* <h1 class="logo" style={{cursor:"pointer"}}>NITR<span>ICS</span></h1> */}
             <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:"-150px"}} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "65px", width: "70px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:"-100px",marginTop:"-13px"}} /></div>
                 </div>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="/members">Members</a></li>
+                <li><a href="/members">Members <i class="fas facaret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="/members">Members 2022-23</a></li>
+                            <li><a href="/members1">Members 2021-22</a></li>
+                            <li><a href="/members2">Members 2020-21</a></li>
+                            {/* <li><a href="/member1">Members 2021-22</a></li>
+                            <li><a href="/member1">Members 2022-23</a></li> */}
+                        </ul>
+                    </div>
+                </li>
                 <li><a href="/contact">Contact-us</a></li>
                 <li><a href="#">Events <i class="fas facaret-down"></i></a>
 

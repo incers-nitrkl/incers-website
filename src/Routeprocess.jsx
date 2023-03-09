@@ -12,6 +12,8 @@ import Blog from './Blog'
 import Blog1 from './Blog1'
 import Blog2 from './Blog2'
 import Mritika from './Events'
+import Members1 from './Members1';
+import Members2 from './Members2';
 
 
 const Routing = ()=>{
@@ -20,6 +22,8 @@ const Routing = ()=>{
               <Route exact path="/" component={Apps}/>
               <Route exact path="/about" component={About}/>
               <Route exact path="/members" component={Members}/>
+              <Route exact path="/members1" component={Members1}/>
+              <Route exact path="/members2" component={Members2}/>
               <Route exact path="/contact" component={Contact}/>
               <Route exact path="/events" component={Events}/>
               <Route exact path="/events1" component={Events1}/>

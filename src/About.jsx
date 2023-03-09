@@ -101,30 +101,71 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                         </div>
                     </div>
                 </section> */}
-                <div id="gallerydiv">
-                    <h2 id="heading" style={{ marginLeft: "90px" }}>MONDAY MATTER</h2>
-                    <div id="paragraph" style={{ textAlign: "justify" }}>
+                <div id="gallerydiv" style={{height:"35rem"}}>
+                    <h2 id="heading" style={{ marginLeft: "90px" }}>INDUCTEES AND ORIENTATION</h2>
+                    {/* <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Every week, you suffer from the same malady: a terrible case of the Mondays. You dread that alarm going off. And no matter how many things you try—meditation, reciting inspirational quotes, reading a bunch of happy quotes, you're having trouble getting going. But why not think of Monday as an opportunity rather than a punishment? It's a chance to start fresh.
                             Who wants to wake up to a Monday after a good weekend rest? Mondays are boring, seems longer than usual and almost everyone hates it, right? It is also marked by tiredness and reluctance to start the week's work. But not anymore.
                             NITR-ICS is going to make you look forward to the Monday and the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose of Ceramics and Material Science updates, to keep you intrigued for the rest of the week. We will be keeping you informed of all the latest, known, and unknown realms of material science, making your start of the week an interesting one.
                             To all material enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.</p>
+                    </div> */}
+                    <div style={{marginLeft:"5.5rem",marginRight:"3rem"}}>
+                        <p>"When others melt, we just warm up." With this saying, NITR ICS commenced their Orientation programme with live streaming on their Youtube Channel at 10:15 AM on 24th July 2021.
+
+                        The speakers of the session were the executive team members. The programme included brief ideas on the application of Ceramics, achievements and events of the club, information on Departmental facilities and Professors and the Internship and Placement statistics of the Ceramic Department.</p>
+                    </div>
+                    <div>
+                        <iframe width="800" height="400" style={{ marginLeft: "18%" ,marginTop:"30px"}} src="//www.youtube.com/embed/EziokCQ4aHU">
+                        </iframe>
                     </div>
                 </div>
                 
-                <div id="gallerydiv">
-                    <h2 id="heading" style={{ marginLeft: "90px" }}>FLASHBACK FRIDAY</h2>
-                    <div id="paragraph" style={{ textAlign: "justify" }}>
+                <div id="gallerydiv" style={{height:"45rem !important",marginTop:"5rem"}}>
+                    <h2 id="heading" style={{ marginLeft: "90px" }}>DEPARTMENT VISIT</h2>
+                    {/* <div id="paragraph" style={{ textAlign: "justify" }}>
                         <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
 
                             To help everyone in this regard, NITR-ICS is going to collect such experiences and words of wisdom from successful ceramists, material scientists and industrialists who have excelled in their fields. It will be a conglomeration of important events in their journey from college to where they are now. All the information will be shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
                         </p>
+                    </div> */}
+                    <div style={{marginLeft:"5.5rem",marginRight:"3rem"}}>
+                        <p>A visiting to our ceramics department is an incredibly enriching experience. From exploring the process of creating a ceramic piece to admiring the skill and craftsmanship that goes into research, it's a fascinating journey through the world of material science. Whether you're a beginner or an experienced ceramicist, the department provides a unique opportunity to learn and create in a supportive and creative environment.</p>
+                    </div>
+                    <div>
+                        <iframe width="800" height="400" style={{ marginLeft: "18%" ,marginTop:"30px"}} src="//www.youtube.com/embed/4P5MOOXSzZM">
+                        </iframe>
+                        
                     </div>
                 </div>
+
+                
+                <div style={{marginTop:"6rem",marginLeft:"5rem",marginRight:"5rem",marginBottom:"3rem",paddingLeft:"5rem",paddingRight:"0rem"}}>
+                    <h2 style={{display:"flex",alignItems:"center",justifyContent:"center",textDecoration:""}}><u>InCerS NITR Teams</u></h2>
+                    <h3 style={{color:"green"}}>Content Team</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
+                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
+                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
+                    eligendi dolor dolore!</p>
+                    <h3 style={{color:"green"}}>Design Team</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
+                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
+                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
+                    eligendi dolor dolore!</p>
+                    <h3 style={{color:"green"}}>Development Team</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
+                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
+                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
+                    eligendi dolor dolore!</p>
+                </div>
+            {/* </div>
+            <h2 id="heading" style={{marginTop:"21rem",marginBottom:"-15rem", marginLeft: "90px" }}>FLASHBACK FRIDAY</h2>
+            <div style={{marginTop:"16rem",marginBottom:"-18rem", marginLeft:"5.5rem",marginRight:"3rem"}}>
+                <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.</p>
             </div>
-            <div class="container" style={{marginTop:"-180px",marginBottom:"150px"}}>
+            <div class="container" style={{marginTop:"260px",marginBottom:"10px"}}>
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
-            </div>
+                    <iframe style={{transform:"scale(0.7)"}} class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
+            </div> */}
 
             <div className="social_media_part">
 
@@ -136,9 +177,9 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha Nanda  8093308828</span>
+                            <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti Swarup  9337318011</span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
@@ -163,6 +204,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                         Copyright © 2021 NITRICS - All rights reserved
                     </div>
                 </footer>
+            </div>
             </div>
         </div></>);
 }

@@ -45,6 +45,8 @@ const Apps = () => {
         const width2 = 700;
         if (window.screen.width >= width2) {
             return <>
+            <div className='flash-card-1'>
+            <div className='flash-card'>
                 <a href="https://www.instagram.com/p/CDS1J9vFbij/" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF1.jpg" alt="mypic" />
@@ -76,7 +78,34 @@ const Apps = () => {
                         <p id="para" style={{ color: "#000" }}>A person with a unique perspective, who saw opportunities even in the most challenging times, eventually pursued 3 Post Doctoral Researches in University of Arkansas (2013-14), Rutgers University (2010-13) and North Dakota State University (2009-10) .
                         </p>
                     </div>
-                </a></>
+                </a>
+            </div>
+
+            {/* new card added 4 and 5 */}
+                {/* <div className='flash-card'>    
+                    <a href="https://www.instagram.com/p/CGHED3elid2/?utm_source=ig_web_copy_link" style={{ textDecoration: "none" }}>
+                        <div className="img_1">
+                            <img id="peacock" src="images/FF4.jpg" alt="mypic" />
+
+                            <h4 id="proff1" style={{ color: "#000" }}>Mr.Shiv Kiran</h4>
+                            <p id="para" style={{ color: "#000" }}>Learning essential life values along the way to success further accelerates the process. Mr. Shiv Kiran V. is someone who accepts the shortcomings and works tirelessly to improve it.
+                            </p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/p/CJgJbgnF_9w/?utm_source=ig_web_copy_link" style={{ textDecoration: "none" }}>
+                        <div className="img_1">
+                            <img id="peacock" src="images/FF5.jpg" alt="mypic" />
+
+                            <h4 id="proff1" style={{ color: "#000" }}>Prof.Anshu Gaur</h4>
+                            <p id="para" style={{ color: "#000" }}>Combination of just the right amount of determination and practicality can lead us anywhere we want and Prof. Anshu Gaur is one of the best examples having this quality. Read on to find more about the outlook and journey of Prof. Anshu Gaur, batch of 1999.
+                            </p>
+                        </div>
+                    </a>
+                </div> */}
+
+
+                </div>
+                </>
 
         }
         else {
@@ -209,7 +238,7 @@ const Apps = () => {
                 {
                     SliderData.map(product => {
                         return (<a href={product.reciever}>
-                            <Box textAlign="center" className={classes.wrapper}>
+                            <Box textAlign="center" className={classes.wrapper} >
                                 <img src={product.image} className={classes.image} />
                             </Box>
                         </a>)
@@ -277,6 +306,7 @@ const Apps = () => {
             {/* <Navbar /> */}
             {functionnav()}
             <div className="gallery_div">
+                <img style={{width:"100%",height: "500px",borderRadius:"0px"}} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
                 {/* <div>
                     <h1 className="headingname">WELCOME TO NITR ICS</h1>
                 </div>  */}
@@ -288,7 +318,7 @@ const Apps = () => {
             <section class="about-us py-5 " id="about-us">
                 <div class="container mt-5">
                     <div class="row">
-                        <div class="col-md-12" style={{ textAlign: "justify" }}>
+                        <div class="col-md-12" style={{ textAlign: "justify",marginBottom:"-7.3rem" }}>
                             <h1 class='text-success' style={{ fontSize: "27px" }}>OUR OBJECTIVES</h1>
                             {/* <h2>Know More About Us</h2> */}
                             <hr />
@@ -333,12 +363,14 @@ const Apps = () => {
                 <div className="image_div_1">
                     {functiondeal1()}
                 </div>
-                <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
+                {/* <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside">
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS.....</h2>
                     </div>
+                </div> */}
+                <div style={{margin:"0 -30px"}}>
+                    {functiondeal()}
                 </div>
-                {functiondeal()}
                 <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
                         <div class="row">
@@ -369,12 +401,15 @@ const Apps = () => {
                     {functiondeal2()}
                 </div>
 
-                <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
+                {/* <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
                     <div id="flash_inside1">
                         <h2 style={{ color: "#000" }} class="underline">MORE ON THIS....</h2>
                     </div>
+                </div> */}
+                <div style={{margin:"0 -30px"}}>
+                    {functiondeals()}
                 </div>
-                {functiondeals()}
+
                 <section class="about-us py-5 " id="about-us">
                     <div class="container mt-5">
                         <div class="row">
@@ -414,9 +449,9 @@ const Apps = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha 8093308828</span>
+                            <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti  9337318011</span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

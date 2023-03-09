@@ -36,11 +36,11 @@ const Contact = () => {
                     <ul class="row">
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
-                                <figure><img src="images/SB.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
-                                <h3><a href="https://www.linkedin.com/in/shanbehera/">Prof. Shantanu Behera</a></h3>
+                                <figure><img src="images/BB.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
+                                <h3><a href="https://www.linkedin.com/in/shanbehera/">Prof. Bibhuti Bhusan Nayak</a></h3>
                                 <p>Department of ceramic Engineering</p>
-                                <p>mail id: beherash@nitrkl.ac.in</p>
-                                <p>Contact no: +91 8328928574</p>
+                                <p>mail id: bbnayak[at]nitrkl.ac.in</p>
+                                {/* <p>Contact no: +91 8328928574</p> */}
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
                                     {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
@@ -50,11 +50,11 @@ const Contact = () => {
                         </li>
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
-                                <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
-                                <h3><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/">Siddhartha Nanda</a></h3>
+                                <figure><img src="images/DP.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
+                                <h3><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/">Deepsikha Brahma</a></h3>
                                 <p>Department of Ceramic Engineering</p>
-                                <p>mail id: nanda.siddhartha2018@gmail.com</p>
-                                <p>Contact no: +91 8093308828</p>
+                                <p>mail id: deepsikhabrahma01@gmail.com</p>
+                                {/* <p>Contact no: +91 8093308828</p> */}
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
                                     {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
@@ -64,11 +64,11 @@ const Contact = () => {
                         </li>
                         <li class="col-12 col-md-6 col-lg-3">
                             <div class="cnt-block equal-hight" style={{ height: " 355px" }}>
-                                <figure><img src="images/SS.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                <h3><a href="#">Sakti Swarup Mohapatra</a></h3>
+                                <figure><img src="images/PM.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
+                                <h3><a href="#">Partha Mishra</a></h3>
                                 <p>Department of Ceramic Engineering</p>
-                                <p>mail id: sakti.ssm9080@gmail.com</p>
-                                <p>Contact no: +91 9337318011</p>
+                                <p>mail id: 120CR0842@nitrkl.ac.in</p>
+                                {/* <p>Contact no: +91 9337318011</p> */}
                                 <ul class="follow-us clearfix">
                                     {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
                                     {/* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> */}
@@ -88,9 +88,9 @@ const Contact = () => {
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Siddhartha   8093308828</span>
+                            <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Sakti   9337318011</span>
+                            <span>Partha Mishra</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
