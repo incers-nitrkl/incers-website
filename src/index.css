@@ -1742,7 +1742,7 @@ ul {
 }
 header.masthead1 {
   position: relative;
-  height: 570px;
+  height: 686px;
   background-color: #343a40;
   background: url("https://yt3.ggpht.com/ytc/AKedOLTXJGtOK9aBUFyNu8Iat3_T-r73l8IknOLdTJlI=s900-c-k-c0x00ffffff-no-rj")
     no-repeat center center;
@@ -1761,7 +1761,7 @@ header.masthead1 .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 @media (min-width: 768px) {
@@ -1883,8 +1883,8 @@ button.btn.btn-light {
 }
 
 a.btn.btn-default.btn-scroll {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f31010;
+  color: #e55a5a;
   border-radius: 100%;
 }
 
@@ -2025,8 +2025,8 @@ hr.my-border {
   background-size: cover;
 }
 .mybg-events1 {
-  background: url("https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")
-    no-repeat center center fixed;
+  /* background: url("https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") */
+    /* no-repeat center center fixed; */
   background-size: cover;
 }
 
@@ -2111,7 +2111,7 @@ section#group {
 }
 
 .card-title {
-  font-size: 1.28571429em;
+  /* font-size: 1.28571429em; */
   font-weight: 700;
   line-height: 1.2857em;
 }
