@@ -69,27 +69,10 @@ const Navbar1 = () => {
                             <ul>
                                 <NavLink to="/events" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Placement-Diaries</span></h3></li> </NavLink>
                                 <NavLink to="/events1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Presentation-Competetions</span></h3></li> </NavLink>
-                                <NavLink to="/events2" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Webinars And Technical Sessions</span></h3></li> </NavLink>
-                                <NavLink to="/events3" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">FlashBack Friday</span></h3></li> </NavLink>
-                                <NavLink to="/events4" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Monday Matter</span></h3></li> </NavLink>
-
                                 {/* <li><h3>hello</h3></li> */}
                             </ul>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div className="menu_1">
-                            <ul>
-                                <NavLink to="/mritika" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Mrittika-2023</span></h3></li> </NavLink>
-                                <NavLink to="/mritika1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Mrittika-2019</span></h3></li> </NavLink>
-
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li><a href="/mritika"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">MRITTIKA</span></h3></a></li>
-                    
+                        </div></li>
+                        <li><a href="/mritika"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">MRITTIKA</span></h3></a></li>
                     {/* <li><a href="/mritika">Mrittika</a></li> */}
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
@@ -102,15 +85,13 @@ const Navbar1 = () => {
         </>)
     }
     else {
-        return (<>    
-        <div class="menu-bar">
+        return (<>    <div class="menu-bar">
             {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" /> */}
             <link rel="stylesheet" href="index.css" />
             {/* <h1 class="logo" style={{cursor:"pointer"}}>NITR<span>ICS</span></h1> */}
-
             <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:""}} /></div>
-            </div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "65px", width: "70px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:"-100px",marginTop:"-13px"}} /></div>
+                </div>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
@@ -132,9 +113,6 @@ const Navbar1 = () => {
                         <ul>
                             <li><a href="/events">Placement-Diaries</a></li>
                             <li><a href="/events1">Presentation-Competitions</a></li>
-                            <li><a href="/events2">Webinars And Technical Sessions</a></li>
-                            <li><a href="/events3">FlashBack Friday</a></li>
-                            <li><a href="/events4">Monday Matter</a></li>
                             {/* <li>
                                 <a href="#">Team <i class="fas fa-caret-right"></i></a>
 
@@ -153,20 +131,7 @@ const Navbar1 = () => {
                 </li>
                 {/* <li><a href="#">Blog</a>
                 </li> */}
-                {/* <li><a href="/mritika">Mrittika</a></li> */}
-
-
-                <li><a href="/mritika">Mrittika <i class="fas facaret-down"></i></a>
-
-                    <div class="dropdown-menu">
-                        <ul>
-                            <li><a href="/mritika">Mrittika-2023</a></li>
-                            <li><a href="/mritika1">Mrittika-2019</a></li>
-                            
-                        </ul>
-                    </div>
-                </li>
-
+                <li><a href="/mritika">Mrittika</a></li>
             </ul>
         </div></>)
         // return (<>
