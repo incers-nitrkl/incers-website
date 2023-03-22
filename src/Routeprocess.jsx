@@ -18,6 +18,7 @@ import Mritika1 from './Mrittika1';
 import Events2 from './Events2';
 import Events3 from './Events3';
 import Events4 from './Events4';
+import Alumni from './Alumni';
 
 
 const Routing = ()=>{
@@ -39,6 +40,7 @@ const Routing = ()=>{
               <Route exact path="/blog2" component={Blog2}/>
               <Route exact path="/mritika" component={Mritika}/>
               <Route exact path="/mritika1" component={Mritika1}/>
+              <Route exact path="/Alumni" component={Alumni}/>
           {/* </Switch> */}
       </>);
 }
