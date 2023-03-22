@@ -614,7 +614,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
             </section>
 
 
-            {/* <section class="testimonials text-center">
+            <section class="testimonials text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
@@ -702,7 +702,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
 
                         </div>
                 </div>
-            </section> */}
+            </section>
 
             {/* <section class="testimonials text-center mybg-music">
                         <div class="container">
@@ -905,9 +905,9 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                         </section>
                         <section>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Deepsikha Brahma</span>
+                            <span>Siddhartha  8093308828</span>
                             <span><i class="fa fa-phone"></i></span>
-                            <span>Partha Mishra</span>
+                            <span>Sakti   9337318011</span>
                         </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>

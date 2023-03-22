@@ -128,7 +128,7 @@ const Members = () => {
                                     {/* <h4>joint Secretary</h4> */}
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/riyaliiiiii/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/riyali-priya-465a7520b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
@@ -179,8 +179,8 @@ const Members = () => {
                                     <h4>Chairperson</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.instagram.com/siddhartha_2008_nanda/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -192,8 +192,8 @@ const Members = () => {
                                     <h4>Vice Chairperson</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.instagram.com/sakti__26/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/mohapatrasakti/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -205,8 +205,8 @@ const Members = () => {
                                     <h4>Secretary</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://instagram.com/deepsikha_brahma?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/deepsikha-brahma-b8b5751b1"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -218,8 +218,8 @@ const Members = () => {
                                     <h4>joint Secretary</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/riyali-priya-465a7520b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -231,8 +231,8 @@ const Members = () => {
                                     <h4>Treasurer</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/_pratyush_kundu_/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/pratyush-kundu-130894201/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://instagram.com/ipso._?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/ipsita-patra-577393218"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -244,8 +244,8 @@ const Members = () => {
                                     <h4>2nd yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/_.jyotishman._/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/jyotishman-mohanty-a49a31222/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -257,8 +257,8 @@ const Members = () => {
                                     <h4>3rd yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -269,8 +269,8 @@ const Members = () => {
                                     <h4>4th yr Branch Representative</h4>
                                     <ul class="follow-us clearfix">
                                         {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.instagram.com/laughing_storm3593/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/somdeb-ganguly-753074199/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -325,45 +325,6 @@ const Members = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SoK.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Sourav Kumar</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    <h4>Web Developer</h4>
-                                    <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/UP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Udit Padhan</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    <h4>Web Developer</h4>
-                                    <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/yo_u_dit/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/udit-padhan-41481a222/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SKB.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Suraj Kumar Behara</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    <h4>Web Developer</h4>
-                                    <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/surajkb810/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/suraj-kumar-behera-b3883222b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </section> 
@@ -376,12 +337,12 @@ const Members = () => {
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        {/* <section>
+                        <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Deepsikha Brahma</span> 
                             <span><i class="fa fa-phone"></i></span>
                             <span>Partha Mishra</span>
-                        </section> */}
+                        </section>
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -403,7 +364,7 @@ const Members = () => {
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2023 INCERSNITR - All rights reserved
+                        Copyright © 2021 NITRICS - All rights reserved
                     </div>
                 </footer>
             </div>
