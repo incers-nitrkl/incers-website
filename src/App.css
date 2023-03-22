@@ -409,7 +409,131 @@
         flex-direction: row;
       }
 
-      .flash-card-1{
+      /* .flash-card-1{ */
+
+      /* new changes */
+     
+      .mritika-about{
+        /* border:2px solid red; */
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        
+      }
+      .about-content{
+        /* border:2px solid red; */
+        /* height: 220px; */
+        width: 100%;
+        padding: 10px 120px 10px 120px;
+        
+      }
+      /* .pm-event{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      } */
+      
+      .about-2023{
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 62rem;
+      }
+      .executive-members{
+        /* border:2px solid red; */
+        height: 650px;
+        width: 100%;
+      }
+      .student-members{
+        /* border:2px solid red; */
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .brochure19{
+        height:8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .vertical_dotted_line
+      {
+        margin-top: -1.65rem;
+        border-left: 3.5px dotted rgb(29, 226, 42);
+        height: 440px;
+      } 
+
+      .sponsers{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+      }
+      .sponsers1{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+      }
+      .guest-cards{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .cards-1{
+        height: 26rem !important;
+        width: 62rem !important;
+        margin-left: -8rem;
+      }
+
+      .competition-design{
+        background-color: #bbeded6e !important;
+        
+      }
+      .competition-design:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+      .competition-design2{
+        background-color: #c2f5a96e !important;
+      }
+      .competition-design2:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+      .competition-design3{
+        background-color: #524af9eb !important;
+      }
+      .competition-design3:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+      .competition-design4{
+        background-color: #61e93cd2 !important;
+      }
+      .competition-design4:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+      }
+
+      .mrittika-bg{
+        position: relative;
+        height: 570px;
+        /* border:2px solid red; */
+        /* margin-top: 6rem; */
+      }
+      .mrittika-img{
+        position: relative;
+        height: 570px;
+        width: 100%;
+      }
+
+      .TS-card{
         display: flex;
         flex-direction: column;
       }
@@ -423,3 +547,264 @@
           /* height: auto !important; */
         }
       }
+
+      #peacock_1_mu{
+        width: 280px;
+        height: 310px;
+      }
+
+
+      /* media quary */
+  @media(max-width:430px){
+    .heading-1{
+      margin-left: 1.5rem !important;
+      
+    }
+    .heading-2{
+      margin-left: 1.5rem !important;
+    }
+    .ev-1{
+      width:auto !important;
+    }
+    .about-2023{
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 3rem !important;
+      margin-left: -2rem !important;
+    }
+    .btn-19{
+      transform: scale(0.7);
+    }
+    .sp-1{
+      transform: scale(0.5) !important;
+    }
+  }
+
+  @media only screen and (max-width: 1025px) and (min-width: 430px) {
+    .ev-1{
+      width:750px !important;
+    }
+    .about-2023{
+      margin-top: 3rem;
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 22rem !important;
+      margin-left: 3rem !important;
+    }
+    .btn-19{
+      transform: scale(0.8);
+    }
+    .overlay{
+      height: 35rem !important;
+    }
+    .overlay-1{
+      height: 35rem !important;
+      margin-top: 4.6rem;
+    }
+    .nav-1{
+      margin-right: -390px !important;
+    }
+    .nav-2{
+      margin-right: 0px !important;
+    }
+    .nav-3{
+      margin-left: 1px !important;
+      margin-top: 0px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .nav-3{
+      margin-left: -4rem !important;
+      margin-top: 0.5rem !important;
+    }
+  }
+
+  .py-5-1{
+    padding-top: 0rem !important;
+  }
+  .mt-5{
+    margin-top: 0px !important;
+  }
+
+  /* for mobile version */
+  @media only screen and (max-width: 430px) {
+
+    /* about page */
+    #induct-yt{
+      width: 300px;
+      height: 200px;
+      margin-left: 12% !important;
+      margin-top: 0px !important;
+    }
+    .induct-para{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      text-align: justify;
+    }
+    .about-us{
+      margin-left: 15px;
+      margin-right: 15px;
+      padding-top: 0px !important;
+    }
+    #gallerydiv{
+      margin-top: 0px !important;
+      height: 500px !important;
+      margin-bottom: 2rem !important;
+    }
+    #club{
+      margin: 20px !important;
+      padding-left: 0px !important;
+    }
+    #club>p{
+      text-align: justify;
+    }
+    .gallery{
+      margin-right: 0px !important;
+      width: 100%;
+    }
+    #heading{
+      margin: 0px !important;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem !important;
+    }
+    .col-md-3{
+      display: flex;
+      justify-content: center;
+    }
+    #col-img{
+      height: 280px !important;
+      width: 80%;
+    }
+    .mt-5-about{
+      margin-top: 0rem !important;
+    }
+    .col-md-3{
+      margin-bottom: 2rem !important;
+    }
+
+    /* mritika page */
+    #incer-about{
+      padding: 0px !important;
+      margin-left: 24px !important;
+      margin-right: 24px !important;
+      text-align: justify;
+    }
+    .fadeInUp-19{
+      margin-top: 1rem !important;
+    }
+    .testimonials-19{
+      padding-top: 0px !important;
+    }
+    .bounceInUp-19{
+      padding: 0px !important;
+      margin-right: 5px !important;
+    }
+    .h-262-19{
+      margin-left: 5px !important;
+    }
+    .overlay-1-19{
+      padding-top: 0px !important;
+      /* margin-top: -8rem !important; */
+    }
+    .text-center-19{
+      margin-top: -225px !important;
+    }
+    .sp-1-19{
+      transform: scale(0.8) !important;
+    }
+    .about-2023-19{
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 0rem !important;
+      margin-left: 2rem !important;
+    }
+    
+    .competition-design-19{
+      width: 25rem !important;
+      margin-left: 1px !important;
+      height: 50rem !important;
+    }
+    .competition-design-19-a{
+      height: 40rem !important;
+    }
+    .competition-design-19-b{
+      height: 50rem !important;
+    }
+    .student-session-19{
+      margin-top: 1rem !important;
+      margin-bottom: 2rem !important;
+    }
+
+    /* home page */
+    .gallery_div>img{
+      height: 260px !important;
+    }
+    .col-md-12{
+      margin-top: 0px !important;
+    }
+    #peacock{
+      height: 300px !important;
+    }
+    .img_1{
+      height: 360px !important;
+    }
+    .img_2{
+      height: 360px !important;
+    }
+    #peacock_1{
+      height: 300px !important;
+    }
+    #flash_inside{
+      margin-bottom: 0px !important;
+    }
+    #slider-flashback{
+      display: none;
+    }
+    #about-us{
+      padding-bottom: 0rem !important;
+      padding-top: 0px !important;
+    }
+    .about-us-OB{
+      margin-top: 6rem !important;
+      margin-bottom: 10rem;
+    }
+    .row-2{
+      margin-top: 7rem;
+    }
+    .flash_inside_MU{
+      margin-left: -1.3rem !important;
+    }
+    .flash_1{
+      padding-bottom: 0px !important;
+    }
+    .mt-5{
+      margin-top: 1rem !important;
+    }
+    .image_div_2{
+      padding-top: 0px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1440px) and (min-width: 1020px) {
+    /* #about-head-19{
+      margin-left: 3.5rem !important;
+    }
+    #about-btn-19{
+      margin-right: 3rem !important;
+    } */
+    .about-2023-19{
+      gap: 30rem !important ;
+    }
+    .competition-design-19{
+      margin-left: -12rem !important;
+    }
+  }
+
+  .spn-1{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+    justify-content: center;
+  }
