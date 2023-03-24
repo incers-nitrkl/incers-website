@@ -104,7 +104,7 @@ const Mritika1 = () => {
                         <h2 style={{marginLeft:"-1.5rem"}}>INCERS NITR</h2>
                         
                         <a  href="/mritika">
-                            <button class="btn btn-primary btn-19" style={{marginRight:"0rem",height:"4.8rem"}}><h4>Visit Upcoming <br/>Mrittika 2.0</h4></button>
+                            <button class="btn btn-primary btn-19" style={{marginRight:"0rem"}}><h4> Upcoming Mrittika 2.0</h4></button>
                         </a>
                     </div>
 
@@ -130,7 +130,7 @@ const Mritika1 = () => {
 
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
-                            <h3 class="title-heading text-center">MRITTIKA EVENTS</h3>
+                            <h3 class="title-heading text-center">MRITTIKA EVENTS 2019</h3>
                             <p class="myp text-center">The Indian Ceramic Society student chapter of NITR conducted a two day conference, Mrittika  2019 from 06 April 2019 to 07 April 2019.
 
                                 It involves various sessions starting from paper presentations  to quizzes and lectures on various domains of ceramics.It was attended by some of the industry’s top names, including-
@@ -195,7 +195,7 @@ const Mritika1 = () => {
                 <div class="container ">
                     <div class="row sp-1">
                         <div class="col-md-8 mx-auto wow fadeInUp">
-                            <h3 class="text-center font-weight-bold">MRIT<span class="bg-main">TIKA</span> SPONSERS</h3>
+                            <h3 class="text-center font-weight-bold">MRITTIKA<span class="bg-main"> SPONSERS 2019</span></h3>
                             <p class=" text-center">To become a better you, remember to be grateful to people who have contributed to making you who you are today"</p>
                         </div>
                     </div>
@@ -205,7 +205,7 @@ const Mritika1 = () => {
                     </div>
                     <div class="row sp-1">
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                            <div class="card">
+                            <div class="card hover">
                                 <img class="card-img-top h-262" src="images/S3.jpeg" />
                                 <div class="card-block">
 
@@ -222,7 +222,7 @@ const Mritika1 = () => {
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                            <div class="card">
+                            <div class="card hover">
                                 <img class="card-img-top h-262" src="images/S2.jpeg" />
                                 <div class="card-block">
 
@@ -243,7 +243,7 @@ const Mritika1 = () => {
                     <div class="vertical_dotted_line "></div>
                     </div >
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                            <div class="card">
+                            <div class="card hover">
                                 <img class="card-img-top h-262" src="images/S1.jpeg" />
                                 <div class="card-block">
 
@@ -262,7 +262,7 @@ const Mritika1 = () => {
                         </div>
 
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                            <div class="card">
+                            <div class="card hover">
                                 <img class="card-img-top h-262" src="images/S4.jpeg" />
                                 <div class="card-block">
 
@@ -289,7 +289,7 @@ const Mritika1 = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
-                            <h3 class="title-heading text-center font-weight-bold">MRITTIKA GALLERY</h3>
+                            <h3 class="title-heading text-center font-weight-bold">MRITTIKA GALLERY 2019</h3>
                             {/* <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                         </div>
                     </div>
@@ -399,12 +399,12 @@ const Mritika1 = () => {
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
+                        {/* <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Siddhartha </span>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Sakti </span>
-                        </section>
+                        </section> */}
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -426,7 +426,7 @@ const Mritika1 = () => {
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
                     </div>
                 </footer>
             </div>

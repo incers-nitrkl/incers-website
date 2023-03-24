@@ -442,7 +442,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 62rem;
+        gap: 52rem;
       }
       .executive-members{
         /* border:2px solid red; */
@@ -493,6 +493,7 @@
         height: 26rem !important;
         width: 62rem !important;
         margin-left: -8rem;
+        text-align: justify !important;
       }
 
       .competition-design{
@@ -538,6 +539,13 @@
         flex-direction: column;
       }
 
+
+      .hover:hover {
+        box-shadow: 10px 30px 28px -18px rgba(0, 0, 0, 0.6);
+        transform: scale(1.05, 1.05);
+        border-radius: 20px;
+      }
+
       /* changes */
       
 
@@ -564,15 +572,286 @@
     }
     .about-2023{
       display: flex !important;
-      flex-direction: row !important;
+      flex-direction: column-reverse !important;
+      transform: scale(0.7);
       gap: 2rem !important;
-      margin-left: 3rem !important;
+      margin-left: -2rem !important;
+      margin-top: -1.5rem !important;
     }
+    .side{
+      margin-left: 0rem !important;
+    }
+    .student-members{
+      margin-top: 90rem !important;
+    }
+    .executive-members{
+      margin-top: -7rem;
+    }
+    .bg-light{
+      margin-top: -4.5rem;
+    }
+    .sp-box{
+      transform: scale(0.8);
+      margin-top: -20rem !important;
+    }
+    .sp-img{
+      height:320px !important;
+      transform: scale(0.85) !important;
+    }
+
+    .sponsers1{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .text-center{
+      margin-left: 0rem !important;
+      margin-top: 1rem !important;
+    }
+    
     .btn-19{
       transform: scale(0.7);
     }
     .sp-1{
       transform: scale(0.5) !important;
+    }
+
+    .about-content{
+      padding: 20px !important;
+      text-align: justify;
+      margin-top: -4rem !important;
+    }
+    .mrittika-gallery{
+      margin-top: -20rem !important;
+    }
+    .interview{
+      margin-left: 0rem !important;
+    }
+    .card{
+      margin-left: 4rem !important;
+      margin-bottom: 1.4rem ;
+    }
+    .card-ts{
+      transform: scale(0.9);
+      margin-left: 0.5rem !important;
+      height: 18rem !important;
+      margin-top: -0.4rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .card-fb{
+      margin-left: 6.8pc !important;
+      margin-bottom: 1.4rem ;
+    }
+    .card-mm{
+      margin-left: 7rem !important;
+      margin-bottom: 2rem ;
+    }
+    .social_media_part{
+      margin-top: 140rem !important;
+    }
+    .footer-1{
+      margin-top: 0rem !important;
+    }
+    .footer-2{
+      margin-top: 133rem !important;
+    }
+    .footer-3{
+      margin-top: 138rem !important;
+    }
+
+    .down{
+      margin-top: 6rem !important;
+    }
+    .down1{
+      margin-top: 16rem !important;
+    }
+    .card1{
+      /* transform: scale(0.6) !important; */
+      margin-left: -1rem !important;
+    }
+    .cards-1{
+      /* transform: scale(0.6) !important; */
+      margin-left: -1.5rem !important;
+    }
+    .guest-cards{
+      width: 370px !important;
+    }
+    .box-1{
+      width: 330px !important;
+      height: 46rem !important;
+      margin-top: 1rem !important;
+      margin-left: 0rem !important;
+      text-align: justify !important;
+    }
+    .box-2{
+      width: 330px !important;
+      height: 40rem !important;
+      margin-top: 1rem !important;
+      margin-left: 0rem !important;
+      text-align: justify !important;
+    }
+    .box-5{
+      width: 330px !important;
+      height: 53rem !important;
+      margin-top: 1rem !important;
+      margin-left: 1.5rem !important;
+      /* margin-left: 0.1rem !important; */
+    }
+    .box-5-1{
+      /* padding: 10px !important; */
+      text-align: justify !important;
+      padding-left: -3rem !important;
+      padding-right: 0.5rem !important;
+      
+    }
+    .box-3{
+      width: 330px !important;
+      height: 80rem !important;
+      margin-top: 1rem !important;
+      margin-left: -0.3rem !important;
+      text-align: justify !important;
+    }
+    .box-4{
+      width: 330px !important;
+      height: 48rem !important;
+      margin-top: 1rem !important;
+      margin-left: -0.3rem !important;
+      text-align: justify !important;
+    }
+    .theme{
+      padding-left: 0.9rem !important;
+      padding-right: 1rem !important;
+      text-align: justify;
+      /* margin: 0rem !important; */
+    }
+    .footer-23{
+      margin-top: 0rem !important;
+    }
+    .guest{
+      margin-top: -26rem !important;
+    }
+    .gt-about{
+      margin-top: 1rem !important;
+      margin-left: -22rem !important;
+      margin-bottom: 3rem !important;
+      font-size: 2.2rem !important;
+    }
+    .gl-mrittika{
+      margin-top: -22rem !important;
+      transform: scale(0.82);
+    }
+    .gl{
+      margin-top: -24rem !important;
+    }
+    .gl-1{
+      margin-left: -8rem !important;
+      margin-top: 1rem !important;
+      margin-bottom: -1rem !important;
+    }
+    .gl-2{
+      margin-left: -8rem !important;
+      margin-top: 2.2rem !important;
+      margin-bottom: -1rem !important;
+    }
+
+    .mtg{
+      margin-top: -45rem !important;
+      transform: scale(0.75);
+      margin-bottom: -31rem;
+    }
+    .guest-new{
+      margin-top: -2rem !important;
+    }
+    .guest-new-1{
+      margin-top: 1rem !important;
+      /* margin-bottom: -1rem !important; */
+    }
+    .guest-new-2{
+      
+      margin-bottom: -1.2rem !important;
+    }
+    .partha{
+      margin-bottom: 1rem !important;
+    }
+    .st-member{
+      margin-top: 91rem !important;
+    }
+    .sponser-new{
+      /* display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important; */
+      margin-left: -2rem !important;
+    }
+    .container-member{
+      display: flex !important;
+      flex-direction: column !important;
+      
+      /* justify-content: center !important; */
+    }
+    .s2,.s3{
+      display: none;
+    }
+    .s4{
+      display: inline !important;
+    }
+    /* .tf{
+      transform: scale(0.8) !important;
+    } */
+
+    .ff-about{
+      margin-top: 0.3rem !important;
+      margin-bottom: 3rem !important;
+    }
+    .mm-about{
+      margin-top: 0.3rem !important;
+      margin-bottom: 3rem !important;
+    }
+    .fi{
+      margin-top: 3rem !important;
+    }
+    .mi{
+      margin-top: 3rem !important;
+    }
+    .fi-22{
+      margin-top: -1.8rem !important;
+      margin-bottom: 0.6rem !important;
+    }
+    .mi-22{
+      margin-top: -1.8rem !important;
+      margin-bottom: 0.6rem !important;
+    }
+    .fi-23{
+      margin-top: -0.8rem !important;
+    }
+    .mi-23{
+      margin-top: -0.8rem !important;
+    }
+    .incers-guest{
+      margin-top: -92rem !important;
+      
+    }
+    .incers-gl{
+      margin-top: 24rem !important;
+      
+    }
+    .incers-sm{
+      margin-top: -182rem !important;
+      
+    }
+    .incers-about{
+      margin-left: -17rem !important;
+    }
+    .mtg1{
+      margin-top: -25rem !important;
+    }
+    .e1{
+      margin-left: -20rem !important;
+    }
+    .e2{
+      margin-left: -4rem !important;
+    }
+    .footer-5{
+      margin-top: 55rem !important;
     }
   }
 

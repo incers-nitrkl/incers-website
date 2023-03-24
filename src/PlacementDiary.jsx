@@ -903,12 +903,12 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
+                        {/* <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Partha Mishra</span>
-                        </section>
+                        </section> */}
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -930,7 +930,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
                     </div>
                 </footer>
             </div>

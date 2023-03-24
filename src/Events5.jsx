@@ -2,26 +2,26 @@ import React from 'react';
 import Navbar from './Navbar';
 import Brochure from './images/brochure2019.pdf';
 
-const functionnav = ()=>{
-    const widths = 700
-    if(window.screen.width <= widths){
-        return(<>
-             <div class="top_div">
-            <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+
+const Events5 = () => {
+    const functionnav = ()=>{
+        const widths = 700
+        if(window.screen.width <= widths){
+            return(<>
+                 <div class="top_div">
+                <div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                </div>
+                <Navbar />
             </div>
-            <Navbar />
-        </div>
-        </>)
-    }
-        else{
-            return <Navbar />
+            </>)
         }
-    }
-const Events3 = () => {
-
+            else{
+                return <Navbar />
+            }
+        }
     return (<>
-
+        
         <div className='main_div'>
             {/* <div class="top_div">
                     <div>
@@ -89,34 +89,42 @@ const Events3 = () => {
             
             {/* New add */}
 
-            <div class="mritika-about ">
-                <div class="about-2023 ff-about" style={{marginTop:"2rem"}}>
-                    <h1 style={{marginLeft:"-4rem"}}>FLASHBACK FRIDAY</h1>
+            <div class="mritika-about">
+                <div class="about-2023 mm-about" style={{marginTop:"2rem"}}>
+                    <h1 class="e1" style={{marginLeft:"-72rem"}}>ABOUT</h1>
                     
                     {/* <a  href="/mritika1">
                         <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
                     </a> */}
                 </div>
-                <div class="about-content">
-                    <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once 
-                        thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood 
-                        backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, 
-                        while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way 
-                        to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain 
-                        reasons. To help everyone in this regard, NITR-ICS is going to collect such experiences and words of wisdom from 
-                        successful ceramists, material scientists and industrialists who have excelled in their fields. It will be a 
-                        conglomeration of important events in their journey from college to where they are now. All the information will be 
-                        shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
+                <div class="about-content" style={{textAlign:"justify"}}>
+                    <p>Materials are at the core of all scientific research and have a profound impact on virtually every 
+                        aspect of modern life. They are essential to the development of new technologies, from semiconductors and 
+                        computer chips to advanced medical devices and renewable energy technologies. In fact, materials science is 
+                        a critical field of study that seeks to understand the properties and behavior of various materials, and to 
+                        develop new materials with unique and beneficial properties.
+                    </p>
+                    <p>
+                    Materials science plays a significant role in a range of fields, including physics, chemistry, engineering, biology, 
+                    and nanotechnology. By investigating the properties of materials at the atomic and molecular level, scientists can 
+                    understand the underlying physical and chemical phenomena that drive their behavior. This knowledge is then applied to 
+                    the development of new materials with improved performance and functionality, such as stronger and more durable metals, 
+                    lighter and more efficient composites, and more efficient energy storage and conversion systems.
+                    </p>
+                    <p>
+                    In summary, the study of materials is vital to advancing our understanding of the natural world and to developing new 
+                    technologies that can address the most pressing challenges of our time, from climate change to disease prevention and 
+                    treatment. As such, the importance of materials in science cannot be overstated.
                     </p>
                     
                 </div>
             
                 {/* FlashBack Friday video  */}
-                <div class="container" style={{marginTop:"-2rem",marginBottom:"-3rem"}}>
+                {/* <div class="container" style={{marginTop:"-2rem",marginBottom:"-3rem"}}>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe style={{transform:"scale(0.7)"}} class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
-                </div>
-            </div>
+                </div> */}
+            </div> 
 
 
 
@@ -124,75 +132,75 @@ const Events3 = () => {
                     <p>cards</p>
                 </div> */}
                 <div class="executive-members">
-                    <section class="testimonials text-center fi">
+                    <section class="testimonials text-center mi">
                         <div class="container" style={{marginBottom:"10rem"}}>
                             <div class="row">
                                 <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
-                                    <h3 class="text-center font-weight-bold">FLASHBACK<span class="bg-main"> INTERVIEWS</span></h3>
+                                    <h3 class="text-center font-weight-bold">MATERIALS<span class="bg-main"> UNLOCKED</span></h3>
                                 </div>
                             </div>
 
                             {/* Executive Cards HOVER EFFECT */}
-                            <h3 class="interview fi-22" style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3>
-                            <div class="row">
+                            {/* <h3 class="interview mi-22" style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3> */}
+                            <div class="row e2">
                                 
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/ClG_f3fPIGC/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB1.PNG" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"0rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/Ch7QINAPt00/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu1.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CgmJEDVJ2d8/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB2.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/Cjng5ORPwSw/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu2.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CgBvd35vtB4/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB3.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CkddWz_PUUm/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu3.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/Cen82_zhLAK/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB4.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CmZAVuCPK8q/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu4.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CcFw_e1vYB0/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB5.png" />
+                                {/* <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CGO3uy_FLOW/">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm5.png" />
                                     </a>         
-                                </div>
+                                </div> */}
                             </div>
 
-                            <h3 class="interview fi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
+                            {/* <h3 class="interview mi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
                             <div class="row" style={{marginBottom:"18rem"}}>
                                 
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CaryVFCPdTk/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB6.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CFG8jIxlHhr/">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm6.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CZjhZh-PL-F/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB7.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CE0wHsLF87y/">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm7.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CYI2Wc6FUrf/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB8.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CEjCQZXFNkH/">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm8.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CWvUkomP5-a/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB9.jpeg" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CD-yFPklaCg/">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm9.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CV7RmfYliKQ/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB10.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CDhKg5lh4cr/">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm10.png" />
                                     </a>         
                                 </div>
                                 
-                            </div>
+                            </div> */}
 
                         </div>
                     </section>
@@ -206,7 +214,7 @@ const Events3 = () => {
 
 
 
-            <div class="social_media_part footer-2" style={{marginTop:"15rem"}}>
+            <div class="social_media_part footer-5" style={{marginTop:"-6rem"}}>
                 <footer>
                     <div class="top_header">
                         <section>
@@ -250,4 +258,4 @@ const Events3 = () => {
         </>);
 }
 
-export default Events3
+export default Events5

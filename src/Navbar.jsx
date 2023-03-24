@@ -72,6 +72,7 @@ const Navbar1 = () => {
                                 <NavLink to="/events2" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Webinars And Technical Sessions</span></h3></li> </NavLink>
                                 <NavLink to="/events3" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">FlashBack Friday</span></h3></li> </NavLink>
                                 <NavLink to="/events4" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Monday Matter</span></h3></li> </NavLink>
+                                <NavLink to="/events5" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Materials Unlocked</span></h3></li> </NavLink>
 
                                 {/* <li><h3>hello</h3></li> */}
                             </ul>
@@ -81,6 +82,7 @@ const Navbar1 = () => {
                     <li>
                         <div className="menu_1">
                             <ul>
+                                <NavLink to="/aboutincerschapter" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">About</span></h3></li> </NavLink>
                                 <NavLink to="/mritika" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Mrittika-2023</span></h3></li> </NavLink>
                                 <NavLink to="/mritika1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Mrittika-2019</span></h3></li> </NavLink>
 
@@ -88,7 +90,7 @@ const Navbar1 = () => {
                         </div>
                     </li>
 
-                    <li><a href="/mritika"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">MRITTIKA</span></h3></a></li>
+                    <li><a href="/mritika"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">InCerS NITR</span></h3></a></li>
                     
                     {/* <li><a href="/mritika">Mrittika</a></li> */}
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
@@ -135,6 +137,7 @@ const Navbar1 = () => {
                             <li><a href="/events2">Webinars And Technical Sessions</a></li>
                             <li><a href="/events3">FlashBack Friday</a></li>
                             <li><a href="/events4">Monday Matter</a></li>
+                            <li><a href="/events5">Materials Unlocked</a></li>
                             {/* <li>
                                 <a href="#">Team <i class="fas fa-caret-right"></i></a>
 
@@ -156,10 +159,11 @@ const Navbar1 = () => {
                 {/* <li><a href="/mritika">Mrittika</a></li> */}
 
 
-                <li><a href="/mritika">Mrittika <i class="fas facaret-down"></i></a>
+                <li><a href="/mritika">InCerS NITR <i class="fas facaret-down"></i></a>
 
                     <div class="dropdown-menu">
                         <ul>
+                            <li><a href="/aboutincerschapter">About</a></li>
                             <li><a href="/mritika">Mrittika-2023</a></li>
                             <li><a href="/mritika1">Mrittika-2019</a></li>
                             
