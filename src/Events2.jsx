@@ -1,17 +1,3 @@
-// import React from 'react';
-// import Navbar from './Navbar';
-
-
-// const Events2 = () => {
-
-//     return (<>
-//         Events2
-//     </>)
-// }
-
-// export default Events2;
-
-
 import React from 'react';
 import Navbar from './Navbar';
 import Carousel from 'react-multi-carousel'
@@ -51,7 +37,7 @@ const Events2 = () => {
             return(<>
                  <div class="top_div">
                 <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
             </div>
@@ -91,7 +77,7 @@ const Events2 = () => {
 
                 <div class="row TS-card">
                     <div class="col-md-6 card-effect">
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1" style={{height:"16rem",width:"70rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1 card-ts" style={{height:"16rem",width:"70rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">OBMODTEA 2020</strong>
                                 <h6 class="mb-0">
@@ -106,7 +92,7 @@ const Events2 = () => {
                     </div>
                     
                     <div class="col-md-6 card-effect" >
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design2 ev-1" style={{height:"16rem",width:"70rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design2 ev-1 card-ts" style={{height:"16rem",width:"70rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Mesoporous SilicaBy Munmi Das</strong>
                                 <h6 class="mb-0">
@@ -123,7 +109,7 @@ const Events2 = () => {
                 </div>
                 <div class="row TS-card">
                     <div class="col-md-6 card-effect" >
-                        <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1" style={{height:"16rem",width:"70rem"}}>
+                        <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1 card-ts" style={{height:"16rem",width:"70rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">New Implementations of Carbon in Refractories by Depsikha Brahma</strong>
                                 <h6 class="mb-0">
@@ -137,7 +123,7 @@ const Events2 = () => {
                         </div>
                     </div>
                     <div class="col-md-6 card-effect">
-                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 competition-design2 ev-1" style={{height:"16rem",width:"70rem"}}>
+                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 competition-design2 ev-1 card-ts" style={{height:"16rem",width:"70rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Virtual Demonstration-Tata Stee</strong>
                                 <h6 class="mb-0">
@@ -152,7 +138,7 @@ const Events2 = () => {
                         </div>
                     </div>
                     <div class="col-md-6 card-effect" >
-                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 competition-design2 ev-1" style={{height:"16rem",width:"70rem"}}>
+                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 competition-design2 ev-1 card-ts" style={{height:"16rem",width:"70rem"}}>
                             <div class="card-body d-flex flex-column align-items-start" >
                                 <strong class="d-inline-block mb-2 text-success">Li-Ion batteries and beyond- a perspective for future energy storage</strong>
                                 <h6 class="mb-0">
@@ -230,19 +216,19 @@ const Events2 = () => {
                 </div> */}
             </div>
 
-            <div class="social_media_part">
+            <div class="social_media_part footer-1">
                 <footer>
                     <div class="top_header">
                         <section>
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
+                        {/* <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Partha Mishra</span>
-                        </section>
+                        </section> */}
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -264,7 +250,8 @@ const Events2 = () => {
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
+                        <a style={{color:"#1e1e1e" ,cursor:"value"}} href="https://wallpaperaccess.com/full/459955.jpg">a</a>
                     </div>
                 </footer>
             </div>

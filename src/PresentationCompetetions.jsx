@@ -281,7 +281,7 @@ const Events1 = () => {
                  <div class="top_div ">
                 <div>
                     {/* <div id="logo" style={{ cursor: "pointer",marginLeft:"2.5rem" }}> */}
-                        <img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} />
+                        <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                     {/* </div> */}
                 </div>
                 <Navbar />
@@ -324,7 +324,7 @@ const Events1 = () => {
                 {/* New 2023 */}
                 <h2 class="heading" style={{marginTop:"2rem",marginBottom:"1.5rem"}}>PPT PRESENTATION COMPETITION 22-23</h2>
                 
-                <div class="row" >
+                <div class="row pc1" >
                     <div class="col-md-6 heading-1" >
                         <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 competition-design3" style={{height:"17rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
@@ -691,12 +691,12 @@ const Events1 = () => {
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
+                        {/* <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Partha Mishra</span>
-                        </section>
+                        </section> */}
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -718,7 +718,7 @@ const Events1 = () => {
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
                     </div>
                 </footer>
             </div>

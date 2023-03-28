@@ -8,7 +8,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -77,7 +77,7 @@ const Members = () => {
             <div class="container">
                 
                 <div ><div class="row heading heading-icon">
-                    <h2 style={{marginTop:"50px"}}>MENTORS 22-23</h2>
+                    <h2 style={{marginTop:"50px"}}>MENTORS 23-24</h2>
                 </div></div>
              
                 <ul class="row">
@@ -168,7 +168,7 @@ const Members = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>EC BODY 22-23</h2>
+                            <h2>EC BODY 23-24</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
@@ -213,7 +213,7 @@ const Members = () => {
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/AS.png" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                    <h3>Aashya</h3>
+                                    <h3>Aashay</h3>
                                     {/* <p>Freelance Developer</p> */}
                                     <h4>joint Secretary</h4>
                                     <ul class="follow-us clearfix">
@@ -283,7 +283,7 @@ const Members = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>DEVELOPMENT TEAM 22-23</h2>
+                            <h2>DEVELOPMENT TEAM 23-24</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
@@ -312,32 +312,20 @@ const Members = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <li class="col-12 col-md-6 col-lg-3">
+                            {/* <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/AK.jpeg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
                                     <h3><a href="http://www.webcoderskull.com/">Amrit kalash</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
+                                    
                                     <h4>Web Developer</h4>
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://www.instagram.com/amrit_kalash/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/amrit-kalash-a712b7219/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
-                            </li>
-                            <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SoK.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Sourav Kumar</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    <h4>Web Developer</h4>
-                                    <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                            </li> */}
+                            
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/UP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>

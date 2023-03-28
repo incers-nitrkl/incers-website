@@ -8,7 +8,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -156,25 +156,34 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                 <div id='club' style={{marginTop:"8rem",marginLeft:"5rem",marginRight:"5rem",marginBottom:"3rem",paddingLeft:"5rem",paddingRight:"0rem"}}>
                     <h2 style={{display:"flex",alignItems:"center",justifyContent:"center",textDecoration:"",marginBottom:"2rem"}}><u>InCerS NITR Teams</u></h2>
                     <h3 style={{color:"green"}}>Core Team</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
-                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
-                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
-                    eligendi dolor dolore!</p>
-                    <h3 style={{color:"green"}}>Content Team</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
-                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
-                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
-                    eligendi dolor dolore!</p>
+                    <p style={{textAlign:"justify"}}> The core team comprises the elected members of the club who hold various responsibilities of the club. The core team comprises the executive
+                         body with some team heads who work diligently to arrange and execute various  activities of the club.
+                        Led by Deepsikha Brahma , final year, Chairperson , InCerS NITR , the club has tread a path to victory. The other executive members include 
+                        Partha Mishra (Vice Chairperson), Rittwik Das (Secretary), Aashay Magarde (Joint secretary), Summit Ku. Oram (BR 3rd year), Jyotishman Mohanty 
+                        ( BR 2nd year), Pentakotta Uday Kumar (BR 4th year), Pratyush Kundu ( Treasurer). Under the guidance of Deepsikha Brahma, numerous events and guest 
+                        lectures are organized in the dept. and in college fests. The responsibility of the core team is to distribute work among team members and  check for 
+                        their learning in the process</p>
                     <h3 style={{color:"green"}}>Design Team</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
-                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
-                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
-                    eligendi dolor dolore!</p>
+                    <p style={{textAlign:"justify"}}> A team of immensely talented individuals having an ample knowledge of lines, curves and colour scheme comprises the very hard working design team. 
+                        Led by Summit ku. Oram , BR 3rd Year and the design head of InCerS NITR, the main responsibility of the team is too create posters for different 
+                        festivals, banners and time stamp posters for different guest lectures and create posters for various club events all around the globe. The team 
+                        has achieved great feats and had worked meticulously for making MRITTIKA 2.0 a grand success. The contribution of Aashay Magarde and Summit Ku. Oram 
+                        in the symposium was immense as they along with Anshu Sharma guided the second years with the requirements for posters , banners, i cards and certificate
+                        preparation. Design team is the most hardworking and diligent team of the club working hard day and night by creating beautiful posters for the club.</p>
+                    <h3 style={{color:"green"}}>Content Team</h3>
+                    <p style={{textAlign:"justify"}}>The content team creates engaging and high-quality content that attracts the readers and at the same time gives them the perfect information. The content
+                         is in the form of social media posts, minutes of meeting, drafting Flashback Fridays and many more. Led by Ritwik Das , secretary of InCerS NITR and also 
+                         the content head of the club , guided the content team in distributing the caption for social media posts , drafting Flashback Fridays and various other 
+                         content work. The main responsibility of the content team is to prepare the content for design and website design team for various banners, posters and
+                          caption snippets. One of the main rememberence of the symposium MRITTIKA 2.0 is it's Souvenir. The responsibility of preparing the content for souvenir 
+                          is on the shoulders of content team.</p>
                     <h3 style={{color:"green"}}>Development Team</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni quasi sequi deleniti odio amet voluptatem,
-                        illum dolorum, repudiandae perferendis corporis asperiores, sunt natus libero suscipit quo dolores doloribus. Quasi 
-                        dolores quas vel voluptatibus. Officiis aspernatur odio ab facere, quisquam dicta aliquid ut illo eveniet, vero non,
-                    eligendi dolor dolore!</p>
+                    <p style={{textAlign:"justify"}}>The website design team plays a critical role in creating a successful online presence for our InCerS NITR club . The website design team is responsible for 
+                        creating a website that provides a positive user experience. This means designing a website that is easy to navigate, visually appealing, and responsive on 
+                        different devices. The website design team ensures that the website reflects the club's identity and it's values. They create a unique design that sets the 
+                        website apart from the others and helps build recognition. The team led by Pratyush Kundu , with developers Suraj and Udit guided by Sourav Kumar create and 
+                        maintain the website for InCers and all the information regarding MRITTIKA 2.0 is updated in the website. All the year round activities and events are updated 
+                        in the website.</p>
                 </div>
             {/* </div>
             <h2 id="heading" style={{marginTop:"21rem",marginBottom:"-15rem", marginLeft: "90px" }}>FLASHBACK FRIDAY</h2>

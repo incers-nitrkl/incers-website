@@ -8,7 +8,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -301,19 +301,6 @@ const Members2 = () => {
                                 </div>
                             </li>
                             
-                            <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SoK.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Sourav Kumar</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    <h4>Web Developer</h4>
-                                    <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </section> 

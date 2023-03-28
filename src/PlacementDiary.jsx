@@ -321,7 +321,7 @@ const Events = () => {
             return(<>
                  <div class="top_div">
                 <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
             </div>
@@ -520,92 +520,80 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                         <div class="col-md-12 wow fadeInUp">
                             <h3 class="title-heading text-center font-weight-bold">OUR RECRUTERS</h3>
                             <p class="myp text-center">Reputed core companies such as Aditya Birla Group, Tata Steel, Reliance Industries, MPR Refractories, Vedanta, Saint- Gobain, Piramal and JSW Steel visit the campus and place students!
-Not only that, many reputed non- core companies such as ZS Associates, Wipro, EXL, Infosys, Tredence, Tata, HCL, iQuanti, BYJU’s and ICICI bank also visit the campus and place many students.</p>
+                                Not only that, many reputed non- core companies such as ZS Associates, Wipro, EXL, Infosys, Tredence, Tata, HCL, iQuanti, BYJU’s and ICICI bank also visit the campus and place many students.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/Nation with Namo.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/Tata steel.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/Saint Gobain.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/ICICI1.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/Aditya.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/TATACLIQ.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/Somany.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/krosaki.jfif" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/glass.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/Jsw.png" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/itc.png" />
-                                </a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/QQQ.png" />
-                                </a>
+                                {/* <a href="" class="fancybox" rel="ligthbox">
+                                </a> */}
                             </div>
                         </div>
 
@@ -903,12 +891,12 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
+                        {/* <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Partha Mishra</span>
-                        </section>
+                        </section> */}
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -930,7 +918,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
                     </div>
                 </footer>
             </div>

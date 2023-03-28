@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Brochure from './images/brochure2019.pdf';
 
 
-const Events4 = () => {
+const Events5 = () => {
     const functionnav = ()=>{
         const widths = 700
         if(window.screen.width <= widths){
@@ -21,7 +21,7 @@ const Events4 = () => {
             }
         }
     return (<>
-
+        
         <div className='main_div'>
             {/* <div class="top_div">
                     <div>
@@ -97,21 +97,24 @@ const Events4 = () => {
                         <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
                     </a> */}
                 </div>
-                <div class="about-content">
-                    <p>Every week, you suffer from the same malady: a terrible case of the Mondays. 
-                        You dread that alarm going off. And no matter how many things you try—meditation, 
-                        reciting inspirational quotes, reading a bunch of happy quotes, you're having 
-                        trouble getting going. But why not think of Monday as an opportunity rather than 
-                        a punishment? It's a chance to start fresh. Who wants to wake up to a Monday after 
-                        a good weekend rest? Mondays are boring, seems longer than usual and almost everyone 
-                        hates it, right? It is also marked by tiredness and reluctance to start the week's 
-                        work. But not anymore. NITR-ICS is going to make you look forward to the Monday and 
-                        the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose 
-                        of Ceramics and Material Science updates, to keep you intrigued for the rest of the 
-                        week. We will be keeping you informed of all the latest, known, and unknown realms of 
-                        material science, making your start of the week an interesting one. To all material 
-                        enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed 
-                        to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.
+                <div class="about-content" style={{textAlign:"justify"}}>
+                    <p>Materials are at the core of all scientific research and have a profound impact on virtually every 
+                        aspect of modern life. They are essential to the development of new technologies, from semiconductors and 
+                        computer chips to advanced medical devices and renewable energy technologies. In fact, materials science is 
+                        a critical field of study that seeks to understand the properties and behavior of various materials, and to 
+                        develop new materials with unique and beneficial properties.
+                    </p>
+                    <p>
+                    Materials science plays a significant role in a range of fields, including physics, chemistry, engineering, biology, 
+                    and nanotechnology. By investigating the properties of materials at the atomic and molecular level, scientists can 
+                    understand the underlying physical and chemical phenomena that drive their behavior. This knowledge is then applied to 
+                    the development of new materials with improved performance and functionality, such as stronger and more durable metals, 
+                    lighter and more efficient composites, and more efficient energy storage and conversion systems.
+                    </p>
+                    <p>
+                    In summary, the study of materials is vital to advancing our understanding of the natural world and to developing new 
+                    technologies that can address the most pressing challenges of our time, from climate change to disease prevention and 
+                    treatment. As such, the importance of materials in science cannot be overstated.
                     </p>
                     
                 </div>
@@ -121,7 +124,7 @@ const Events4 = () => {
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe style={{transform:"scale(0.7)"}} class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
                 </div> */}
-            </div>
+            </div> 
 
 
 
@@ -133,71 +136,71 @@ const Events4 = () => {
                         <div class="container" style={{marginBottom:"10rem"}}>
                             <div class="row">
                                 <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
-                                    <h3 class="text-center font-weight-bold">MONDAY<span class="bg-main"> MATTER</span></h3>
+                                    <h3 class="text-center font-weight-bold">MATERIALS<span class="bg-main"> UNLOCKED</span></h3>
                                 </div>
                             </div>
 
                             {/* Executive Cards HOVER EFFECT */}
-                            <h3 class="interview mi-22" style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3>
-                            <div class="row">
+                            {/* <h3 class="interview mi-22" style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3> */}
+                            <div class="row e2">
                                 
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CMJPuzVlJ7e/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm1.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"0rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/Ch7QINAPt00/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu1.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CKLCWNDFfT5/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm2.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/Cjng5ORPwSw/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu2.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CJ5OuilF7cx/">
-                                        <img class="card-img-top" style={{ height: "250px" ,width:"200px"}} src="images/mm3.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CkddWz_PUUm/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu3.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CGzorlFFf-4/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm4.png" />
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CmZAVuCPK8q/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mu4.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                {/* <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CGO3uy_FLOW/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm5.png" />
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm5.png" />
                                     </a>         
-                                </div>
+                                </div> */}
                             </div>
 
-                            <h3 class="interview mi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
+                            {/* <h3 class="interview mi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
                             <div class="row" style={{marginBottom:"18rem"}}>
                                 
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CFG8jIxlHhr/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm6.png" />
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm6.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CE0wHsLF87y/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm7.png" />
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm7.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CEjCQZXFNkH/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm8.png" />
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm8.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CD-yFPklaCg/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm9.png" />
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm9.png" />
                                     </a>         
                                 </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                <div class="card card-mm hover" style={{ height:"300px" ,width:"270px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CDhKg5lh4cr/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm10.png" />
+                                        <img class="card-img-top" style={{ height: "300px" ,width:"270px"}} src="images/mm10.png" />
                                     </a>         
                                 </div>
                                 
-                            </div>
+                            </div> */}
 
                         </div>
                     </section>
@@ -211,7 +214,7 @@ const Events4 = () => {
 
 
 
-            <div class="social_media_part footer-3" style={{marginTop:"15rem"}}>
+            <div class="social_media_part footer-5" style={{marginTop:"-6rem"}}>
                 <footer>
                     <div class="top_header">
                         <section>
@@ -255,4 +258,4 @@ const Events4 = () => {
         </>);
 }
 
-export default Events4
+export default Events5

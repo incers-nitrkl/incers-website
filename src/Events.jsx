@@ -9,7 +9,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -68,9 +68,9 @@ const Mritika = () => {
                             {/* <h3 class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3> */}
                             {/* <p class="myp-slider text-center">Where ceramists unite and become better together</p>
                             <p class="myp text-center">SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p> */}
-                            <a class="btn btn-primary btn-join" href="#" style={{marginTop:"12rem"}}>JOIN THE COMMUNITY</a>
+                            <a class="btn btn-primary btn-join down" href="#" style={{marginTop:"12rem"}}>JOIN THE COMMUNITY</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgZlgyceJlhRZhBOYVHXJXWGV-V6NZbli0DKgS-E6ARCr_A/viewform" title="Go to Registration Form" >
-                                <button type="button" class="btn btn-primary" style={{marginTop:"20rem",marginBottom:"1rem",width:"13rem",marginLeft:"-12.4rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
+                                <button type="button" class="btn btn-primary down1" style={{marginTop:"20rem",marginBottom:"1rem",width:"13rem",marginLeft:"-12.4rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
                             </a>
                             {/* <p>suraj</p> */}
                             <br />
@@ -133,7 +133,7 @@ const Mritika = () => {
 
             <div class="mritika-about">
                 <div class="about-2023" style={{marginTop:"2rem",marginBottom:"2rem"}}>
-                    <h1 style={{marginLeft:"4.5rem"}}>INCERS NITR</h1>
+                    <h1 class="top" style={{marginLeft:"1rem"}}>INCERS NITR</h1>
                     
                     <a  href="/mritika1">
                         <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
@@ -152,7 +152,7 @@ const Mritika = () => {
                 </div> */}
                 <div class="executive-members">
                     <section class="testimonials text-center">
-                        <div class="container">
+                        <div class="container ">
                             <div class="row">
                                 <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
                                     <h3 class="text-center font-weight-bold">EXECUTIVE<span class="bg-main">MEMBERS</span></h3>
@@ -160,9 +160,9 @@ const Mritika = () => {
                             </div>
 
                             {/* Executive Cards */}
-                            <div class="row">
+                            <div class="row container-member">
 
-                                <div  style={{ height:"230px" ,width:"200px",marginLeft:"3rem"}}  data-wow-duration="1.4s">
+                                <div class="side" style={{ height:"230px" ,width:"200px",marginLeft:"3rem"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "230px" ,width:"200px"}}>
                                         <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/DP.jpg" />
                                         <div class="card-block">
@@ -174,7 +174,7 @@ const Mritika = () => {
                                     </div>
                                 </div>
 
-                                <div  style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                <div class="partha" style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "230px" ,width:"200px"}}>
                                         <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/PM.jpg" />
                                         <div class="card-block">
@@ -198,12 +198,12 @@ const Mritika = () => {
                                     </div>
                                 </div>
 
-                                <div  style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                <div class="partha" style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "230px" ,width:"200px"}}>
                                         <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/AS.png" />
                                         <div class="card-block">
 
-                                            <h6 class="card-title text-center">Aashya</h6>
+                                            <h6 class="card-title text-center">Aashay</h6>
                                             <h6 style={{color:"green"}}><strong>Joint Secretory</strong></h6>
 
                                         </div> 
@@ -222,7 +222,7 @@ const Mritika = () => {
                                     </div>
                                 </div>
 
-                                <div  style={{ height:"230px" ,width:"200px", marginTop:"1rem", marginLeft:"16rem"}}  data-wow-duration="1.4s">
+                                <div class="side" style={{ height:"230px" ,width:"200px", marginTop:"1rem", marginLeft:"16rem"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "230px" ,width:"200px"}}>
                                         <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/JM.jpg" />
                                         <div class="card-block">
@@ -239,7 +239,7 @@ const Mritika = () => {
                                         <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/SK.jpg" />
                                         <div class="card-block">
 
-                                            <h6 class="card-title text-center">Summit Kumar Orma</h6>
+                                            <h6 class="card-title text-center">Summit Kumar Oram</h6>
                                             <h6 style={{color:"green"}}><strong>BR 3rd Year</strong></h6>
 
                                         </div> 
@@ -265,7 +265,7 @@ const Mritika = () => {
                 </div>
                 
 
-                <div class="student-members">
+                <div  class="student-members st-member">
                 <a href="https://docs.google.com/spreadsheets/d/1sgN1HQ8HXODLbOcXS6YR5HDRbOcIELPi/edit?usp=share_link&ouid=114663105164561446283&rtpof=true&sd=true" title="Go to Our Student Members List">
                     <button type="button" class="btn btn-primary" style={{width:"15rem",fontSize:"1.2rem"}}>Our Student Members</button>
                 </a>
@@ -287,13 +287,13 @@ const Mritika = () => {
                     </div>
 
 
-                    <div class="row sponsers">
-                        <h3 style={{marginLeft:"-55rem"}} class="text-center font-weight-bold">GOLD<span class="bg-main"> SPONSERS</span></h3>
+                    <div class="row sponsers sp-box">
+                        <h3 style={{marginLeft:"-55rem"}} class="text-center font-weight-bold">TITLE<span class="bg-main"> SPONSERS</span></h3>
                         <div class="sponsers1"> 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S1.jpeg" />
-                                    <div class="card-block">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover ">
+                                    <img class="card-img-top h-262 sp-img" src="images/S1.jpeg" />
+                                    <div class="card-block ">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
 
@@ -308,9 +308,9 @@ const Mritika = () => {
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S2.jpeg" />
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img" src="images/S2.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -327,9 +327,9 @@ const Mritika = () => {
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S3.jpeg" />
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img" src="images/S3.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -346,9 +346,9 @@ const Mritika = () => {
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S4.jpeg" />
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img" src="images/S4.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title ">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -369,12 +369,16 @@ const Mritika = () => {
                          {/* Add new   silver                 */}
 
                          <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"1rem", marginTop:"3rem"}}>
-                            <h3 style={{marginLeft:"-55rem"}} class="text-center font-weight-bold">SILVER<span class="bg-main"> SPONSERS</span></h3>
+                            <span style={{display:"flex",flexDirection:"row"}}>
+                                <h3 style={{marginLeft:"-13rem"}} class="text-center font-weight-bold s1">PLATNIUM<span class="bg-main"> SPONSERS</span></h3>
+                                <h3 style={{marginLeft:"1.5rem"}} class="text-center font-weight-bold s2">GOLD<span class="bg-main"> SPONSERS</span></h3>
+                                <h3 style={{marginLeft:"2rem"}} class="text-center font-weight-bold s3">SILVER<span class="bg-main"> SPONSERS</span></h3>
+                            </span>
                         </div>
                         <div class="sponsers1"> 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S1.jpeg" />
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 tf sp-img " src="images/S1.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -390,9 +394,10 @@ const Mritika = () => {
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S2.jpeg" />
+                            <h3 style={{marginLeft:"1.5rem",display:"none"}} class="text-center font-weight-bold s4">GOLD<span class="bg-main"> SPONSERS</span></h3>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img" src="images/S2.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -409,9 +414,11 @@ const Mritika = () => {
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
-                                    <img class="card-img-top h-262" src="images/S3.jpeg" />
+
+                            <h3 style={{marginLeft:"2rem",display:"none"}} class="text-center font-weight-bold s4">SILVER<span class="bg-main"> SPONSERS</span></h3>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img " src="images/S3.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -428,24 +435,18 @@ const Mritika = () => {
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
-                                <div class="card">
+                            {/* <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
                                     <img class="card-img-top h-262" src="images/S4.jpeg" />
-                                    <div class="card-block">
-
-                                        {/* <h4 class="card-title ">Lorem Ipsum Dolor Site Amet</h4> */}
-
-                                        <div class="card-text ">
-                                            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
-                                        </div>
-                                    </div>
+                                    
                                     <div class="card-footer">
-                                        {/* <small>$ 170</small> */}
+                                        
                                         <a href="https://www.elkem.com/" class="pull-right">More Info</a>
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
+
                         </div>
 
                     </div>
@@ -520,41 +521,35 @@ const Mritika = () => {
 
 
         {/* GUEST SECTION */}
-        <div class="guest">
+        {/* <div class="guest">
             <h3 class="text-center font-weight-bold" >GUEST<span class="bg-main"> SECTION</span></h3>
 
-            <div class="about-2023">
-                    <h3 style={{marginLeft:"-62rem"}}>ABOUT</h3>
-                    {/* <a  href="/">
-                        <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Mrittika 2019</h4></button>
-                    </a> */}
+            <div class="about-2023 ">
+                    <h3 class="gt-about" style={{marginLeft:"-62rem"}}>ABOUT</h3>
             </div>
-            <div class="about-content" style={{paddingLeft:"14rem",paddingRight:"12rem"}}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit eius nihil 
-                    nesciunt molestiae earum odit quam laborum. Vero provident expedita laudantium aliquid accusamus 
-                    tempore magni in! At, recusandae a voluptatum molestiae dicta officiis voluptates nulla qui consequatur
-                    incidunt distinctio accusamus, doloribus facere animi nobis. Vero omnis repellat harum doloribus unde 
-                    similique fugit porro ut in quia. Aliquam fugit, fuga iusto vitae dicta aspernatur mollitia beatae
-                    obcaecati dignissimos minus possimus, adipisci repellendus accusamus ex. Iste at eos perferendis 
-                    harum adipisci?
+            <div class="about-content " style={{textAlign:"justify" ,paddingLeft:"14rem",paddingRight:"12rem"}}>
+                <p>The Department of Ceramics Engineering and InCerS (Indian Ceramic Society),  NIT Rourkela Chapter, 
+                    have been graced by the auspicious presence of 2 guests ,where we got a whole lot of practical side 
+                    and a new level of applications of our studies.
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit eius nihil 
-                    nesciunt molestiae earum odit quam laborum. Vero provident expedita laudantium aliquid accusamus 
-                    tempore magni in! At, recusandae a voluptatum molestiae dicta officiis voluptates nulla qui consequatur
-                    incidunt distinctio accusamus, doloribus facere animi nobis. Vero omnis repellat harum doloribus unde 
-                    similique fugit porro ut in quia. Aliquam fugit, fuga iusto vitae dicta aspernatur mollitia beatae
-                    obcaecati dignissimos minus possimus, adipisci repellendus accusamus ex. Iste at eos perferendis 
-                    harum adipisci?
+                <p>The guests, Dr. Gobinda Pahari, Asst. Vice President , Functional Head Operation , Aditya Birla Insulators,
+                    (a unit of Aditya Birla Grasim Industries Ltd.) and Mr. Birendra Prasad , Plant Head at Dalmia-OCL and Head 
+                    of Dalmia research. While the former gave us new insights on the working and demonstration of several industrial 
+                    processes , and ways to combat the current Problems in our field of interest, the later was all about the new budging 
+                    interests of Ceramic Engineering and a little taste of futuristic area, which we may find ourselves in.
+                    A  new level of excitement being presented by our guest speakers and the same being reflected by our esteemed Teachers 
+                    and more so from the students giving way to some interesting and hot takes. The lectures enthralled the newbies while continuing to please the pre-graduates.
+                    Our Guests Were presented a memento at the end of the session which altogether was a huge success for everyone.
                 </p>
             </div>
 
-            <section class="testimonials text-center ">
-                <div class="container">
+            <section class="testimonials text-center mrittika-gallery">
+                <div class="container gl-mrittika">
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
                             
                             <h3 class="text-center font-weight-bold" >GUEST<span class="bg-main"> GALLERY </span></h3>
-                            {/* <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
+                            
                         </div>
                     </div>
                     <div class="row">
@@ -648,104 +643,56 @@ const Mritika = () => {
             </section>
 
             <div class="guest-cards">
-            <h3 class="text-center font-weight-bold" >GUEST<span class="bg-main"> LECTURE </span></h3>
-                <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-1</h5>
-                <div class="col-md-6 card-effect " style={{}}>
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                        <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
+                <h3 class="text-center font-weight-bold gl" >GUEST<span class="bg-main"> LECTURE </span></h3>
+                <h5 class="gl-1" style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-1</h5>
+                <div class="col-md-6 card-effect box-1" style={{}}>
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-1">
+                        <div class="card-body d-flex flex-column align-items-start box-1">
+                            <strong class="d-inline-block mb-2 text-primary">Industry Academia Interaction Session</strong>
                             <h6 class="mb-0">
-                                <a class="text-dark" href="#">Name: </a>
+                                <a class="text-dark" href="#">Dr. Birendra Prasad</a>
                             </h6>
-                            {/* <div class="mb-1 text-muted small">Aug 30</div> */}
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p><p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                            <br />
+                            
+                            <p class="card-text mb-auto" >Indian Ceramic Society, Student Chapter NIT Rourkela  conducted an informative symposium. This offline session highlighted a 
+                            plethora of information on the Refractory product manufacturing- The current scenario. The chief guest , Mr. Birendra Prasad ,plant head at Dalmia- OCL 
+                            (Rajgangpur unit) & Head of Dalmia research Institute enunciated about the aforementioned topic.</p>
+                            <p class="card-text mb-auto">Insights-Refractory products are materials that can withstand high temperatures, corrosion, and erosion. They are used in 
+                            industries such as steel, cement, glass, and petrochemicals, where high temperatures and harsh environments are common. Advanced technologies such as 
+                            computer-aided design, automated mixing, and firing control systems are used to optimize production efficiency and product quality.</p>
+                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/CiNRhW1PmE8/">Continue watching</a>
                         </div>
                         <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
                     </div>
                 </div>
 
-                <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-2</h5>    
-                <div class="col-md-6 card-effect" style={{marginBottom:"3rem"}}>
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                        <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
+                <h5 class="gl-2" style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-2</h5>    
+                <div class="col-md-6 card-effect box-1" style={{marginBottom:"3rem"}}>
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-1">
+                        <div class="card-body d-flex flex-column align-items-start box-1">
+                            <strong class="d-inline-block mb-2 text-primary">Industry Academia Interaction Session</strong>
                             <h6 class="mb-0">
-                                <a class="text-dark" href="#">Name:</a>
+                                <a class="text-dark" href="#">Dr. Govind Pahari</a>
                             </h6>
-                            {/* <div class="mb-1 text-muted small">Aug 30</div> */}
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p><p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                            <br />
+                            
+                            <p class="card-text mb-auto">The Department of Ceramic Engineering and InCerS (Indian Ceramic Society), NIT Rourkela Chapter 
+                            organized its 2nd "Invited Guest lecture" on "High Voltage Porcelain Insulators manufacturing technique and various 
+                            testing processes" on 12th of November, 2022 (3:30 PM onwards) during the INNOVISION, largest techno-management fest 
+                            of Eastern India organized by NIT Rourkela.</p>
+                            <p class="card-text mb-auto">The invited lecture was graced by our esteemed Speaker- Dr. Gobinda Pahari, Asst. Vice President, Functional Head Operations, Aditya 
+                            Birla Insulators. The idea of conducting the guest lecture is to make students aware of the working and demonstration of several industrial processes.</p>
+                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/ClMA7K1vNi7/">Continue watching</a>
                         </div>
                         <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
                     </div>
                 </div>
                 
-                {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-3</h5>
-                <div class="col-md-6 card-effect">
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                        <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
-                            <h6 class="mb-0">
-                                <a class="text-dark" href="#">Name: </a>
-                            </h6>
-                            
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p><p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
-                        </div>
-                        <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comming-soon.jpg" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
-                    </div>
-                </div>
-
-                <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-4</h5>
-                <div class="col-md-6 card-effect">
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                        <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
-                            <h6 class="mb-0">
-                                <a class="text-dark" href="#">Name: </a>
-                            </h6>
-                            
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <p class="card-text mb-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quaerat 
-                            minima consectetur repudiandae, quibusdam vitae eligendi ratione tenetur eos doloremque hic eius dolorum 
-                            ducimus deleniti minus! Perspiciatis repellat amet quam!</p>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
-                        </div>
-                        <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comming-soon.jpg" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
-                    </div>
-                </div> */}
-
+                
 
             </div>
         </div>
-
+ */}
 
 
 {/* 
@@ -848,8 +795,8 @@ const Mritika = () => {
 
 
 
-            <section class="testimonials text-center mybg-music">
-                <div class="container">
+            <section class="testimonials text-center mybg-music mtg1">
+                <div class="container mtg">
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp">
                             
@@ -860,89 +807,78 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/comming-soon.jpg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/comming-soon.jpg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                {/* <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                </a> */}
                             </div>
                         </div>
-
+{/*  */}
                     </div>
                 </div>
             </section>
@@ -950,14 +886,14 @@ const Mritika = () => {
 
             {/* Premritika events */}
             
-            <div class="guest"> 
+            <div class="guest guest-new"> 
 
                 <div class="guest-cards" style={{marginTop:"3rem"}}>
                     <h3 class="text-center font-weight-bold" >PRE-MRITIKA<span class="bg-main"> EVENTS </span></h3>
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>BOX CRICKET </h5> */}
-                    <div class="col-md-6 card-effect " style={{}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                            <div class="card-body d-flex flex-column align-items-start">
+                    <div class="col-md-6 card-effect box-2 " style={{}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-2">
+                            <div class="card-body d-flex flex-column align-items-start box-2">
                                 <br />
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <h4 class="mb-0" >
@@ -976,14 +912,14 @@ const Mritika = () => {
                                     <br />
                                 <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/BC.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
                         </div>
                     </div>
 
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>BADMINTON </h5>     */}
-                    <div class="col-md-6 card-effect" style={{marginBottom:"3rem"}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                            <div class="card-body d-flex flex-column align-items-start">
+                    <div class="col-md-6 card-effect box-2" style={{marginBottom:"3rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-2">
+                            <div class="card-body d-flex flex-column align-items-start box-2">
                                 <br />
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <h4 class="mb-0">
@@ -999,7 +935,7 @@ const Mritika = () => {
                                     <br /><br />
                                 <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/BC1.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
                         </div>
                     </div>
                 </div>
@@ -1007,9 +943,9 @@ const Mritika = () => {
 
 
             {/* Theme  */}
-            <div style={{backgroundColor:"#F3F3EA",marginLeft:"16rem",marginRight:"16rem",paddingTop:"3rem",paddingBottom:"0.5rem"}}>
+            <div class="theme box-5 card1" style={{backgroundColor:"#F3F3EA",marginLeft:"16rem",marginRight:"16rem",paddingTop:"3rem",paddingBottom:"0.5rem"}}>
                 <h3 class="text-center font-weight-bold" >THEME OF THE<span class="bg-main"> CONFERENCE </span></h3>
-                <div style={{paddingLeft:"5rem",marginTop:"2rem",marginBottom:"5rem"}}>
+                <div class="theme " style={{paddingLeft:"5rem",marginTop:"2rem",marginBottom:"5rem"}}>
                     <ol>
                         <li>
                             Current status and Future Trends in the Manufacturing of Refractories.
@@ -1059,14 +995,14 @@ const Mritika = () => {
 
             {/* Technical session */}
 
-            <div class="guest"> 
+            <div class="guest guest-new-1"> 
 
                 <div class="guest-cards" >
-                    <h3 class="text-center font-weight-bold"  style={{marginTop:"5rem",marginBottom:"3rem"}}>TECHNICAL<span class="bg-main"> SESSION</span></h3>
+                    <h3 class="text-center font-weight-bold guest-new-2"  style={{marginTop:"5rem",marginBottom:"3rem"}}>TECHNICAL<span class="bg-main"> SESSION</span></h3>
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>Plenary Lectures/Invited Lectures </h5> */}
-                    <div class="col-md-6 card-effect " style={{}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design " style={{height:"41rem ",width:"62rem",marginLeft:"-8rem"}}>
-                            <div class="card-body d-flex flex-column align-items-start">
+                    <div class="col-md-6 card-effect box-3 " style={{textAlign:"justify" }}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design card1 box-3 " style={{height:"41rem ",width:"62rem",marginLeft:"-8rem"}}>
+                            <div class="card-body d-flex flex-column align-items-start box-3">
                                 
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <br />
@@ -1130,14 +1066,14 @@ const Mritika = () => {
 
             {/* Fun eventa */}
 
-            <div class="guest"> 
+            <div class="guest guest-new-1"> 
 
                 <div class="guest-cards" style={{marginTop:"3rem"}}>
                     <h3 class="text-center font-weight-bold" >FUN<span class="bg-main"> EVENTS </span></h3>
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>PowerPoint Karaoke </h5> */}
-                    <div class="col-md-6 card-effect " style={{}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                            <div class="card-body d-flex flex-column align-items-start">
+                    <div class="col-md-6 card-effect box-4" style={{}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-4">
+                            <div class="card-body d-flex flex-column align-items-start box-4">
                                 
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <h4 class="mb-0">
@@ -1159,9 +1095,9 @@ const Mritika = () => {
                     </div>
 
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>QUIZ (Mega Hunt Game) </h5>     */}
-                    <div class="col-md-6 card-effect" style={{marginBottom:"3rem"}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1">
-                            <div class="card-body d-flex flex-column align-items-start">
+                    <div class="col-md-6 card-effect box-1" style={{marginBottom:"3rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-1">
+                            <div class="card-body d-flex flex-column align-items-start box-1">
                                 <br />
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <h4 class="mb-0">
@@ -1236,19 +1172,14 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
 
 
 
-            <div class="social_media_part">
+            <div class="social_media_part footer-23">
                 <footer>
                     <div class="top_header">
                         <section>
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
-                            <span><i class="fa fa-phone"></i></span>
-                            <span>Deepsikha Brahma</span>
-                            <span><i class="fa fa-phone"></i></span>
-                            <span>Partha Mishra</span>
-                        </section>
+                        
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -1270,7 +1201,8 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
+                    
                     </div>
                 </footer>
             </div>

@@ -8,7 +8,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -89,8 +89,8 @@ const Events3 = () => {
             
             {/* New add */}
 
-            <div class="mritika-about">
-                <div class="about-2023" style={{marginTop:"2rem"}}>
+            <div class="mritika-about ">
+                <div class="about-2023 ff-about" style={{marginTop:"2rem"}}>
                     <h1 style={{marginLeft:"-4rem"}}>FLASHBACK FRIDAY</h1>
                     
                     {/* <a  href="/mritika1">
@@ -98,17 +98,15 @@ const Events3 = () => {
                     </a> */}
                 </div>
                 <div class="about-content">
-                    <p>The Indian Ceramic Society (InCerS) opened up its student chapter for the first time at NIT
-                        Rourkela in the year 2017 with the aim to ‘calcinate' the ever-evolving raw interest in materials
-                        and their properties and has been awarded for the Best Student's Chapter for its outstanding
-                        performance in the AY 21-22.
-                        The InCerS chapter of NIT Rourkela organized the 1st National Conference (MRITTIKA 1.0) in
-                        the year 2019, which comprised of Quiz competition, Model presentation and Paper
-                        presentation. The Session was graced by Industrial delegates, scientists and eminent
-                        personalities from TRL Krosaki, Kerneos aluminate, Aditya Birla Insulators, Tata steel, NALCO,
-                        CGCRI and many more. The session was a confluence of young minds, Ceramic advancements
-                        and industrial big shots. The brainstorming events brought up hefty goodies for exceptionally
-                        performing candidates.
+                    <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once 
+                        thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood 
+                        backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, 
+                        while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way 
+                        to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain 
+                        reasons. To help everyone in this regard, NITR-ICS is going to collect such experiences and words of wisdom from 
+                        successful ceramists, material scientists and industrialists who have excelled in their fields. It will be a 
+                        conglomeration of important events in their journey from college to where they are now. All the information will be 
+                        shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
                     </p>
                     
                 </div>
@@ -126,7 +124,7 @@ const Events3 = () => {
                     <p>cards</p>
                 </div> */}
                 <div class="executive-members">
-                    <section class="testimonials text-center">
+                    <section class="testimonials text-center fi">
                         <div class="container" style={{marginBottom:"10rem"}}>
                             <div class="row">
                                 <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
@@ -135,62 +133,62 @@ const Events3 = () => {
                             </div>
 
                             {/* Executive Cards HOVER EFFECT */}
-                            <h3 style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3>
+                            <h3 class="interview fi-22" style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3>
                             <div class="row">
                                 
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CDS1J9vFbij/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF1.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/ClG_f3fPIGC/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB1.PNG" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CEI5jnlFMcP/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF2.png" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CgmJEDVJ2d8/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB2.png" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CE_3lEvFcMb/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF3.png" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CgBvd35vtB4/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB3.png" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CGHED3elid2/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF4.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/Cen82_zhLAK/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB4.png" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CJgJbgnF_9w/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF5.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CcFw_e1vYB0/">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB5.png" />
                                     </a>         
                                 </div>
                             </div>
 
-                            <h3 style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
+                            <h3 class="interview fi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
                             <div class="row" style={{marginBottom:"18rem"}}>
                                 
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CJxUVuqFn-H/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF6.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CaryVFCPdTk/">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB6.png" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CKVbgtXlwLK/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF7.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CZjhZh-PL-F/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB7.png" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CNcI0kclBQ2/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF8.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CYI2Wc6FUrf/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB8.png" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CTE9KHbFIoe/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF9.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CWvUkomP5-a/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB9.jpeg" />
                                     </a>         
                                 </div>
-                                <div class="card" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CTpDGQehplE/?utm_source=ig_web_copy_link">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FF10.jpg" />
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CV7RmfYliKQ/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB10.png" />
                                     </a>         
                                 </div>
                                 
@@ -208,19 +206,19 @@ const Events3 = () => {
 
 
 
-            <div class="social_media_part" style={{marginTop:"15rem"}}>
+            <div class="social_media_part footer-2" style={{marginTop:"15rem"}}>
                 <footer>
                     <div class="top_header">
                         <section>
                             <span><i class="fa fa-map-marker"></i></span>
                             <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                         </section>
-                        <section>
+                        {/* <section>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Deepsikha Brahma</span>
                             <span><i class="fa fa-phone"></i></span>
                             <span>Partha Mishra</span>
-                        </section>
+                        </section> */}
                         <section>
                             <span><i class="fa fa-envelope"></i></span>
                             <span>incersnitr@gmail.com</span>
@@ -242,7 +240,7 @@ const Events3 = () => {
                         </section>
                     </div>
                     <div class="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
+                        Copyright © 2023 INCERSNITR - All rights reserved
                     </div>
                 </footer>
             </div>
