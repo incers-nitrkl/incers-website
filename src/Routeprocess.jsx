@@ -20,6 +20,7 @@ import Events3 from './Events3';
 import Events4 from './Events4';
 import AboutIncersChapter from './AboutIncersChapter';
 import Events5 from './Events5';
+import Alumni from './Alumni';
 
 
 const Routing = ()=>{
@@ -43,6 +44,7 @@ const Routing = ()=>{
               <Route exact path="/aboutincerschapter" component={AboutIncersChapter}/>
               <Route exact path="/mritika" component={Mritika}/>
               <Route exact path="/mritika1" component={Mritika1}/>
+              <Route exact path="/Alumni" component={Alumni}/>
           {/* </Switch> */}
       </>);
 }

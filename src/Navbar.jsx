@@ -111,7 +111,7 @@ const Navbar1 = () => {
             {/* <h1 class="logo" style={{cursor:"pointer"}}>NITR<span>ICS</span></h1> */}
 
             <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" ,marginLeft:""}} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "65px", width: "70px", background: "100% 100%", borderRadius: "0px", padding: "0px" ,marginTop:"-12px"}} /></div>
             </div>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -127,7 +127,16 @@ const Navbar1 = () => {
                         </ul>
                     </div>
                 </li>
-                <li><a href="/contact">Contact-us</a></li>
+                <li><a href="/contact">Contact-us</a>
+                <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="/contact">Contact-us</a></li>
+                            <li><a href="/alumni">Alumni Members</a></li>
+                            {/* <li><a href="/member1">Members 2021-22</a></li>
+                            <li><a href="/member1">Members 2022-23</a></li> */}
+                        </ul>
+                    </div>
+                </li>
                 <li><a href="#">Events <i class="fas facaret-down"></i></a>
 
                     <div class="dropdown-menu">
