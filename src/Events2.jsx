@@ -1,17 +1,3 @@
-// import React from 'react';
-// import Navbar from './Navbar';
-
-
-// const Events2 = () => {
-
-//     return (<>
-//         Events2
-//     </>)
-// }
-
-// export default Events2;
-
-
 import React from 'react';
 import Navbar from './Navbar';
 import Carousel from 'react-multi-carousel'
@@ -51,7 +37,7 @@ const Events2 = () => {
             return(<>
                  <div class="top_div">
                 <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
                 <Navbar />
             </div>
@@ -265,6 +251,7 @@ const Events2 = () => {
                     </div>
                     <div class="copyright">
                         Copyright © 2023 INCERSNITR - All rights reserved
+                        <a style={{color:"#1e1e1e" ,cursor:"value"}} href="https://wallpaperaccess.com/full/459955.jpg">a</a>
                     </div>
                 </footer>
             </div>

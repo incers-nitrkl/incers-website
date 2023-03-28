@@ -8,7 +8,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -76,8 +76,8 @@ const Members1 = () => {
             <section class="our-webcoderskull padding-lg">
             <div class="container">
                 
-                <div ><div class="row heading heading-icon">
-                    <h2 style={{marginTop:"50px"}}>MENTORS 21-22</h2>
+                {/* <div ><div class="row heading heading-icon">
+                    <h2 style={{marginTop:"50px"}}>MENTORS 22-23</h2>
                 </div></div>
              
                 <ul class="row">
@@ -85,10 +85,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/Me-N.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
                                     <h3>Nihar</h3>
-                                    {/* <p>Web Developer</p> */}
-                                    {/* <h4>Chairperson</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                       
                                         <li><a href="https://www.instagram.com/siddhartha_2008_nanda/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -98,36 +97,22 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/Me-A.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
                                     <h3>Achint</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>Vice Chairperson</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://www.instagram.com/sakti__26/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/mohapatrasakti/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
-                            {/* <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3>Deepshikha Brahma</h3> */}
-                                    {/* <p>Freelance Developer</p> */}
-                                    {/* <h4>Secretary</h4>
-                                    <ul class="follow-us clearfix"> */}
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        {/* <li><a href="https://instagram.com/deepsikha_brahma?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/deepsikha-brahma-b8b5751b1"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li> */}
+                            
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/Me-Ni.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Nithin</h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    {/* <h4>joint Secretary</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/riyali-priya-465a7520b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -137,10 +122,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/Me-An.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Ankita</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>Treasurer</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://instagram.com/ipso._?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/ipsita-patra-577393218"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -150,35 +134,33 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/Me-B.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Biswajit</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>3rd yr Branch Representative</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </li>
-                </ul>
+                </ul> */}
             </div>
-            </section>
+            </section> 
                  <section class="our-webcoderskull padding-lg">
                 
 
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>EC BODY 21-22</h2>
+                            <h2>EC BODY 22-23</h2>
                         </div>
                         <ul class="row">
                         <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SN.jpg" class="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
                                     <h3>Siddhartha Nanda</h3>
-                                    {/* <p>Web Developer</p> */}
-                                    {/* <h4>Chairperson</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://www.instagram.com/siddhartha_2008_nanda/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -188,10 +170,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SS.jpg" style={{objectFit:"cover"}} class="img-responsive" alt="" /></figure>
                                     <h3>Sakti Swarup Mohapatra</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>Vice Chairperson</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://www.instagram.com/sakti__26/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/mohapatrasakti/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -201,8 +182,6 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
                                     <h3>Deepshikha Brahma</h3>
-                                    <p>Freelance Developer</p>
-                                    <h4>Secretary</h4>
                                     <ul class="follow-us clearfix">
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="https://instagram.com/deepsikha_brahma?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -214,10 +193,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/RP.jpg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Riyali Priya</h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    {/* <h4>joint Secretary</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/riyali-priya-465a7520b"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -227,10 +205,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/IP.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Ipsita patra</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>Treasurer</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://instagram.com/ipso._?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/ipsita-patra-577393218"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -240,10 +217,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/NK.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Naveen kumar Yadav</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>3rd yr Branch Representative</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+
                                         <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -253,10 +229,9 @@ const Members1 = () => {
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/Som.jpeg" class="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
                                     <h3>Somdeb</h3>
-                                    {/* <p>Freelance Web Developer</p> */}
-                                    {/* <h4>3rd yr Branch Representative</h4> */}
+                                    
                                     <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
+                                        
                                         <li><a href="https://www.instagram.com/_kumar__.n.a.v.e.e.n/ "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="https://www.linkedin.com/in/naveen-kumar-yadav-b815211b5 "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
@@ -271,7 +246,7 @@ const Members1 = () => {
             
                     <div class="container">
                         <div class="row heading heading-icon">
-                            <h2>DEVELOPMENT TEAM 21-22</h2>
+                            <h2>DEVELOPMENT TEAM 22-23</h2>
                         </div>
                         <ul class="row">
                             <li class="col-12 col-md-6 col-lg-3">
@@ -313,19 +288,7 @@ const Members1 = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/SoK.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3><a href="http://www.webcoderskull.com/">Sourav Kumar</a></h3>
-                                    {/* <p>Freelance Developer</p> */}
-                                    <h4>Web Developer</h4>
-                                    <ul class="follow-us clearfix">
-                                        {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                                        <li><a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                            
                         </ul>
                     </div>
                 </section> 

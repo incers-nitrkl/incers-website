@@ -511,6 +511,7 @@
       }
       .competition-design3{
         background-color: #524af9eb !important;
+        height: 19rem !important;
       }
       .competition-design3:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
@@ -551,7 +552,7 @@
 
       @media(max-width:430px){
         .col-md-12{
-          margin-top: 16rem !important;
+          margin-top: 1rem !important;
           /* height: auto !important; */
         }
       }
@@ -564,6 +565,9 @@
 
       /* media quary */
   @media(max-width:430px){
+    .heading{
+      margin-left: 2.5rem !important;
+    }
     .heading-1{
       margin-left: 1.5rem !important;
       
@@ -651,7 +655,7 @@
       margin-bottom: 2rem ;
     }
     .social_media_part{
-      margin-top: 140rem !important;
+      margin-top: 4rem !important;
     }
     .footer-1{
       margin-top: 0rem !important;
@@ -679,6 +683,7 @@
     }
     .guest-cards{
       width: 370px !important;
+      padding-left: 3rem;
     }
     .box-1{
       width: 330px !important;
@@ -698,7 +703,7 @@
       width: 330px !important;
       height: 53rem !important;
       margin-top: 1rem !important;
-      margin-left: 1.5rem !important;
+      margin-left: 3rem !important;
       /* margin-left: 0.1rem !important; */
     }
     .box-5-1{
@@ -759,7 +764,7 @@
     }
 
     .mtg{
-      margin-top: -45rem !important;
+      margin-top: -30rem !important;
       transform: scale(0.75);
       margin-bottom: -31rem;
     }
@@ -789,6 +794,7 @@
     .container-member{
       display: flex !important;
       flex-direction: column !important;
+      padding-left: 2.5rem;
       
       /* justify-content: center !important; */
     }
@@ -857,6 +863,10 @@
     .footer-5{
       margin-top: 55rem !important;
     }
+    .pc1{
+      
+      width: 94% !important;
+    }
   }
 
   @media only screen and (max-width: 1025px) and (min-width: 430px) {
@@ -890,6 +900,7 @@
       margin-left: 1px !important;
       margin-top: 0px !important;
     }
+    
   }
 
   @media only screen and (max-width: 1440px) and (min-width: 1025px) {
@@ -947,6 +958,7 @@
       display: flex;
       justify-content: center;
       margin-bottom: 1rem !important;
+      
     }
     .col-md-3{
       display: flex;
@@ -976,6 +988,9 @@
     .testimonials-19{
       padding-top: 0px !important;
     }
+    .text-center-19-1{
+      margin-top: -5rem !important;
+    }
     .bounceInUp-19{
       padding: 0px !important;
       margin-right: 5px !important;
@@ -987,26 +1002,38 @@
       padding-top: 0px !important;
       /* margin-top: -8rem !important; */
     }
-    .text-center-19{
-      margin-top: -225px !important;
+    .guest-19{
+      margin-top: 3rem !important;
     }
+    /* .text-center-19{
+      margin-top: -225px !important;
+    } */
     .sp-1-19{
       transform: scale(0.8) !important;
+      margin-top: -4rem !important;
+    }
+    .card-19{
+      margin-left: 0px !important;
     }
     .about-2023-19{
       display: flex !important;
       flex-direction: row !important;
-      gap: 0rem !important;
-      margin-left: 2rem !important;
+      gap: 16rem !important;
+      margin-left: 1rem !important;
+      margin-top: -4.5rem !important;
     }
-    
+    .social_media_part-19{
+      margin-top: 2rem !important;
+    }
     .competition-design-19{
       width: 25rem !important;
       margin-left: 1px !important;
       height: 50rem !important;
+      /* margin-top: 25rem !important; */
     }
     .competition-design-19-a{
       height: 40rem !important;
+      margin-top: -2rem !important;
     }
     .competition-design-19-b{
       height: 50rem !important;
@@ -1020,8 +1047,8 @@
     .gallery_div>img{
       height: 260px !important;
     }
-    .col-md-12{
-      margin-top: 0px !important;
+    .text-center-19{
+      margin-top: -245px !important;
     }
     #peacock{
       height: 300px !important;
@@ -1063,6 +1090,14 @@
     }
     .image_div_2{
       padding-top: 0px !important;
+    }
+  }
+  @media only screen and (max-width: 376px){
+    .box-5{
+      margin-left: 1.5rem !important;
+    }
+    .guest-cards{
+      padding-left: 0rem !important;
     }
   }
   

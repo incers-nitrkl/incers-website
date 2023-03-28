@@ -20,7 +20,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -208,7 +208,7 @@ const Mritika1 = () => {
                         <h4 style={{display:"flex",justifyContent:"center", fontWeight:"bold",color:"green"}} >PLATINIUM SPONSER</h4>
                         <div class="spn-1">
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp bounceInUp-19" data-wow-duration="1.4s">
-                                <div class="card">
+                                <div class="card card-19">
                                     <img class="card-img-top h-262" src="images/S3.jpeg" />
                                     <div class="card-block">
 
@@ -225,7 +225,7 @@ const Mritika1 = () => {
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp bounceInUp-19" data-wow-duration="1.4s">
-                                <div class="card">
+                                <div class="card card-19">
                                     <img class="card-img-top h-262 .h-262-19" src="images/S2.jpeg" />
                                     <div class="card-block">
 
@@ -249,7 +249,7 @@ const Mritika1 = () => {
                         <h4 style={{display:"flex",justifyContent:"center",fontWeight:"bold",color:"green",marginTop:"1.5rem"}}>SILVER SPONSER</h4>
                         <div class="spn-1">
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp bounceInUp-19" data-wow-duration="1.4s">
-                                <div class="card">
+                                <div class="card card-19">
                                     <img class="card-img-top h-262 h-262-19" src="images/S1.jpeg" />
                                     <div class="card-block">
 
@@ -268,7 +268,7 @@ const Mritika1 = () => {
                             </div>
 
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp bounceInUp-19" data-wow-duration="1.4s">
-                                <div class="card">
+                                <div class="card card-19">
                                     <img class="card-img-top h-262" src="images/S4.jpeg" />
                                     <div class="card-block">
 
@@ -292,7 +292,7 @@ const Mritika1 = () => {
 
 
 
-            <section class="testimonials text-center mybg-music">
+            <section class="testimonials text-center text-center-19-1 mybg-music">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 wow fadeInUp fadeInUp-19">
@@ -393,7 +393,7 @@ const Mritika1 = () => {
 
             {/* Technical session */}
 
-            <div class="guest"> 
+            <div class="guest guest-19"> 
 
                 <div class="guest-cards" >
                     <h3 class="text-center font-weight-bold"  style={{marginTop:"5rem",marginBottom:"3rem"}}>TECHNICAL<span class="bg-main"> SESSION</span></h3>
@@ -408,7 +408,7 @@ const Mritika1 = () => {
                                     <a class="text-dark" href="#">Plenary Lectures</a>
                                 </h4>
                                 <br />
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     Industrial delegates are invited for the same to share their words of
                                     wisdom on the current affairs related to their firm or to the concerned
                                     agenda the firm is working on: with a base solely contemplating on
@@ -434,7 +434,7 @@ const Mritika1 = () => {
                                     <a class="text-dark" href="#">Panel discussions</a>
                                 </h4>
                                 <br />
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     Industrial delegates are also cordially welcomed to be a part of the panel
                                     within a two-hour window per discussion in a conference of tentatively 10
                                     panellists (liable to changes depending on registrations). The agenda
@@ -465,7 +465,7 @@ const Mritika1 = () => {
 
             {/* student session */}
 
-            <div class="guest"> 
+            <div class="guest guest-19"> 
 
                 <div class="guest-cards" >
                     <h3 class="text-center font-weight-bold student-session-19"  style={{marginTop:"5rem",marginBottom:"3rem"}}>STUDENT'S<span class="bg-main"> SESSION</span></h3>
@@ -480,7 +480,7 @@ const Mritika1 = () => {
                                     <a class="text-dark" href="#">Paper/Poster Presentation</a>
                                 </h4>
                                 <br />
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     Students (B. Tech and M. Tech only) from all across the country are
                                     invited to present their paper/poster/presentation related to ceramic
                                     science/engineering. A time window of 10 minutes will be given to present
@@ -494,7 +494,7 @@ const Mritika1 = () => {
                                     <a class="text-dark" href="#">Model/Product Presentation</a>
                                 </h4>
                                 <br />
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     Teams and individuals can present their ceramic based models during the
                                     event. Model or product may be in working or static condition. Originality
                                     should be maintained and kept in mind while developing models. Prizes
@@ -506,7 +506,7 @@ const Mritika1 = () => {
                                     <a class="text-dark" href="#">Quiz</a>
                                 </h4>
                                 <br />
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     Ceramic science/engineering based technical questions will be asked,
                                     maximum of five members can form a team and we will permit at most 5
                                     teams. Early bird registration is advised. Prizes worth eight thousand
@@ -542,7 +542,7 @@ const Mritika1 = () => {
             </div>
             
 
-            <div class="social_media_part">
+            <div class="social_media_part social_media_part-19">
                 <footer>
                     <div class="top_header">
                         <section>

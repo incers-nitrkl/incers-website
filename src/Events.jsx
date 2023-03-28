@@ -9,7 +9,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/pics.png" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -203,7 +203,7 @@ const Mritika = () => {
                                         <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/AS.png" />
                                         <div class="card-block">
 
-                                            <h6 class="card-title text-center">Aashya</h6>
+                                            <h6 class="card-title text-center">Aashay</h6>
                                             <h6 style={{color:"green"}}><strong>Joint Secretory</strong></h6>
 
                                         </div> 
@@ -807,89 +807,78 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/comming-soon.jpg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/comming-soon.jpg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                     <img class="img-fluid" src="images/comming-soon.jpg" />
-                                </a>
+                                {/* <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                                </a> */}
                             </div>
                         </div>
-
+{/*  */}
                     </div>
                 </div>
             </section>
@@ -923,7 +912,7 @@ const Mritika = () => {
                                     <br />
                                 <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/BC.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
                         </div>
                     </div>
 
@@ -946,7 +935,7 @@ const Mritika = () => {
                                     <br /><br />
                                 <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/BC1.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
                         </div>
                     </div>
                 </div>
@@ -1213,6 +1202,7 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
                     </div>
                     <div class="copyright">
                         Copyright © 2023 INCERSNITR - All rights reserved
+                    
                     </div>
                 </footer>
             </div>
