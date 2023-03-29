@@ -278,7 +278,7 @@ const Events1 = () => {
         const widths = 700
         if(window.screen.width <= widths){
             return(<>
-                 <div class="top_div ">
+                 <div class="top_div PCNavbar">
                 <div>
                     {/* <div id="logo" style={{ cursor: "pointer",marginLeft:"2.5rem" }}> */}
                         <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
@@ -342,7 +342,7 @@ const Events1 = () => {
                     </div>
 
                 {/* old ppt */}
-                <h2 class="heading" style={{marginTop:"2rem",marginBottom:"1.5rem"}}>PPT PRESENTATION COMPETITION 20-22</h2>
+                <h2 class="heading-3 PC2" style={{marginTop:"2rem",marginBottom:"1.5rem"}}>PPT PRESENTATION COMPETITION 20-22</h2>
                 <div class="row">
                     <div class="col-md-6 card-effect heading-1" >
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design" style={{height:"17rem"}}>
@@ -413,7 +413,7 @@ const Events1 = () => {
                 </div>
                 <div class="row">
                     <div class="col-md-6 heading-1">
-                        <div class="card text-white  flex-md-row mb-4 shadow-sm h-md-250 competition-design3" style={{height:"17rem"}}>
+                        <div class="card text-white  flex-md-row mb-4 shadow-sm h-md-250 competition-design6" style={{height:"17rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -446,7 +446,7 @@ const Events1 = () => {
                 </div>
                 <div class="row">
                     <div class="col-md-6 heading-2" >
-                        <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 competition-design3" style={{height:"17rem"}}>
+                        <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 competition-design6" style={{height:"17rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
@@ -684,7 +684,7 @@ const Events1 = () => {
                 </a> */}
             </div>
 
-            <div class="social_media_part">
+            <div class="social_media_part PCNavbar">
                 <footer>
                     <div class="top_header">
                         <section>
@@ -715,6 +715,8 @@ const Events1 = () => {
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

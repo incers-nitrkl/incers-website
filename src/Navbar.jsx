@@ -83,7 +83,7 @@ const Navbar1 = () => {
                     <li>
                         <div className="menu_1">
                             <ul>
-                                <NavLink to="/aboutincerschapter" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">About</span></h3></li> </NavLink>
+                                <NavLink to="/aboutincerschapter" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Incers-About</span></h3></li> </NavLink>
                                 <NavLink to="/mritika" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Mrittika-2023</span></h3></li> </NavLink>
                                 <NavLink to="/mritika1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Mrittika-2019</span></h3></li> </NavLink>
 
@@ -173,7 +173,7 @@ const Navbar1 = () => {
 
                     <div class="dropdown-menu">
                         <ul>
-                            <li><a href="/aboutincerschapter">About</a></li>
+                            <li><a href="/aboutincerschapter">Incers-About</a></li>
                             <li><a href="/mritika">Mrittika-2023</a></li>
                             <li><a href="/mritika1">Mrittika-2019</a></li>
                             

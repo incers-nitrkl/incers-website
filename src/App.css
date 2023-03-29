@@ -201,6 +201,10 @@
       user-select: none;
     }
   }
+  .conv{
+    height: 370px !important;
+    /* margin-left: 0rem !important; */
+  }
   
   /* @media(max-width:479px){
     .image1 {
@@ -522,6 +526,11 @@
       .competition-design4:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
       }
+      .competition-design6{
+        background-color: #524af9eb !important;
+        height: 17rem !important;
+      }
+      
 
       .mrittika-bg{
         position: relative;
@@ -565,8 +574,25 @@
 
       /* media quary */
   @media(max-width:430px){
+    .nav_bar{
+      margin-left: 15rem !important;
+    }
+
+    .openMenu{
+      margin: 5px !important;
+      margin-left: 5px !important;
+    }
+    .PCNavbar{
+      width: 110% !important;
+    }
+    .PCNavbar-1{
+      width: 80% !important;
+    }
     .heading{
-      margin-left: 2.5rem !important;
+      margin-left: 2rem !important;
+    }
+    .heading-3{
+      margin-left: 5.5rem !important;
     }
     .heading-1{
       margin-left: 1.5rem !important;
@@ -661,10 +687,10 @@
       margin-top: 0rem !important;
     }
     .footer-2{
-      margin-top: 133rem !important;
+      margin-top: 334rem !important;
     }
     .footer-3{
-      margin-top: 138rem !important;
+      margin-top: 190rem !important;
     }
 
     .down{
@@ -798,6 +824,7 @@
       
       /* justify-content: center !important; */
     }
+    
     .s2,.s3{
       display: none;
     }
@@ -809,11 +836,11 @@
     } */
 
     .ff-about{
-      margin-top: 0.3rem !important;
+      margin-top: -14rem !important;
       margin-bottom: 3rem !important;
     }
     .mm-about{
-      margin-top: 0.3rem !important;
+      margin-top: -14rem !important;
       margin-bottom: 3rem !important;
     }
     .fi{
@@ -864,8 +891,59 @@
       margin-top: 55rem !important;
     }
     .pc1{
-      
-      width: 94% !important;
+      margin-left: -23% !important;
+    }
+    .em-1{
+      margin-top: 86rem !important;
+    }
+    .em-6{
+      margin-top: 102rem !important;
+    }
+    .em-7{
+      margin-top: 194rem !important;
+    }
+    .em-8{
+      margin-left: 1rem !important;
+    }
+    .em-9{
+      margin-left: 2rem !important;
+    }
+    .em-2{
+      margin-top: 86rem !important;
+    }
+    .em-3{
+      margin-top: 18rem !important;
+    }
+    .em-4{
+      margin-left: -4rem !important;
+    }
+    .mrittika-img1{
+      height: 22rem !important;
+    }
+    .mrittika-img2{
+      height: 22rem !important;
+    }
+    .mrittika-img3{
+      height: 22rem !important;
+    }
+    .mrittika-img5{
+      height: 22rem !important;
+    }
+    .hide{
+      display: none !important;
+    }
+    .scroll-down{
+      display: none;
+    }
+    .btn-join{
+      display: none !important;
+    }
+    .ma1{
+      margin-top: -29rem !important;
+    }
+    .ma2{
+      margin-top: 1rem !important;
+      margin-left: 0.5rem !important;
     }
   }
 
@@ -1018,7 +1096,7 @@
     .about-2023-19{
       display: flex !important;
       flex-direction: row !important;
-      gap: 16rem !important;
+      gap: 10rem !important;
       margin-left: 1rem !important;
       margin-top: -4.5rem !important;
     }
@@ -1026,8 +1104,8 @@
       margin-top: 2rem !important;
     }
     .competition-design-19{
-      width: 25rem !important;
-      margin-left: 1px !important;
+      width: 20rem !important;
+      margin-left: 0.8% !important;
       height: 50rem !important;
       /* margin-top: 25rem !important; */
     }
@@ -1099,6 +1177,23 @@
     .guest-cards{
       padding-left: 0rem !important;
     }
+    .PCNavbar-3{
+      width: 107% !important;
+    }
+    .PCNavbar-4{
+      width: 103% !important;
+    }
+    .PCNavbar-5{
+      width: 103% !important;
+    }
+    .PCNavbar-6{
+      width: 114.5% !important;
+    }
+    .PCNavbar-7{
+      width: 115.5% !important;
+    }
+    
+
   }
   
   @media only screen and (max-width: 1440px) and (min-width: 1020px) {

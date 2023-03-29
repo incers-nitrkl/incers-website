@@ -181,7 +181,7 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                     <p style={{textAlign:"justify"}}>The website design team plays a critical role in creating a successful online presence for our InCerS NITR club . The website design team is responsible for 
                         creating a website that provides a positive user experience. This means designing a website that is easy to navigate, visually appealing, and responsive on 
                         different devices. The website design team ensures that the website reflects the club's identity and it's values. They create a unique design that sets the 
-                        website apart from the others and helps build recognition. The team led by Pratyush Kundu , with developers Suraj and Udit guided by Sourav Kumar create and 
+                        website apart from the others and helps build recognition. The team guided by Pratyush Kundu, Jagrith Sahu , with developers Suraj and Udit create and 
                         maintain the website for InCers and all the information regarding MRITTIKA 2.0 is updated in the website. All the year round activities and events are updated 
                         in the website.</p>
                 </div>
@@ -226,6 +226,8 @@ To help everyone in this regard, NITR-ICS is going to collect such experiences a
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

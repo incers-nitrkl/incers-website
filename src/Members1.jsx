@@ -6,7 +6,7 @@ const functionnav = ()=>{
     const widths = 700
     if(window.screen.width <= widths){
         return(<>
-             <div class="top_div">
+             <div class="top_div PCNavbar-6">
             <div>
                 <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
@@ -20,7 +20,7 @@ const functionnav = ()=>{
     }
 const Members1 = () => {
     return (
-        <><div class="main_div">
+        <><div class="main_div PCNavbar-7">
             {/* <div class="top_div">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
@@ -294,7 +294,7 @@ const Members1 = () => {
                 </section> 
 
            
-            <div class="social_media_part">
+            <div class="social_media_part PCNavbar-6">
             <footer>
                     <div class="top_header">
                         <section>
@@ -325,6 +325,8 @@ const Members1 = () => {
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">
