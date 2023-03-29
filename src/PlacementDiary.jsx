@@ -319,7 +319,7 @@ const Events = () => {
         const widths = 700
         if(window.screen.width <= widths){
             return(<>
-                 <div class="top_div">
+                 <div class="top_div PCNavbar">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
@@ -406,9 +406,9 @@ const Events = () => {
                     </nav> */}
 
 
-            <header class="masthead text-white ">
+            <header class="masthead text-white PCNavbar">
                 <div class="overlay"></div>
-                <div class="container slider-top-text">
+                <div class="container slider-top-text PCNavbar-1">
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h3 class="my-heading">PLACEMENT<span class="">DIARIES</span></h3>
@@ -884,7 +884,7 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                             </div>
                         </div>
                     </section> */}
-            <div class="social_media_part">
+            <div class="social_media_part PCNavbar">
                 <footer>
                     <div class="top_header">
                         <section>
@@ -915,6 +915,8 @@ Not only that, many reputed non- core companies such as ZS Associates, Wipro, EX
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

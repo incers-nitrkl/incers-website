@@ -6,7 +6,7 @@ const functionnav = ()=>{
     const widths = 700
     if(window.screen.width <= widths){
         return(<>
-             <div class="top_div">
+             <div class="top_div PCNavbar-4">
             <div>
                 <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
@@ -58,11 +58,11 @@ const Events3 = () => {
 
             <div class="mrittika-bg">
                 {/* <div class="overlay"></div> */}
-                <div class="mrittika-img">
-                    <img src="images/MRITTIKA2.0-bg.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                <div class="mrittika-img PCNavbar-4">
+                    <img class="mrittika-img1" src="images/FF-banner.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
                 </div>
                 <div class="container slider-top-text">
-                    <div class="row">
+                    <div class="row" style={{display:"none"}}>
                         <div class="col-md-12 text-center">
                             {/* <h3 class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3> */}
                             {/* <p class="myp-slider text-center">Where ceramists unite and become better together</p>
@@ -164,7 +164,7 @@ const Events3 = () => {
                             </div>
 
                             <h3 class="interview fi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
-                            <div class="row" style={{marginBottom:"18rem"}}>
+                            <div class="row" style={{marginBottom:"4rem"}}>
                                 
                                 <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
                                     <a href="https://www.instagram.com/p/CaryVFCPdTk/">
@@ -194,6 +194,82 @@ const Events3 = () => {
                                 
                             </div>
 
+                            <div class="row" style={{marginBottom:"4rem"}}>
+                                
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CVDPWOLFUv3/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB11.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CTpDGQehplE/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB12.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CTE9KHbFIoe/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB13.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CNcI0kclBQ2/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB14.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CKVbgtXlwLK/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB15.png" />
+                                    </a>         
+                                </div>
+                                
+                            </div>
+
+                            <div class="row" style={{marginBottom:"4rem"}}>
+                                
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CJxUVuqFn-H/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB16.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CJgJbgnF_9w/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB17.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CGHED3elid2/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB18.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CE_3lEvFcMb/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB19.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CEI5jnlFMcP/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB20.png" />
+                                    </a>         
+                                </div>
+                                
+                            </div>
+
+
+                            <div class="row" style={{marginBottom:"0rem"}}>
+                                
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CDS1J9vFbij/?utm_source=ig_web_copy_link">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB21.png" />
+                                    </a>         
+                                </div>
+                                <div class="card card-fb hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <a href="https://www.instagram.com/p/CWvbk8WPFj2/?igshid=YmMyMTA2M2Y=">
+                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/FB22.png" />
+                                    </a>         
+                                </div>
+                                    
+                            </div>
+
                         </div>
                     </section>
                 </div>
@@ -206,7 +282,7 @@ const Events3 = () => {
 
 
 
-            <div class="social_media_part footer-2" style={{marginTop:"15rem"}}>
+            <div class="social_media_part footer-2 PCNavbar-4" style={{marginTop:"66rem"}}>
                 <footer>
                     <div class="top_header">
                         <section>
@@ -237,6 +313,8 @@ const Events3 = () => {
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

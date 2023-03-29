@@ -8,7 +8,7 @@ const Events5 = () => {
         const widths = 700
         if(window.screen.width <= widths){
             return(<>
-                 <div class="top_div">
+                 <div class="top_div PCNavbar-5">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
@@ -56,13 +56,13 @@ const Events5 = () => {
             </nav>
 
 
-            <div class="mrittika-bg">
+            <div class="mrittika-bg ">
                 {/* <div class="overlay"></div> */}
-                <div class="mrittika-img">
-                    <img src="images/MRITTIKA2.0-bg.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                <div class="mrittika-img PCNavbar-5">
+                    <img class="mrittika-img3" src="images/MU-banner.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
                 </div>
                 <div class="container slider-top-text">
-                    <div class="row">
+                    <div class="row" style={{display:"none"}}>
                         <div class="col-md-12 text-center">
                             {/* <h3 class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3> */}
                             {/* <p class="myp-slider text-center">Where ceramists unite and become better together</p>
@@ -214,7 +214,7 @@ const Events5 = () => {
 
 
 
-            <div class="social_media_part footer-5" style={{marginTop:"-6rem"}}>
+            <div class="social_media_part footer-5 PCNavbar-5" style={{marginTop:"-6rem"}}>
                 <footer>
                     <div class="top_header">
                         <section>
@@ -245,6 +245,8 @@ const Events5 = () => {
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

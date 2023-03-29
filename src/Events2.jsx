@@ -35,7 +35,7 @@ const Events2 = () => {
         const widths = 700
         if(window.screen.width <= widths){
             return(<>
-                 <div class="top_div">
+                 <div class="top_div PCNavbar">
                 <div>
                     <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
                 </div>
@@ -216,7 +216,7 @@ const Events2 = () => {
                 </div> */}
             </div>
 
-            <div class="social_media_part footer-1">
+            <div class="social_media_part footer-1 PCNavbar">
                 <footer>
                     <div class="top_header">
                         <section>
@@ -247,6 +247,8 @@ const Events2 = () => {
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

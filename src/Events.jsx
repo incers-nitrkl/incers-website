@@ -60,28 +60,27 @@ const Mritika = () => {
             <div class="mrittika-bg">
                 {/* <div class="overlay"></div> */}
                 <div class="mrittika-img">
-                    <img src="images/MRITTIKA2.0-bg.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                    <img class="mrittika-img5" src="images/MRITTIKA2.0-banner.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
                 </div>
                 <div class="container slider-top-text">
-                    <div class="row">
+                    <div class="row hide">
                         <div class="col-md-12 text-center">
                             {/* <h3 class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3> */}
                             {/* <p class="myp-slider text-center">Where ceramists unite and become better together</p>
                             <p class="myp text-center">SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p> */}
-                            <a class="btn btn-primary btn-join down" href="#" style={{marginTop:"12rem"}}>JOIN THE COMMUNITY</a>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgZlgyceJlhRZhBOYVHXJXWGV-V6NZbli0DKgS-E6ARCr_A/viewform" title="Go to Registration Form" >
-                                <button type="button" class="btn btn-primary down1" style={{marginTop:"20rem",marginBottom:"1rem",width:"13rem",marginLeft:"-12.4rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
-                            </a>
+
+                            {/* <a class="btn btn-primary btn-join down" href="#" style={{marginTop:"12rem"}}>JOIN THE COMMUNITY</a> */}
+                            
                             {/* <p>suraj</p> */}
-                            <br />
-                            <a href="https://drive.google.com/file/d/1K9asBc6asHcyO1liHbnLvg-IGLVpE1Rb/view?usp=share_link" title="Go to Brochure" style={{fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a>
+                            
+                            
                         </div>
                         
-                        <div class="col-md-12 text-center mt-5">
+                        {/* <div class="col-md-12 text-center mt-5">
                             <div class="scroll-down" >
                                 <a class="btn btn-default btn-scroll floating-arrow" href="#gobottom" id="bottom"><i class="fa fa-angle-down"></i></a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -132,7 +131,13 @@ const Mritika = () => {
             {/* New add */}
 
             <div class="mritika-about">
-                <div class="about-2023" style={{marginTop:"2rem",marginBottom:"2rem"}}>
+                <div class="ma1" style={{display:"flex", flexDirection:"column",alignItems:"center"}}>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgZlgyceJlhRZhBOYVHXJXWGV-V6NZbli0DKgS-E6ARCr_A/viewform" title="Go to Registration Form" >
+                        <button type="button" class="btn btn-primary down1" style={{marginTop:"0rem",marginBottom:"1rem",width:"13rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1K9asBc6asHcyO1liHbnLvg-IGLVpE1Rb/view?usp=share_link" title="Go to Brochure" style={{fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a>
+                </div>
+                <div class="about-2023 ma2" style={{marginTop:"2rem",marginBottom:"2rem"}}>
                     <h1 class="top" style={{marginLeft:"1rem"}}>INCERS NITR</h1>
                     
                     <a  href="/mritika1">
@@ -150,12 +155,370 @@ const Mritika = () => {
                 {/* <div class="faculty-advisor">
                     <p>cards</p>
                 </div> */}
-                <div class="executive-members">
+
+                 {/* convenor */}
+                <div class="executive-members conv em-4"> 
                     <section class="testimonials text-center">
-                        <div class="container ">
+                        <div class="container conv">
+                            <div class="row em-9">
+                                <div class="col-md-8 mx-auto wow fadeInUp"style={{ marginBottom:"2rem"}}>
+                                    <h3 class="text-center font-weight-bold">CONV<span class="bg-main">ENOR</span></h3>
+                                </div>
+                            </div>
+
+                            {/* convenor */}
+                            <div class="row container-member">
+
+                                <div class="side em-8" style={{ height:"260px" ,width:"230px",marginLeft:"21rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "260px" ,width:"230px"}}>
+                                        <img class="card-img-top" style={{ height: "148px" ,width:"140px", marginLeft:"3rem"}} src="images/Ritwik.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Prof. Ritwik Sarkar</h6>
+                                            <h6 style={{color:"green"}}><strong>Convenor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"260px" ,width:"230px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "260px" ,width:"230px"}}>
+                                        <img class="card-img-top" style={{ height: "180px" ,width:"150px", marginLeft:"3rem"}} src="images/Pratihar.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Prof. Swadesh Kumar Pratihar</h6>
+                                            <h6 style={{color:"green"}}><strong>Convenor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                {/* professor */}
+                <div class="executive-members em-3">
+                    <section class="testimonials text-center">
+                        <div class="container" style={{marginTop:"0rem"}}>
                             <div class="row">
                                 <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
-                                    <h3 class="text-center font-weight-bold">EXECUTIVE<span class="bg-main">MEMBERS</span></h3>
+                                    <h3 class="text-center font-weight-bold">OUR<span class="bg-main"> PROFESSORS</span></h3>
+                                </div>
+                            </div>
+
+                            {/* professor */}
+                            <div class="row container-member">
+
+                                
+
+                                <div  style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/Bibhuti.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Bibhuti Bhusan Nayak</h6>
+                                            <h6 style={{color:"green"}}><strong>Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/Debashish.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Debashish Sarkar</h6>
+                                            <h6 style={{color:"green"}}><strong>Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div  style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/Japes.jpeg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Japes Bera</h6>
+                                            <h6 style={{color:"green"}}><strong>Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div  style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/Ritwik.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Ritwik Sarkar</h6>
+                                            <h6 style={{color:"green"}}><strong>Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/Santanu_bhat.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Santanu Bhattacharyya</h6>
+                                            <h6 style={{color:"green"}}><strong>Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+
+                                <div class="partha" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"170px" ,width:"120px", marginLeft:"3rem"}} src="images/Pratihar.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Swadesh Kumar Pratihar</h6>
+                                            <h6 style={{color:"green"}}><strong>Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div  style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"170px" ,width:"120px", marginLeft:"3rem"}} src="images/santanu_behera.jpg" />
+                                        <div class="card-block" >
+
+                                            <h6 class="card-title text-center">Santanu Kumar Behera</h6>
+                                            <h6 style={{color:"green"}}><strong>Associate Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/ranabrata.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Ranabrata Mazumder</h6>
+                                            <h6 style={{color:"green"}}><strong>Associate Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                
+
+                                <div class="partha" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/Pal.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Sumit Kumar Pal</h6>
+                                            <h6 style={{color:"green"}}><strong>Associate Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="side" style={{ height:"250px" ,width:"200px",marginLeft:"0rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/Partha.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Partha Saha</h6>
+                                            <h6 style={{color:"green"}}><strong>Assistant Professor </strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="side" style={{ height:"250px" ,width:"200px",marginLeft:"0rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/Sudip.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Sudip Dasgupta</h6>
+                                            <h6 style={{color:"green"}}><strong>Assistant Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+
+                                <div  style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/sunipa.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Sunipa Bhattachatyya</h6>
+                                            <h6 style={{color:"green"}}><strong>Assistant Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="side" style={{ height:"250px" ,width:"200px",marginLeft:"3rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/Arindum.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Arindam Paul</h6>
+                                            <h6 style={{color:"green"}}><strong>Assistant Professor </strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "250px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/Arun.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Arun Chowdhury</h6>
+                                            <h6 style={{color:"green"}}><strong>Assistant Professor</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                {/* <div  style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/PKS.jpeg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Pratyush Kundu</h6>
+                                            <h6 style={{color:"green"}}><strong>Treasurer</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div> */}
+
+                                
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                {/* staff */}
+                {/* <div class="executive-members em-2">
+                    <section class="testimonials text-center">
+                        <div class="container" style={{marginTop:"11rem"}}>
+                            <div class="row">
+                                <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
+                                    <h3 class="text-center font-weight-bold">STAFF<span class="bg-main">MEMBER</span></h3>
+                                </div>
+                            </div>
+
+                            
+                             <div class="row container-member">
+
+                                <div class="side" style={{ height:"230px" ,width:"200px",marginLeft:"0rem",marginTop:"1rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/SF1.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Arvind Kumar</h6>
+                                            <h6 style={{color:"green"}}><strong>Senior Technical Assistant</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="side" style={{ height:"230px" ,width:"200px", marginTop:"1rem", marginLeft:"0rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/SF6.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Sukanta Garai</h6>
+                                            <h6 style={{color:"green"}}><strong>Senior Technical Assistant</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div  style={{ height:"230px" ,width:"200px",marginTop:"1rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/SF7.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Susil Kumar Sahu</h6>
+                                            <h6 style={{color:"green"}}><strong>Senior Technical Assistant</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"230px" ,width:"200px",marginTop:"1rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/SF4.png" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Prasanta Kumar Mohanty</h6>
+                                            <h6 style={{color:"green"}}><strong>Technician</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div class="partha" style={{ height:"230px" ,width:"200px",marginTop:"1rem"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height: "124px" ,width:"120px", marginLeft:"3rem"}} src="images/SF2.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Gopinath Behera</h6>
+                                            <h6 style={{color:"green"}}><strong>Technical Assistant</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                <div  style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/SF3.jpg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Nishant Kumar</h6>
+                                            <h6 style={{color:"green"}}><strong>Technical Assistant</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+
+                                <div  style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
+                                    <div class="card" style={{ height: "230px" ,width:"200px"}}>
+                                        <img class="card-img-top" style={{ height:"150px" ,width:"120px", marginLeft:"3rem"}} src="images/SF5.jpeg" />
+                                        <div class="card-block">
+
+                                            <h6 class="card-title text-center">Shiv Kumar Verma</h6>
+                                            <h6 style={{color:"green"}}><strong>Technical Assistant</strong></h6>
+
+                                        </div> 
+                                    </div>
+                                </div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div> */}
+
+
+                {/* Executive Cards */}
+                <div class="executive-members em-1">
+                    <section class="testimonials text-center">
+                        <div class="container em-6" style={{marginTop:"12rem"}}>
+                            <div class="row">
+                                <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
+                                    <h3 class="text-center font-weight-bold">EXECUTIVE<span class="bg-main"> MEMBERS</span></h3>
                                 </div>
                             </div>
 
@@ -176,7 +539,7 @@ const Mritika = () => {
 
                                 <div class="partha" style={{ height:"230px" ,width:"200px"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "230px" ,width:"200px"}}>
-                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/PM.jpg" />
+                                        <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/PM2.jpg" />
                                         <div class="card-block">
 
                                             <h6 class="card-title text-center">Partha Mishra</h6>
@@ -265,7 +628,7 @@ const Mritika = () => {
                 </div>
                 
 
-                <div  class="student-members st-member">
+                <div  class="student-members st-member em-7" style={{marginTop:"5rem"}}>
                 <a href="https://docs.google.com/spreadsheets/d/1sgN1HQ8HXODLbOcXS6YR5HDRbOcIELPi/edit?usp=share_link&ouid=114663105164561446283&rtpof=true&sd=true" title="Go to Our Student Members List">
                     <button type="button" class="btn btn-primary" style={{width:"15rem",fontSize:"1.2rem"}}>Our Student Members</button>
                 </a>
@@ -281,7 +644,7 @@ const Mritika = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
-                            <h3 class="text-center font-weight-bold">MRITTIKA<span class="bg-main"> SPONSERS 2023</span> </h3>
+                            <h3 class="text-center font-weight-bold">MRITTIKA<span class="bg-main">SPONSERS 2023</span> </h3>
                             <p class=" text-center">To become a better you, remember to be grateful to people who have contributed to making you who you are today"</p>
                         </div>
                     </div>
@@ -292,7 +655,7 @@ const Mritika = () => {
                         <div class="sponsers1"> 
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover ">
-                                    <img class="card-img-top h-262 sp-img" src="images/S1.jpeg" />
+                                    <img class="card-img-top h-262 sp-img" src="images/TSP1.png" />
                                     <div class="card-block ">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -303,33 +666,14 @@ const Mritika = () => {
                                     </div>
                                     <div class="card-footer">
                                         {/* <small>$ 170</small> */}
-                                        <a href="https://www.adityabirla.com/" class="pull-right">More Info</a>
+                                        <a href="https://mahakoshalrefractories.com/" class="pull-right">More Info</a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover">
-                                    <img class="card-img-top h-262 sp-img" src="images/S2.jpeg" />
-                                    <div class="card-block">
-
-                                        {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
-
-                                        <div class="card-text">
-                                            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
-                                        </div>
-                                    </div>
-                                    <div class="card-footer">
-                                        {/* <small>$ 170</small> */}
-                                        <a href="https://www.imerys.com/" class="pull-right">More Info</a>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
-                                <div class="card hover">
-                                    <img class="card-img-top h-262 sp-img" src="images/S3.jpeg" />
+                                    <img class="card-img-top h-262 sp-img" src="images/TSP2.png" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -348,7 +692,26 @@ const Mritika = () => {
 
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover">
-                                    <img class="card-img-top h-262 sp-img" src="images/S4.jpeg" />
+                                    <img class="card-img-top h-262 sp-img" src="images/TSP3.png" />
+                                    <div class="card-block">
+
+                                        {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
+
+                                        <div class="card-text">
+                                            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        {/* <small>$ 170</small> */}
+                                        <a href="https://aaryametallurgicals.com/management/" class="pull-right">More Info</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img" src="images/TSP4.png" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title ">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -359,7 +722,7 @@ const Mritika = () => {
                                     </div>
                                     <div class="card-footer">
                                         {/* <small>$ 170</small> */}
-                                        <a href="https://www.elkem.com/" class="pull-right">More Info</a>
+                                        <a href="https://www.hindalco.com/" class="pull-right">More Info</a>
 
                                     </div>
                                 </div>
@@ -368,17 +731,17 @@ const Mritika = () => {
 
                          {/* Add new   silver                 */}
 
-                         <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"1rem", marginTop:"3rem"}}>
+                         <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"1rem", marginTop:"1.5rem"}}>
                             <span style={{display:"flex",flexDirection:"row"}}>
-                                <h3 style={{marginLeft:"-13rem"}} class="text-center font-weight-bold s1">PLATNIUM<span class="bg-main"> SPONSERS</span></h3>
-                                <h3 style={{marginLeft:"1.5rem"}} class="text-center font-weight-bold s2">GOLD<span class="bg-main"> SPONSERS</span></h3>
-                                <h3 style={{marginLeft:"2rem"}} class="text-center font-weight-bold s3">SILVER<span class="bg-main"> SPONSERS</span></h3>
+                                <h3 style={{marginLeft:"-13rem"}} class="text-center font-weight-bold s1">TITLE<span class="bg-main"> SPONSERS</span></h3>
+                                <h3 style={{marginLeft:"6.5rem"}} class="text-center font-weight-bold s2">GOLD<span class="bg-main"> SPONSERS</span></h3>
+                                <h3 style={{marginLeft:"9.5rem"}} class="text-center font-weight-bold s3">SILVER<span class="bg-main"> SPONSERS</span></h3>
                             </span>
                         </div>
                         <div class="sponsers1"> 
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover">
-                                    <img class="card-img-top h-262 tf sp-img " src="images/S1.jpeg" />
+                                    <img class="card-img-top h-262 tf sp-img " src="images/TSP5.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -389,15 +752,15 @@ const Mritika = () => {
                                     </div>
                                     <div class="card-footer">
                                         {/* <small>$ 170</small> */}
-                                        <a href="https://www.adityabirla.com/" class="pull-right">More Info</a>
+                                        <a href="https://www.sarvesh.com/" class="pull-right">More Info</a>
                                     </div>
                                 </div>
                             </div>
 
-                            <h3 style={{marginLeft:"1.5rem",display:"none"}} class="text-center font-weight-bold s4">GOLD<span class="bg-main"> SPONSERS</span></h3>
+                            <h3 style={{marginLeft:"1.5rem ",display:"none"}} class="text-center font-weight-bold s4">GOLD<span class="bg-main"> SPONSERS</span></h3>
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover">
-                                    <img class="card-img-top h-262 sp-img" src="images/S2.jpeg" />
+                                    <img class="card-img-top h-262 sp-img" src="images/GSP1.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -408,7 +771,7 @@ const Mritika = () => {
                                     </div>
                                     <div class="card-footer">
                                         {/* <small>$ 170</small> */}
-                                        <a href="https://www.imerys.com/" class="pull-right">More Info</a>
+                                        <a href="https://www.elkem.com/" class="pull-right">More Info</a>
 
                                     </div>
                                 </div>
@@ -418,7 +781,7 @@ const Mritika = () => {
                             <h3 style={{marginLeft:"2rem",display:"none"}} class="text-center font-weight-bold s4">SILVER<span class="bg-main"> SPONSERS</span></h3>
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover">
-                                    <img class="card-img-top h-262 sp-img " src="images/S3.jpeg" />
+                                    <img class="card-img-top h-262 sp-img " src="images/SSP.jpeg" />
                                     <div class="card-block">
 
                                         {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
@@ -429,7 +792,27 @@ const Mritika = () => {
                                     </div>
                                     <div class="card-footer">
                                         {/* <small>$ 170</small> */}
-                                        <a href="https://www.trlkrosaki.com/" class="pull-right">More Info</a>
+                                        <a href="https://www.calderys.com/" class="pull-right">More Info</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 style={{marginLeft:"2rem",display:"none"}} class="text-center font-weight-bold s4">SILVER<span class="bg-main"> SPONSERS</span></h3>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
+                                <div class="card hover">
+                                    <img class="card-img-top h-262 sp-img " src="images/SSP2.jpeg" />
+                                    <div class="card-block">
+
+                                        {/* <h4 class="card-title">Lorem Ipsum Dolor Site Amet</h4> */}
+
+                                        <div class="card-text">
+                                            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> */}
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        {/* <small>$ 170</small> */}
+                                        <a href="http://www.maithanceramic.in/" class="pull-right">More Info</a>
 
                                     </div>
                                 </div>
@@ -1198,6 +1581,8 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
                             <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
                             <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
                             <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
+                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
+                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
                         </section>
                     </div>
                     <div class="copyright">

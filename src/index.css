@@ -662,7 +662,7 @@ img {
     width: 300px;
   }
   .main_div {
-    width: 100%;
+    width: 101% !important;
     /* width:1000px; */
   }
   .infodiv1 {
@@ -1438,7 +1438,7 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background: #454343;
     transition: top 1s ease;
     display: none;
   }
@@ -1918,7 +1918,7 @@ a.btn.btn-default.btn-scroll {
 }
 
 h3.my-heading {
-  font-family: "Kaushan Script", cursive;
+  /* font-family: "Kaushan Script", cursive; */
   color: #fff;
   font-weight: bold;
   font-size: 30px;
@@ -2002,7 +2002,7 @@ a.btn.btn-circle.my-social-btn {
   left: 0;
 }
 span.bg-main {
-  color: #008ba3;
+  color: #2cedd5;
 }
 
 hr.my-border {
