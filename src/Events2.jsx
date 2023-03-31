@@ -85,7 +85,7 @@ const Events2 = () => {
                                 </h6>
                                 <p class="card-text mb-auto">A series of interactive sessions by some of the most renowned researchers in material science, covering 
                                 Bio-ceramics in a very simplified and elaborate manner.</p>
-                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/CFeHJpmFA4l/">Go to insta</a>
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/CFeHJpmFA4l/">Go to Instagram</a>
                             </div>
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/TS-1.png" style={{ width: "230px", height: "250px" }} />
                         </div>
@@ -132,7 +132,7 @@ const Events2 = () => {
                                 
                                 <p class="card-text mb-auto">We are fortunate and thrilled to announce that Indian Ceramic Society (ICS) invites Professional Experts of Tata 
                                 Steel to organize a virtual workshop on overview of Iron and Steel manufacturing and application of refractories.</p>
-                                <a class="btn btn-outline-success btn-sm" href="https://www.instagram.com/p/Cbm6yUTvS8K/">Go to Insta</a>
+                                <a class="btn btn-outline-success btn-sm" href="https://www.instagram.com/p/Cbm6yUTvS8K/">Go to Instagram</a>
                             </div>
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/TS-4.png" style={{ width: "230px", height: "250px" }} />
                         </div>
@@ -147,7 +147,7 @@ const Events2 = () => {
                                 
                                 <p class="card-text mb-auto">Ceramic Engineering of NIT Rourkela successfully concluded with the 3 Days National Webinar on "Li-Ion batteries and beyond- a
                                  perspective for future energy storage needs from June 23rd-25th, 2022. </p>
-                                <a class="btn btn-outline-success btn-sm" href="https://www.instagram.com/p/CfQzTQPvdIG">GO to Insta</a>
+                                <a class="btn btn-outline-success btn-sm" href="https://www.instagram.com/p/CfQzTQPvdIG">Go to Instagram</a>
                             </div>
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/TS-5.png" style={{ width: "230px", height: "250px" }} />
                         </div>
@@ -238,8 +238,8 @@ const Events2 = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>

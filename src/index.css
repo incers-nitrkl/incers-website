@@ -214,6 +214,15 @@
   padding: 10px;
   text-align: center;
 }
+#logo1 {
+  width: 80px;
+  height: 46px;
+  /* background-color: red; */
+  /* background: #000; */
+  /* margin: 10px; */
+  padding: 10px;
+  text-align: center;
+}
 .nav_bar {
   height: 60px;
   width: 40%;
@@ -1042,6 +1051,7 @@ img {
     /* font-size: 50px;; */
   }
   #logo {
+    margin-top: 0.3rem;
     /* margin: auto; */
     margin-left: -3px;
     width: 20%;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './Navbar2';
 import Brochure from './images/brochure2019.pdf';
 
 
@@ -9,7 +9,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-            <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/incers-chapter-logo.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -61,7 +61,7 @@ const AboutIncersChapter = () => {
             <div class="mrittika-bg">
                 {/* <div class="overlay"></div> */}
                 <div class="mrittika-img">
-                    <img src="images/MRITTIKA2.0-bg.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                    <img class="mrittika-img-img" src="images/MRITTIKA2.0-bg.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
                 </div>
                 <div class="container slider-top-text">
                     <div class="row">
@@ -120,7 +120,7 @@ const AboutIncersChapter = () => {
 
         {/* GUEST SECTION */}
         <div class="guest incers-guest">
-            <h3 class="text-center font-weight-bold" >GUEST<span class="bg-main"> SECTION</span></h3>
+            {/* <h3 class="text-center font-weight-bold" >GUEST<span class="bg-main"> SECTION</span></h3> */}
 
             <div class="about-2023 ">
                     <h3 class="gt-about incers-about" style={{marginLeft:"-62rem",paddingRight:"12px"}}>ABOUT</h3>
@@ -129,18 +129,38 @@ const AboutIncersChapter = () => {
                     </a> */}
             </div>
             <div class="about-content " style={{textAlign:"justify" ,paddingLeft:"14rem"}}>
-                <p style={{paddingRight:"8px"}}>The Department of Ceramics Engineering and InCerS (Indian Ceramic Society),  NIT Rourkela Chapter, 
-                    have been graced by the auspicious presence of 2 guests ,where we got a whole lot of practical side 
-                    and a new level of applications of our studies.
+                <p style={{paddingRight:"8px"}}>The Indian Ceramic Society (InCerS) incubated the student chapter
+                    at the department of ceramic engineering, NIT Rourkela in the year
+                    2017 with the aim to 'calcinate' the ever-evolving raw interest in
+                    materials and their properties, and its active members has been
+                    bestowed with the best student's chapter for its outstanding
+                    contribution during the 86th Annual General Meeting held at Indian
+                    Institute of Technology, Varanasi, 8-9 December 2022. The InCerS
+                    student chapter at NIT Rourkela has successfully organized the 1st
+                    National Conference (MRITTIKA 1.0) in the year 2019, comprising
+                    multiple events, including quiz competitions, model presentations,
+                    and paper presentation. The session was graced by industry
+                    professionals, scientists and eminent personalities from TRL
+                    Krosaki, Kerneos aluminate, Aditya Birla Insulators, Tata steel,
+                    NALCO, CGCRI and many more. The brainstorming sessions
+                    organized by students brought up hefty goodies for exceptionally
+                    performing candidates.
                 </p>
-                <p style={{paddingRight:"8px"}}>The guests, Dr. Gobinda Pahari, Asst. Vice President , Functional Head Operation , Aditya Birla Insulators,
-                    (a unit of Aditya Birla Grasim Industries Ltd.) and Mr. Birendra Prasad , Plant Head at Dalmia-OCL and Head 
-                    of Dalmia research. While the former gave us new insights on the working and demonstration of several industrial 
-                    processes , and ways to combat the current Problems in our field of interest, the later was all about the new budging 
-                    interests of Ceramic Engineering and a little taste of futuristic area, which we may find ourselves in.
-                    A  new level of excitement being presented by our guest speakers and the same being reflected by our esteemed Teachers 
-                    and more so from the students giving way to some interesting and hot takes. The lectures enthralled the newbies while continuing to please the pre-graduates.
-                    Our Guests Were presented a memento at the end of the session which altogether was a huge success for everyone.
+                <p style={{paddingRight:"8px"}}>National Institute of Technology (NIT), Rourkela was founded as
+                    Regional Engineering College, Rourkela in 1961. It is a prestigious
+                    Institute with a reputation for excellence at both undergraduate
+                    and postgraduate levels, fostering the spirit of national integration
+                    among the students, a close interaction with industry and a strong
+                    emphasis on research, both basic and applied. It's consistently
+                    ranked within the TOP 20 engineering institutes for 5 consecutive
+                    years as per MOE's NIRF, Govt. of India and has retained a good
+                    world ranking among its peer Institutes. The city of Rourkela is a
+                    bustling industrial town, cosmopolitan by nature and is well
+                    connected to all parts of the country by road, rail & air. It is en
+                    route the Howrah-Mumbai main line of the South-Eastern Railway.
+                    Nesting amidst greenery on all sides. NIT campus is approximately
+                    7km from Rourkela railway station. The nearest airports are
+                    Rourkela, Jharsuguda, Ranchi, Kolkata and Bhubaneswar.
                 </p>
             </div>
             
@@ -164,7 +184,7 @@ const AboutIncersChapter = () => {
                             <p class="card-text mb-auto">Insights-Refractory products are materials that can withstand high temperatures, corrosion, and erosion. They are used in 
                             industries such as steel, cement, glass, and petrochemicals, where high temperatures and harsh environments are common. Advanced technologies such as 
                             computer-aided design, automated mixing, and firing control systems are used to optimize production efficiency and product quality.</p>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/CiNRhW1PmE8/">Continue watching</a>
+                            {/* <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/CiNRhW1PmE8/">Continue watching</a> */}
                         </div>
                         <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
                     </div>
@@ -172,7 +192,7 @@ const AboutIncersChapter = () => {
 
                 <h5 class="gl-2" style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>GUEST LECTURE-2</h5>    
                 <div class="col-md-6 card-effect box-1" style={{marginBottom:"3rem"}}>
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-1">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-1 box-1-1">
                         <div class="card-body d-flex flex-column align-items-start box-1">
                             <strong class="d-inline-block mb-2 text-primary">Industry Academia Interaction Session</strong>
                             <h6 class="mb-0">
@@ -186,7 +206,7 @@ const AboutIncersChapter = () => {
                             of Eastern India organized by NIT Rourkela.</p>
                             <p class="card-text mb-auto">The invited lecture was graced by our esteemed Speaker- Dr. Gobinda Pahari, Asst. Vice President, Functional Head Operations, Aditya 
                             Birla Insulators. The idea of conducting the guest lecture is to make students aware of the working and demonstration of several industrial processes.</p>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/ClMA7K1vNi7/">Continue watching</a>
+                            {/* <a class="btn btn-outline-primary btn-sm" role="button" href="https://www.instagram.com/p/ClMA7K1vNi7/">Continue watching</a> */}
                         </div>
                         <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
                     </div>
@@ -300,7 +320,7 @@ const AboutIncersChapter = () => {
 
             {/* Premritika events */}
             
-            <div class="guest guest-new"> 
+            <div class="guest guest-new guest-new-11"> 
 
                 {/* <div class="guest-cards" style={{marginTop:"3rem"}}>
                     <h3 class="text-center font-weight-bold" >PRE-MRITIKA<span class="bg-main"> EVENTS </span></h3>
@@ -572,8 +592,8 @@ const AboutIncersChapter = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>

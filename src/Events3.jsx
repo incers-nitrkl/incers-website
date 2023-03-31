@@ -59,7 +59,7 @@ const Events3 = () => {
             <div class="mrittika-bg">
                 {/* <div class="overlay"></div> */}
                 <div class="mrittika-img PCNavbar-4">
-                    <img class="mrittika-img1" src="images/FF-banner.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                    <img class="mrittika-img1" src="images/FF-banner.png" alt="suraj" style={{height:"565px",width:"100%",borderRadius:"0px"}}/>
                 </div>
                 <div class="container slider-top-text">
                     <div class="row" style={{display:"none"}}>
@@ -89,7 +89,7 @@ const Events3 = () => {
             
             {/* New add */}
 
-            <div class="mritika-about ">
+            <div class="mritika-about mritika-about-udit">
                 <div class="about-2023 ff-about" style={{marginTop:"2rem"}}>
                     <h1 style={{marginLeft:"-4rem"}}>FLASHBACK FRIDAY</h1>
                     
@@ -304,8 +304,8 @@ const Events3 = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>

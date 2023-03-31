@@ -499,6 +499,12 @@
         margin-left: -8rem;
         text-align: justify !important;
       }
+      .cards-11{
+        height: 18rem !important;
+        width: 62rem !important;
+        margin-left: -8rem;
+        text-align: justify !important;
+      }
 
       .competition-design{
         background-color: #bbeded6e !important;
@@ -538,6 +544,7 @@
         /* border:2px solid red; */
         /* margin-top: 6rem; */
       }
+      
       .mrittika-img{
         position: relative;
         height: 570px;
@@ -626,7 +633,7 @@
     }
     .sp-box{
       transform: scale(0.8);
-      margin-top: -20rem !important;
+      margin-top: -23rem !important;
     }
     .sp-img{
       height:320px !important;
@@ -681,13 +688,16 @@
       margin-bottom: 2rem ;
     }
     .social_media_part{
-      margin-top: 4rem !important;
+      margin-top: 2rem !important;
+    }
+    .skb{
+      margin-top: 88.5rem !important;
     }
     .footer-1{
       margin-top: 0rem !important;
     }
     .footer-2{
-      margin-top: 334rem !important;
+      margin-top: 328rem !important;
     }
     .footer-3{
       margin-top: 190rem !important;
@@ -718,9 +728,23 @@
       margin-left: 0rem !important;
       text-align: justify !important;
     }
+    .box-11{
+      width: 330px !important;
+      height: 40rem !important;
+      margin-top: 1rem !important;
+      margin-left: -0.3rem !important;
+      text-align: justify !important;
+    }
     .box-2{
       width: 330px !important;
       height: 40rem !important;
+      margin-top: 1rem !important;
+      margin-left: 0rem !important;
+      text-align: justify !important;
+    }
+    .box-23{
+      width: 330px !important;
+      height: 33rem !important;
       margin-top: 1rem !important;
       margin-left: 0rem !important;
       text-align: justify !important;
@@ -748,7 +772,7 @@
     }
     .box-4{
       width: 330px !important;
-      height: 48rem !important;
+      height: 49.5rem !important;
       margin-top: 1rem !important;
       margin-left: -0.3rem !important;
       text-align: justify !important;
@@ -801,6 +825,10 @@
       margin-top: 1rem !important;
       /* margin-bottom: -1rem !important; */
     }
+    .guest-new-11{
+      margin-top: -10rem !important;
+      /* margin-bottom: -1rem !important; */
+    }
     .guest-new-2{
       
       margin-bottom: -1.2rem !important;
@@ -849,6 +877,9 @@
     .mi{
       margin-top: 3rem !important;
     }
+    .mi-rcb{
+      margin-top: -9rem !important;
+    }
     .fi-22{
       margin-top: -1.8rem !important;
       margin-bottom: 0.6rem !important;
@@ -858,7 +889,7 @@
       margin-bottom: 0.6rem !important;
     }
     .fi-23{
-      margin-top: -0.8rem !important;
+      margin-top: 1.2rem !important;
     }
     .mi-23{
       margin-top: -0.8rem !important;
@@ -900,7 +931,7 @@
       margin-top: 102rem !important;
     }
     .em-7{
-      margin-top: 194rem !important;
+      margin-top: 198rem !important;
     }
     .em-8{
       margin-left: 1rem !important;
@@ -917,6 +948,7 @@
     .em-4{
       margin-left: -4rem !important;
     }
+    
     .mrittika-img1{
       height: 22rem !important;
     }
@@ -939,11 +971,39 @@
       display: none !important;
     }
     .ma1{
-      margin-top: -29rem !important;
+      margin-top: -16rem !important;
+      z-index: 100;
     }
     .ma2{
       margin-top: 1rem !important;
       margin-left: 0.5rem !important;
+    }
+    .mrittika-img{
+      height: 250px !important;
+    }
+    .mrittika-img-img{
+      height: 250px !important;
+    }
+    .mrittika-bg{
+      height: 250px !important;
+    }
+    .box-1-1{
+      height: 38rem !important;
+    }
+    .masthead1{
+      height: 324px !important;
+    }
+    .masthead1-1{
+      height: 20.19rem !important;
+    }
+    .mritika-about{
+      margin-top: 0rem !important;
+    }
+    .mritika-about-udit{
+      margin-top: 21rem !important;
+    }
+    .skb2{
+      height: 22.2rem !important;
     }
   }
 
@@ -1052,13 +1112,21 @@
     .col-md-3{
       margin-bottom: 2rem !important;
     }
-
+    .embed-responsive-item{
+      transform: scale(0.9) !important;
+    }
+    .row{
+      margin-bottom: 0rem !important;
+    }
     /* mritika page */
     #incer-about{
       padding: 0px !important;
       margin-left: 24px !important;
       margin-right: 24px !important;
       text-align: justify;
+    }
+    .fadeInUp{
+      margin-top: 3rem;
     }
     .fadeInUp-19{
       margin-top: 1rem !important;
@@ -1101,20 +1169,20 @@
       margin-top: -4.5rem !important;
     }
     .social_media_part-19{
-      margin-top: 2rem !important;
+      margin-top: 0rem !important;
     }
     .competition-design-19{
       width: 20rem !important;
       margin-left: 0.8% !important;
-      height: 50rem !important;
+      height: 60rem !important;
       /* margin-top: 25rem !important; */
     }
     .competition-design-19-a{
-      height: 40rem !important;
+      height: 50rem !important;
       margin-top: -2rem !important;
     }
     .competition-design-19-b{
-      height: 50rem !important;
+      height: 64rem !important;
     }
     .student-session-19{
       margin-top: 1rem !important;
@@ -1126,7 +1194,7 @@
       height: 260px !important;
     }
     .text-center-19{
-      margin-top: -245px !important;
+      margin-top: -15px !important;
     }
     #peacock{
       height: 300px !important;
@@ -1209,6 +1277,9 @@
     .competition-design-19{
       margin-left: -12rem !important;
     }
+    .ma2{
+      gap: 36rem !important;
+    }
   }
 
   .spn-1{
@@ -1216,4 +1287,8 @@
     flex-direction: row;
     width: 100% !important;
     justify-content: center;
+  }
+
+  .box-1-11{
+    height: 18rem !important;
   }

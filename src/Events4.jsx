@@ -59,7 +59,7 @@ const Events4 = () => {
             <div class="mrittika-bg">
                 {/* <div class="overlay"></div> */}
                 <div class="mrittika-img">
-                    <img class="mrittika-img2" src="images/MM-banner.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                    <img class="mrittika-img2" src="images/MM-banner.png" alt="suraj" style={{height:"565px",width:"100%",borderRadius:"0px"}}/>
                 </div>
                 <div class="container slider-top-text">
                     <div class="row" style={{display:"none"}}>
@@ -89,7 +89,7 @@ const Events4 = () => {
             
             {/* New add */}
 
-            <div class="mritika-about">
+            <div class="mritika-about mritika-about-udit">
                 <div class="about-2023 mm-about" style={{marginTop:"2rem"}}>
                     <h1 class="e1" style={{marginLeft:"-72rem"}}>ABOUT</h1>
                     
@@ -129,7 +129,7 @@ const Events4 = () => {
                     <p>cards</p>
                 </div> */}
                 <div class="executive-members">
-                    <section class="testimonials text-center mi">
+                    <section class="testimonials text-center mi mi-rcb">
                         <div class="container" style={{marginBottom:"10rem"}}>
                             <div class="row">
                                 <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
@@ -233,7 +233,7 @@ const Events4 = () => {
 
 
 
-            <div class="social_media_part footer-3 PCNavbar" style={{marginTop:"32rem"}}>
+            <div class="social_media_part footer-3" style={{marginTop:"32rem"}}>
                 <footer>
                     <div class="top_header">
                         <section>
@@ -255,8 +255,8 @@ const Events4 = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>
