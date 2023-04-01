@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './Navbar2';
 import Brochure from './images/brochure2019.pdf';
 
 
@@ -9,7 +9,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/incers-chapter-logo.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -57,10 +57,10 @@ const Mritika = () => {
             </nav>
 
 
-            <div class="mrittika-bg">
+            <div class="mrittika-bg skb2">
                 {/* <div class="overlay"></div> */}
-                <div class="mrittika-img">
-                    <img class="mrittika-img5" src="images/MRITTIKA2.0-banner.png" alt="suraj" style={{height:"565px",width:"100%"}}/>
+                <div class="mrittika-img skb2">
+                    <img class="mrittika-img5" src="images/MRITTIKA2.0-banner.png" alt="suraj" style={{height:"565px",width:"100%",borderRadius:"0px"}}/>
                 </div>
                 <div class="container slider-top-text">
                     <div class="row hide">
@@ -132,23 +132,38 @@ const Mritika = () => {
 
             <div class="mritika-about">
                 <div class="ma1" style={{display:"flex", flexDirection:"column",alignItems:"center"}}>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgZlgyceJlhRZhBOYVHXJXWGV-V6NZbli0DKgS-E6ARCr_A/viewform" title="Go to Registration Form" >
+                    <a href="https://forms.gle/SABAk2SkQZRESZG76" title='Register Here'>
                         <button type="button" class="btn btn-primary down1" style={{marginTop:"0rem",marginBottom:"1rem",width:"13rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
                     </a>
                     <a href="https://drive.google.com/file/d/1K9asBc6asHcyO1liHbnLvg-IGLVpE1Rb/view?usp=share_link" title="Go to Brochure" style={{fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a>
                 </div>
                 <div class="about-2023 ma2" style={{marginTop:"2rem",marginBottom:"2rem"}}>
-                    <h1 class="top" style={{marginLeft:"1rem"}}>INCERS NITR</h1>
+                    <h1 class="top" style={{marginLeft:"1rem"}}>MRITTIKA 2.0</h1>
                     
                     <a  href="/mritika1">
                         <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
                     </a>
                 </div>
                 <div class="about-content">
-                    <p>The Indian Ceramic Society (InCerS) opened up its student chapter for the first time at NIT
-                        Rourkela in the year 2017 with the aim to ‘calcinate' the ever-evolving raw interest in materials
-                        and their properties and has been awarded for the Best Student's Chapter for its outstanding
-                        performance in the AY 21-22.
+                    <p style={{textAlign:"justify"}}>The 2nd annual session (MRITTIKA 2.0) of the Indian Ceramic
+                        Society, the student chapter of NIT Rourkela, aims to bring
+                        together leading professionals from academia and industries,
+                        research scholars, students, and exhibitors to share knowledge,
+                        and exchange ideas on various aspects of ceramic science &
+                        technology. This national-level conference aims to cover recent
+                        advances in the field of structural and engineering ceramics,
+                        covering a wider gamut of industrial applications with the target
+                        audience including professionals and students who wish to pursue
+                        a career in research and development or join the industry. The 3-
+                        day national conference will provide the right platform for
+                        delegates to address the larger audience on multiple thematic
+                        areas and ignite the young minds. Eminent faculties & industry
+                        experts will enlighten the sessions by sharing their knowledge on
+                        the current trend and future aspects of ceramics. Early career
+                        professionals are also encouraged to share their work during the
+                        conference. The 3-day national conference will also include
+                        exciting sessions on entrepreneurship along with a PowerPoint
+                        karaoke and quiz competition.
                     </p>
                     
                 </div>
@@ -1190,73 +1205,73 @@ const Mritika = () => {
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <img class="img-fluid" src="images/comming-soon.jpg" />
+                                <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <img class="img-fluid" src="images/comming-soon.jpg" />
+                                <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                    <img class="img-fluid" src="images/comming-soon.jpg" />
+                                    <img class="img-fluid" src="images/coming.jpg" />
                                 {/* <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
                                 </a> */}
                             </div>
@@ -1293,16 +1308,16 @@ const Mritika = () => {
                                     1k  and felicitation ceremony for the players also so that you can have a memorable evening to have 
                                     fun and test of your sportsmanship too.</p> 
                                     <br />
-                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdfYmbdtr1Qc-r7Yv6ghAdQ8NBQkSIBuBDbW57rh8o6SLS3wg/viewform?usp=sf_link">Register Here</a>
                             </div>
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/BC.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} />
                         </div>
                     </div>
 
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>BADMINTON </h5>     */}
-                    <div class="col-md-6 card-effect box-2" style={{marginBottom:"3rem"}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-2">
-                            <div class="card-body d-flex flex-column align-items-start box-2">
+                    <div class="col-md-6 card-effect box-23" style={{marginBottom:"3rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-23">
+                            <div class="card-body d-flex flex-column align-items-start box-23">
                                 <br />
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <h4 class="mb-0">
@@ -1310,13 +1325,13 @@ const Mritika = () => {
                                 </h4>
                                 <br />
                                 <p>"Challenge yourself and others in the ultimate badminton battle!" <br /> <br />
-                                    Come and join us for a day of fun as Mrittika’23 brings you the sport of badminton 
+                                    Come and join us for a day of fun as Mrittika'23 brings you the sport of badminton 
                                     where you will be competing in singles. The competition will start with elimination 
                                     rounds where only the best players will advance to the finals. At the end of the event,
                                     winners will be awarded with rewards and goodies worth ₹1k. <br /><br />
-                                    So, don’t miss out on the electric atmosphere as players battle it out for victory.</p>
+                                    So, don't miss out on the electric atmosphere as players battle it out for victory.</p>
                                     <br /><br />
-                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                                {/* <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a> */}
                             </div>
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/BC1.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} />
                         </div>
@@ -1466,21 +1481,21 @@ const Mritika = () => {
                                 <p>A fun PowerPoint Karaoke event to challenge both the author of the slide and the presenter to 
                                     improve their communication skills. Submit or Present a Slide (or Both!)</p>
                                 <p> &emsp; Create a PowerPoint side with a contribution to your research or a materials science-related topic. <br />
-                                    &emsp;Don’t be too serious! Popular science topics aren’t the point; we’re looking for the funniest story or best &emsp; design! <br />
+                                    &emsp;Don't be too serious! Popular science topics aren't the point; we're looking for the funniest story or best &emsp; design! <br />
                                     &emsp;Topics can range from your actual research to something silly, such as the use of rubber ducks. Be sure &emsp;to keep it simple <br />
                                     &emsp;so that anyone can present, and keep it clean—inappropriate content will not be accepted.</p>
                                 <p>During the event, presenters will be assigned a random slide out of the pool of the submitted slides by the authors. Presenters will have five minutes to prepare a two-minute (maximum) presentation.
                                     Winners will be selected by anonymous audience voting. Goodies will be awarded to the best three authors and presenters.</p><br />
-                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://forms.gle/CF8nhscUMEvhgQx69">Register Here</a>
                             </div>
                             {/* <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GL-1.png" style={{ width: "200px", height: "250px" ,marginTop:"5.6rem"}} /> */}
                         </div>
                     </div>
 
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>QUIZ (Mega Hunt Game) </h5>     */}
-                    <div class="col-md-6 card-effect box-1" style={{marginBottom:"3rem"}}>
-                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-1 box-1">
-                            <div class="card-body d-flex flex-column align-items-start box-1">
+                    <div class="col-md-6 card-effect box-11" style={{marginBottom:"3rem"}}>
+                        <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design cards-11 box-1 box-11 box-1-1">
+                            <div class="card-body d-flex flex-column align-items-start box-11 box-1-1">
                                 <br />
                                 {/* <strong class="d-inline-block mb-2 text-primary">Ceramic</strong> */}
                                 <h4 class="mb-0">
@@ -1497,7 +1512,7 @@ const Mritika = () => {
                                     The winners will be judged on how accurately they chose, which will decide finally
                                     whether they survived all the levels or were eliminated in any particular level.</p>
                                     <br />
-                                <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
+                                {/* <a class="btn btn-outline-primary btn-sm" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a> */}
                             </div>
                             {/* <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/GG-11.png" style={{ width: "200px", height: "250px",marginTop:"5.6rem" }} /> */}
                         </div>
@@ -1572,8 +1587,8 @@ Besides this, a cultural night which was scheduled to happen on the night of 6th
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>

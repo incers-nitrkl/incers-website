@@ -10,7 +10,7 @@
 
 
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './Navbar2';
 import Brochure from './images/brochure2019.pdf';
 
 
@@ -20,7 +20,7 @@ const functionnav = ()=>{
         return(<>
              <div class="top_div PCNavbar-3">
             <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                <div id="logo" style={{ cursor: "pointer" }}><img src="images/incers-chapter-logo.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
             <Navbar />
         </div>
@@ -69,13 +69,13 @@ const Mritika1 = () => {
 
 
             <header class="masthead1 text-white overlay-1 overlay-1-19 PCNavbar-3">
-                <div class="overlay" style={{height:"43rem"}}></div>
+                <div class="overlay masthead1-1" style={{height:"43rem"}}></div>
                 <div class="container slider-top-text">
                     <div class="row">
                         <div class="col-md-12 text-center text-center-19">
                             <h3 style={{marginTop:"5rem",marginBottom:"2rem"}} class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3>
                             <p class="myp-slider text-center" >Where ceramists unite and become better together</p>
-                            <p class="myp text-center" >SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p>
+                            {/* <p class="myp text-center" >SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p> */}
                             
                             <div style={{display:"flex",flexDirection:"column",marginTop:"6rem",justifyContent:"center",alignItems:"center"}}>
                                 <a style={{marginBottom:"10px"}} class="btn btn-primary btn-join" href="#">JOIN THE COMMUNITY</a>
@@ -303,86 +303,73 @@ const Mritika1 = () => {
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G1.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G1.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G2.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G2.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G3.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G3.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G4.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G4.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G5.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G5.jpeg" />
+                            
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G6.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G6.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G7.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G7.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G8.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G8.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G9.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/G9.jpg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G10.jpeg" />
-                                </a>
+                                <img class="img-fluid" src="images/G10.jpeg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G11.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/G11.jpg" />
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class="music-gal item box">
-                                <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
-                                    <img class="img-fluid" src="images/G12.jpg" />
-                                </a>
+                                <img class="img-fluid" src="images/G12.jpg" />
                             </div>
                         </div>
 
@@ -564,8 +551,8 @@ const Mritika1 = () => {
                     <div class="bottom_content">
                         <section>
                             <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="#"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
+                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
                             {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
                         </section>
                         <section>
