@@ -312,7 +312,7 @@ const Members = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <li class="col-12 col-md-6 col-lg-3">
+                            {/* <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px"}}>
                                     <figure><img src="images/SSharma.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
                                     <h3>Sourav Sharma</h3>
@@ -324,7 +324,7 @@ const Members = () => {
                                     <li><a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> */}
                             
                             <li class="col-12 col-md-6 col-lg-3">
                                 <div class="cnt-block equal-hight" style={{height:" 349px",zIndex:"300"}}>

@@ -18,7 +18,7 @@ const functionnav = ()=>{
     const widths = 700
     if(window.screen.width <= widths){
         return(<>
-             <div class="top_div PCNavbar-3">
+             <div class="top_div ">
             <div>
                 <div id="logo" style={{ cursor: "pointer" }}><img src="images/incers-chapter-logo.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
             </div>
@@ -68,7 +68,7 @@ const Mritika1 = () => {
             </nav>
 
 
-            <header class="masthead1 text-white overlay-1 overlay-1-19 PCNavbar-3">
+            <header class="masthead1 text-white overlay-1 overlay-1-19 ">
                 <div class="overlay masthead1-1" style={{height:"43rem"}}></div>
                 <div class="container slider-top-text">
                     <div class="row">
@@ -385,7 +385,7 @@ const Mritika1 = () => {
                 <div class="guest-cards" >
                     <h3 class="text-center font-weight-bold"  style={{marginTop:"5rem",marginBottom:"3rem"}}>TECHNICAL<span class="bg-main"> SESSION</span></h3>
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>Plenary Lectures/Invited Lectures </h5> */}
-                    <div class="col-md-6 card-effect " style={{}}>
+                    <div class="col-md-6 card-effect rcb-3" style={{}}>
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design competition-design-19 competition-design-19-a" style={{height:"25rem ",width:"62rem",marginLeft:"-8rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 
@@ -457,7 +457,7 @@ const Mritika1 = () => {
                 <div class="guest-cards" >
                     <h3 class="text-center font-weight-bold student-session-19"  style={{marginTop:"5rem",marginBottom:"3rem"}}>STUDENT'S<span class="bg-main"> SESSION</span></h3>
                     {/* <h5 style={{marginLeft:"-50rem",marginBottom:"3rem",marginTop:"2rem"}}>Plenary Lectures/Invited Lectures </h5> */}
-                    <div class="col-md-6 card-effect " style={{}}>
+                    <div class="col-md-6 card-effect rcb-4" style={{}}>
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design competition-design-19 competition-design-19-b" style={{height:"30rem ",width:"62rem",marginLeft:"-8rem"}}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 
@@ -529,7 +529,7 @@ const Mritika1 = () => {
             </div>
             
 
-            <div class="social_media_part social_media_part-19 PCNavbar-3">
+            <div class="social_media_part social_media_part-19 ">
                 <footer>
                     <div class="top_header">
                         <section>

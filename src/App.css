@@ -785,6 +785,7 @@
     }
     .footer-23{
       margin-top: 0rem !important;
+      width: 104% !important;
     }
     .guest{
       margin-top: -26rem !important;
@@ -911,6 +912,7 @@
     }
     .mtg1{
       margin-top: -25rem !important;
+      width: 104% !important;
     }
     .e1{
       margin-left: -20rem !important;
@@ -972,7 +974,7 @@
     }
     .ma1{
       margin-top: -16rem !important;
-      z-index: 100;
+      /* z-index: 100; */
     }
     .ma2{
       margin-top: 1rem !important;
@@ -1004,6 +1006,9 @@
     }
     .skb2{
       height: 22.2rem !important;
+    }
+    .footer-23{
+      margin-top: -2rem !important;
     }
   }
 
@@ -1237,6 +1242,9 @@
     .image_div_2{
       padding-top: 0px !important;
     }
+    .rcb-2{
+      width: 104% !important;
+    }
   }
   @media only screen and (max-width: 376px){
     .box-5{
@@ -1254,13 +1262,28 @@
     .PCNavbar-5{
       width: 103% !important;
     }
-    .PCNavbar-6{
+    /* .PCNavbar-6{
       width: 114.5% !important;
-    }
+    } */
     .PCNavbar-7{
       width: 115.5% !important;
     }
-    
+    .footer-23{
+      width: 107% !important;
+    }
+    .rcb-2{
+      width: 107% !important;
+    }
+    .mtg1{
+      height: 160rem !important;
+      width: 107% !important;
+    }
+    .rcb-3{
+      margin-left: 3rem ;
+    }
+    .rcb-4{
+      margin-left: 3rem ;
+    }
 
   }
   

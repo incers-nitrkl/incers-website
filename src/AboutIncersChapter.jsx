@@ -570,7 +570,7 @@ const AboutIncersChapter = () => {
 
 
 
-            <div class="social_media_part footer-23">
+            <div class="social_media_part footer-23-rcb">
                 <footer>
                     <div class="top_header">
                         <section>
