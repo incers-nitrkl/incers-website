@@ -40,7 +40,7 @@ const Events2 = () => {
                     WEBINARS AND TECHNICAL SESSIONS
                 </h3>
 
-                <div class="row TS-card">
+                <div class="WT-row TS-card">
                     <div class="col-md-6 card-effect">
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1 card-ts" style={{ height: "16rem", width: "70rem" }}>
                             <div class="card-body d-flex flex-column align-items-start">
@@ -72,7 +72,7 @@ const Events2 = () => {
                         </div>
                     </div>
                 </div>
-                <div class="row TS-card">
+                <div class="WT-row TS-card">
                     <div class="col-md-6 card-effect" >
                         <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1 card-ts" style={{ height: "16rem", width: "70rem" }}>
                             <div class="card-body d-flex flex-column align-items-start">

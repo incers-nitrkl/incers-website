@@ -52,7 +52,7 @@
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 }
 
-.row.heading h2 {
+.WT-row.heading h2 {
     color: #fff;
     font-size: 52.52px;
     line-height: 95px;
@@ -62,7 +62,7 @@
     padding-bottom: 20px;
     text-transform: uppercase;
 }
-.row{
+.WT-row{
     flex-direction: column;
 }
 
@@ -137,7 +137,7 @@
         margin-bottom: 1.4rem;
     }
 
-    .row {
+    .WT-row {
         margin-bottom: 0rem !important;
     }
 }
