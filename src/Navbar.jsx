@@ -57,9 +57,9 @@ const Navbar1 = () => {
                     <li>
                         <div className="menu_1">
                             <ul>
-                                <NavLink to="/members" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2023-24</span></h3></li> </NavLink>
-                                <NavLink to="/members1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2022-23</span></h3></li> </NavLink>
-                                {/* <NavLink to="/members2" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2020-21</span></h3></li> </NavLink> */}
+                                <NavLink to="/members3" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2023-24</span></h3></li> </NavLink>
+                                <NavLink to="/members" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2022-23</span></h3></li> </NavLink>
+                                <NavLink to="/members1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2021-22</span></h3></li> </NavLink>
                                 {/* <li><h3>hello</h3></li> */}
                             </ul>
                         </div>
@@ -120,9 +120,9 @@ const Navbar1 = () => {
                 <li><a href="/members">Members <i class="fas facaret-down"></i></a>
                     <div class="dropdown-menu">
                         <ul>
-                            <li><a href="/members">Members 2023-24</a></li>
-                            <li><a href="/members1">Members 2022-23</a></li>
-                            {/* <li><a href="/members2">Members 2020-21</a></li> */}
+                            <li><a href="/members3">Members 2023-24</a></li>
+                            <li><a href="/members">Members 2022-22</a></li>
+                            <li><a href="/members1">Members 2021-22</a></li>
                             {/* <li><a href="/member1">Members 2021-22</a></li>
                             <li><a href="/member1">Members 2022-23</a></li> */}
                         </ul>

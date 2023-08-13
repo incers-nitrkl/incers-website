@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Members from './Members'
 import Members1 from './Members1';
 import Members2 from './Members2';
+import Members3 from './Members3';
 import Events from './PlacementDiary'
 import Events1 from './PresentationCompetetions'
 import Events2 from './Events2';
@@ -30,6 +31,7 @@ const Routing = ()=>{
               <Route exact path="/members" component={Members}/>
               <Route exact path="/members1" component={Members1}/>
               <Route exact path="/members2" component={Members2}/>
+              <Route exact path="/members3" component={Members3}/>
               <Route exact path="/contact" component={Contact}/>
               <Route exact path="/events" component={Events}/>
               <Route exact path="/events1" component={Events1}/>
