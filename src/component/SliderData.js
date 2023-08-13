@@ -17,9 +17,9 @@ import img15 from '../images/FB4.png'
 import img16 from '../images/FB3.png'
 import img17 from '../images/FB2.png'
 import img18 from '../images/FB1.png'
-import blog from '../Blog'
-import blog1 from '../Blog1'
-import blog2 from '../Blog2'
+// import blog from '../Blog'
+// import blog1 from '../Blog1'
+// import blog2 from '../Blog2'
 
 
 export const SliderData = [

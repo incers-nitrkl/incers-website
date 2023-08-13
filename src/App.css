@@ -406,14 +406,13 @@
           }
       }
 
-      .flash-card{
+      /* .flash-card{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-      }
+      } */
 
-      /* .flash-card-1{ */
 
       /* new changes */
      
@@ -506,19 +505,19 @@
         text-align: justify !important;
       }
 
-      .competition-design{
+      /* .competition-design{
         background-color: #bbeded6e !important;
         
       }
       .competition-design:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      }
-      .competition-design2{
+      } */
+      /* .competition-design2{
         background-color: #c2f5a96e !important;
       }
       .competition-design2:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      }
+      } */
       .competition-design3{
         background-color: #524af9eb !important;
         height: 19rem !important;
@@ -551,10 +550,10 @@
         width: 100%;
       }
 
-      .TS-card{
+      /* .TS-card{
         display: flex;
         flex-direction: column;
-      }
+      } */
 
 
       .hover:hover {
@@ -573,10 +572,10 @@
         }
       }
 
-      #peacock_1_mu{
+      /* #peacock_1_mu{
         width: 280px;
         height: 310px;
-      }
+      } */
 
 
       /* media quary */
@@ -595,9 +594,9 @@
     .PCNavbar-1{
       width: 80% !important;
     }
-    .heading{
+    /* .heading{
       margin-left: 2rem !important;
-    }
+    } */
     .heading-3{
       margin-left: 5.5rem !important;
     }
@@ -608,9 +607,9 @@
     .heading-2{
       margin-left: 1.5rem !important;
     }
-    .ev-1{
+    /* .ev-1{
       width:auto !important;
-    }
+    } */
     .about-2023{
       display: flex !important;
       flex-direction: column-reverse !important;
@@ -667,18 +666,18 @@
     .interview{
       margin-left: 0rem !important;
     }
-    .card{
+    /* .card{
       margin-left: 4rem !important;
       margin-bottom: 1.4rem ;
-    }
-    .card-ts{
+    } */
+    /* .card-ts{
       transform: scale(0.9);
       margin-left: 0.5rem !important;
       height: 18rem !important;
       margin-top: -0.4rem !important;
       display: flex !important;
       flex-direction: column !important;
-    }
+    } */
     .card-fb{
       margin-left: 6.8pc !important;
       margin-bottom: 1.4rem ;
@@ -785,6 +784,7 @@
     }
     .footer-23{
       margin-top: 0rem !important;
+      width: 104% !important;
     }
     .guest{
       margin-top: -26rem !important;
@@ -911,6 +911,7 @@
     }
     .mtg1{
       margin-top: -25rem !important;
+      width: 104% !important;
     }
     .e1{
       margin-left: -20rem !important;
@@ -972,7 +973,7 @@
     }
     .ma1{
       margin-top: -16rem !important;
-      z-index: 100;
+      /* z-index: 100; */
     }
     .ma2{
       margin-top: 1rem !important;
@@ -1005,12 +1006,15 @@
     .skb2{
       height: 22.2rem !important;
     }
+    .footer-23{
+      margin-top: -2rem !important;
+    }
   }
 
   @media only screen and (max-width: 1025px) and (min-width: 430px) {
-    .ev-1{
+    /* .ev-1{
       width:750px !important;
-    }
+    } */
     .about-2023{
       margin-top: 3rem;
       display: flex !important;
@@ -1059,27 +1063,27 @@
   @media only screen and (max-width: 430px) {
 
     /* about page */
-    #induct-yt{
+    /* #induct-yt{
       width: 300px;
       height: 200px;
       margin-left: 12% !important;
       margin-top: 0px !important;
-    }
-    .induct-para{
+    } */
+    /* .induct-para{
       margin-left: 0px !important;
       margin-right: 0px !important;
       text-align: justify;
-    }
-    .about-us{
+    } */
+    /* .about-us{
       margin-left: 15px;
       margin-right: 15px;
       padding-top: 0px !important;
-    }
-    #gallerydiv{
+    } */
+    /* #gallerydiv{
       margin-top: 0px !important;
       height: 500px !important;
       margin-bottom: 2rem !important;
-    }
+    } */
     #club{
       margin: 20px !important;
       padding-left: 0px !important;
@@ -1087,10 +1091,10 @@
     #club>p{
       text-align: justify;
     }
-    .gallery{
+    /* .gallery{
       margin-right: 0px !important;
       width: 100%;
-    }
+    } */
     #heading{
       margin: 0px !important;
       display: flex;
@@ -1115,9 +1119,9 @@
     .embed-responsive-item{
       transform: scale(0.9) !important;
     }
-    .row{
+    /* .row{
       margin-bottom: 0rem !important;
-    }
+    } */
     /* mritika page */
     #incer-about{
       padding: 0px !important;
@@ -1199,43 +1203,46 @@
     #peacock{
       height: 300px !important;
     }
-    .img_1{
+    /* .img_1{
       height: 360px !important;
-    }
-    .img_2{
+    } */
+    /* .img_2{
       height: 360px !important;
-    }
-    #peacock_1{
+    } */
+    /* #peacock_1{
       height: 300px !important;
-    }
-    #flash_inside{
+    } */
+    /* #flash_inside{
       margin-bottom: 0px !important;
-    }
-    #slider-flashback{
+    } */
+    /* #slider-flashback{
       display: none;
-    }
-    #about-us{
+    } */
+    /* #about-us{
       padding-bottom: 0rem !important;
       padding-top: 0px !important;
-    }
-    .about-us-OB{
+    } */
+    /* .about-us-OB{
       margin-top: 6rem !important;
       margin-bottom: 10rem;
-    }
+    } */
     .row-2{
       margin-top: 7rem;
     }
-    .flash_inside_MU{
+    /* .flash_inside_MU{
       margin-left: -1.3rem !important;
-    }
-    .flash_1{
+    } */
+    /* .flash_1{
       padding-bottom: 0px !important;
-    }
+    } */
     .mt-5{
       margin-top: 1rem !important;
     }
-    .image_div_2{
+    /* .image_div_2{
       padding-top: 0px !important;
+    } */
+    .rcb-2{
+      width: 104% !important;
     }
   }
   @media only screen and (max-width: 376px){
@@ -1254,13 +1261,28 @@
     .PCNavbar-5{
       width: 103% !important;
     }
-    .PCNavbar-6{
+    /* .PCNavbar-6{
       width: 114.5% !important;
-    }
-    .PCNavbar-7{
+    } */
+    /* .PCNavbar-7{
       width: 115.5% !important;
+    } */
+    .footer-23{
+      width: 107% !important;
     }
-    
+    .rcb-2{
+      width: 107% !important;
+    }
+    .mtg1{
+      height: 160rem !important;
+      width: 107% !important;
+    }
+    .rcb-3{
+      margin-left: 3rem ;
+    }
+    .rcb-4{
+      margin-left: 3rem ;
+    }
 
   }
   
