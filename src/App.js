@@ -5,6 +5,7 @@ import About from '../src/component/About/About';
 import Contact from './component/ContactUs/ContactUs';
 import Members from './component/Member/Member2023'
 import Members1 from './component/Member/Member2022';
+import Members3 from './component/Member/Member2024'
 import Members2 from './Members2';
 import Events from './PlacementDiary'
 import Events1 from './component/Events/PresentationComprtitions'
@@ -29,6 +30,7 @@ const App = () => {
       <Route exact path="/members" component={Members} />
       <Route exact path="/members1" component={Members1} />
       <Route exact path="/members2" component={Members2} />
+      <Route exact path="/members3" component={Members3} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/events" component={Events} />
       <Route exact path="/events1" component={Events1} />
