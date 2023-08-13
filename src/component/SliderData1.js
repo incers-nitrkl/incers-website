@@ -7,9 +7,9 @@ import img6 from '../images/MM9.jpg'
 import img7 from '../images/MM10.jpg'
 import img8 from '../images/MM11.jpg'
 import img9 from '../images/MM12.jpg'
-import blog from '../Blog'
-import blog1 from '../Blog1'
-import blog2 from '../Blog2'
+// import blog from '../Blog'
+// import blog1 from '../Blog1'
+// import blog2 from '../Blog2'
 
 export const SliderData1 = [
   {

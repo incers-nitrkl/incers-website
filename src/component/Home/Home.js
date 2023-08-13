@@ -1,12 +1,13 @@
 import React from 'react';
-import Navbar from "./Navbar";
-import App1 from './App1';
-import App from './App';
+import Navbar from "../../Navbar";
+import App1 from '../../App1';
+import Demo from "../../Demo"
 import Carousel from 'react-multi-carousel'
 import "react-multi-carousel/lib/styles.css";
-import { SliderData } from './component/SliderData';
-import { SliderData1 } from './component/SliderData1';
+import { SliderData } from '../SliderData';
+import { SliderData1 } from '../SliderData1';
 import { Box, makeStyles } from "@material-ui/core";
+import "./Home.css";
 
 
 const useStyles = makeStyles({
@@ -87,7 +88,6 @@ const Apps = () => {
                 <a href="/blog2" style={{ textDecoration: "none" }}>
                     <div className="img_1">
                         <img id="peacock" src="images/FF3.png" alt="mypic" />
-
                     </div>
                 </a></>
         }
@@ -273,7 +273,7 @@ const Apps = () => {
     const functiondeals = () => {
         const width2 = 700;
         if (window.screen.width <= width2) {
-            return <App />
+            return <Demo />
         }
         else {
             return <Carousel
@@ -308,7 +308,9 @@ const Apps = () => {
             return (<>
                 <div class="top_div">
                     <div>
-                        <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
+                        <div id="logo" style={{ cursor: "pointer" }}>
+                            <img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} />
+                        </div>
                     </div>
                     <Navbar />
                 </div>
@@ -352,6 +354,7 @@ const Apps = () => {
                 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
                 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
                 <section class="about-us about-us-OB py-5 py-5-1" id="about-us">
                     <div class="container mt-5" >
                         <div class="row">
@@ -382,6 +385,7 @@ const Apps = () => {
                         </div>
                     </div>
                 </section>
+                
                 <div className="family1">
                     <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
                         <div id="flash_inside">

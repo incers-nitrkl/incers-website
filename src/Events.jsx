@@ -225,7 +225,7 @@ const Mritika = () => {
                             </div>
 
                             {/* professor */}
-                            <div class="row container-member">
+                            <div class="row container-member" style={{justifyContent:"center",gap:"1rem"}}>
 
                                 
 
@@ -377,7 +377,7 @@ const Mritika = () => {
                                     </div>
                                 </div>
 
-                                <div class="side" style={{ height:"250px" ,width:"200px",marginLeft:"3rem"}}  data-wow-duration="1.4s">
+                                <div class="side" style={{ height:"250px" ,width:"200px"}}  data-wow-duration="1.4s">
                                     <div class="card" style={{ height: "250px" ,width:"200px"}}>
                                         <img class="card-img-top" style={{ height: "150px" ,width:"120px", marginLeft:"3rem"}} src="images/Arindum.jpg" />
                                         <div class="card-block">
@@ -528,7 +528,7 @@ const Mritika = () => {
 
 
                 {/* Executive Cards */}
-                <div class="executive-members em-1">
+                <div class="executive-members em-1 " style={{marginTop:"2rem",gap:"1rem"}}>
                     <section class="testimonials text-center">
                         <div class="container em-6" style={{marginTop:"12rem"}}>
                             <div class="row">
@@ -655,7 +655,7 @@ const Mritika = () => {
 
             {/* new sponsers 2023 */}
             <div>
-            <section class="testimonials bg-light" id="marketplace">
+            <section class="testimonials bg-light" style={{marginTop:"2rem"}} id="marketplace">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mx-auto wow fadeInUp">
@@ -666,7 +666,7 @@ const Mritika = () => {
 
 
                     <div class="row sponsers sp-box">
-                        <h3 style={{marginLeft:"-55rem"}} class="text-center font-weight-bold">TITLE<span class="bg-main"> SPONSERS</span></h3>
+                        <h3  class="text-center font-weight-bold">TITLE<span class="bg-main"> SPONSERS</span></h3>
                         <div class="sponsers1"> 
                             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp sponser-new" data-wow-duration="1.4s">
                                 <div class="card hover ">

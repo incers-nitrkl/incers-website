@@ -1,0 +1,561 @@
+.flash-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#peacock {
+    width: 270px;
+}
+
+#peacock_1 {
+    width: 270px;
+}
+
+.img_1 {
+    margin: 10px;
+    margin-left: 5px;
+    text-align: justify;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+}
+
+#proff1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#para {
+    width: 250px;
+    height: 270px;
+    padding: 20px;
+    color: #000;
+}
+
+#para1 {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    color: #000;
+}
+
+.img_2 {
+    margin: 10px;
+    text-align: justify;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin {
+    font-size: 3rem;
+    color: #fff;
+    margin: 15px;
+}
+
+.logo_part {
+    font-size: 3rem;
+    color: #fff;
+    margin: 15px;
+    height: 80px;
+    background: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.img_3 .fa-linkedin:hover {
+    color: rgb(255, 123, 0);
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.img_3 img:hover {
+    cursor: pointer;
+    box-shadow: 10px 20px 18px -18px rgba(0, 0, 0, 1);
+    transform: scale(0.5, 0.5);
+}
+
+.top_div {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    background: #0f1103;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#logo {
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main_div {
+    width: 100vw;
+}
+
+.family1 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    object-fit: inherit;
+}
+
+.flash_1 {
+    display: flex;
+    padding-left: 320px;
+    padding-top: 50px;
+    color: #000;
+}
+
+#flash_inside {
+    margin-bottom: 30px;
+}
+
+.image_div_1 {
+    width: 100%;
+    height: 700px;
+    background: "#fff";
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.image_div_2 {
+    width: 100%;
+    height: 700px;
+    background: "#fff";
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+
+/* *****************media query******************** */
+
+@media (min-width: 770px) and (max-width: 1050px) {
+    .top_div {
+        width: 1000px;
+    }
+
+    .gallery_div,
+    .gallery_div_placement {
+        width: 1000px;
+        height: 450px;
+    }
+
+    .family1 {
+        width: 1000px;
+    }
+
+    .image_div_1,
+    .image_div_2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #peacock {
+        width: 70%;
+        height: 400px;
+        margin-left: 35px;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    #peacock_1 {
+        width: 70%;
+        height: 400px;
+        margin-left: 35px;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    .img_1,
+    .img_2 {
+        margin-left: 8%;
+        padding-top: 30px;
+        margin-bottom: -25px;
+        width: 100%;
+        height: 500px;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+    #proff1 {
+        margin-top: 40px;
+        height: 100px;
+        font-size: 60px;
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin {
+        font-size: 2rem;
+        color: #fff;
+        margin: 5px;
+    }
+
+    .logo_part {
+        font-size: 2rem;
+        color: #fff;
+        margin: 5px;
+        height: 70px;
+        width: 100%;
+    }
+
+    .img_3 {
+        font-size: 2rem;
+        color: #fff;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .top_div {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    #logo {
+        margin: auto;
+    }
+
+    .main_div {
+        width: 107% !important;
+    }
+
+    .gallery_div,
+    .gallery_div_placement {
+        width: 100%;
+        height: 300px;
+    }
+
+    .flash_1 {
+        display: inline-block;
+        padding-left: 90px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+        color: #000;
+        font-size: 15px;
+    }
+
+    #flash_inside {
+        margin-bottom: -35px;
+        margin-top: 15px;
+    }
+
+    .image_div_1,
+    .image_div_2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:479px) {
+    #peacock {
+        width: 80%;
+        height: 400px;
+        margin-left: 15px;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    #peacock_1 {
+        width: 80%;
+        height: 300px;
+        margin-left: 15px;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    .img_1,
+    .img_2 {
+        margin-left: 7%;
+        padding-top: 10px;
+        margin-bottom: -25px;
+        width: 100%;
+        height: 360px;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+    #proff1 {
+        margin-top: 40px;
+        height: 100px;
+        font-size: 60px;
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin {
+        font-size: 2rem;
+        color: #fff;
+        margin: 5px;
+    }
+
+    .logo_part {
+        font-size: 2rem;
+        color: #fff;
+        margin: 5px;
+        height: 60px;
+        width: 100%;
+    }
+
+    .img_3 {
+        font-size: 14px;
+        color: #fff;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .top_div {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #logo {
+        margin-top: 0.3rem;
+        margin-left: -3px;
+        width: 20%;
+    }
+
+    .main_div {
+        width: 100%;
+    }
+
+    .gallery_div,
+    .gallery_div_placement {
+        width: 100%;
+        height: 250px;
+    }
+
+    .about-us {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 0px !important;
+    }
+
+    #about-us {
+        padding-bottom: 0rem !important;
+        padding-top: 0px !important;
+    }
+
+    .about-us-OB {
+        margin-top: 6rem !important;
+        margin-bottom: 10rem;
+    }
+
+    .flash_1 {
+        display: inline-block;
+        padding-left: 70px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        color: #000;
+        font-size: 15px;
+    }
+
+    #flash_inside {
+        margin-bottom: -35px;
+        margin-top: -6px;
+        font-size: 11px;
+    }
+
+    .image_div_1,
+    .image_div_2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 0px ;
+    }
+
+    #slider-flashback {
+        display: none;
+    }
+
+    .flash_inside_MU {
+        margin-left: -1.3rem !important;
+    }
+}
+
+@media (max-width: 330px) {
+    #peacock {
+        width: 80%;
+        height: 330px;
+        margin-left: 15px;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    #peacock_1 {
+        width: 80%;
+        height: 330px;
+        margin-left: 15px;
+        border: 2px solid white;
+        padding: 2px;
+    }
+
+    .img_1,
+    .img_2 {
+        margin-left: 7%;
+        padding-top: 10px;
+        margin-bottom: -25px;
+        width: 100%;
+        height: 400px;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+    #proff1 {
+        margin-top: 40px;
+        height: 100px;
+        font-size: 60px;
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-linkedin {
+        font-size: 1.5rem;
+        color: #fff;
+        margin: 7px;
+    }
+
+    .logo_part {
+        font-size: 1.5rem;
+        color: #fff;
+        margin: 7px;
+        height: 60px;
+        width: 100%;
+    }
+
+    .img_3 {
+        font-size: 11px;
+        color: #fff;
+        margin: 7px;
+        padding: 15px;
+    }
+
+    .top_div {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #logo {
+        margin-left: -3px;
+        width: 20%;
+    }
+
+    .main_div {
+        width: 100%;
+    }
+
+    .gallery_div,
+    .gallery_div_placement {
+        width: 100%;
+        height: 300px;
+    }
+
+    .flash_1 {
+        display: inline-block;
+        padding-left: 70px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+        color: #000;
+        font-size: 10px;
+    }
+
+    #flash_inside {
+        margin-bottom: -45px;
+        margin-top: -2px;
+        font-size: 11px;
+        margin-left: -14px;
+    }
+
+    .underline {
+        display: inline-block;
+        position: relative;
+        color: #0087ca;
+    }
+
+    .underline:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .underline:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .image_div_1,
+    .image_div_2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #slider-flashback {
+        display: none;
+    }
+
+
+
+}
+
+@media (min-width: 1048px) {
+    .img_1:hover {
+        box-shadow: 10px 30px 28px -18px rgba(0, 0, 0, 0.6);
+        transform: scale(1.05, 1.05);
+        border-radius: 20px;
+    }
+
+    .img_2:hover {
+        box-shadow: 10px 30px 28px -18px rgba(0, 0, 0, 0.6);
+        transform: scale(1.05, 1.05);
+        border-radius: 20px;
+    }
+}
