@@ -25,7 +25,7 @@ const Events2 = () => {
     return <>
         <div class="main_div">
             {functionnav()}
-            <div class="container container-1">
+            <div class="container">
                 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
                 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -36,12 +36,12 @@ const Events2 = () => {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
                 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen" />
                 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-                <h3 class="pb-3 mb-4 font-italic border-bottom" style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+                <h3 class="pb-3 my-4 font-italic border-bottom" >
                     WEBINARS AND TECHNICAL SESSIONS
                 </h3>
 
-                <div class="WT-row TS-card">
-                    <div class="col-md-6 card-effect">
+                <div className="WT-row">
+                    <div class="col-md-6 card-effect ">
                         <div class="card flex-md-row mb-4 shadow-sm h-md-250 competition-design ev-1 card-ts" style={{ height: "16rem", width: "70rem" }}>
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">OBMODTEA 2020</strong>
