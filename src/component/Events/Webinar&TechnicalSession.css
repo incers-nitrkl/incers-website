@@ -52,17 +52,8 @@
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 }
 
-.WT-row.heading h2 {
-    color: #fff;
-    font-size: 52.52px;
-    line-height: 95px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 40px;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
 .WT-row{
+    display: flex;
     flex-direction: column;
 }
 
@@ -137,9 +128,6 @@
         margin-bottom: 1.4rem;
     }
 
-    .WT-row {
-        margin-bottom: 0rem !important;
-    }
 }
 
 @media (max-width: 330px) {
