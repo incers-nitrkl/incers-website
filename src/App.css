@@ -627,9 +627,9 @@
     .executive-members{
       margin-top: -7rem;
     }
-    .bg-light{
+    /* .bg-light{
       margin-top: -4.5rem;
-    }
+    } */
     .sp-box{
       transform: scale(0.8);
       margin-top: -23rem !important;
@@ -1025,9 +1025,9 @@
     .btn-19{
       transform: scale(0.8);
     }
-    .overlay{
+    /* .overlay{
       height: 35rem !important;
-    }
+    } */
     .overlay-1{
       height: 35rem !important;
       margin-top: 4.6rem;
@@ -1129,9 +1129,9 @@
       margin-right: 24px !important;
       text-align: justify;
     }
-    .fadeInUp{
+    /* .fadeInUp{
       margin-top: 3rem;
-    }
+    } */
     .fadeInUp-19{
       margin-top: 1rem !important;
     }

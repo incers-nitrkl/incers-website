@@ -1,27 +1,12 @@
 import React from 'react';
 import Navbar from '../../Navbar';
+import Footer from '../Footer/Footer';
 
-const functionnav = ()=>{
-    const widths = 700
-    if(window.screen.width <= widths){
-        return(<>
-             <div className="top_div">
-            <div>
-                <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
-            </div>
-            <Navbar />
-        </div>
-        </>)
-    }
-        else{
-            return <Navbar />
-        }
-    }
 const Contact = () => {
     return (
         <>
+        <Navbar />
         <div className="main_div">
-            {functionnav()}
             <section id="candy" className="our-webcoderskull padding-lg">
                 <div className="container">
                     <div style={{height:"260px"}}><div className="row heading heading-icon">
@@ -55,39 +40,7 @@ const Contact = () => {
                     </ul>
                 </div>
             </section>
-            <div className="social_media_part">
-                <footer>
-                    <div className="top_header">
-                        <section>
-                            <span><i className="fa fa-map-marker"></i></span>
-                            <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
-                        </section>
-                        <section>
-                            <span><i className="fa fa-envelope"></i></span>
-                            <span>incersnitr@gmail.com</span>
-                        </section>
-                    </div>
-                    <span className="border-shape"></span>
-                    <div className="bottom_content">
-                        <section>
-                            <a href="#"><i className="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="https://www.instagram.com/nitr_incers/"><i className="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i className="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
-                        </section>
-                        <section>
-                            <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
-                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
-                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
-                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
-                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
-                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
-                        </section>
-                    </div>
-                    <div className="copyright">
-                        Copyright © 2021 NITRICS - All rights reserved
-                    </div>
-                </footer>
-            </div>
+            <Footer/>
         </div>
         </>
     );

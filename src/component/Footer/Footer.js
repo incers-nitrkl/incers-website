@@ -1,9 +1,16 @@
 import React from 'react'
+import { FaFacebookSquare } from 'react-icons/fa'
+import { FaTwitterSquare } from 'react-icons/fa'
+import { FaInstagramSquare } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaMapMarkerAlt } from 'react-icons/fa'
+import { FaEnvelope } from 'react-icons/fa'
+
 
 const Footer = () => {
     return (
         <>
-            <div class="social_media_part PCNavbar-6">
+            {/* <div class="social_media_part PCNavbar-6">
                 <footer>
                     <div class="top_header">
                         <section>
@@ -33,6 +40,50 @@ const Footer = () => {
                     </div>
                     <div class="copyright">
                         Copyright © 2021 NITRICS - All rights reserved
+                    </div>
+                </footer>
+            </div> */}
+            <div>
+                <footer class="bg-dark text-center text-white">
+                    <div class="container p-4 pb-0 ">
+                        <section>
+                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                                <span><FaMapMarkerAlt /></span>
+                                <span class="text-wrap "> NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
+                            </a>
+                        </section>
+                        <section>
+                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                                <span><FaEnvelope/></span>
+                                <span> incersnitr@gmail.com</span>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="container p-4 pb-0">
+                        <section class="mb-4">
+                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                                <FaFacebookSquare />
+                            </a>
+
+                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                                <FaTwitterSquare />
+                            </a>
+
+
+                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                                <FaInstagramSquare />
+                            </a>
+
+                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                                <FaLinkedin />
+                            </a>
+
+                        </section>
+                    </div>
+
+                    <div class="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+                        © 2023 Copyright:
+                        <a class="text-white " href="#"> incers.com</a>
                     </div>
                 </footer>
             </div>
