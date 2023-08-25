@@ -8,6 +8,7 @@ import { SliderData } from '../SliderData';
 import { SliderData1 } from '../SliderData1';
 import { Box, makeStyles } from "@material-ui/core";
 import "./Home.css";
+import Footer from '../Footer/Footer';
 
 
 const useStyles = makeStyles({
@@ -302,29 +303,12 @@ const Apps = () => {
         }
     }
 
-    const functionnav = () => {
-        const widths = 700
-        if (window.screen.width <= widths) {
-            return (<>
-                <div class="top_div">
-                    <div>
-                        <div id="logo" style={{ cursor: "pointer" }}>
-                            <img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} />
-                        </div>
-                    </div>
-                    <Navbar />
-                </div>
-            </>)
-        }
-        else {
-            return <Navbar />
-        }
-    }
+    
 
     return (
         <>
+            <Navbar/>
             <div class="main_div">
-                {functionnav()}
                 <div className="gallery_div">
                     <img style={{ width: "100%", height: "580px", borderRadius: "0px" }} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
                 </div>
@@ -458,39 +442,7 @@ const Apps = () => {
                 </div>
 
 
-                <div className="social_media_part">
-                    <footer>
-                        <div class="top_header">
-                            <section>
-                                <span><i class="fa fa-map-marker"></i></span>
-                                <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
-                            </section>
-                            <section>
-                                <span><i class="fa fa-envelope"></i></span>
-                                <span>incersnitr@gmail.com</span>
-                            </section>
-                        </div>
-                        <span class="border-shape"></span>
-                        <div class="bottom_content">
-                            <section>
-                                <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                                <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                                <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
-                            </section>
-                            <section>
-                                <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
-                                <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
-                                <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
-                                <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
-                                <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
-                                <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
-                            </section>
-                        </div>
-                        <div class="copyright">
-                            Copyright © 2023 INCERSNITR - All rights reserved
-                        </div>
-                    </footer>
-                </div>
+                <Footer/>
             </div>
         </>
     );

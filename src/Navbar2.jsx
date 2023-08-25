@@ -33,18 +33,11 @@ const Navbar2 = () => {
         setOpen(close)
     }
 
-
-
-
-    // openMenu.addEventListener('click', show);
-    // closeMenu.addEventListener('click', close);
-
-
     const classes = usestyles();
     const w = 700;
     if (window.screen.width <= 700) {
         return (<>
-            
+
             <nav>
                 <div class="openMenu" onClick={functionopen}><i class="fa fa-bars"></i></div>
                 <ul class="mainMenu">
@@ -55,8 +48,6 @@ const Navbar2 = () => {
                             <ul>
                                 <NavLink to="/members" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2023-24</span></h3></li> </NavLink>
                                 <NavLink to="/members1" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2022-23</span></h3></li> </NavLink>
-                                {/* <NavLink to="/members2" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Members 2020-21</span></h3></li> </NavLink> */}
-                                {/* <li><h3>hello</h3></li> */}
                             </ul>
                         </div>
                     </li>
@@ -70,8 +61,6 @@ const Navbar2 = () => {
                                 <NavLink to="/events3" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">FlashBack Friday</span></h3></li> </NavLink>
                                 <NavLink to="/events4" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Monday Matter</span></h3></li> </NavLink>
                                 <NavLink to="/events5" exact activeClassName="active_class" style={{ textDecoration: "none", color: "red" }} ><li> <h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">Materials Unlocked</span></h3></li> </NavLink>
-
-                                {/* <li><h3>hello</h3></li> */}
                             </ul>
                         </div>
                     </li>
@@ -86,10 +75,6 @@ const Navbar2 = () => {
                             </ul>
                         </div>
                     </li>
-
-                    {/* <li><a href="/mritika"><h3 class="my-heading " style={{ fontSize: "18px" }}><span class="bg-main">InCerS NITR</span></h3></a></li> */}
-                    
-                    {/* <li><a href="/mritika">Mrittika</a></li> */}
                     <div class="closeMenu" onClick={functionclose}><i class="fa fa-times"></i></div>
                     <span class="icons">
                         <a href=""><i class="fa fa-facebook"></i></a>
@@ -101,73 +86,55 @@ const Navbar2 = () => {
         </>)
     }
     else {
-        return (<>    
-        <div class="menu-bar">
-            {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" /> */}
-            <link rel="stylesheet" href="index.css" />
-            {/* <h1 class="logo" style={{cursor:"pointer"}}>NITR<span>ICS</span></h1> */}
+        return (<>
+            <div class="menu-bar">
+                <link rel="stylesheet" href="index.css" />
+                <div>
+                    <div id="logo1" style={{ cursor: "pointer" }}><img src="images/incers-chapter-logo.png" style={{ height: "60px", width: "70px", background: "100% 100%", borderRadius: "0px", padding: "0px", marginTop: "-12px" }} /></div>
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/members">Members <i class="fas facaret-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="/members">Members 2023-24</a></li>
+                                <li><a href="/members1">Members 2022-23</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact-us</a>
+                    </li>
+                    <li><a href="#">Events <i class="fas facaret-down"></i></a>
 
-            <div>
-                    <div id="logo1" style={{ cursor: "pointer" }}><img src="images/incers-chapter-logo.png" style={{ height: "60px", width: "70px", background: "100% 100%", borderRadius: "0px", padding: "0px" ,marginTop:"-12px"}} /></div>
-            </div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/members">Members <i class="fas facaret-down"></i></a>
-                    <div class="dropdown-menu">
-                        <ul>
-                            <li><a href="/members">Members 2023-24</a></li>
-                            <li><a href="/members1">Members 2022-23</a></li>
-                            {/* <li><a href="/members2">Members 2020-21</a></li> */}
-                            {/* <li><a href="/member1">Members 2021-22</a></li>
-                            <li><a href="/member1">Members 2022-23</a></li> */}
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="/contact">Contact-us</a>
-                <div class="dropdown-menu">
-                        <ul>
-                            <li><a href="/contact">Contact-us</a></li>
-                            {/* <li><a href="/alumni">Alumni Members</a></li> */}
-                            {/* <li><a href="/member1">Members 2021-22</a></li>
-                            <li><a href="/member1">Members 2022-23</a></li> */}
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#">Events <i class="fas facaret-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="/events">Placement-Diaries</a></li>
+                                <li><a href="/events1">Presentation-Competitions</a></li>
+                                <li><a href="/events2">Webinars And Technical Sessions</a></li>
+                                <li><a href="/events3">FlashBack Friday</a></li>
+                                <li><a href="/events4">Monday Matter</a></li>
+                                <li><a href="/events5">Materials Unlocked</a></li>
 
-                    <div class="dropdown-menu">
-                        <ul>
-                            <li><a href="/events">Placement-Diaries</a></li>
-                            <li><a href="/events1">Presentation-Competitions</a></li>
-                            <li><a href="/events2">Webinars And Technical Sessions</a></li>
-                            <li><a href="/events3">FlashBack Friday</a></li>
-                            <li><a href="/events4">Monday Matter</a></li>
-                            <li><a href="/events5">Materials Unlocked</a></li>
-                            
-                        </ul>
-                    </div>
-                </li>
-                {/* <li><a href="#">Blog</a>
-                </li> */}
-                {/* <li><a href="/mritika">Mrittika</a></li> */}
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">InCerS NITR <i class="fas facaret-down"></i></a>
 
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="/aboutincerschapter">Incers-About</a></li>
+                                <li><a href="/mritika">Mrittika-2023</a></li>
+                                <li><a href="/mritika1">Mrittika-2019</a></li>
 
-                <li><a href="/mritika">InCerS NITR <i class="fas facaret-down"></i></a>
+                            </ul>
+                        </div>
+                    </li>
 
-                    <div class="dropdown-menu">
-                        <ul>
-                            <li><a href="/aboutincerschapter">Incers-About</a></li>
-                            <li><a href="/mritika">Mrittika-2023</a></li>
-                            <li><a href="/mritika1">Mrittika-2019</a></li>
-                            
-                        </ul>
-                    </div>
-                </li>
+                </ul>
+            </div></>)
 
-            </ul>
-        </div></>)
-        
     }
 }
 const functionnav = () => {
@@ -182,10 +149,10 @@ const functionnav = () => {
     }
 }
 const Navbar23 = () => {
-    return(<>
-          {functionnav()}
+    return (<>
+        {functionnav()}
     </>)
 
 }
-    
-    export default Navbar23;
+
+export default Navbar23;

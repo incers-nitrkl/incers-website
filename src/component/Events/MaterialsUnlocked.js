@@ -1,43 +1,14 @@
 import React from 'react';
 import Navbar from '../../Navbar';
+import Footer from '../Footer/Footer';
 
 
 const Events5 = () => {
-    const functionnav = ()=>{
-        const widths = 700
-        if(window.screen.width <= widths){
-            return(<>
-                 <div class="top_div PCNavbar-5">
-                <div>
-                    <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo_new.png" style={{ height: "58px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
-                </div>
-                <Navbar />
-            </div>
-            </>)
-        }
-            else{
-                return <Navbar />
-            }
-        }
     return (<>
-        
+        <Navbar />
         <div className='main_div'>
-            {/* <div class="top_div">
-                    <div>
-                        <div id="logo" style={{ cursor: "pointer" }}><img src="images/logo1.jpg" style={{ height: "48px", width: "55px", background: "100% 100%", borderRadius: "0px", padding: "2px" }} /></div>
-                    </div>
-                    <Navbar />
-                </div> */}
-            {functionnav()}
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container">
-                    {/* <div>
-                        <div id="logo" style={{ cursor: "pointer" }}><img src="images/mritika_logo.png" style={{ height: "65px", width: "65px", background: "100% 100%", borderRadius: "0px", padding: "0px" ,marginLeft:"-180px",marginTop:"-1rem"}} /></div>
-                    </div>
-                    <h3 style={{marginRight:"-48rem"}}>InCerS NITR</h3>
-                    <a class="navbar-brand" href="/">
-                        <button class="btn btn-primary" style={{marginRight:"-30rem"}}>Home</button>
-                    </a> */}
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars mfa-white"></span>
                     </button>
@@ -213,46 +184,7 @@ const Events5 = () => {
 
 
 
-            <div class="social_media_part footer-5 PCNavbar-5" style={{marginTop:"-6rem"}}>
-                <footer>
-                    <div class="top_header">
-                        <section>
-                            <span><i class="fa fa-map-marker"></i></span>
-                            <span>NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
-                        </section>
-                        {/* <section>
-                            <span><i class="fa fa-phone"></i></span>
-                            <span>Deepsikha Brahma</span>
-                            <span><i class="fa fa-phone"></i></span>
-                            <span>Partha Mishra</span>
-                        </section> */}
-                        <section>
-                            <span><i class="fa fa-envelope"></i></span>
-                            <span>incersnitr@gmail.com</span>
-                        </section>
-                    </div>
-                    <span class="border-shape"></span>
-                    <div class="bottom_content">
-                        <section>
-                            <a href="#"><i class="fa fa-facebook" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="https://www.instagram.com/nitr_incers/"><i class="fa fa-instagram" style={{ fontSize: "2rem" }}></i></a>
-                            <a href="https://www.linkedin.com/company/incers-nitr/mycompany/"><i class="fa fa-linkedin" style={{ fontSize: "2rem" }}></i></a>
-                            {/* <a href="#"><i class="fa fa-telegram"></i></a> */}
-                        </section>
-                        <section>
-                            <a href="/" style={{ fontSize: "1.1rem" }}>Home</a>
-                            <a href="/about" style={{ fontSize: "1.1rem" }}>About</a>
-                            <a href="/contact" style={{ fontSize: "1.1rem" }}>Contact</a>
-                            <a href="/members" style={{ fontSize: "1.1rem" }}>Members</a>
-                            <a href="/mritika" style={{ fontSize: "1.1rem" }}>Mrittika 2.0</a>
-                            <a href="/aboutincerschapter" style={{ fontSize: "1.1rem" }}>Incers-about</a>
-                        </section>
-                    </div>
-                    <div class="copyright">
-                        Copyright © 2023 INCERSNITR - All rights reserved
-                    </div>
-                </footer>
-            </div>
+            <Footer/>
 
 
         </div>
