@@ -32,26 +32,6 @@
     background: #ff3921;
 }
 
-.card {
-    font-size: 1em;
-    overflow: hidden;
-    padding: 0;
-    border: none;
-    border-radius: 0.28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-}
-
-.card-text {
-    clear: both;
-    margin-top: 0.5em;
-    color: rgba(0, 0, 0, 0.68);
-}
-
-.card:hover {
-    color: #222 !important;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-}
-
 .WT-row{
     display: flex;
     flex-direction: column;
@@ -123,10 +103,10 @@
         flex-direction: column !important;
     }
 
-    .card {
+    /* .card {
         margin-left: 4rem !important;
         margin-bottom: 1.4rem;
-    }
+    } */
 
 }
 

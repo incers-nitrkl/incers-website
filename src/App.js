@@ -3,11 +3,11 @@ import { Route } from 'react-router';
 import Home from '../src/component/Home/Home';
 import About from '../src/component/About/About';
 import Contact from './component/ContactUs/ContactUs';
-import Members2 from './component/Member/Member2023'
-import Members1 from './component/Member/Member2022';
-import Members3 from './component/Member/Member2024'
-import Events from './component/Events/PlacementDiary'
-import Events1 from './component/Events/PresentationComprtitions'
+import Members23 from './component/Member/Member2023'
+import Members22 from './component/Member/Member2022';
+import Members24 from './component/Member/Member2024';
+import Events from './component/Events/PlacementDiary';
+import Events1 from './component/Events/PresentationComprtitions';
 import Events2 from './component/Events/Webinar&TechnicalSession';
 import Events3 from './component/Events/FlashbackFriday';
 import Events4 from './component/Events/MondayMatter';
@@ -27,10 +27,9 @@ const App = () => {
     <>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/members" component={Members3} />
-      <Route exact path="/members1" component={Members1} />
-      <Route exact path="/members2" component={Members2} />
-      <Route exact path="/members3" component={Members3} />
+      <Route exact path="/members22" component={Members22} />
+      <Route exact path="/members23" component={Members23} />
+      <Route exact path="/members24" component={Members24} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/events" component={Events} />
       <Route exact path="/events1" component={Events1} />

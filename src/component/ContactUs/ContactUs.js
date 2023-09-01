@@ -1,48 +1,75 @@
-import React from 'react';
-import Navbar from '../../Navbar';
-import Footer from '../Footer/Footer';
+import React from "react";
+import Navbar from "../../Navbar";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
-    return (
-        <>
-        <Navbar />
-        <div className="main_div">
-            <section id="candy" className="our-webcoderskull padding-lg">
-                <div className="container">
-                    <div style={{height:"260px"}}><div className="row heading heading-icon">
-                        <h2 style={{ fontSize: "30px", color: "black", fontWeight: "bolder" }}></h2>
-                    </div></div>
-                    <ul className="row">
-                        <li className="col-12 col-md-6 col-lg-3">
-                            <div className="cnt-block equal-hight" style={{ height: " 355px" }}>
-                                <figure><img src="images/BB.jpg" style={{objectFit:"cover"}} className="img-responsive" alt="" /></figure>
-                                <h3><a href="https://www.linkedin.com/in/shanbehera/">Prof. Bibhuti Bhusan Nayak</a></h3>
-                                <p>Department of ceramic Engineering</p>
-                                <p>mail id: bbnayak[at]nitrkl.ac.in</p>
-                            </div>
-                        </li>
-                        <li className="col-12 col-md-6 col-lg-3">
-                            <div className="cnt-block equal-hight" style={{ height: " 355px" }}>
-                                <figure><img src="images/DP.jpg" className="img-responsive" alt="" style={{objectFit:"cover"}}/></figure>
-                                <h3><a href="https://www.linkedin.com/in/siddhartha-nanda-2000/">Deepsikha Brahma</a></h3>
-                                <p>Department of Ceramic Engineering</p>
-                                <p>mail id: deepsikhabrahma01@gmail.com</p>
-                            </div>
-                        </li>
-                        <li className="col-12 col-md-6 col-lg-3">
-                            <div className="cnt-block equal-hight" style={{ height: " 355px" }}>
-                                <figure><img src="images/PM.jpg" className="img-responsive" style={{objectFit:"cover"}} alt="" /></figure>
-                                <h3><a href="#">Partha Mishra</a></h3>
-                                <p>Department of Ceramic Engineering</p>
-                                <p>mail id: 120CR0842@nitrkl.ac.in</p>
-                            </div>
-                        </li>
-                    </ul>
+  return (
+    <>
+      <Navbar />
+      <div>
+        <section>
+          <div class="container">
+            <div class="row">
+              <h1 class="text-center">
+                <span>Contact Us</span>{" "}
+              </h1>
+              <div class="col-md-4 card-design">
+                <div class="card profile-card-1">
+                  <img
+                    src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
+                    alt="profile-sample1"
+                    class="background"
+                  />
+                  <img src="images/BB.jpg" alt="profile-image" class="profile" />
+                  <div class="card-content">
+                    <h2>
+                    Prof. Bibhuti Bhusan Nayak
+                    <small>Department of ceramic Engineering</small>
+                    <small>bbnayak@nitrkl.ac.in</small>
+                    </h2>
+                  </div>
                 </div>
-            </section>
-            <Footer/>
-        </div>
-        </>
-    );
-}
+              </div>
+              <div class="col-md-4 card-design">
+                <div class="card profile-card-1">
+                  <img
+                    src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
+                    alt="profile-sample1"
+                    class="background"
+                  />
+                  <img src="images/DP.jpg" alt="profile-image" class="profile" />
+                  <div class="card-content">
+                    <h2>
+                    Deepsikha Brahma
+                    <small>Department of ceramic Engineering</small>
+                    <small>deepsikhabrahma01@gmail.com</small>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 card-design">
+                <div class="card profile-card-1">
+                  <img
+                    src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
+                    alt="profile-sample1"
+                    class="background"
+                  />
+                  <img src="images/PM.jpg" alt="profile-image" class="profile" />
+                  <div class="card-content">
+                    <h2>
+                    Partha Mishra
+                      <small>Department of Ceramic Engineering</small>
+                      <small>120CR0842@nitrkl.ac.in</small>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <Footer />   
+    </>
+  );
+};
 export default Contact;
