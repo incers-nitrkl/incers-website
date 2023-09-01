@@ -303,11 +303,11 @@ const Apps = () => {
         }
     }
 
-    
+
 
     return (
         <>
-            <Navbar/>
+            <Navbar />
             <div class="main_div">
                 <div className="gallery_div">
                     <img style={{ width: "100%", height: "580px", borderRadius: "0px" }} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
@@ -369,14 +369,8 @@ const Apps = () => {
                         </div>
                     </div>
                 </section>
-                
-                <div className="family1">
-                    <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
-                        <div id="flash_inside">
-                            <h2 style={{ color: "#000" }} class="underline">FLASHBACK FRIDAY</h2>
-                        </div>
-                    </div>
 
+                <div className="family1">
                     <div className="image_div_1">
                         {functiondeal1()}
                     </div>
@@ -399,12 +393,6 @@ const Apps = () => {
                             </div>
                         </div>
                     </section>
-
-                    <div className="flash_2" style={{ backgroundcolor: "#FAFCEE" }}>
-                        <div id="flash_inside" style={{ marginBottom: "40px" }}>
-                            <h2 style={{ color: "#000" }} class="underline">MONDAY MATTER</h2>
-                        </div>
-                    </div>
 
                     <div className="image_div_2">
                         {functiondeal2()}
@@ -430,19 +418,13 @@ const Apps = () => {
                         </div>
                     </section>
 
-                    <div className="flash_1" style={{ backgroundcolor: "#FAFCEE" }}>
-                        <div id="flash_inside" class="flash_inside_MU">
-                            <h2 style={{ color: "#000" }} class="underline">MATERIALS UNLOCKED</h2>
-                        </div>
-                    </div>
-
                     <div className="image_div_2" style={{ marginBottom: "-7.5rem" }}>
                         {functiondeal4()}
                     </div>
                 </div>
 
 
-                <Footer/>
+                <Footer />
             </div>
         </>
     );
