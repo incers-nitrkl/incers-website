@@ -6,68 +6,18 @@ const Events3 = () => {
 
     return (<>
         <Navbar />
-        <div className='main_div'>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars mfa-white"></span>
-                    </button>
-                    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
-                    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-                    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-                    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-                    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" />
-                    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
-                    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen" />
-                    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-                </div>
-            </nav>
-
-
-            <div class="mrittika-bg">
-                {/* <div class="overlay"></div> */}
-                <div class="mrittika-img PCNavbar-4">
-                    <img class="mrittika-img1" src="images/FF-banner.png" alt="suraj" style={{ height: "565px", width: "100%", borderRadius: "0px" }} />
-                </div>
-                <div class="container slider-top-text">
-                    <div class="row" style={{ display: "none" }}>
-                        <div class="col-md-12 text-center">
-                            {/* <h3 class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3> */}
-                            {/* <p class="myp-slider text-center">Where ceramists unite and become better together</p>
-                            <p class="myp text-center">SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p> */}
-                            <a class="btn btn-primary btn-join" title="Go to Brochure" href="https://docs.google.com/document/d/1T6DjZZsHYflBi5Wr3VZnujt5EzYUa3KiZaqeuRzwj7E/edit?usp=sharing" style={{ marginTop: "12rem" }}>Go to Brochure</a>
-                            {/*<a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgZlgyceJlhRZhBOYVHXJXWGV-V6NZbli0DKgS-E6ARCr_A/viewform" title="Go to Registration Form" >
-                                <button type="button" class="btn btn-primary" style={{marginTop:"20rem",marginBottom:"1rem",width:"13rem",marginLeft:"-12.4rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
-                            </a> */}
-                            {/* <p>suraj</p> */}
-
-                            {/* <a  href="https://docs.google.com/document/d/1T6DjZZsHYflBi5Wr3VZnujt5EzYUa3KiZaqeuRzwj7E/edit?usp=sharing"  title="Go to Brochure" style={{marginTop:"12rem",fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a> */}
-                        </div>
-
-                        <div class="col-md-12 text-center mt-5">
-                            <div class="scroll-down" >
-                                <a class="btn btn-default btn-scroll floating-arrow" href="#gobottom" id="bottom"><i class="fa fa-angle-down"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div>
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+            <div>
+                <img class="" src="images/FF-banner.png" alt="suraj" style={{ height: "565px", width: "100%" }} />
             </div>
 
-
-
             {/* New add */}
-
-            <div class="mritika-about mritika-about-udit">
-                <div class="about-2023 ff-about" style={{ marginTop: "2rem" }}>
-                    <h1 style={{ marginLeft: "-4rem" }}>FLASHBACK FRIDAY</h1>
-
-                    {/* <a  href="/mritika1">
-                        <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
-                    </a> */}
+            <div class="d-flex flex-column flex-wrap mt-4">
+                <div class="d-flex justify-content-center " >
+                    <h1>FLASHBACK FRIDAY</h1>
                 </div>
-                <div class="about-content">
+                <div class="text-justify px-5 py-4">
                     <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once
                         thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood
                         backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success,
@@ -78,172 +28,142 @@ const Events3 = () => {
                         conglomeration of important events in their journey from college to where they are now. All the information will be
                         shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
                     </p>
-
                 </div>
 
                 {/* FlashBack Friday video  */}
-                <div class="container" style={{ marginTop: "-2rem", marginBottom: "-3rem" }}>
+                <div class="container" style={{ marginTop: "-5%" }}>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe style={{ transform: "scale(0.7)" }} class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
+                        <iframe style={{ transform: "scale(0.8)" }} class="" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
                 </div>
             </div>
 
+            <div >
+                <section class="container p-0">
+                    <div class="d-flex flex-wrap">
+                        <h3 class="text-center font-weight-bold" style={{ margin: "1rem" }}>FLASHBACK<span class=""> INTERVIEWS</span></h3>
+                    </div>
 
-
-            {/* <div class="faculty-advisor">
-                    <p>cards</p>
-                </div> */}
-            <div class="executive-members">
-                <section class="testimonials text-center fi">
-                    <div class="container" style={{ marginBottom: "10rem" }}>
-                        <div class="row">
-                            <div class="col-md-8 mx-auto wow fadeInUp" style={{ marginBottom: "2rem" }}>
-                                <h3 class="text-center font-weight-bold">FLASHBACK<span class="bg-main"> INTERVIEWS</span></h3>
-                            </div>
+                    {/* Executive Cards HOVER EFFECT */}
+                    <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2022-23</h3>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/ClG_f3fPIGC/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB1.PNG" />
+                            </a>
                         </div>
-
-                        {/* Executive Cards HOVER EFFECT */}
-                        <h3 class="interview fi-22" style={{ marginLeft: "-63rem", marginTop: "0rem", marginBottom: "2rem" }}>INTERVIEW 2022-23</h3>
-                        <div class="row">
-
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/ClG_f3fPIGC/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB1.PNG" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CgmJEDVJ2d8/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB2.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CgBvd35vtB4/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB3.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/Cen82_zhLAK/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB4.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CcFw_e1vYB0/">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB5.png" />
-                                </a>
-                            </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CgmJEDVJ2d8/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB2.png" />
+                            </a>
                         </div>
-
-                        <h3 class="interview fi-23" style={{ marginLeft: "-63rem", marginTop: "2rem", marginBottom: "2rem" }}>INTERVIEW 2021-22</h3>
-                        <div class="row" style={{ marginBottom: "4rem" }}>
-
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CaryVFCPdTk/">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB6.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CZjhZh-PL-F/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB7.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CYI2Wc6FUrf/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB8.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CWvUkomP5-a/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB9.jpeg" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CV7RmfYliKQ/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB10.png" />
-                                </a>
-                            </div>
-
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CgBvd35vtB4/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB3.png" />
+                            </a>
                         </div>
-
-                        <div class="row" style={{ marginBottom: "4rem" }}>
-
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CVDPWOLFUv3/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB11.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CTpDGQehplE/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB12.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CTE9KHbFIoe/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB13.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CNcI0kclBQ2/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB14.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CKVbgtXlwLK/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB15.png" />
-                                </a>
-                            </div>
-
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/Cen82_zhLAK/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB4.png" />
+                            </a>
                         </div>
-
-                        <div class="row" style={{ marginBottom: "4rem" }}>
-
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CJxUVuqFn-H/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB16.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CJgJbgnF_9w/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB17.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CGHED3elid2/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB18.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CE_3lEvFcMb/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB19.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CEI5jnlFMcP/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB20.png" />
-                                </a>
-                            </div>
-
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CcFw_e1vYB0/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB5.png" />
+                            </a>
                         </div>
+                    </div>
 
 
-                        <div class="row" style={{ marginBottom: "0rem" }}>
+                    <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2021-22</h3>
+                    <div class="d-flex flex-wrap justify-content-center">
 
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CDS1J9vFbij/?utm_source=ig_web_copy_link">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB21.png" />
-                                </a>
-                            </div>
-                            <div class="card card-fb hover" style={{ height: "230px", width: "200px", marginLeft: "1rem" }} data-wow-duration="1.4s">
-                                <a href="https://www.instagram.com/p/CWvbk8WPFj2/?igshid=YmMyMTA2M2Y=">
-                                    <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB22.png" />
-                                </a>
-                            </div>
-
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CaryVFCPdTk/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB6.png" />
+                            </a>
                         </div>
-
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CZjhZh-PL-F/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB7.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CYI2Wc6FUrf/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB8.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CWvUkomP5-a/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB9.jpeg" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CV7RmfYliKQ/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB10.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CVDPWOLFUv3/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB11.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CTpDGQehplE/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB12.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CTE9KHbFIoe/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB13.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CNcI0kclBQ2/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB14.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CKVbgtXlwLK/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB15.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CJxUVuqFn-H/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB16.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CJgJbgnF_9w/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB17.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CGHED3elid2/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB18.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CE_3lEvFcMb/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB19.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CEI5jnlFMcP/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB20.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CDS1J9vFbij/?utm_source=ig_web_copy_link">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB21.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CWvbk8WPFj2/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB22.png" />
+                            </a>
+                        </div>
                     </div>
                 </section>
-            </div>
-            <div>
             </div>
             <Footer />
         </div>

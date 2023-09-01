@@ -5,205 +5,120 @@ import Footer from '../Footer/Footer';
 const Events4 = () => {
     return (<>
         <Navbar />
-        <div className='main_div'>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars mfa-white"></span>
-                    </button>
-                    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
-                    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-                    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-                    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-                    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" />
-                    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
-                    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen" />
-                    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-                </div>
-            </nav>
-
-
-            <div class="mrittika-bg">
-                {/* <div class="overlay"></div> */}
-                <div class="mrittika-img">
-                    <img class="mrittika-img2" src="images/MM-banner.png" alt="suraj" style={{height:"565px",width:"100%",borderRadius:"0px"}}/>
-                </div>
-                <div class="container slider-top-text">
-                    <div class="row" style={{display:"none"}}>
-                        <div class="col-md-12 text-center">
-                            {/* <h3 class="my-heading">WELCOME TO MRIT<span class="bg-main">TIKA</span></h3> */}
-                            {/* <p class="myp-slider text-center">Where ceramists unite and become better together</p>
-                            <p class="myp text-center">SHARE YOUR MEMORIES   |   CONNECT WITH OTHERS   |   MAKE NEW FRIENDS</p> */}
-                            <a class="btn btn-primary btn-join" title="Go to Brochure" href="https://docs.google.com/document/d/1T6DjZZsHYflBi5Wr3VZnujt5EzYUa3KiZaqeuRzwj7E/edit?usp=sharing" style={{marginTop:"12rem"}}>Go to Brochure</a>
-                            {/*<a href="https://docs.google.com/forms/d/e/1FAIpQLSdrgZlgyceJlhRZhBOYVHXJXWGV-V6NZbli0DKgS-E6ARCr_A/viewform" title="Go to Registration Form" >
-                                <button type="button" class="btn btn-primary" style={{marginTop:"20rem",marginBottom:"1rem",width:"13rem",marginLeft:"-12.4rem",fontWeight:"bold",fontSize:"1.2rem"}}>Register Here</button>
-                            </a> */}
-                            {/* <p>suraj</p> */}
-                            
-                            {/* <a  href="https://docs.google.com/document/d/1T6DjZZsHYflBi5Wr3VZnujt5EzYUa3KiZaqeuRzwj7E/edit?usp=sharing"  title="Go to Brochure" style={{marginTop:"12rem",fontWeight:"bold",fontSize:"1.2rem"}}>Go to Brochure</a> */}
-                        </div>
-                        
-                        <div class="col-md-12 text-center mt-5">
-                            <div class="scroll-down" >
-                                <a class="btn btn-default btn-scroll floating-arrow" href="#gobottom" id="bottom"><i class="fa fa-angle-down"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div >
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+            <div>
+                <img src="images/MM-banner.png" alt="suraj" style={{ height: "565px", width: "100%" }} />
             </div>
 
-
-            
             {/* New add */}
-
-            <div class="mritika-about mritika-about-udit">
-                <div class="about-2023 mm-about" style={{marginTop:"2rem"}}>
-                    <h1 class="e1" style={{marginLeft:"-72rem"}}>ABOUT</h1>
-                    
-                    {/* <a  href="/mritika1">
-                        <button class="btn btn-primary" style={{marginRight:"0rem"}}><h4>Visit Mrittika 2019</h4></button>
-                    </a> */}
+            <div class="d-flex flex-column flex-wrap mt-4">
+                <div class="d-flex justify-content-center " >
+                    <h1>MONDAY<span> MATTER</span></h1>
                 </div>
-                <div class="about-content">
-                    <p>Every week, you suffer from the same malady: a terrible case of the Mondays. 
-                        You dread that alarm going off. And no matter how many things you try—meditation, 
-                        reciting inspirational quotes, reading a bunch of happy quotes, you're having 
-                        trouble getting going. But why not think of Monday as an opportunity rather than 
-                        a punishment? It's a chance to start fresh. Who wants to wake up to a Monday after 
-                        a good weekend rest? Mondays are boring, seems longer than usual and almost everyone 
-                        hates it, right? It is also marked by tiredness and reluctance to start the week's 
-                        work. But not anymore. NITR-ICS is going to make you look forward to the Monday and 
-                        the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose 
-                        of Ceramics and Material Science updates, to keep you intrigued for the rest of the 
-                        week. We will be keeping you informed of all the latest, known, and unknown realms of 
-                        material science, making your start of the week an interesting one. To all material 
-                        enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed 
+                <div class="text-justify px-5 py-4">
+                    <p>Every week, you suffer from the same malady: a terrible case of the Mondays.
+                        You dread that alarm going off. And no matter how many things you try—meditation,
+                        reciting inspirational quotes, reading a bunch of happy quotes, you're having
+                        trouble getting going. But why not think of Monday as an opportunity rather than
+                        a punishment? It's a chance to start fresh. Who wants to wake up to a Monday after
+                        a good weekend rest? Mondays are boring, seems longer than usual and almost everyone
+                        hates it, right? It is also marked by tiredness and reluctance to start the week's
+                        work. But not anymore. NITR-ICS is going to make you look forward to the Monday and
+                        the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose
+                        of Ceramics and Material Science updates, to keep you intrigued for the rest of the
+                        week. We will be keeping you informed of all the latest, known, and unknown realms of
+                        material science, making your start of the week an interesting one. To all material
+                        enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed
                         to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.
                     </p>
-                    
                 </div>
-            
-                {/* FlashBack Friday video  */}
-                {/* <div class="container" style={{marginTop:"-2rem",marginBottom:"-3rem"}}>
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe style={{transform:"scale(0.7)"}} class="embed-responsive-item" src="//www.youtube.com/embed/EIfB_z3K0mE"></iframe></div>
-                </div> */}
             </div>
-
-
-
-                {/* <div class="faculty-advisor">
-                    <p>cards</p>
-                </div> */}
-                <div class="executive-members">
-                    <section class="testimonials text-center mi mi-rcb">
-                        <div class="container" style={{marginBottom:"10rem"}}>
-                            <div class="row">
-                                <div class="col-md-8 mx-auto wow fadeInUp"style={{marginBottom:"2rem"}}>
-                                    <h3 class="text-center font-weight-bold">MONDAY<span class="bg-main"> MATTER</span></h3>
-                                </div>
-                            </div>
-
-                            {/* Executive Cards HOVER EFFECT */}
-                            <h3 class="interview mi-22" style={{marginLeft:"-63rem",marginTop:"0rem",marginBottom:"2rem"}}>INTERVIEW 2022-23</h3>
-                            <div class="row">
-                                
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CMJPuzVlJ7e/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm1.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CKLCWNDFfT5/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm2.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CJ5OuilF7cx/">
-                                        <img class="card-img-top" style={{ height: "250px" ,width:"200px"}} src="images/mm3.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CGzorlFFf-4/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm4.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CGO3uy_FLOW/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm5.png" />
-                                    </a>         
-                                </div>
-                            </div>
-
-                            <h3 class="interview mi-23" style={{marginLeft:"-63rem",marginTop:"2rem",marginBottom:"2rem"}}>INTERVIEW 2021-22</h3>    
-                            <div class="row" style={{marginBottom:"4rem"}}>
-                                
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CFG8jIxlHhr/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm6.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CE0wHsLF87y/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm7.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CEjCQZXFNkH/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm8.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CD-yFPklaCg/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm9.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CDhKg5lh4cr/">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm10.png" />
-                                    </a>         
-                                </div>
-                                
-                            </div>
-
-
-                            <div class="row" style={{marginBottom:"0rem"}}>
-                                
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CDJRzw0lpLH/?igshid=YmMyMTA2M2Y=">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm11.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CC2itWVlEyy/?igshid=YmMyMTA2M2Y=">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm12.png" />
-                                    </a>         
-                                </div>
-                                <div class="card card-mm hover" style={{ height:"230px" ,width:"200px",marginLeft:"1rem"}}  data-wow-duration="1.4s">
-                                    <a href="https://www.instagram.com/p/CCkm_4zFWC9/?igshid=YmMyMTA2M2Y=">
-                                        <img class="card-img-top" style={{ height: "230px" ,width:"200px"}} src="images/mm13.png" />
-                                    </a>         
-                                </div>
-                                
-                                
-                            </div>
-
-                        </div>
-                    </section>
-                </div>
-                
-
-                
             <div>
-            
+                <section class="container p-0">
+                    <div class="d-flex flex-wrap">
+                        <h3 class="text-center font-weight-bold" style={{ margin: "1rem" }}>MONDAY MATTER<span class=""> INTERVIEWS</span></h3>
+                    </div>
+
+                    {/* Executive Cards HOVER EFFECT */}
+                    <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2022-23</h3>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CMJPuzVlJ7e/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm1.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CKLCWNDFfT5/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm2.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CJ5OuilF7cx/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm3.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CGzorlFFf-4/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm4.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CGO3uy_FLOW/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm5.png" />
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2021-22</h3>
+                    <div class="d-flex flex-wrap justify-content-center" >
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CFG8jIxlHhr/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm6.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CE0wHsLF87y/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm7.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CEjCQZXFNkH/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm8.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CD-yFPklaCg/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm9.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CDhKg5lh4cr/">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm10.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CDJRzw0lpLH/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm11.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CC2itWVlEyy/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm12.png" />
+                            </a>
+                        </div>
+                        <div class="card hover m-3" data-wow-duration="1.4s">
+                            <a href="https://www.instagram.com/p/CCkm_4zFWC9/?igshid=YmMyMTA2M2Y=">
+                                <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm13.png" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
-                <Footer/>
-
-
+            <Footer />
         </div>
-        </>);
+    </>);
 }
 
 export default Events4
