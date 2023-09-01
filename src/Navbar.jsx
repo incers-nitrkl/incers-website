@@ -29,17 +29,17 @@ const Navbar = () => {
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li className="dropdown-item">
-                                    <NavLink to="/members3" exact style={{ textDecoration: "none", color: 'black' }} >
+                                    <NavLink to="/members24" exact style={{ textDecoration: "none", color: 'black' }} >
                                         Members 2023-24
                                     </NavLink>
                                 </li>
                                 <li className="dropdown-item">
-                                    <NavLink to="/members" exact style={{ textDecoration: "none", color: 'black' }} >
+                                    <NavLink to="/members23" exact style={{ textDecoration: "none", color: 'black' }} >
                                         Members 2022-23
                                     </NavLink>
                                 </li>
                                 <li className="dropdown-item">
-                                    <NavLink to="/members1" exact style={{ textDecoration: "none", color: 'black' }} >
+                                    <NavLink to="/members22" exact style={{ textDecoration: "none", color: 'black' }} >
                                         Members 2021-22
                                     </NavLink>
                                 </li>

@@ -2,690 +2,176 @@ import React from "react";
 import Navbar from "../../Navbar";
 import "./Member.css";
 import Footer from "../Footer/Footer";
+import { DevMember24, ECMember24, Member24, Mentor24 } from "./MemberData24.js";
 
-
-
-const Members2 = () => {
+const Members24 = () => {
   return (
     <>
-      <Navbar/>
-      <div class="main_div">
-        <section class="our-webcoderskull padding-lg">
+      <Navbar />
+      <div>
+        <section>
           <div class="container">
-            <div style={{ height: "240px" }}>
-              <div class="row heading heading-icon">
-                <h2 style={{ marginTop: "50px" }}>FOUNDERS</h2>
-              </div>
+            <div class="d-flex flex-wrap justify-content-center">
+              <h1 class="text-center">
+                <span>Founder</span>{" "}
+              </h1>
+              {Member24.map((data, index) => {
+                return (
+                  <div class="col-md-4 col-lg-3 m-4">
+                    <div class="card profile-card-1 flex-row">
+                      <img
+                        src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
+                        alt="profile-sample1"
+                        class="background"
+                      />
+                      <img src={data.img} alt="profile-image" class="profile" />
+                      <div class="card-content">
+                        <h2>
+                          {data.name}
+                          <small>Engineer</small>
+                        </h2>
+                        <div class="icon-block">
+                          <a href={data.instagram}>
+                            <i class="fa fa-instagram"></i>
+                          </a>
+                          <a href={data.linkedin}>
+                            {" "}
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
-
-            <ul class="row">
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img src="images/SIS.jpg" class="img-responsive" alt="" />
-                  </figure>
-                  <h3>Shivam Sharma </h3>
-                  <p></p>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/blac._.knight?utm_medium=copy_link">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/shivam-sharma-86a130179/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img src="images/TK.jpg" class="img-responsive" alt="" />
-                  </figure>
-                  <h3>Tanay Kumar</h3>
-                  <p></p>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/the_tanay_kumar_show?utm_medium=copy_link ">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/tanay-kumar-898694142/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
           </div>
         </section>
 
-        {/* update new */}
-        <section class="our-webcoderskull padding-lg">
+        <section>
           <div class="container">
-            <div>
-              <div class="row heading heading-icon">
-                <h2 style={{ marginTop: "50px" }}>MENTORS 23-24</h2>
-              </div>
+            <div class="d-flex flex-wrap justify-content-center">
+              <h1 class="text-center">
+                <span>Mentor</span>{" "}
+              </h1>
+              {Mentor24.map((data, index) => {
+                return (
+                  <div class="col-md-4 col-lg-3 m-4">
+                    <div class="card profile-card-1 flex-row">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/NIT_Rourkela_Colour_Logo.svg/1200px-NIT_Rourkela_Colour_Logo.svg.png"
+                        alt="profile-sample1"
+                        class="background"
+                      />
+                      <img
+                        src="https://img.freepik.com/premium-vector/person-avatar-design_24877-38137.jpg?w=2000"
+                        alt="profile-image"
+                        class="profile"
+                      />
+                      <div class="card-content">
+                        <h2>
+                          {data.name}
+                          <small>Engineer</small>
+                        </h2>
+                        <div class="icon-block">
+                          <a href="#">
+                            <i class="fa fa-instagram"></i>
+                          </a>
+                          <a href="#">
+                            {" "}
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
-
-            <ul class="row">
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src=""
-                      class="img-responsive"
-                      alt=""
-                      style={{ objectFit: "cover" }}
-                    />
-                  </figure>
-                  <h3>Prabhanshu</h3>
-                  {/* <p>Web Developer</p> */}
-                  {/* <h4>Chairperson</h4> */}
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src=""
-                      style={{ objectFit: "cover" }}
-                      class="img-responsive"
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Spandan</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  {/* <h4>Vice Chairperson</h4> */}
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              {/* <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3>Deepshikha Brahma</h3> */}
-              {/* <p>Freelance Developer</p> */}
-              {/* <h4>Secretary</h4>
-                                    <ul class="follow-us clearfix"> */}
-              {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-              {/* <li><a href="https://instagram.com/deepsikha_brahma?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/deepsikha-brahma-b8b5751b1"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li> */}
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src=""
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Partha</h3>
-                  {/* <p>Freelance Developer</p> */}
-                  {/* <h4>joint Secretary</h4> */}
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src=""
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Summit</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  {/* <h4>Treasurer</h4> */}
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src=""
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Uday</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  {/* <h4>3rd yr Branch Representative</h4> */}
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="our-webcoderskull padding-lg">
-          <div class="container">
-            <div class="row heading heading-icon">
-              <h2>EC BODY 23-24</h2>
-            </div>
-            <ul class="row">
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/RD.jpg"
-                      class="img-responsive"
-                      alt=""
-                      style={{ objectFit: "cover" }}
-                    />
-                  </figure>
-                  <h3>Rittwik Devdatta Das</h3>
-                  {/* <p>Web Developer</p> */}
-                  <h4>Chairperson</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/rittwik__das?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/rittwik-das">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/JM.jpg"
-                      style={{ objectFit: "cover" }}
-                      class="img-responsive"
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Jyotishman Mohanty</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>Vice Chairperson</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://www.instagram.com/_.jyotishman._/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/jyotishman-mohanty-a49a31222/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              {/* <li class="col-12 col-md-6 col-lg-3">
-                                <div class="cnt-block equal-hight" style={{height:" 349px"}}>
-                                    <figure><img src="images/DP.jpg" class="img-responsive" style={{objectFit:"cover" ,backgroundRepeat:"no-repeat"}} alt="" /></figure>
-                                    <h3>Deepshikha Brahma</h3> */}
-              {/* <p>Freelance Developer</p> */}
-              {/* <h4>Secretary</h4>
-                                    <ul class="follow-us clearfix"> */}
-              {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-              {/* <li><a href="https://instagram.com/deepsikha_brahma?utm_medium=copy_link "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/deepsikha-brahma-b8b5751b1"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </li> */}
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/DN.jpg"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Dibyarchana Naik</h3>
-                  {/* <p>Freelance Developer</p> */}
-                  <h4>Secretary</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/dibya_archana?igshid=NjIwNzIyMDk2Mg==">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/dibyarchana-nayak-a7b34a230">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/SA.jpg"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Swapnil Agrawal</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>Treasurer</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/23_swapnilagrawal?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/swapnil-agrawal-1190a9238">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/AS.png"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Aashay Sanjay Magarde</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>PR Head</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/madmax.24?igshid=MzRlODBiNWFlZA==">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/madmax24i">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/AP.jpeg"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Ankit Prasad</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>Design Head</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/_ankit_14__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/ankit-prasad-71175a195">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/PK.png"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Piyush Kumar</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>Design Head</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/piyush2.00?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/piyush-kumar-a13044242?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiD2uJTllS4mVDhxHLomO3g%3D%3D">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/SKB.jpg"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Suraj Kumar Behera</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>Technical Head</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://www.instagram.com/surajkb810/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/suraj-kumar-behera-b3883222b/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/AP.jpg"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Ashribad panda</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>Scientific Head</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://www.instagram.com/ashirbad_15/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/ashribad-p-7a14b0138">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src=""
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Shreeya</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>PR Coordinator</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/NR.jpg"
-                      class=""
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>Nitin Rai</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>PR Coordinator</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/31_nikp?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/nitin-rai-314a6a257">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/KN.jpg"
-                      class="img-responsive"
-                      style={{ objectFit: "cover" }}
-                      alt=""
-                    />
-                  </figure>
-                  <h3>K Nivedita</h3>
-                  {/* <p>Freelance Web Developer</p> */}
-                  <h4>PR Coordinator</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/nive._.dita?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="http://www.linkedin.com/in/nivedita-k-6a3a47280">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="our-webcoderskull padding-lg">
-          <div class="container">
-            <div class="row heading heading-icon">
-              <h2>DEVELOPMENT TEAM 23-24</h2>
-            </div>
-            <ul class="row">
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/SKB.jpg"
-                      class="img-responsive"
-                      alt=""
-                      style={{ objectFit: "cover" }}
-                    />
-                  </figure>
-                  <h3>Suraj Kumar Behera</h3>
-                  <h4>Web Developer</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://www.instagram.com/surajkb810/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/suraj-kumar-behera-b3883222b/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/UP.jpg"
-                      class="img-responsive"
-                      alt=""
-                      style={{ objectFit: "cover" }}
-                    />
-                  </figure>
-                  <h3>Udit Padhan</h3>
-                  <h4>Web Developer</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://www.instagram.com/yo_u_dit/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/udit-padhan-41481a222/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="col-12 col-md-6 col-lg-3">
-                <div class="cnt-block equal-hight" style={{ height: " 349px" }}>
-                  <figure>
-                    <img
-                      src="images/SSP.jpg"
-                      class="img-responsive"
-                      alt=""
-                      style={{ objectFit: "cover" }}
-                    />
-                  </figure>
-                  <h3>Shiv Sundar Pradhan</h3>
-                  <h4>Web Developer</h4>
-                  <ul class="follow-us clearfix">
-                    {/* <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> */}
-                    <li>
-                      <a href="https://instagram.com/shiv_sunder_pradhan?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/shiv-sunder-1a0a81194">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
           </div>
         </section>
 
-        <Footer/>
+        <section>
+          <div class="container">
+            <div class="d-flex flex-wrap justify-content-center">
+              <h1 class="text-center">
+                <span>EC Body</span>{" "}
+              </h1>
+              {ECMember24.map((data, index) => {
+                return (
+                  <div class="col-md-4 col-lg-3 m-4">
+                    <div class="card profile-card-1 flex-row">
+                      <img
+                        src="https://www.nitrkl.ac.in/assets/images/gallery/1.jpg"
+                        alt="profile-sample1"
+                        class="background"
+                      />
+                      <img src={data.img} alt="profile-image" class="profile" />
+                      <div class="card-content">
+                        <h2>
+                          {data.name}
+                          <small>{data.designation}</small>
+                        </h2>
+                        <div class="icon-block">
+                          <a href={data.instagram}>
+                            <i class="fa fa-instagram"></i>
+                          </a>
+                          <a href={data.linkedin}>
+                            {" "}
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="d-flex flex-wrap justify-content-center">
+              <h1 class="text-center">
+                <span>Development Team</span>{" "}
+              </h1>
+              {DevMember24.map((data, index) => {
+                return (
+                  <div class="col-md-4 col-lg-3 m-4">
+                    <div class="card profile-card-1 flex-row">
+                      <img
+                        src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
+                        alt="profile-sample1"
+                        class="background"
+                      />
+                      <img src={data.img} alt="profile-image" class="profile" />
+                      <div class="card-content">
+                        <h2>
+                          {data.name}
+                          <small>{data.designation}</small>
+                        </h2>
+                        <div class="icon-block">
+                          <a href={data.instagram}>
+                            <i class="fa fa-instagram"></i>
+                          </a>
+                          <a href={data.linkedin}>
+                            {" "}
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      <Footer />
       </div>
     </>
   );
 };
 
-export default Members2;
+export default Members24;
