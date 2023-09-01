@@ -518,23 +518,22 @@
       .competition-design2:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
       } */
-      .competition-design3{
+      /* .competition-design3{
         background-color: #524af9eb !important;
         height: 19rem !important;
       }
       .competition-design3:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      }
-      .competition-design4{
+      } */
+      /* .competition-design4{
         background-color: #61e93cd2 !important;
       }
       .competition-design4:hover{
         box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      }
-      .competition-design6{
+      } */
+      /* .competition-design6{
         background-color: #524af9eb !important;
-        height: 17rem !important;
-      }
+      } */
       
 
       .mrittika-bg{
@@ -643,10 +642,10 @@
       display: flex !important;
       flex-direction: column !important;
     }
-    .text-center{
+    /* .text-center{
       margin-left: 0rem !important;
       margin-top: 1rem !important;
-    }
+    } */
     
     .btn-19{
       transform: scale(0.7);
