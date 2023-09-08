@@ -22,10 +22,10 @@ const Members22 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
-                      <img src={data.img} alt="profile-image" class="profile" />
+                      <img src={data.img} alt="Incers" class="profile" />
                       <div class="card-content">
                         <h2>
                           {data.name}
@@ -61,10 +61,10 @@ const Members22 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://www.nitrkl.ac.in/assets/images/gallery/1.jpg"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
-                      <img src={data.img} alt="profile-image" class="profile" />
+                      <img src={data.img} alt="Incers" class="profile" />
                       <div class="card-content">
                         <h2>
                           {data.name}
@@ -100,10 +100,10 @@ const Members22 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
-                      <img src={data.img} alt="profile-image" class="profile" />
+                      <img src={data.img} alt="Incers" class="profile" />
                       <div class="card-content">
                         <h2>
                           {data.name}

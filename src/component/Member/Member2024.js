@@ -21,10 +21,10 @@ const Members24 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
-                      <img src={data.img} alt="profile-image" class="profile" />
+                      <img src={data.img} alt="Incers" class="profile" />
                       <div class="card-content">
                         <h2>
                           {data.name}
@@ -60,12 +60,12 @@ const Members24 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/NIT_Rourkela_Colour_Logo.svg/1200px-NIT_Rourkela_Colour_Logo.svg.png"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
                       <img
                         src="https://img.freepik.com/premium-vector/person-avatar-design_24877-38137.jpg?w=2000"
-                        alt="profile-image"
+                        alt="Incers"
                         class="profile"
                       />
                       <div class="card-content">
@@ -74,10 +74,10 @@ const Members24 = () => {
                           <small>Engineer</small>
                         </h2>
                         <div class="icon-block">
-                          <a href="#">
+                          <a href={data.instagram}>
                             <i class="fa fa-instagram"></i>
                           </a>
-                          <a href="#">
+                          <a href={data.linkedin}>
                             {" "}
                             <i class="fa fa-linkedin"></i>
                           </a>
@@ -103,10 +103,10 @@ const Members24 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://www.nitrkl.ac.in/assets/images/gallery/1.jpg"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
-                      <img src={data.img} alt="profile-image" class="profile" />
+                      <img src={data.img} alt="Incers" class="profile" />
                       <div class="card-content">
                         <h2>
                           {data.name}
@@ -142,10 +142,10 @@ const Members24 = () => {
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
-                        alt="profile-sample1"
+                        alt="Incers"
                         class="background"
                       />
-                      <img src={data.img} alt="profile-image" class="profile" />
+                      <img src={data.img} alt="Incers" class="profile" />
                       <div class="card-content">
                         <h2>
                           {data.name}

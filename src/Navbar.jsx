@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <NavLink to="/" exact>                    
-                    <img src="images/logo_new.png" style={{ height: "65px", width: "70px"}} />
+                    <img src="images/logo_new.png" style={{ height: "65px", width: "70px"}} alt='Incers'/>
                 </NavLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@ const Navbar = () => {
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle fs-5" href="https://www.instagram.com/nitr_incers/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Members
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,7 +46,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle fs-5" href="https://www.instagram.com/nitr_incers/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Events
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -83,7 +83,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle fs-5" href="https://www.instagram.com/nitr_incers/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 InCeS-NITR
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

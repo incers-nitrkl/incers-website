@@ -13,7 +13,7 @@ const Blog = () => {
                 </div>
                 <div className="proffimage">
                     <div className="imagediv">
-                        <img src="images/FF1.jpg" />
+                        <img src="images/FF1.jpg" alt='Incers'/>
                     </div>
                     <div className="infodiv1">
                        <p style={{margin:"15px",fontWeight:"bolder",textTransform:"capitalize",color:"purple"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil cupiditate quae culpa,quos labore autem dolores, pariatur laborum voluptates quaerat? Voluptas quidem, provident doloribusreiciendis nesciunt voluptates doloremque voluptatibus voluptatum. Ipsam, aspernatur ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>

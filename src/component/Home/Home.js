@@ -42,7 +42,7 @@ const Apps = () => {
                     <div className='flash-card'>
                         <a href="https://www.instagram.com/p/CDS1J9vFbij/" style={{ textDecoration: "none" }}>
                             <div className="img_1">
-                                <img id="peacock" src="images/FF1.jpg" alt="mypic" />
+                                <img id="peacock" src="images/FF1.jpg" alt="Incers" />
                                 <h4 id="proff1" style={{ color: "#000" }}>Prof.Shantanu behera</h4>
                                 <p id="para" style={{ color: "#000" }}>Dr Shantanu K Behera is an Associate Professor in the Department of Ceramic
                                     Engineering at NIT Rourkela. Dr Behera an alumnus of NIT Rourkela, and has
@@ -53,7 +53,7 @@ const Apps = () => {
                         </a>
                         <a href="https://www.instagram.com/p/CEI5jnlFMcP/" style={{ textDecoration: "none" }}>
                             <div className="img_1">
-                                <img id="peacock" src="images/FF2.png" alt="mypic" />
+                                <img id="peacock" src="images/FF2.png" alt="Incers" />
                                 <h4 id="proff1" style={{ color: "#000" }}>Ranjan Das</h4>
                                 <p id="para" style={{ color: "#000" }}>Completing PhD and MBA simultaneously from Drexel University, Dr. Ranjan Dash showed that there are no bounds to the zeal of learning and accomplishing one's ambitions.
                                 </p>
@@ -261,7 +261,7 @@ const Apps = () => {
                     SliderData.map(product => {
                         return (<a href={product.reciever}>
                             <Box textAlign="center" className={classes.wrapper} >
-                                <img src={product.image} className={classes.image} />
+                                <img src={product.image} className={classes.image} alt="Incers"/>
                             </Box>
                         </a>)
                     })
@@ -293,7 +293,7 @@ const Apps = () => {
                     SliderData1.map(product => {
                         return (<a href={product.reciever}>
                             <Box textAlign="center" className={classes.wrapper}>
-                                <img src={product.image} className={classes.image} />
+                                <img src={product.image} className={classes.image} alt="Incers"/>
                             </Box>
                         </a>)
                     })
@@ -308,7 +308,7 @@ const Apps = () => {
             <Navbar />
             <div>
                 <div >
-                    <img  style={{ width: "100%", maxHeight: "580px"}} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
+                    <img  style={{ width: "100%", maxHeight: "580px"}} src="images/incers_newlogo_1.jpg" alt="Incers" srcset="" />
                 </div>
 
                 <section>

@@ -20,7 +20,7 @@ const Contact = () => {
                     alt="profile-sample1"
                     class="background"
                   />
-                  <img src="images/BB.jpg" alt="profile-image" class="profile" />
+                  <img src="images/BB.jpg" alt='Incers' class="profile" />
                   <div class="card-content">
                     <h2>
                     Prof. B.B. Nayak
@@ -37,7 +37,7 @@ const Contact = () => {
                     alt="profile-sample1"
                     class="background"
                   />
-                  <img src="images/DP.jpg" alt="profile-image" class="profile" />
+                  <img src="images/DP.jpg" alt='Incers' class="profile" />
                   <div class="card-content">
                     <h2>
                     Deepsikha Brahma
@@ -54,7 +54,7 @@ const Contact = () => {
                     alt="profile-sample1"
                     class="background"
                   />
-                  <img src="images/PM.jpg" alt="profile-image" class="profile" />
+                  <img src="images/PM.jpg" alt='Incers' class="profile" />
                   <div class="card-content">
                     <h2>
                     Partha Mishra

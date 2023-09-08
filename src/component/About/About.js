@@ -55,6 +55,7 @@ const About = () => {
                     </p>
                     <img 
                       className="col-md-4 about-img"
+                      alt="Incers"
                       src="https://cdn.pixabay.com/photo/2015/03/24/06/40/cup-687147__340.jpg"
                       style={{ height: "450px" }}
                     />
@@ -84,6 +85,7 @@ const About = () => {
             <div className="tutorial container text-center my-5 ratio ratio-16x9">
               <iframe
                 src="//www.youtube.com/embed/EziokCQ4aHU"
+                title="About Us"
                 allowfullscreen
               ></iframe>
             </div>
@@ -107,6 +109,7 @@ const About = () => {
             <div className="tutorial container text-center my-5 ratio ratio-16x9">
               <iframe
                 src="//www.youtube.com/embed/4P5MOOXSzZM"
+                title="About Us"
                 allowfullscreen
               ></iframe>
             </div>

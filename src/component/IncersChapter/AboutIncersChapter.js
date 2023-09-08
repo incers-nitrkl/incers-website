@@ -15,7 +15,7 @@ const AboutIncersChapter = () => {
                 </div>
                 {/* <div class="container">
                     <div class="col-md-12 text-center">
-                        <a class="btn btn-primary btn-join" href="#">JOIN THE COMMUNITY</a><br/>
+                        <a class="btn btn-primary btn-join" href="https://www.instagram.com/nitr_incers/">JOIN THE COMMUNITY</a><br/>
                         <a href="https://docs.google.com/spreadsheets/d/1sgN1HQ8HXODLbOcXS6YR5HDRbOcIELPi/edit?usp=share_link&ouid=114663105164561446283&rtpof=true&sd=true" title="Go to Our Student Members List">
                             <button type="button" class="btn btn-primary mt-5" style={{ width: "15rem", fontSize: "1.2rem" }}>Our Student Members</button>
                         </a>
@@ -61,7 +61,7 @@ const AboutIncersChapter = () => {
                             <div class="card-body d-flex flex-column align-items-start" style={{ textAlign: "justify" }}>
                                 <strong class="d-inline-block mb-2 text-primary">Industry Academia Interaction Session</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Dr. Birendra Prasad</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Dr. Birendra Prasad</a>
                                 </h6>
                                 <br />
                                 <p class="card-text mb-4" >
@@ -87,7 +87,7 @@ const AboutIncersChapter = () => {
                             <div class="card-body d-flex flex-column align-items-star" style={{ textAlign: "justify" }}>
                                 <strong class="d-inline-block mb-2 text-primary">Industry Academia Interaction Session</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Dr. Govind Pahari</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Dr. Govind Pahari</a>
                                 </h6>
                                 <br />
                                 <p class="card-text mb-4">

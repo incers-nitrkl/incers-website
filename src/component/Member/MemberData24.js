@@ -32,18 +32,28 @@ export const Member24 = [
 export const Mentor24=[
     {
         name:"Prabhanshu",
+        instagram:"https://www.instagram.com/nitr_incers/",
+        linkedin:"https://www.linkedin.com/company/incers-nitr/mycompany/"
     },
     {
         name:"Spandan",
+        instagram:"https://www.instagram.com/nitr_incers/",
+        linkedin:"https://www.linkedin.com/company/incers-nitr/mycompany/"
     },
     {
         name:"Partha",
+        instagram:"https://www.instagram.com/nitr_incers/",
+        linkedin:"https://www.linkedin.com/company/incers-nitr/mycompany/"
     },
     {
         name:"Summit",
+        instagram:"https://www.instagram.com/nitr_incers/",
+        linkedin:"https://www.linkedin.com/company/incers-nitr/mycompany/"
     },
     {
         name:"Uday",
+        instagram:"https://www.instagram.com/nitr_incers/",
+        linkedin:"https://www.linkedin.com/company/incers-nitr/mycompany/"
     }
 ]
 

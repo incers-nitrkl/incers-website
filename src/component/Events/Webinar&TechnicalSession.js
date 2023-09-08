@@ -22,7 +22,7 @@ const Events2 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">OBMODTEA 2020</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Technical Session</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Technical Session</a>
                                 </h6>
                                 <p class="card-text mb-auto">A series of interactive sessions by some of the most renowned researchers in material science, covering
                                     Bio-ceramics in a very simplified and elaborate manner.</p>
@@ -37,7 +37,7 @@ const Events2 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Mesoporous SilicaBy Munmi Das</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Technical Session</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Technical Session</a>
                                 </h6>
                                 <p class="card-text mb-auto">A technical session on Mesoporous Silica, a porous Ceramic was delivered by Munmi Das , a final year Dual Degree Student
                                     of Ceramic Engineering on 9th February,2022. The technical aspects and properties were well explained by her. NITR ICS is fortunate to have brainy
@@ -54,7 +54,7 @@ const Events2 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">New Implementations of Carbon in Refractories by Depsikha Brahma</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Technical Session</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Technical Session</a>
                                 </h6>
                                 <p class="card-text mb-auto">Presentation on- New implementations of Carbon Refractories by Deepsikha Brahma
                                 </p>
@@ -68,7 +68,7 @@ const Events2 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Virtual Demonstration-Tata Stee</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Technical Session</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Technical Session</a>
                                 </h6>
                                 <p class="card-text mb-auto">We are fortunate and thrilled to announce that Indian Ceramic Society (ICS) invites Professional Experts of Tata
                                     Steel to organize a virtual workshop on overview of Iron and Steel manufacturing and application of refractories.</p>
@@ -82,7 +82,7 @@ const Events2 = () => {
                             <div class="card-body d-flex flex-column align-items-start" >
                                 <strong class="d-inline-block mb-2 text-success">Li-Ion batteries and beyond- a perspective for future energy storage</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Technical Session</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Technical Session</a>
                                 </h6>
                                 <p class="card-text mb-auto">Ceramic Engineering of NIT Rourkela successfully concluded with the 3 Days National Webinar on "Li-Ion batteries and beyond- a
                                     perspective for future energy storage needs from June 23rd-25th, 2022. </p>
