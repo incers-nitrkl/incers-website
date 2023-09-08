@@ -23,7 +23,7 @@ const Contact = () => {
                   <img src="images/BB.jpg" alt="profile-image" class="profile" />
                   <div class="card-content">
                     <h2>
-                    Prof. Bibhuti Bhusan Nayak
+                    Prof. B.B. Nayak
                     <small>Department of ceramic Engineering</small>
                     <small>bbnayak@nitrkl.ac.in</small>
                     </h2>

@@ -57,13 +57,15 @@ h1 a {
   top: 50%;
 }
 .profile-card-1 .profile {
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   position: absolute;
   bottom: 50%;
   left: 50%;
   max-width: 100px;
   opacity: 1;
-  object-fit: contain;
+  /* object-fit: contain; */
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   border: 2px solid rgba(255, 255, 255, 1);
   -webkit-transform: translate(-50%, 0%);
