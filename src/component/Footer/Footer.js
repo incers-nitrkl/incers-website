@@ -47,13 +47,13 @@ const Footer = () => {
                 <footer class="bg-dark text-center text-white">
                     <div class="container p-4 pb-0 ">
                         <section>
-                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nitr_incers/" role="button">
                                 <span><FaMapMarkerAlt /></span>
                                 <span class="text-wrap "> NATIONAL INSTITUTE OF TECHNOLOGY ROURKELA, Odisha, India, 769008</span>
                             </a>
                         </section>
                         <section>
-                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nitr_incers/" role="button">
                                 <span><FaEnvelope/></span>
                                 <span> incersnitr@gmail.com</span>
                             </a>
@@ -61,20 +61,20 @@ const Footer = () => {
                     </div>
                     <div class="container p-4 pb-0">
                         <section class="mb-4">
-                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nitr_incers/" role="button">
                                 <FaFacebookSquare />
                             </a>
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nitr_incers/" role="button">
                                 <FaTwitterSquare />
                             </a>
 
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/nitr_incers/" role="button">
                                 <FaInstagramSquare />
                             </a>
 
-                            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/company/incers-nitr/mycompany/" role="button">
                                 <FaLinkedin />
                             </a>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
                     <div class="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
                         © 2023 Copyright:
-                        <a class="text-white " href="#"> incers.com</a>
+                        <a class="text-white " href="https://www.linkedin.com/company/incers-nitr/mycompany/"> incers.com</a>
                     </div>
                 </footer>
             </div>

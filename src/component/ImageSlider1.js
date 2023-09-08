@@ -29,8 +29,8 @@ const ImageSlider = ({ slides }) => {
                         key={index}
                     >
                         {index === current && (
-                            <a href={slide.reciever} target="_blank" alt="myimg">
-                                <img src={slide.image} alt='travel image' className='image1' />
+                            <a href={slide.reciever} target="_blank" rel="noreferrer">
+                                <img src={slide.image} alt='travel' className='image1' />
                             </a>
                         )}
                     </div>

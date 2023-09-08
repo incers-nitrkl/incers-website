@@ -50,7 +50,7 @@ const Mritika = () => {
                 <div class="d-flex flex-wrap justify-content-center">
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Ritwik.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Ritwik.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Prof. Ritwik Sarkar</h6>
                                 <h6 style={{ color: "green" }}><strong>Convenor</strong></h6>
@@ -59,7 +59,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pratihar.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pratihar.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Prof. Swadesh Kumar Pratihar</h6>
                                 <h6 style={{ color: "green" }}><strong>Convenor</strong></h6>
@@ -75,7 +75,7 @@ const Mritika = () => {
                 <div class="d-flex flex-wrap justify-content-center">
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Bibhuti.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Bibhuti.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Bibhuti Bhusan Nayak</h6>
                                 <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
@@ -84,7 +84,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Debashish.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Debashish.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Debashish Sarkar</h6>
                                 <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
@@ -93,7 +93,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Japes.jpeg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Japes.jpeg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Japes Bera</h6>
                                 <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
@@ -102,7 +102,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Ritwik.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Ritwik.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Ritwik Sarkar</h6>
                                 <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
@@ -111,7 +111,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Santanu_bhat.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Santanu_bhat.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Santanu Bhattacharyya</h6>
                                 <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
@@ -120,7 +120,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pratihar.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pratihar.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Swadesh Kumar Pratihar</h6>
                                 <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
@@ -129,7 +129,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/santanu_behera.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/santanu_behera.jpg" alt="Incers"/>
                             <div class="card-block" >
                                 <h6 class="card-title text-center">Santanu Kumar Behera</h6>
                                 <h6 style={{ color: "green" }}><strong>Associate Professor</strong></h6>
@@ -138,7 +138,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/ranabrata.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/ranabrata.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Ranabrata Mazumder</h6>
                                 <h6 style={{ color: "green" }}><strong>Associate Professor</strong></h6>
@@ -147,7 +147,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pal.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pal.jpg" alt="Incers"/>
 
                             <div class="card-block">
                                 <h6 class="card-title text-center">Sumit Kumar Pal</h6>
@@ -157,7 +157,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Partha.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Partha.jpg" alt="Incers"/>
 
                             <div class="card-block">
                                 <h6 class="card-title text-center">Partha Saha</h6>
@@ -167,7 +167,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Sudip.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Sudip.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Sudip Dasgupta</h6>
                                 <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
@@ -176,7 +176,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/sunipa.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/sunipa.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Sunipa Bhattachatyya</h6>
                                 <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
@@ -185,7 +185,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Arindum.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Arindum.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Arindam Paul</h6>
                                 <h6 style={{ color: "green" }}><strong>Assistant Professor </strong></h6>
@@ -194,7 +194,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Arun.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Arun.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Arun Chowdhury</h6>
                                 <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
@@ -212,7 +212,7 @@ const Mritika = () => {
                 <div class="d-flex flex-wrap justify-content-center">
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/DP.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/DP.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Deepsikha Brahma</h6>
                                 <h6 style={{ color: "green" }}><strong>Chairperson</strong></h6>
@@ -221,7 +221,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/PM2.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/PM2.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Partha Mishra</h6>
                                 <h6 style={{ color: "green" }}><strong>Vice-Chairperson</strong></h6>
@@ -230,7 +230,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/RD.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/RD.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Rittwik Devdatta Das</h6>
                                 <h6 style={{ color: "green" }}><strong>Secretory</strong></h6>
@@ -239,7 +239,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/AS.png" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/AS.png" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Aashay</h6>
                                 <h6 style={{ color: "green" }}><strong>Joint Secretory</strong></h6>
@@ -248,7 +248,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/PKS.jpeg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/PKS.jpeg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Pratyush Kundu</h6>
                                 <h6 style={{ color: "green" }}><strong>Treasurer</strong></h6>
@@ -257,7 +257,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/JM.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/JM.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Jyotishman Mohanty</h6>
                                 <h6 style={{ color: "green" }}><strong>BR 2nd Year</strong></h6>
@@ -266,7 +266,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/SK.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/SK.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Summit Kumar Oram</h6>
                                 <h6 style={{ color: "green" }}><strong>BR 3rd Year</strong></h6>
@@ -275,7 +275,7 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/U.jpg" />
+                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/U.jpg" alt="Incers"/>
                             <div class="card-block">
                                 <h6 class="card-title text-center">Uday</h6>
                                 <h6 style={{ color: "green" }}><strong>BR 4th Year</strong></h6>
@@ -302,17 +302,17 @@ const Mritika = () => {
                 <h3 class="font-weight-bold p-4">TITLE SPONSERS</h3>
                 <div class="d-flex flex-wrap">
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp " data-wow-duration="1.4s">
-                        <div class="card">
-                            <img class="card-img-top mt-3" src="images/TSP1.png" />
-                            <div class="card-footer text-center">
+                        <div class="card hover">
+                            <img class="card-img-top mt-3" src="images/TSP1.png" alt="Incers"/>
+                            <div class="card-footer">
                                 <a href="https://mahakoshalrefractories.com/" class="pull-right">More Info</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp " data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP2.png" />
-                            <div class="card-footer text-center">
+                            <img class="card-img-top mt-3" src="images/TSP2.png" alt="Incers"/>
+                            <div class="card-footer">
                                 <a href="https://www.trlkrosaki.com/" class="pull-right">More Info</a>
 
                             </div>
@@ -320,16 +320,16 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP3.png" />
-                            <div class="card-footer text-center">
+                            <img class="card-img-top mt-3" src="images/TSP3.png" alt="Incers"/>
+                            <div class="card-footer">
                                 <a href="https://aaryametallurgicals.com/management/" class="pull-right">More Info</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP4.png" />
-                            <div class="card-footer text-center">
+                            <img class="card-img-top mt-3" src="images/TSP4.png" alt="Incers"/>
+                            <div class="card-footer">
                                 <a href="https://www.hindalco.com/" class="pull-right">More Info</a>
                             </div>
                         </div>
@@ -340,7 +340,7 @@ const Mritika = () => {
                 <div class="d-flex flex-wrap">
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP5.jpeg" />
+                            <img class="card-img-top mt-3" src="images/TSP5.jpeg" alt="Incers"/>
                             <div class="card-footer">
                                 <a href="https://www.sarvesh.com/" class="pull-right">More Info</a>
                             </div>
@@ -348,25 +348,25 @@ const Mritika = () => {
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/GSP1.jpeg" />
-                            <div class="card-footer text-center">
-                                <a href="https://www.elkem.com/" >More Info</a>
+                            <img class="card-img-top mt-3" src="images/GSP1.jpeg" alt="Incers" />
+                            <div class="card-footer">
+                                <a href="https://www.elkem.com/" class="pull-right">More Info</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/SSP.jpeg" />
-                            <div class="card-footer text-center">
+                            <img class="card-img-top mt-3" src="images/SSP.jpeg" alt="Incers"/>
+                            <div class="card-footer">
                                 <a href="https://www.calderys.com/" class="pull-right">More Info</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/SSP2.jpeg" />
-                            <div class="card-footer text-center">
-                                <a href="http://www.maithanceramic.in/" >More Info</a>
+                            <img class="card-img-top mt-3" src="images/SSP2.jpeg" alt="Incers"/>
+                            <div class="card-footer">
+                                <a href="http://www.maithanceramic.in/" class="pull-right">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -386,62 +386,62 @@ const Mritika = () => {
                 <div class="d-flex flex-wrap">
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" />
+                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
                 </div>
@@ -450,13 +450,13 @@ const Mritika = () => {
 
 
         {/* Premritika events */}
-        <div className='container p-5'>
+        <div className='container p-4'>
             <h3 class="text-center font-weight-bold mb-3" >PRE-MRITIKA EVENTS</h3>
             <div class="col-md-12 card-effect">
                 <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 M23design">
                     <div class="card-body d-flex flex-column align-items-start">
                         <h4 class="mb-3" >
-                            <a class="text-dark" href="#">BOX CRICKET</a>
+                            <a class="text-dark" href="https://www.instagram.com/nitr_incers/">BOX CRICKET</a>
                         </h4>
                         <strong class="d-inline-block mb-2 text-primary">"Jo khel dil ko itna bhaye usko dekhe bina kese raha jaye"</strong>
                         <p className='text-justify'>
@@ -471,14 +471,14 @@ const Mritika = () => {
                         </p>
                         <a class="btn btn-outline-primary btn-sm" role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdfYmbdtr1Qc-r7Yv6ghAdQ8NBQkSIBuBDbW57rh8o6SLS3wg/viewform?usp=sf_link">Register Here</a>
                     </div>
-                    <img class="card-img-right flex-auto d-none d-lg-block p-2" alt="Thumbnail [200x250]" src="images/BC.png" style={{ width: "230px", height: "250px", marginTop: "3rem" }} />
+                    <img class="card-img-right flex-auto d-none d-lg-block p-2" alt="Thumbnail" src="images/BC.png" style={{ width: "230px", height: "250px", marginTop: "3rem" }} />
                 </div>
             </div>
             <div class="col-md-12 card-effect">
                 <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 M23design">
                     <div class="card-body d-flex flex-column align-items-start">
                         <h4 class="mb-3">
-                            <a class="text-dark" href="#">BADMINTON </a>
+                            <a class="text-dark" href="https://www.instagram.com/nitr_incers/">BADMINTON </a>
                         </h4>
                         <strong class="d-inline-block mb-2 text-primary">"Challenge yourself and others in the ultimate badminton battle!"</strong>
                         <p className='text-justify'>
@@ -489,16 +489,16 @@ const Mritika = () => {
                             So, don't miss out on the electric atmosphere as players battle it out for victory.
                         </p>
                     </div>
-                    <img class="card-img-right flex-auto d-none d-lg-block p-2" alt="Thumbnail [200x250]" src="images/BC1.png" style={{ width: "200px", height: "250px", marginTop: "0.5rem" }} />
+                    <img class="card-img-right flex-auto d-none d-lg-block p-2" alt="Thumbnail" src="images/BC1.png" style={{ width: "200px", height: "250px", marginTop: "0.5rem" }} />
                 </div>
             </div>
         </div>
 
 
         {/* Theme  */}
-        <div class="container p-5" style={{ backgroundColor: "#F3F3EA" }}>
+        <div class="container p-4" style={{ backgroundColor: "#F3F3EA" }}>
             <h3 class="text-center font-weight-bold" >THEME OF THE CONFERENCE</h3>
-            <div class="d-flex flex-wrap p-4" >
+            <div class="d-flex flex-wrap" >
                 <ol>
                     <li>
                         Current status and Future Trends in the Manufacturing of Refractories.
@@ -547,14 +547,14 @@ const Mritika = () => {
 
 
         {/* Technical session */}
-        <div class="container p-5">
+        <div class="container p-4">
             <h3 class="text-center font-weight-bold ">TECHNICAL SESSION</h3>
             <div class="d-flex flex-wrap flex-row" >
                 <div class="col-md-12 card-effect ">
-                    <div class="card flex-md-row mb-4 shadow-sm h-md-250 M23design" >
+                    <div class="card flex-md-row shadow-sm h-md-250 M23design" >
                         <div class="card-body d-flex flex-column align-items-start text-justify p-4">
                             <h4 class="mb-3">
-                                <a class="text-dark" href="#">Plenary Lectures/Invited Lectures </a>
+                                <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Plenary Lectures/Invited Lectures </a>
                             </h4>
                             <p>
                                 Industry delegates/Academic Experts are invited for the same to share their words
@@ -564,7 +564,7 @@ const Mritika = () => {
                                 registrations.
                             </p>
                             <h4 class="mb-3">
-                                <a class="text-dark" href="#">Contributory Lectures </a>
+                                <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Contributory Lectures </a>
                             </h4>
                             <p>
                                 Industry delegates/Academic Experts who wish to present their ongoing work
@@ -574,7 +574,7 @@ const Mritika = () => {
                                 registrations.
                             </p>
                             <h4 class="mb-3">
-                                <a class="text-dark" href="#">Panel discussions</a>
+                                <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Panel discussions</a>
                             </h4>
                             <p>
                                 Industry delegates/Academic Experts are also cordially welcomed to be a part of
@@ -584,7 +584,7 @@ const Mritika = () => {
                                 etc.) that inculcate ongoing agenda the firm might be working on.
                             </p>
                             <h4 class="mb-0">
-                                <a class="text-dark" href="#">Poster Presentations(open to all categories)</a>
+                                <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Poster Presentations(open to all categories)</a>
                             </h4>
                             <p>
                                 Industry Delegates/Academic Experts/Research Scholars/Students can present
@@ -600,14 +600,14 @@ const Mritika = () => {
 
 
         {/* Fun eventa */}
-        <div class="container p-5">
+        <div class="container">
             <h3 class="text-center font-weight-bold mb-3" >FUN EVENTS</h3>
             <div class="d-flex flex-wrap">
                 <div class="col-md-12 card-effect" >
                     <div class="card flex-md-row mb-4 shadow-sm h-md-250 M23design ">
                         <div class="card-body d-flex flex-column align-items-start">
                             <h4 class="mb-3">
-                                <a class="text-dark" href="#">PowerPoint Karaoke</a>
+                                <a class="text-dark" href="https://www.instagram.com/nitr_incers/">PowerPoint Karaoke</a>
                             </h4>
                             <p>A fun PowerPoint Karaoke event to challenge both the author of the slide and the presenter to
                                 improve their communication skills. Submit or Present a Slide (or Both!)</p>
@@ -625,7 +625,7 @@ const Mritika = () => {
                     <div class="card flex-md-row mb-4 shadow-sm h-md-250 M23design">
                         <div class="card-body d-flex flex-column align-items-start">
                             <h4 class="mb-3">
-                                <a class="text-dark" href="#">QUIZ (Mega Hunt Game)</a>
+                                <a class="text-dark" href="https://www.instagram.com/nitr_incers/">QUIZ (Mega Hunt Game)</a>
                             </h4>
                             <br />
                             <p>The quiz will involve some sort of gameplay where there will be different levels and each

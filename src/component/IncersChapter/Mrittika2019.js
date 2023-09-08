@@ -13,7 +13,7 @@ const Mrittika2019 = () => {
         <div className=' '>
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
             <div>
-                <img src="images/MM-banner.png" alt="suraj" className='MMmobile' />
+                <img src="images/MM-banner.png" alt="Incers" className='MMmobile' />
             </div>
 
             {/* new change for about */}
@@ -57,22 +57,22 @@ const Mrittika2019 = () => {
                 <div className='d-flex flex-wrap'>
                     <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190407_185026.jpg" />
+                            <img class="img-fluid" src="images/20190407_185026.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190406_115551.jpg" />
+                            <img class="img-fluid" src="images/20190406_115551.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190406_122141.jpg" />
+                            <img class="img-fluid" src="images/20190406_122141.jpg" alt="Incers"/>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190407_152923.jpg" />
+                            <img class="img-fluid" src="images/20190407_152923.jpg" alt="Incers"/>
                         </div>
                     </div>
                 </div>
@@ -91,13 +91,13 @@ const Mrittika2019 = () => {
                         <div className='d-flex flex-row'>
                             <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
                                 <div class="card">
-                                    <img class="card-img-top h-262" src="images/S3.jpeg" />
+                                    <img class="card-img-top h-262" src="images/S3.jpeg" alt="Incers"/>
                                     <a href="https://www.trlkrosaki.com/" class="text-center p-2" >More Info</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
                                 <div class="card">
-                                    <img class="card-img-top h-262" src="images/S2.jpeg" />
+                                    <img class="card-img-top h-262" src="images/S2.jpeg" alt="Incers"/>
                                     <a href="https://www.imerys.com/" class="text-center p-2">More Info</a>
                                 </div>
                             </div>
@@ -108,13 +108,13 @@ const Mrittika2019 = () => {
                         <div className='d-flex flex-row'>
                             <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
                                 <div class="card">
-                                    <img class="card-img-top h-262" src="images/S1.jpeg" />
+                                    <img class="card-img-top h-262" src="images/S1.jpeg" alt="Incers"/>
                                     <a href="https://www.adityabirla.com/" class="text-center p-2" >More Info</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6 mt-4">
                                 <div class="card">
-                                    <img class="card-img-top h-262" src="images/S4.jpeg" />
+                                    <img class="card-img-top h-262" src="images/S4.jpeg" alt="Incers"/>
                                     <a href="https://www.elkem.com/" class="text-center p-2">More Info</a>
                                 </div>
                             </div>
@@ -131,62 +131,62 @@ const Mrittika2019 = () => {
                     <div class="d-flex flex-wrap">
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G1.jpeg" />
+                                <img class="img-fluid" src="images/G1.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G2.jpeg" />
+                                <img class="img-fluid" src="images/G2.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G3.jpeg" />
+                                <img class="img-fluid" src="images/G3.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G4.jpeg" />
+                                <img class="img-fluid" src="images/G4.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G5.jpeg" />
+                                <img class="img-fluid" src="images/G5.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G6.jpeg" />
+                                <img class="img-fluid" src="images/G6.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G7.jpeg" />
+                                <img class="img-fluid" src="images/G7.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G8.jpeg" />
+                                <img class="img-fluid" src="images/G8.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G9.jpg" />
+                                <img class="img-fluid" src="images/G9.jpg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G10.jpeg" />
+                                <img class="img-fluid" src="images/G10.jpeg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G11.jpg" />
+                                <img class="img-fluid" src="images/G11.jpg" alt="Incers"/>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G12.jpg" />
+                                <img class="img-fluid" src="images/G12.jpg" alt="Incers"/>
                             </div>
                         </div>
                     </div>

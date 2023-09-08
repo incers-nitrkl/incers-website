@@ -23,7 +23,7 @@ const Events1 = () => {
                         <div class="card-body d-flex flex-column align-items-start">
                             <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                             <h6 class="mb-0">
-                                <a class="text-white" href="#">Online Presentastion Competition-3</a>
+                                <a class="text-white" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-3</a>
                             </h6>
                             <div class="mb-1 text-white-50 small">Dec 20</div>
                             <p class="card-text mb-auto text-white" >Ceramics made with Clay</p>
@@ -42,7 +42,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Online Presentastion Competition-1</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-1</a>
                                 </h6>
                                 <div class="mb-1 text-muted small">Aug 30</div>
                                 <p class="card-text mb-auto" >Silicon Sphere</p>
@@ -60,7 +60,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Online Presentastion Competition-1</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-1</a>
                                 </h6>
                                 <div class="mb-1 text-muted small">Aug 30</div>
                                 <p class="card-text mb-auto">Ceramic tempered Glass</p>
@@ -77,7 +77,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Online Presentastion Competition-1</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-1</a>
                                 </h6>
                                 <div class="mb-1 text-muted small">Aug 30</div>
                                 <p class="card-text mb-auto">Metamaterials</p>
@@ -93,7 +93,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-dark" href="#">Online Presentastion Competition-1</a>
+                                    <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-1</a>
                                 </h6>
                                 <div class="mb-1 text-muted small">Aug 30</div>
                                 <p class="card-text mb-auto">Conductive Ceramics</p>
@@ -111,7 +111,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-white" href="#">Online Presentastion Competition-2</a>
+                                    <a class="text-white" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-2</a>
                                 </h6>
                                 <div class="mb-1 text-white-50 small">Dec 20</div>
                                 <p class="card-text mb-auto" style={{ color: "white" }}>PZT</p>
@@ -126,7 +126,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-white" href="#">Online Presentastion Competition-2</a>
+                                    <a class="text-white" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-2</a>
                                 </h6>
                                 <div class="mb-1 text-white-50 small">Dec 20</div>
                                 <p class="card-text mb-auto" >Cereamics in aerospace</p>
@@ -143,7 +143,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-white" href="#">Online Presentastion Competition-2</a>
+                                    <a class="text-white" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-2</a>
                                 </h6>
                                 <div class="mb-1 text-white-50 small">Dec 20</div>
                                 <p class="card-text mb-auto" style={{ color: "white" }}>Application of Ceramics in Electronics</p>
@@ -159,7 +159,7 @@ const Events1 = () => {
                             <div class="card-body d-flex flex-column align-items-start shadow-effect">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
                                 <h6 class="mb-0">
-                                    <a class="text-white" href="#">Online Presentastion Competition-2</a>
+                                    <a class="text-white" href="https://www.instagram.com/nitr_incers/">Online Presentastion Competition-2</a>
                                 </h6>
                                 <div class="mb-1 text-white-50 small">Dec 20</div>
                                 <p class="card-text mb-auto">Ceramics in Electronics</p>

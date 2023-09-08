@@ -52,22 +52,22 @@ const Events5 = () => {
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/Ch7QINAPt00/?igshid=YmMyMTA2M2Y=">
-                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu1.png" />
+                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu1.png" alt='Incers'/>
                             </a>
                         </div>
                         <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/Cjng5ORPwSw/?igshid=YmMyMTA2M2Y=">
-                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu2.png" />
+                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu2.png" alt='Incers'/>
                             </a>
                         </div>
                         <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/CkddWz_PUUm/?igshid=YmMyMTA2M2Y=">
-                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu3.png" />
+                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu3.png" alt='Incers'/>
                             </a>
                         </div>
                         <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/CmZAVuCPK8q/?igshid=YmMyMTA2M2Y=">
-                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu4.png" />
+                                <img class="card-img-top" style={{ height: "260px", width: "230px" }} src="images/mu4.png" alt='Incers'/>
                             </a>
                         </div>
                     </div>
