@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
+import './MaterialsUnlocked.css'
 
 
 const Events5 = () => {
@@ -9,13 +10,13 @@ const Events5 = () => {
         <div>
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
             <div>
-                <img src="images/MU-banner.png" alt="suraj" style={{ height: "565px", width: "100%" }} />
+                <img src="images/MU-banner.png" alt="suraj" className='MUmobile' />
             </div>
 
             {/* New add */}
             <div class="d-flex flex-column flex-wrap mt-4">
                 <div class="d-flex justify-content-center " >
-                    <h1>MATERIALS UNLOCKED</h1>
+                    <h2 style={{ fontSize: "2.5rem" }}>MATERIALS UNLOCKED</h2>
                 </div>
                 <div class="text-justify px-5 py-4">
                     <p>Materials are at the core of all scientific research and have a profound impact on virtually every

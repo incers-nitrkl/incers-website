@@ -1,9 +1,9 @@
-.MUmobile {
+.mobile {
     height: 560px;
     width: 100%;
 }
 @media (max-width: 1024px) {
-    .MUmobile {
+    .mobile {
         height: 60vh !important;
     }
 }

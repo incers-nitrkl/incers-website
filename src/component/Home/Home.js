@@ -32,7 +32,6 @@ const responsive = {
 
 };
 
-const width1 = window.screen.width;
 const Apps = () => {
     const classes = useStyles();
     const functiondeal1 = () => {
@@ -141,45 +140,45 @@ const Apps = () => {
         }
     }
 
-    const functiondeal3 = () => {
-        const width2 = 700;
-        if (window.screen.width >= width2) {
-            return <>
-                <div className="logo_part">
-                    <h2>NITR ICS</h2>
-                    <h3 style={{ display: "flex", flexDirection: "column", marginLeft: "-550px", color: "orange", marginTop: "40px" }}><span>Address:NIT ROURKELA </span><span>Pin-Code:769001</span></h3>
-                    <div className="img_3">
-                        <a href="">
-                            <i className="fa fa-facebook"></i></a>
-                    </div>
-                    <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
-                    </div>
-                    <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <h3 style={{ display: "flex", flexDirection: "column", color: "orange", marginTop: "40px", marginRight: "-500px" }}><span><i class="fa fa-phone" style={{ marginRight: "10px", marginLeft: "10px" }}></i>Siddharth Nanda Sir:92732709727</span><span><i class="fa fa-phone" style={{ marginRight: "10px", marginLeft: "10px" }}></i>Sakti Swaroop Sir:792347979</span></h3>
-                </div>
-            </>
-        }
-        else {
-            return <>
-                <div className="logo_part">
-                    <div className="img_3">
-                        <a href="">
-                            <i className="fa fa-facebook"></i></a>
-                    </div>
-                    <div className="img_3">
-                        <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i className="fa fa-instagram"></i></a>
-                    </div>
-                    <div className="img_3">
-                        <a href="https://www.linkedin.com/company/incers-nitr"><i className="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </>
+    // const functiondeal3 = () => {
+    //     const width2 = 700;
+    //     if (window.screen.width >= width2) {
+    //         return <>
+    //             <div className="logo_part">
+    //                 <h2>NITR ICS</h2>
+    //                 <h3 style={{ display: "flex", flexDirection: "column", marginLeft: "-550px", color: "orange", marginTop: "40px" }}><span>Address:NIT ROURKELA </span><span>Pin-Code:769001</span></h3>
+    //                 <div className="img_3">
+    //                     <a href="">
+    //                         <i className="fa fa-facebook"></i></a>
+    //                 </div>
+    //                 <div className="img_3">
+    //                     <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i class="fa fa-instagram"></i></a>
+    //                 </div>
+    //                 <div className="img_3">
+    //                     <a href="https://www.linkedin.com/company/incers-nitr"><i class="fa fa-linkedin"></i></a>
+    //                 </div>
+    //                 <h3 style={{ display: "flex", flexDirection: "column", color: "orange", marginTop: "40px", marginRight: "-500px" }}><span><i class="fa fa-phone" style={{ marginRight: "10px", marginLeft: "10px" }}></i>Siddharth Nanda Sir:92732709727</span><span><i class="fa fa-phone" style={{ marginRight: "10px", marginLeft: "10px" }}></i>Sakti Swaroop Sir:792347979</span></h3>
+    //             </div>
+    //         </>
+    //     }
+    //     else {
+    //         return <>
+    //             <div className="logo_part">
+    //                 <div className="img_3">
+    //                     <a href="">
+    //                         <i className="fa fa-facebook"></i></a>
+    //                 </div>
+    //                 <div className="img_3">
+    //                     <a href="https://instagram.com/nitr_ics?utm_medium=copy_link">  <i className="fa fa-instagram"></i></a>
+    //                 </div>
+    //                 <div className="img_3">
+    //                     <a href="https://www.linkedin.com/company/incers-nitr"><i className="fa fa-linkedin"></i></a>
+    //                 </div>
+    //             </div>
+    //         </>
 
-        }
-    }
+    //     }
+    // }
 
     const functiondeal4 = () => {
         const width2 = 700;
@@ -304,21 +303,19 @@ const Apps = () => {
     }
 
 
-
     return (
         <>
             <Navbar />
-            <div class="main_div">
-                <div className="gallery_div">
-                    <img style={{ width: "100%", height: "580px", borderRadius: "0px" }} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
+            <div>
+                <div >
+                    <img  style={{ width: "100%", maxHeight: "580px"}} src="images/incers_newlogo_1.jpg" alt="image" srcset="" />
                 </div>
 
-                <section class="about-us " id="about-us" style={{ marginBottom: "-3.5rem" }}>
-                    <div class="container mt-5" >
-                        <div class="row">
+                <section>
+                    <div class="container p-4"  >
+                        <div class="d-flex flex-wrap">
                             <div class="col-md-12" style={{ textAlign: "justify" }}>
-                                <h1 class='text-success' style={{ fontSize: "27px" }}>INCERS NITR</h1>
-                                <hr />
+                                <h1 class='text-success' style={{ fontSize: "27px",borderBottom:"1px solid green" }}>INCERS NITR</h1>
                                 <p>Indian Ceramic Society (InCerS) is a non-profit organization established in 1928 under the guidance of Pandit Madan Mohan Malviya with an objective of establishing a network & relationship among all material enthusiasts, industrial professionals and any other people connected to this field.
                                     The primary objective of InCerS is to promote advancement in ceramic science, arts and technologies, by bringing into close contact those who are engaged in these pursuits, publishing scientific and technical books and journals, holding annual sessions, discussions, meetings, symposia and exhibitions on the subjects of interest. InCerS, NITR is the student chapter of Indian Ceramic Society which organizes annual events like Mrittika. To be a part of InCerS student chapter one needs to pay a membership amount.  Being a part of InCerS student chapter has many benefits like getting huge amount of funds to organize events like MRITTIKA whose budget is more than the annual tech fest of NITR
                                     NITR-ICS is the student chapter of InCerS at NIT Rourkela with a total strength of
@@ -339,32 +336,33 @@ const Apps = () => {
                 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-                <section class="about-us about-us-OB py-5 py-5-1" id="about-us">
-                    <div class="container mt-5" >
-                        <div class="row">
-                            <div class="col-md-12" style={{ textAlign: "justify", marginBottom: "-7.3rem" }}>
-                                <h1 class='text-success' style={{ fontSize: "27px" }}>OUR OBJECTIVES</h1>
-                                <hr />
+                <section>
+                    <div class="container p-4" >
+                        <div class="d-flex flex-wrap">
+                            <div class="col-md-12" style={{ textAlign: "justify"}}>
+                                <h1 class='text-success' style={{fontSize: "27px",borderBottom:"1px solid green"}}>OUR OBJECTIVES</h1>
                                 <p>
                                     To provide a platform for delegates and professionals from the fields of material science and technology to gather and advance their knowledge and ideas about the materials.
                                     It also works to provide exposure to students on material science & technology and to assist them throughout their journey in this field.
                                 </p>
-
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="about-us py-5" id="about-us">
-                    <div class="container mt-5">
-                        <div class="row row-2">
+                <section>
+                    <div class="container p-4">
+                        <div class="d-flex flex-wrap">
                             <div class="col-md-12" style={{ textAlign: "justify" }}>
-                                <h1 class='text-success' style={{ fontSize: "27px" }}>FLASHBACK FRIDAY</h1>
-                                <hr />
-                                <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that are sometimes very difficult to get owing to certain reasons.
-
-                                    To help everyone in this regard, NITR-ICS is going to collect such experiences and words of wisdom from successful ceramists, material scientists and industrialists who have excelled in their fields. It will be a conglomeration of important events in their journey from college to where they are now. All the information will be shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
+                                <h1 class='text-success' style={{ fontSize: "27px",borderBottom:"1px solid green"}}>FLASHBACK FRIDAY</h1>
+                                <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once thought was good.
+                                    Memory is more indelible than ink. Life must be lived forwards, but it can only be understood backwards, through the 
+                                    experience of oneself and others. There is no definitive roadmap to follow for success, while the road is a huge game of Tetris. 
+                                    The inputs that we manage to get, must be arranged in a suitable way to make them advantageous to us. But it is the inputs that 
+                                    are sometimes very difficult to get owing to certain reasons.To help everyone in this regard, NITR-ICS is going to collect such 
+                                    experiences and words of wisdom from successful ceramists, material scientists and industrialists who have excelled in their fields. 
+                                    It will be a conglomeration of important events in their journey from college to where they are now. All the information will be 
+                                    shared fortnightly through the label “Flashback Friday”. Stay tuned for further information.
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -377,18 +375,16 @@ const Apps = () => {
                     <div id='slider-flashback' style={{ margin: "0 -30px" }}>
                         {functiondeal()}
                     </div>
-                    <section class="about-us py-5 " id="about-us">
-                        <div class="container mt-5">
-                            <div class="row">
+                    <section>
+                        <div class="container p-4">
+                            <div class="d-flex flex-wrap">
                                 <div class="col-md-12" style={{ textAlign: "justify" }}>
-                                    <h1 class='text-success' style={{ fontSize: "27px" }}>MONDAY MATTER</h1>
-                                    <hr />
+                                    <h1 class='text-success' style={{ fontSize: "27px",borderBottom:"1px solid green"}}>MONDAY MATTER</h1>
                                     <p>Every week, you suffer from the same malady: a terrible case of the Mondays. You dread that alarm going off. And no matter how many things you try—meditation, reciting inspirational quotes, reading a bunch of happy quotes, you're having trouble getting going. But why not think of Monday as an opportunity rather than a punishment? It's a chance to start fresh.
                                         Who wants to wake up to a Monday after a good weekend rest? Mondays are boring, seems longer than usual and almost everyone hates it, right? It is also marked by tiredness and reluctance to start the week's work. But not anymore.
                                         NITR-ICS is going to make you look forward to the Monday and the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose of Ceramics and Material Science updates, to keep you intrigued for the rest of the week. We will be keeping you informed of all the latest, known, and unknown realms of material science, making your start of the week an interesting one.
                                         To all material enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.
                                     </p>
-
                                 </div>
                             </div>
                         </div>
@@ -401,29 +397,24 @@ const Apps = () => {
                         {functiondeals()}
                     </div>
 
-                    <section class="about-us py-5 " id="about-us">
-                        <div class="container mt-5">
-                            <div class="row">
+                    <section>
+                        <div class="container p-4">
+                            <div class="d-flex flex-wrap">
                                 <div class="col-md-12" style={{ textAlign: "justify" }}>
-                                    <h1 class='text-success' style={{ fontSize: "27px" }}>MATERIALS UNLOCKED</h1>
-                                    <hr />
+                                    <h1 class='text-success' style={{ fontSize: "27px",borderBottom:"1px solid green"}}>MATERIALS UNLOCKED</h1>
                                     <p>Every week, you suffer from the same malady: a terrible case of the Mondays. You dread that alarm going off. And no matter how many things you try—meditation, reciting inspirational quotes, reading a bunch of happy quotes, you're having trouble getting going. But why not think of Monday as an opportunity rather than a punishment? It's a chance to start fresh.
                                         Who wants to wake up to a Monday after a good weekend rest? Mondays are boring, seems longer than usual and almost everyone hates it, right? It is also marked by tiredness and reluctance to start the week's work. But not anymore.
                                         NITR-ICS is going to make you look forward to the Monday and the next Monday and so on. Presenting before you, "Monday Matter", your weekly dose of Ceramics and Material Science updates, to keep you intrigued for the rest of the week. We will be keeping you informed of all the latest, known, and unknown realms of material science, making your start of the week an interesting one.
                                         To all material enthusiasts out there, a unique fortuity knocks at your doors. Not everyone is blessed to receive the pearl of wisdom. Give light to the heed of many others who are aspiring to know more.
                                     </p>
-
                                 </div>
                             </div>
                         </div>
                     </section>
-
                     <div className="image_div_2" style={{ marginBottom: "-7.5rem" }}>
                         {functiondeal4()}
                     </div>
                 </div>
-
-
                 <Footer />
             </div>
         </>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
+import './FlashbackFriday.css'
 
 const Events3 = () => {
 
@@ -9,13 +10,13 @@ const Events3 = () => {
         <div>
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
             <div>
-                <img class="" src="images/FF-banner.png" alt="suraj" style={{ height: "565px", width: "100%" }} />
+                <img class="" src="images/FF-banner.png" alt="suraj" className='FFmobile' />
             </div>
 
             {/* New add */}
             <div class="d-flex flex-column flex-wrap mt-4">
                 <div class="d-flex justify-content-center " >
-                    <h1>FLASHBACK FRIDAY</h1>
+                    <h2 style={{ fontSize: "2.5rem" }}>FLASHBACK FRIDAY</h2>
                 </div>
                 <div class="text-justify px-5 py-4">
                     <p>Memories are meant to be remembered, because even the bad memories are usually part of something we once

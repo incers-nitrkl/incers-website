@@ -58,7 +58,6 @@ const Mritika = () => {
 
 
             <div class="mrittika-bg skb2">
-                {/* <div class="overlay"></div> */}
                 <div class="mrittika-img skb2">
                     <img class="mrittika-img5" src="images/MRITTIKA2.0-banner.png" alt="suraj" style={{height:"565px",width:"100%",borderRadius:"0px"}}/>
                 </div>

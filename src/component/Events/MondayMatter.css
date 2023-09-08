@@ -1,0 +1,9 @@
+.MMmobile {
+    height: 560px;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .MMmobile {
+        height: 60vh;
+    }
+}

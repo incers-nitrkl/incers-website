@@ -2478,13 +2478,7 @@ li.list-inline-item a {
   }
 }
 @media only screen and (max-width: 320px) {
-  /* .inner-section h3 {
-    font-size: 18px;
-  }
-  .inner-section p {
-    font-size: 13px;
-    text-align: justify;
-  } */
+  
   h5.events-heading {
     font-size: 15px;
   }
