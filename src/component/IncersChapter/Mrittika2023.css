@@ -1,0 +1,35 @@
+.M23box img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.M23box img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.M23box:hover img {
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.M23design {
+    background-color: #bbeded6e !important;
+
+}
+.M23design:hover {
+    box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+}
+.M23mobile {
+    height: 560px;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .M23mobile {
+        height: 60vh;
+    }
+}

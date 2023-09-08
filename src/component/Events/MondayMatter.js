@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
+import './MondayMatter.css'
 
 const Events4 = () => {
     return (<>
@@ -8,13 +9,13 @@ const Events4 = () => {
         <div >
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
             <div>
-                <img src="images/MM-banner.png" alt="suraj" style={{ height: "565px", width: "100%" }} />
+                <img src="images/MM-banner.png" alt="suraj" className='MMmobile' />
             </div>
 
             {/* New add */}
             <div class="d-flex flex-column flex-wrap mt-4">
                 <div class="d-flex justify-content-center " >
-                    <h1>MONDAY<span> MATTER</span></h1>
+                    <h2 style={{ fontSize: "2.5rem" }}>MONDAY MATTER</h2>
                 </div>
                 <div class="text-justify px-5 py-4">
                     <p>Every week, you suffer from the same malady: a terrible case of the Mondays.
