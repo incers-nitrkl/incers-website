@@ -15,12 +15,9 @@ import Events5 from './component/Events/MaterialsUnlocked';
 import Blog from './Blog'
 import Blog1 from './Blog1'
 import Blog2 from './Blog2'
-import Mritika from './Events'
-import AboutIncersChapter from './AboutIncersChapter';
-import Mritika1 from './Mrittika1';
-import CommingSoon from './CommingSoon'
-// import './App.css';
-
+import Mritika23 from './component/IncersChapter/Mrittika2023'
+import AboutIncersChapter from './component/IncersChapter/AboutIncersChapter';
+import Mritika19 from './component/IncersChapter/Mrittika2019';
 
 const App = () => {
   return (
@@ -40,12 +37,9 @@ const App = () => {
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/blog1" component={Blog1} />
       <Route exact path="/blog2" component={Blog2} />
-      {/* <Route exact path="/aboutincerschapter" component={AboutIncersChapter} />
-      <Route exact path="/mritika" component={Mritika} />
-      <Route exact path="/mritika1" component={Mritika1} /> */}
-      <Route exact path="/aboutincerschapter" component={CommingSoon} />
-      <Route exact path="/mritika" component={CommingSoon} />
-      <Route exact path="/mritika1" component={CommingSoon} />
+      <Route exact path="/aboutincerschapter" component={AboutIncersChapter} />
+      <Route exact path="/mritika" component={Mritika23} />
+      <Route exact path="/mritika1" component={Mritika19} /> 
     </>);
 }
 

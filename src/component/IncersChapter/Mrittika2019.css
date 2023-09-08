@@ -1,0 +1,34 @@
+.M19box img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.M19item {
+    position: relative;
+}
+
+.M19item img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.M19item:hover img {
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.M19Gallery {
+    background: url("../../images/gallery.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.M19design2 {
+    background-color: #c2f5a96e !important;
+}
+
+.M19design2:hover {
+    box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
+}

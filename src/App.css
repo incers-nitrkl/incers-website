@@ -206,43 +206,7 @@
     /* margin-left: 0rem !important; */
   }
   
-  /* @media(max-width:479px){
-    .image1 {
-      margin-left:10%;
-      height:500px;
-      width:80%;
-        border-radius: 10px;
-      }
-      .slider1 {
-        position: relative;
-        height:600px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .right-arrow1 {
-        position: absolute;
-        top: 50%;
-        right: 32px;
-        font-size: 2rem;
-        color: white;
-        z-index: 10;
-        cursor: pointer;
-        user-select: none;
-      }
-      
-      .left-arrow1 {
-        position: absolute;
-        top: 50%;
-        left: 32px;
-        font-size: 2rem;
-        color: white;
-        z-index: 10;
-        cursor: pointer;
-        user-select: none;
-      }
-    } */
-    
+  
     @media(max-width:479px){
     .image1 {
       /* height: 1000px; */
@@ -406,14 +370,7 @@
           }
       }
 
-      /* .flash-card{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-      } */
-
-
+      
       /* new changes */
      
       .mritika-about{
@@ -504,37 +461,6 @@
         margin-left: -8rem;
         text-align: justify !important;
       }
-
-      /* .competition-design{
-        background-color: #bbeded6e !important;
-        
-      }
-      .competition-design:hover{
-        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      } */
-      /* .competition-design2{
-        background-color: #c2f5a96e !important;
-      }
-      .competition-design2:hover{
-        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      } */
-      /* .competition-design3{
-        background-color: #524af9eb !important;
-        height: 19rem !important;
-      }
-      .competition-design3:hover{
-        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      } */
-      /* .competition-design4{
-        background-color: #61e93cd2 !important;
-      }
-      .competition-design4:hover{
-        box-shadow: 1px 1px 1px 1px rgb(0, 19, 25);
-      } */
-      /* .competition-design6{
-        background-color: #524af9eb !important;
-      } */
-      
 
       .mrittika-bg{
         position: relative;
