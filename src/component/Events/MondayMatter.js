@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
 import './MondayMatter.css'
+import { MondayMatter23 , MondayMatter22 } from './MondayMatterData';
 
 const Events4 = () => {
     return (<>
@@ -44,7 +45,7 @@ const Events4 = () => {
                     {/* Executive Cards HOVER EFFECT */}
                     <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2022-23</h3>
                     <div class="d-flex flex-wrap justify-content-center">
-                        <div class="card hover m-3" data-wow-duration="1.4s">
+                        {/* <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/CMJPuzVlJ7e/">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm1.png" alt='Incers'/>
                             </a>
@@ -68,13 +69,27 @@ const Events4 = () => {
                             <a href="https://www.instagram.com/p/CGO3uy_FLOW/">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm5.png" alt='Incers'/>
                             </a>
-                        </div>
+                            
+                        </div> */}
+
+                        {
+                            MondayMatter23.map((data, index)=>{
+                                return(
+                                    <div class="card hover m-3" data-wow-duration="1.4s">
+                                        <a href={data.instagram}>
+                                        <img class="card-img-top" style={{ height: "230px", width: "200px" }} src={data.img} alt='Incers'/>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
+
                     </div>
 
 
                     <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2021-22</h3>
                     <div class="d-flex flex-wrap justify-content-center" >
-                        <div class="card hover m-3" data-wow-duration="1.4s">
+                        {/* <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/CFG8jIxlHhr/">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm6.png" alt='Incers'/>
                             </a>
@@ -113,7 +128,19 @@ const Events4 = () => {
                             <a href="https://www.instagram.com/p/CCkm_4zFWC9/?igshid=YmMyMTA2M2Y=">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/mm13.png" alt='Incers'/>
                             </a>
-                        </div>
+                        </div> */}
+
+                        {
+                            MondayMatter22.map((data, index)=>{
+                                return(
+                                    <div class="card hover m-3" data-wow-duration="1.4s">
+                                        <a href={data.instagram}>
+                                        <img class="card-img-top" style={{ height: "230px", width: "200px" }} src={data.img} alt='Incers'/>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
                     </div>
                 </section>
             </div>

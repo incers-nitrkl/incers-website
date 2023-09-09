@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
 import './FlashbackFriday.css'
+import { FlashbackFriday23, FlashbackFriday22 } from './FlashbackFridayData';
 
 const Events3 = () => {
 
@@ -47,7 +48,7 @@ const Events3 = () => {
                     {/* Executive Cards HOVER EFFECT */}
                     <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2022-23</h3>
                     <div class="d-flex flex-wrap justify-content-center">
-                        <div class="card hover m-3" data-wow-duration="1.4s">
+                        {/* <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/ClG_f3fPIGC/?utm_source=ig_web_copy_link">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB1.PNG" alt='Incers'/>
                             </a>
@@ -71,14 +72,29 @@ const Events3 = () => {
                             <a href="https://www.instagram.com/p/CcFw_e1vYB0/">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB5.png" alt='Incers'/>
                             </a>
-                        </div>
+                        </div> */}
+
+                        {
+                            FlashbackFriday23.map((data, index)=>{
+                                return(
+                                    <div class="card hover m-3" data-wow-duration="1.4s">
+                                        <a href={data.instagram}>
+                                        <img class="card-img-top" style={{ height: "230px", width: "200px" }} src={data.img} alt='Incers'/>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
+
+                        
+
                     </div>
 
 
                     <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2021-22</h3>
                     <div class="d-flex flex-wrap justify-content-center">
 
-                        <div class="card hover m-3" data-wow-duration="1.4s">
+                        {/* <div class="card hover m-3" data-wow-duration="1.4s">
                             <a href="https://www.instagram.com/p/CaryVFCPdTk/">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB6.png" alt='Incers'/>
                             </a>
@@ -162,7 +178,20 @@ const Events3 = () => {
                             <a href="https://www.instagram.com/p/CWvbk8WPFj2/?igshid=YmMyMTA2M2Y=">
                                 <img class="card-img-top" style={{ height: "230px", width: "200px" }} src="images/FB22.png" alt='Incers'/>
                             </a>
-                        </div>
+                        </div> */}
+
+                        {
+                            FlashbackFriday22.map((data, index)=>{
+                                return(
+                                    <div class="card hover m-3" data-wow-duration="1.4s">
+                                        <a href={data.instagram}>
+                                        <img class="card-img-top" style={{ height: "230px", width: "200px" }} src={data.img} alt='Incers'/>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
+
                     </div>
                 </section>
             </div>
