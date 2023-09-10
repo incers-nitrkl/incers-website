@@ -56,26 +56,6 @@ const Mrittika2019 = () => {
                     </div>
                 </div>
                 <div className='d-flex flex-wrap'>
-                    {/* <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190407_185026.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190406_115551.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190406_122141.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M19item M19box">
-                            <img class="img-fluid" src="images/20190407_152923.jpg" alt="Incers"/>
-                        </div>
-                    </div> */}
 
                         {
                             ParticipatingInd.map((data, index)=>{
@@ -144,68 +124,8 @@ const Mrittika2019 = () => {
                         <h3 class="text-center font-weight-bold">MRITTIKA GALLERY 2019</h3>
                     </div>
                     <div class="d-flex flex-wrap">
-                        {/* <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G1.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G2.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G3.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G4.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G5.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G6.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G7.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G8.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G9.jpg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G10.jpeg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G11.jpg" alt="Incers"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
-                            <div class=" M19item M19box">
-                                <img class="img-fluid" src="images/G12.jpg" alt="Incers"/>
-                            </div>
-                        </div> */}
 
-{
+                        {
                             M19Gallery.map((data, index)=>{
                                 return(
                                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
