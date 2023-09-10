@@ -3,6 +3,7 @@ import Brochure from '../../images/brochure2019.pdf';
 import Navbar from '../../Navbar';
 import './Mrittika2019.css'
 import Footer from '../Footer/Footer';
+import {ParticipatingInd, M19Gallery} from "./Mrittika2019Data"
 
 
 
@@ -55,7 +56,7 @@ const Mrittika2019 = () => {
                     </div>
                 </div>
                 <div className='d-flex flex-wrap'>
-                    <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    {/* <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="M19item M19box">
                             <img class="img-fluid" src="images/20190407_185026.jpg" alt="Incers"/>
                         </div>
@@ -74,7 +75,21 @@ const Mrittika2019 = () => {
                         <div class="M19item M19box">
                             <img class="img-fluid" src="images/20190407_152923.jpg" alt="Incers"/>
                         </div>
-                    </div>
+                    </div> */}
+
+                        {
+                            ParticipatingInd.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-12 col-md-6 col-lg-6 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                                <div class="M19item M19box">
+                                <img class="img-fluid" src={data.img} alt="Incers"/>
+                                </div>
+                                </div>
+                                )
+                            })
+                        }
+
+
                 </div>
             </section>
 
@@ -129,7 +144,7 @@ const Mrittika2019 = () => {
                         <h3 class="text-center font-weight-bold">MRITTIKA GALLERY 2019</h3>
                     </div>
                     <div class="d-flex flex-wrap">
-                        <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                        {/* <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                             <div class=" M19item M19box">
                                 <img class="img-fluid" src="images/G1.jpeg" alt="Incers"/>
                             </div>
@@ -188,7 +203,20 @@ const Mrittika2019 = () => {
                             <div class=" M19item M19box">
                                 <img class="img-fluid" src="images/G12.jpg" alt="Incers"/>
                             </div>
-                        </div>
+                        </div> */}
+
+{
+                            M19Gallery.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                                        <div class=" M19item M19box">
+                                            <img class="img-fluid" src={data.img} alt="Incers"/>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
+
                     </div>
                 </div>
             </section>
