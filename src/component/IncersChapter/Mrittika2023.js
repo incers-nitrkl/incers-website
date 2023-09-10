@@ -3,7 +3,7 @@ import Brochure from '../../images/brochure2019.pdf';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
 import './Mrittika2023.css'
-
+import { Prof , ExecuitveMember, TitleS, GoldSilverS, Gallary23 } from './Mrittika2023Data';
 
 
 const Mritika = () => {
@@ -73,7 +73,7 @@ const Mritika = () => {
                     <h2 class="font-weight-bold">OUR PROFESSORS</h2>
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
+                    {/* <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
                             <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Bibhuti.jpg" alt="Incers"/>
                             <div class="card-block">
@@ -200,7 +200,24 @@ const Mritika = () => {
                                 <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+{
+                            Prof.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
+                                    <div class="card" style={{ height: "295px", width: "100%" }}>
+                                    <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src={data.img} alt="Incers"/>
+                                    <div class="card-block">
+                                            <h6 class="card-title text-center">{data.name}</h6>
+                                            <h6 style={{ color: "green" }}><strong>{data.des}</strong></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
+
                 </div>
             </section>
 
@@ -210,7 +227,7 @@ const Mritika = () => {
                     <h2 class="font-weight-bold">EXECUTIVE MEMBERS</h2>
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
+                    {/* <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
                         <div class="card" style={{ height: "295px", width: "100%" }}>
                             <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/DP.jpg" alt="Incers"/>
                             <div class="card-block">
@@ -281,7 +298,22 @@ const Mritika = () => {
                                 <h6 style={{ color: "green" }}><strong>BR 4th Year</strong></h6>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    {
+                            ExecuitveMember.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
+                                        <div class="card" style={{ height: "295px", width: "100%" }}>
+                                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src={data.img} alt="Incers"/>
+                                                <div class="card-block">
+                                                    <h6 class="card-title text-center">{data.name}</h6>
+                                                    <h6 style={{ color: "green" }}><strong>{data.des}</strong></h6>
+                                                </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
             </section>
 
@@ -301,7 +333,7 @@ const Mritika = () => {
                 </div>
                 <h3 class="font-weight-bold p-4">TITLE SPONSERS</h3>
                 <div class="d-flex flex-wrap">
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp " data-wow-duration="1.4s">
+                    {/* <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp " data-wow-duration="1.4s">
                         <div class="card hover">
                             <img class="card-img-top mt-3" src="images/TSP1.png" alt="Incers"/>
                             <div class="card-footer">
@@ -333,12 +365,26 @@ const Mritika = () => {
                                 <a href="https://www.hindalco.com/" class="pull-right">More Info</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    {
+                            TitleS.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card hover">
+                                            <img class="card-img-top mt-3" src={data.img} alt="Incers"/>
+                                            <div class="card-footer">
+                                                <a href={data.link} class="pull-right">More Info</a>
+                                            </div>
+                                    </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
 
                 <h3 class="font-weight-bold p-4">GOLD SPONSERS/SILVER SPONSERS</h3>
                 <div class="d-flex flex-wrap">
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
+                    {/* <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="card hover">
                             <img class="card-img-top mt-3" src="images/TSP5.jpeg" alt="Incers"/>
                             <div class="card-footer">
@@ -369,7 +415,22 @@ const Mritika = () => {
                                 <a href="http://www.maithanceramic.in/" class="pull-right">More Info</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    
+                        {
+                            GoldSilverS.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card hover">
+                                            <img class="card-img-top mt-3" src={data.img} alt="Incers"/>
+                                            <div class="card-footer">
+                                                <a href={data.link} class="pull-right">More Info</a>
+                                            </div>
+                                    </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
             </section>
         </div>
@@ -379,7 +440,7 @@ const Mritika = () => {
         <section class="d-flex p-5 text-center mybg-music">
             <div class="container ">
                 <div class="d-flex flex-wrap">
-                    <div class="col-md-12">
+                    {/* <div class="col-md-12">
                         <h3 class="text-center font-weight-bold text-white" >MRITIKA GALLERY 2023</h3>
                     </div>
                 </div>
@@ -444,6 +505,18 @@ const Mritika = () => {
                             <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
                         </div>
                     </div>
+                </div> */}
+                {
+                            Gallary23.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
+                                        <div class="M23box">
+                                        <img class="img-fluid" src={data.img} alt="Incers"/>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
             </div>
         </section>
