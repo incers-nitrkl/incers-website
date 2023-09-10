@@ -75,13 +75,13 @@ We welcome contributions to improve this e-commerce website. If you have ideas f
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/e-commerce-website.git
+   git clone https://github.com/incers-nitrkl/incers-website
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd e-commerce-website
+   cd incers-website
    ```
 
 3. Install the project dependencies:
