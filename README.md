@@ -1,71 +1,110 @@
-# Getting Started with Create React App
+# Incers Club README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Incers Club! This README file will provide you with all the information you need to get started and make the most of your membership in our club.
 
-## Available Scripts
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Mission Statement](#mission-statement)
+3. [Membership](#membership)
+4. [Meetings and Events](#meetings-and-events)
+5. [Contributing](#contributing)
+6. [Prerequisites for Contribution](#prerequisites-for-contribution)
+7. [Installation](#installation)
+8. [Contact Information](#contact-information)
 
-In the project directory, you can run:
+## 1. Introduction
 
-### `npm start`
+The Incers Club is a community of passionate individuals who share a common interest in increasing their knowledge, skills, and personal growth. We provide a platform for members to connect, collaborate, and learn from each other. Whether you're a student, professional, or enthusiast, you're welcome to join us.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Indian Ceramic Society (InCerS) is a non-profit organization established in 1928 under the guidance of Pandit Madan Mohan Malviya with an objective of establishing a network & relationship among all material enthusiasts, industrial professionals and any other people connected to this field. The primary objective of InCerS is to promote advancement in ceramic science, arts and technologies, by bringing into close contact those who are engaged in these pursuits, publishing scientific and technical books and journals, holding annual sessions, discussions, meetings, symposia and exhibitions on the subjects of interest. InCerS, NITR is the student chapter of Indian Ceramic Society which organizes annual events like Mrittika. To be a part of InCerS student chapter one needs to pay a membership amount. Being a part of InCerS student chapter has many benefits like getting huge amount of funds to organize events like MRITTIKA whose budget is more than the annual tech fest of NITR NITR-ICS is the student chapter of InCerS at NIT Rourkela with a total strength of 50+ active members. The club is presided over by Shivam Sharma (3rd year B Tech student) from the Department of Ceramic Engineering, NIT Rourkela. Prof. Shantanu Behera from the Department of Ceramic Engineering who is an esteemed alumnus of NIT Rourkela as well as the current Associate Dean of Alumni relations is the club faculty advisor. The club comes under the Technical society of SAC and is responsible for organising fests and sessionals related to materials science.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 2. Mission Statement
 
-### `npm test`
+Our mission is to create a supportive and inclusive environment where members can:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Share knowledge and expertise.
+- Learn from each other's experiences.
+- Explore new ideas and concepts.
+- Collaborate on projects and initiatives.
+- Foster personal and professional growth.
 
-### `npm run build`
+## 3. Membership
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Membership in the Incers Club is open to anyone who shares our interests and values. To become a member, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit our [Incers website](https://incersnitrkl.netlify.app/) and go to contact page.
+2. Contact the secretary and take the membership.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 4. Meetings and Events
 
-### `npm run eject`
+We host regular meetings and events both online and, when possible, in person. These gatherings are an opportunity to:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Discuss relevant topics and trends.
+- Present your own projects or research.
+- Network with fellow members.
+- Participate in workshops and webinars.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Keep an eye on our [Incers Website](https://incersnitrkl.netlify.app/) for upcoming activities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 5. Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+We encourage members to actively contribute to the club's growth and success. You can contribute in the following ways:
 
-## Learn More
+- Share your expertise by hosting a workshop or webinar.
+- Propose and organize events or projects.
+- Contribute to our online community by sharing valuable content and engaging in discussions.
+- Provide feedback and suggestions to help improve the club.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We welcome contributions to improve this e-commerce website. If you have ideas for new features, bug fixes, or improvements, please follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your forked repository.
+5. Create a pull request to merge your changes into the main repository.
 
-### Code Splitting
+   
+## 6. Prerequisites for Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Node.js](https://nodejs.org/) installed on your computer.
+- [Git](https://git-scm.com/) for version control.
+- A code editor such as [Visual Studio Code](https://code.visualstudio.com/).
 
-### Analyzing the Bundle Size
+## 7. Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository to your local machine:
 
-### Making a Progressive Web App
+   ```bash
+   git clone https://github.com/incers-nitrkl/incers-website
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Navigate to the project directory:
 
-### Advanced Configuration
+   ```bash
+   cd incers-website
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Install the project dependencies:
 
-### Deployment
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Start the development server:
 
-### `npm run build` fails to minify
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# incers-website
+5. Access the website in your web browser by navigating to `http://localhost:3000`.
+
+## 8. Contact Information
+
+If you have any questions, concerns, or feedback, please don't hesitate to reach out to us:
+
+- Email: incersnitr@gmail.com
+- Website: [Incers](https://incersnitrkl.netlify.app/)
+- Instagram: [Incers-instagram](https://www.instagram.com/nitr_incers/)
+- LinkedIn: [Incers-LinkedIn](https://www.linkedin.com/company/incers-nitr/mycompany/)
+
+We look forward to having you as a member of the Incers Club and hope you enjoy your journey of growth and learning with us!
