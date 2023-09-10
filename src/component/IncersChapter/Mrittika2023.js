@@ -3,7 +3,7 @@ import Brochure from '../../images/brochure2019.pdf';
 import Navbar from '../../Navbar';
 import Footer from '../Footer/Footer';
 import './Mrittika2023.css'
-
+import { Prof , ExecuitveMember, TitleS, GoldSilverS, Gallary23 } from './Mrittika2023Data';
 
 
 const Mritika = () => {
@@ -73,134 +73,23 @@ const Mritika = () => {
                     <h2 class="font-weight-bold">OUR PROFESSORS</h2>
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Bibhuti.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Bibhuti Bhusan Nayak</h6>
-                                <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Debashish.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Debashish Sarkar</h6>
-                                <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Japes.jpeg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Japes Bera</h6>
-                                <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Ritwik.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Ritwik Sarkar</h6>
-                                <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Santanu_bhat.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Santanu Bhattacharyya</h6>
-                                <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pratihar.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Swadesh Kumar Pratihar</h6>
-                                <h6 style={{ color: "green" }}><strong>Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/santanu_behera.jpg" alt="Incers"/>
-                            <div class="card-block" >
-                                <h6 class="card-title text-center">Santanu Kumar Behera</h6>
-                                <h6 style={{ color: "green" }}><strong>Associate Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/ranabrata.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Ranabrata Mazumder</h6>
-                                <h6 style={{ color: "green" }}><strong>Associate Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Pal.jpg" alt="Incers"/>
 
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Sumit Kumar Pal</h6>
-                                <h6 style={{ color: "green" }}><strong>Associate Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Partha.jpg" alt="Incers"/>
+                        {
+                            Prof.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
+                                    <div class="card" style={{ height: "295px", width: "100%" }}>
+                                    <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src={data.img} alt="Incers"/>
+                                    <div class="card-block">
+                                            <h6 class="card-title text-center">{data.name}</h6>
+                                            <h6 style={{ color: "green" }}><strong>{data.des}</strong></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
 
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Partha Saha</h6>
-                                <h6 style={{ color: "green" }}><strong>Assistant Professor </strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Sudip.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Sudip Dasgupta</h6>
-                                <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/sunipa.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Sunipa Bhattachatyya</h6>
-                                <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Arindum.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Arindam Paul</h6>
-                                <h6 style={{ color: "green" }}><strong>Assistant Professor </strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/Arun.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Arun Chowdhury</h6>
-                                <h6 style={{ color: "green" }}><strong>Assistant Professor</strong></h6>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
@@ -210,78 +99,21 @@ const Mritika = () => {
                     <h2 class="font-weight-bold">EXECUTIVE MEMBERS</h2>
                 </div>
                 <div class="d-flex flex-wrap justify-content-center">
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/DP.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Deepsikha Brahma</h6>
-                                <h6 style={{ color: "green" }}><strong>Chairperson</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/PM2.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Partha Mishra</h6>
-                                <h6 style={{ color: "green" }}><strong>Vice-Chairperson</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/RD.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Rittwik Devdatta Das</h6>
-                                <h6 style={{ color: "green" }}><strong>Secretory</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/AS.png" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Aashay</h6>
-                                <h6 style={{ color: "green" }}><strong>Joint Secretory</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/PKS.jpeg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Pratyush Kundu</h6>
-                                <h6 style={{ color: "green" }}><strong>Treasurer</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/JM.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Jyotishman Mohanty</h6>
-                                <h6 style={{ color: "green" }}><strong>BR 2nd Year</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/SK.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Summit Kumar Oram</h6>
-                                <h6 style={{ color: "green" }}><strong>BR 3rd Year</strong></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
-                        <div class="card" style={{ height: "295px", width: "100%" }}>
-                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src="images/U.jpg" alt="Incers"/>
-                            <div class="card-block">
-                                <h6 class="card-title text-center">Uday</h6>
-                                <h6 style={{ color: "green" }}><strong>BR 4th Year</strong></h6>
-                            </div>
-                        </div>
-                    </div>
+                    {
+                            ExecuitveMember.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center p-4 rounded">
+                                        <div class="card" style={{ height: "295px", width: "100%" }}>
+                                            <img style={{ height: "220px", width: "100%" }} class="img-fluid object-fit-cover" src={data.img} alt="Incers"/>
+                                                <div class="card-block">
+                                                    <h6 class="card-title text-center">{data.name}</h6>
+                                                    <h6 style={{ color: "green" }}><strong>{data.des}</strong></h6>
+                                                </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
             </section>
 
@@ -301,75 +133,39 @@ const Mritika = () => {
                 </div>
                 <h3 class="font-weight-bold p-4">TITLE SPONSERS</h3>
                 <div class="d-flex flex-wrap">
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp " data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP1.png" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="https://mahakoshalrefractories.com/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp " data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP2.png" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="https://www.trlkrosaki.com/" class="pull-right">More Info</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP3.png" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="https://aaryametallurgicals.com/management/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP4.png" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="https://www.hindalco.com/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
+                    {
+                            TitleS.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card hover">
+                                            <img class="card-img-top mt-3" src={data.img} alt="Incers"/>
+                                            <div class="card-footer">
+                                                <a href={data.link} class="pull-right">More Info</a>
+                                            </div>
+                                    </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
 
                 <h3 class="font-weight-bold p-4">GOLD SPONSERS/SILVER SPONSERS</h3>
                 <div class="d-flex flex-wrap">
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/TSP5.jpeg" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="https://www.sarvesh.com/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/GSP1.jpeg" alt="Incers" />
-                            <div class="card-footer">
-                                <a href="https://www.elkem.com/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/SSP.jpeg" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="https://www.calderys.com/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="card hover">
-                            <img class="card-img-top mt-3" src="images/SSP2.jpeg" alt="Incers"/>
-                            <div class="card-footer">
-                                <a href="http://www.maithanceramic.in/" class="pull-right">More Info</a>
-                            </div>
-                        </div>
-                    </div>
+                    
+                        {
+                            GoldSilverS.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 p-4 wow bounceInUp" data-wow-duration="1.4s">
+                                    <div class="card hover">
+                                            <img class="card-img-top mt-3" src={data.img} alt="Incers"/>
+                                            <div class="card-footer">
+                                                <a href={data.link} class="pull-right">More Info</a>
+                                            </div>
+                                    </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
             </section>
         </div>
@@ -379,71 +175,17 @@ const Mritika = () => {
         <section class="d-flex p-5 text-center mybg-music">
             <div class="container ">
                 <div class="d-flex flex-wrap">
-                    <div class="col-md-12">
-                        <h3 class="text-center font-weight-bold text-white" >MRITIKA GALLERY 2023</h3>
-                    </div>
-                </div>
-                <div class="d-flex flex-wrap">
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="M23box">
-                            <img class="img-fluid" src="images/coming.jpg" alt="Incers"/>
-                        </div>
-                    </div>
+                {
+                            Gallary23.map((data, index)=>{
+                                return(
+                                    <div class="col-sm-6 col-md-4 col-lg-3 mt-3 overflow-hidden wow bounceInUp" data-wow-duration="1.4s">
+                                        <div class="M23box">
+                                        <img class="img-fluid" src={data.img} alt="Incers"/>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
                 </div>
             </div>
         </section>
