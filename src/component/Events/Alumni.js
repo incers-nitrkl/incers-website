@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Navbar1 from './Navbar1';
+import Navbar from '../../Navbar';
 
 const functionnav = ()=>{
     const widths = 700
