@@ -102,12 +102,6 @@
     width: 100vw;
 }
 
-.family1 {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow-x: hidden;
-    object-fit: inherit;
-}
 
 .flash_1 {
     display: flex;
@@ -122,11 +116,8 @@
 
 .image_div_1 {
     width: 100%;
-    height: 700px;
-    background: "#fff";
     padding: 20px;
     display: flex;
-    flex-direction: row;
     text-align: center;
     justify-content: center;
 }

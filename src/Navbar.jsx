@@ -84,7 +84,7 @@ const Navbar = () => {
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fs-5" href="https://www.instagram.com/nitr_incers/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                InCeS-NITR
+                                InCerS-NITR
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li className="dropdown-item">
