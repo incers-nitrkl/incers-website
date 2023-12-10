@@ -33,6 +33,7 @@ const responsive = {
 
 const Apps = () => {
     const classes = useStyles();
+
     const functiondeal1 = () => {
         return (<>
             <div class="d-flex flex-wrap justify-content-center">
@@ -351,6 +352,11 @@ const Apps = () => {
                         {functiondeal3()}
                     </div>
                 </section>
+
+                {/* floating whatsapp */}
+                <a href="https://api.whatsapp.com/send?phone=916371543372" rel="noreferrer" class="floating" target="_blank">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
                 <Footer />
             </div>
         </>
