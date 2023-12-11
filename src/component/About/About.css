@@ -1,6 +1,9 @@
 @media (max-width:765px) {
-    .about-img{
-        display: none;
+    .about-box{
+        flex-direction: column;
+    }
+    .about-box1{
+        flex-direction: column;
     }
 }
 
