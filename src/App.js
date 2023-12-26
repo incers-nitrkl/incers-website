@@ -12,9 +12,6 @@ import Events2 from './component/Events/Webinar&TechnicalSession';
 import Events3 from './component/Events/FlashbackFriday';
 import Events4 from './component/Events/MondayMatter';
 import Events5 from './component/Events/MaterialsUnlocked';
-import Blog from './Blog'
-import Blog1 from './Blog1'
-import Blog2 from './Blog2'
 import Mritika23 from './component/IncersChapter/Mrittika2023'
 import AboutIncersChapter from './component/IncersChapter/AboutIncersChapter';
 import Mritika19 from './component/IncersChapter/Mrittika2019';
@@ -34,9 +31,6 @@ const App = () => {
       <Route exact path="/events3" component={Events3} />
       <Route exact path="/events4" component={Events4} />
       <Route exact path="/events5" component={Events5} />
-      <Route exact path="/blog" component={Blog} />
-      <Route exact path="/blog1" component={Blog1} />
-      <Route exact path="/blog2" component={Blog2} />
       <Route exact path="/aboutincerschapter" component={AboutIncersChapter} />
       <Route exact path="/mritika" component={Mritika23} />
       <Route exact path="/mritika1" component={Mritika19} /> 

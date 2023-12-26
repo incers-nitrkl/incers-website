@@ -24,7 +24,7 @@ const About = () => {
                   <h1 class="text-success">Welcome!</h1>
                   <h2>Know More About Us</h2>
                   <hr />
-                  <div className="d-flex flex-col">
+                  <div className="d-flex flex-col about-box">
                     <p className="text-justify col-md-8">
                       The Indian Ceramic Society (ICS) team, here at NIT Rourkela
                       provides a forum for delegates from the field of ceramics
@@ -65,13 +65,13 @@ const About = () => {
             </div>
           </section>
 
-          <div className="d-flex flex-column justify-content-center m-5 w-80">
-              <h2 className="text-success">
-                INDUCTEES AND ORIENTATION
-              </h2>
-            
+          <div className="container d-flex flex-column justify-content-center w-80 mt-4">
+            <h2 className="text-success">
+              Inductees and Orientation
+            </h2>
+            <hr className="mt-2"/>
             <div>
-              <p className="text-justify">
+              <p className="text-justify col-md-12">
                 "When others melt, we just warm up." With this saying, NITR ICS
                 commenced their Orientation programme with live streaming on
                 their Youtube Channel at 10:15 AM on 24th July 2021. The
@@ -91,12 +91,13 @@ const About = () => {
             </div>
           </div>
 
-          <div className="d-flex flex-column justify-content-center m-5 w-80">
+          <div className="container d-flex flex-column justify-content-center w-80">
             <h2 className="text-success">
-              DEPARTMENT VISIT
+              Department Visit
             </h2>
+            <hr className="mt-2"/>
             <div>
-              <p className="text-justify">
+              <p className="text-justify col-md-12">
                 A visiting to our ceramics department is an incredibly enriching
                 experience. From exploring the process of creating a ceramic
                 piece to admiring the skill and craftsmanship that goes into
@@ -115,12 +116,13 @@ const About = () => {
             </div>
           </div>
 
-          <div className="d-flex flex-column justify-content-center m-5 w-80">
-            <h2 className="d-flex justify-content-center">
+          <div className="container d-flex flex-column justify-content-center w-80">
+            <h2 class="d-flex justify-content-center" style={{color:'green'}}>
               InCerS NITR Teams
             </h2>
-            <h3 className="text-success">Core Team</h3>
-            <p className="text-justify">
+            <hr className="mt-2"/> 
+            <h3 className="text-success" >Core Team</h3>
+            <p className="text-justify col-md-12">
               The core team comprises the elected members of the club who hold
               various responsibilities of the club. The core team comprises the
               executive body with some team heads who work diligently to arrange
@@ -137,7 +139,7 @@ const About = () => {
               learning in the process
             </p>
             <h3 className="text-success">Design Team</h3>
-            <p className="text-justify">
+            <p className="text-justify col-md-12">
               A team of immensely talented individuals having an ample knowledge
               of lines, curves and colour scheme comprises the very hard working
               design team. Led by Summit ku. Oram , BR 3rd Year and the design
@@ -154,7 +156,7 @@ const About = () => {
               and night by creating beautiful posters for the club.
             </p>
             <h3 className="text-success">Content Team</h3>
-            <p className="text-justify">
+            <p className="text-justify col-md-12">
               The content team creates engaging and high-quality content that
               attracts the readers and at the same time gives them the perfect
               information. The content is in the form of social media posts,
@@ -170,7 +172,7 @@ const About = () => {
               shoulders of content team.
             </p>
             <h3 className="text-success">Development Team</h3>
-            <p className="text-justify">
+            <p className="text-justify col-md-12">
               The website design team plays a critical role in creating a
               successful online presence for our InCerS NITR club . The website
               design team is responsible for creating a website that provides a
