@@ -98,9 +98,9 @@
     text-align: center;
 }
 
-.main_div {
+/* .main_div {
     width: 100vw;
-}
+} */
 
 
 .flash_1 {
@@ -247,9 +247,9 @@
         margin: auto;
     }
 
-    .main_div {
+    /* .main_div {
         width: 107% !important;
-    }
+    } */
 
     .gallery_div,
     .gallery_div_placement {
@@ -355,9 +355,9 @@
         width: 20%;
     }
 
-    .main_div {
+    /* .main_div {
         width: 100%;
-    }
+    } */
 
     .gallery_div,
     .gallery_div_placement {
@@ -486,9 +486,9 @@
         width: 20%;
     }
 
-    .main_div {
+    /* .main_div {
         width: 100%;
-    }
+    } */
 
     .gallery_div,
     .gallery_div_placement {

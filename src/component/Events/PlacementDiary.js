@@ -4,6 +4,19 @@ import "react-multi-carousel/lib/styles.css";
 import "./PlacementDiary.css";
 import Footer from '../Footer/Footer';
 
+import Nation from '../../images/PlacementCompany/Nation with Namo.png';
+import Tata from '../../images/PlacementCompany/Tata steel.png';
+import Saint from '../../images/PlacementCompany/Saint Gobain.png';
+import ICICI from '../../images/PlacementCompany/ICICI.png';
+import Aditya from '../../images/PlacementCompany/Aditya.png';
+import Click from '../../images/PlacementCompany/TATACLIQ.jpg';
+import Jsw from '../../images/PlacementCompany/Jsw.png';
+import Somany from '../../images/PlacementCompany/Somany.png';
+import QQQ from '../../images/PlacementCompany/QQQ.png';
+import Itc from '../../images/PlacementCompany/itc.png';
+import Glass from '../../images/PlacementCompany/glass.jpg';
+import Krosaki from '../../images/PlacementCompany/krosaki.jfif';
+
 const Events = () => {
     return <>
         <Navbar />
@@ -69,62 +82,62 @@ const Events = () => {
                 <div class="d-flex flex-wrap">
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/Nation with Namo.png" alt='Incers'/>
+                            <img class="img-fluid" src={Nation} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/Tata steel.png" alt='Incers'/>
+                            <img class="img-fluid" src={Tata} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/Saint Gobain.png" alt='Incers'/>
+                            <img class="img-fluid" src={Saint} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/ICICI1.png" alt='Incers'/>
+                            <img class="img-fluid" src={ICICI} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/Aditya.png" alt='Incers'/>
+                            <img class="img-fluid" src={Aditya} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/TATACLIQ.jpg" alt='Incers'/>
+                            <img class="img-fluid" src={Click} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/Somany.png" alt='Incers'/>
+                            <img class="img-fluid" src={Somany} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/krosaki.jfif" alt='Incers'/>
+                            <img class="img-fluid" src={Krosaki} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/glass.jpg" alt='Incers'/>
+                            <img class="img-fluid" src={Glass} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/Jsw.png" alt='Incers'/>
+                            <img class="img-fluid" src={Jsw} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/itc.png" alt='Incers'/>
+                            <img class="img-fluid" src={Itc} alt='Incers'/>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
                         <div class="item box">
-                            <img class="img-fluid" src="images/QQQ.png" alt='Incers'/>
+                            <img class="img-fluid" src={QQQ} alt='Incers'/>
                         </div>
                     </div>
                 </div>

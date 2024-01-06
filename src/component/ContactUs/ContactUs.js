@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../../Navbar";
 import Footer from "../Footer/Footer";
+import BB from "../../images/Profrssors/Bibhuti.jpg";
+import DP from "../../images/Members/member23/DP.jpg";
+import PM from "../../images/Members/member23/PM.jpg";
 
 const Contact = () => {
   return (
@@ -8,7 +11,7 @@ const Contact = () => {
       <Navbar />
       <div class="container">
         <div class="row">
-          <h1 class="text-center">
+          <h1 class="text-center h1-text">
             <span>Contact Us</span>
           </h1>
           <div class="col-md-4 card-design">
@@ -18,7 +21,7 @@ const Contact = () => {
                 alt="profile-sample1"
                 class="background"
               />
-              <img src="images/BB.jpg" alt='Incers' class="profile" />
+              <img src={BB} alt='Incers' class="profile" />
               <div class="card-content">
                 <h2>
                   Prof. B.B. Nayak
@@ -35,7 +38,7 @@ const Contact = () => {
                 alt="profile-sample1"
                 class="background"
               />
-              <img src="images/DP.jpg" alt='Incers' class="profile" />
+              <img src={DP} alt='Incers' class="profile" />
               <div class="card-content">
                 <h2>
                   Deepsikha Brahma
@@ -52,7 +55,7 @@ const Contact = () => {
                 alt="profile-sample1"
                 class="background"
               />
-              <img src="images/PM.jpg" alt='Incers' class="profile" />
+              <img src={PM} alt='Incers' class="profile" />
               <div class="card-content">
                 <h2>
                   Partha Mishra
