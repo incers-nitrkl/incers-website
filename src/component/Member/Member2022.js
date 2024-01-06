@@ -13,7 +13,7 @@ const Members22 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>Founder</span>{" "}
               </h1>
               {Member22.map((data, index) => {
@@ -52,7 +52,7 @@ const Members22 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>EC Body</span>{" "}
               </h1>
               {ECMember22.map((data, index) => {
@@ -91,7 +91,7 @@ const Members22 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>Development Team</span>{" "}
               </h1>
               {DevMember22.map((data, index) => {

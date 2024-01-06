@@ -1,12 +1,12 @@
-import img1 from '../../images/MM4.jpg'
-import img2 from '../../images/MM5.jpg'
-import img3 from '../../images/MM6.jpg'
-import img4 from '../../images/MM7.jpg'
-import img5 from '../../images/MM8.jpg'
-import img6 from '../../images/MM9.jpg'
-import img7 from '../../images/MM10.jpg'
-import img8 from '../../images/MM11.jpg'
-import img9 from '../../images/MM12.jpg'
+import img1 from '../../images/MondayMatter/mm10.png'
+import img2 from '../../images/MondayMatter/mm9.png'
+import img3 from '../../images/MondayMatter/mm8.png'
+import img4 from '../../images/MondayMatter/mm7.png'
+import img5 from '../../images/MondayMatter/mm6.png'
+import img6 from '../../images/MondayMatter/mm5.png'
+import img7 from '../../images/MondayMatter/mm4.png'
+import img8 from '../../images/MondayMatter/mm3.png'
+import img9 from '../../images/MondayMatter/mm2.png'
 
 export const SliderData1 = [
     {

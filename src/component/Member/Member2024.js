@@ -12,7 +12,7 @@ const Members24 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>Founder</span>{" "}
               </h1>
               {Member24.map((data, index) => {
@@ -51,7 +51,7 @@ const Members24 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>Mentor</span>{" "}
               </h1>
               {Mentor24.map((data, index) => {
@@ -94,7 +94,7 @@ const Members24 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>EC Body</span>{" "}
               </h1>
               {ECMember24.map((data, index) => {
@@ -133,7 +133,7 @@ const Members24 = () => {
         <section>
           <div class="container">
             <div class="d-flex flex-wrap justify-content-center">
-              <h1 class="text-center">
+              <h1 class="text-center h1-text">
                 <span>Development Team</span>{" "}
               </h1>
               {DevMember24.map((data, index) => {

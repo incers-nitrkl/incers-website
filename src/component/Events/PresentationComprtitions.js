@@ -2,7 +2,16 @@ import React from 'react';
 import Navbar from '../../Navbar';
 import "react-multi-carousel/lib/styles.css";
 import Footer from '../Footer/Footer';
-import './PresentationCompetitions.css'
+import './PresentationCompetitions.css';
+import comp1 from "../../images/PresentationCompetation/comp1.jpeg";
+import comp2 from "../../images/PresentationCompetation/comp2.jpeg";
+import comp3 from "../../images/PresentationCompetation/comp3.jpeg";
+import comp4 from "../../images/PresentationCompetation/comp4.jpeg";
+import comp5 from "../../images/PresentationCompetation/comp5.jpeg";
+import comp6 from "../../images/PresentationCompetation/comp6.jpeg";
+import comp7 from "../../images/PresentationCompetation/comp7.jpeg";
+import comp8 from "../../images/PresentationCompetation/comp8.jpeg";
+import comp9 from "../../images/PresentationCompetation/comp9.png";
 
 const Events1 = () => {
     return (<>
@@ -30,7 +39,7 @@ const Events1 = () => {
                             <p class="card-text mb-auto text-white" >Ceramics are objects made from clay that have been fired at high temperatures to... </p>
                             <a class="btn btn-outline-light btn-sm mt-4" role="button" href="https://www.youtube.com/watch?v=u71UwFbXewc">Continue watching</a>
                         </div>
-                        <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp9.png" style={{ width: "200px", padding: '8px' }} />
+                        <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp9} style={{ width: "200px", padding: '8px' }} />
                     </div>
                 </div>
 
@@ -50,7 +59,7 @@ const Events1 = () => {
                                 <a class="btn btn-outline-primary btn-sm mt-4" role="button" href="https://youtu.be/zAelZDceB14">Continue watching</a>
                             </div>
 
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp1.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp1} style={{ width: "200px", padding: '8px' }} />
 
                         </div>
                     </div>
@@ -68,7 +77,7 @@ const Events1 = () => {
                                     used by world's leading tech...</p>
                                 <a class="btn btn-outline-success btn-sm mt-4" href="https://youtu.be/4xUInIdO8I0">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp2.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp2} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
 
@@ -85,7 +94,7 @@ const Events1 = () => {
                                     for sophisticated uses in...</p>
                                 <a class="btn btn-outline-primary btn-sm mt-4" role="button" href="https://youtu.be/kZqFgkqj_QQ">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp3.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp3} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
                     <div class="col-md-6 card-effect ">
@@ -101,7 +110,7 @@ const Events1 = () => {
                                     traditional insulators to be...</p>
                                 <a class="btn btn-outline-success btn-sm mt-4" href="https://youtu.be/04WUCfsfRSY">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp4.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp4} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
                 </div>
@@ -118,7 +127,7 @@ const Events1 = () => {
                                 <p class="card-text mb-auto" style={{ color: "white" }}>"PZT- A highly smart Ceramic based lead material made up of Pervoskite ."</p>
                                 <a class="btn btn-outline-light btn-sm mt-4" role="button" href="https://youtu.be/2AYpTP9XBVU" >Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp5.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp5} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
                     <div class="col-md-6 ">
@@ -134,7 +143,7 @@ const Events1 = () => {
                                     in the space...</p>
                                 <a class="btn btn-outline-light btn-sm mt-4" href="https://youtu.be/KHoAPQDb94c">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp6.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp6} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
 
@@ -151,7 +160,7 @@ const Events1 = () => {
                                 </p>
                                 <a class="btn btn-outline-light btn-sm mt-4" role="button" href="https://youtu.be/cC4Ic--uNLY">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp7.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp7} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
                     <div class="col-md-6 ">
@@ -167,7 +176,7 @@ const Events1 = () => {
                                 </p>
                                 <a class="btn btn-outline-light btn-sm mt-4" href="https://youtu.be/KA-fuWdq1UU">Continue watching</a>
                             </div>
-                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src="images/comp8.jpeg" style={{ width: "200px", padding: '8px' }} />
+                            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp8} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
                 </div>

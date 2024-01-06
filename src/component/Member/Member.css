@@ -8,14 +8,14 @@ body {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
-h1 {
+.h1-text {
   float: left;
   width: 100%;
   color: #232323;
   margin-bottom: 30px;
   font-size: 14px;
 }
-h1 span {
+.h1-text span {
   font-family: "Libre Baskerville", serif;
   display: block;
   font-size: 45px;
@@ -24,7 +24,7 @@ h1 span {
   margin-top: 30px;
   font-weight: 700;
 }
-h1 a {
+.h1-text a {
   color: #131313;
   font-weight: bold;
 }
