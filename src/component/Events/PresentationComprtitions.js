@@ -20,14 +20,13 @@ const Events1 = () => {
             <div class="container">
                 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
 
-                <h3 class="pb-3 mb-4 border-bottom">
+                <h3 class="pb-3 mb-4 border-bottom" style={{color:"green"}}>
                     PRESENTATIONS
                 </h3>
 
-
                 {/* New 2023 */}
-                <h4 class="" style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>PPT PRESENTATION COMPETITION 22-23</h4>
-                <div class="col-md-6 " >
+                <h4 class="text-success" style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>PPT PRESENTATION COMPETITION 22-23</h4>
+                <div class="col-md-6 " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                     <div class="card text-white flex-md-row shadow-sm h-md-250 PCdesign">
                         <div class="card-body d-flex flex-column align-items-start">
                             <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
@@ -44,9 +43,9 @@ const Events1 = () => {
                 </div>
 
                 {/* old ppt */}
-                <h4 class="PC2" style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>PPT PRESENTATION COMPETITION 20-22</h4>
+                <h4 class="PC2 text-success" style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>PPT PRESENTATION COMPETITION 20-22</h4>
                 <div class="d-flex flex-wrap ">
-                    <div class="col-md-6 card-effect " >
+                    <div class="col-md-6 card-effect " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                         <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 PCdesign2" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
@@ -64,7 +63,7 @@ const Events1 = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-6 card-effect ">
+                    <div class="col-md-6 card-effect " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 PCdesign3" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
@@ -81,7 +80,7 @@ const Events1 = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-6 card-effect ">
+                    <div class="col-md-6 card-effect " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 PCdesign2" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">Ceramic</strong>
@@ -97,7 +96,7 @@ const Events1 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp3} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
-                    <div class="col-md-6 card-effect ">
+                    <div class="col-md-6 card-effect " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 PCdesign3" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Ceramic</strong>
@@ -115,7 +114,7 @@ const Events1 = () => {
                     </div>
                 </div>
                 <div class="d-flex flex-wrap ">
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card text-white  flex-md-row mb-4 shadow-sm h-md-250 PCdesign" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
@@ -130,7 +129,7 @@ const Events1 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp5} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 PCdesign4" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
@@ -147,7 +146,7 @@ const Events1 = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-6 " >
+                    <div class="col-md-6 " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 PCdesign" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>
@@ -163,7 +162,7 @@ const Events1 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x250]" src={comp7} style={{ width: "200px", padding: '8px' }} />
                         </div>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 " data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card text-white flex-md-row mb-4 shadow-sm h-md-250 PCdesign4" >
                             <div class="card-body d-flex flex-column align-items-start shadow-effect">
                                 <strong class="d-inline-block mb-2 text-white">Ceramic</strong>

@@ -12,12 +12,12 @@ const Events2 = () => {
             <div class="container">
                 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
                 
-                <h3 class="pb-3 my-4 border-bottom" >
+                <h3 class="pb-3 my-4 border-bottom" style={{color:"green"}}>
                     WEBINARS AND TECHNICAL SESSIONS
                 </h3>
 
                 <div className="d-flex flex-wrap flex-column">
-                    <div class="col-md-12 card-effect">
+                    <div class="col-md-12 card-effect" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 WTdesign">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">OBMODTEA 2020</strong>
@@ -32,10 +32,10 @@ const Events2 = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-12 card-effect" >
-                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 WTdesign2" >
+                    <div class="col-md-12 card-effect" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
+                        <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 WTdesign2">
                             <div class="card-body d-flex flex-column align-items-start">
-                                <strong class="d-inline-block mb-2 text-success">Mesoporous SilicaBy Munmi Das</strong>
+                                <strong class="d-inline-block mb-2 text-success">Mesoporous Silica By Munmi Das</strong>
                                 <h6 class="mb-0">
                                     <a class="text-dark" href="https://www.instagram.com/nitr_incers/">Technical Session</a>
                                 </h6>
@@ -49,7 +49,7 @@ const Events2 = () => {
                     </div>
                 </div>
                 <div class="d-flex flex-wrap flex-column">
-                    <div class="col-md-12 card-effect" >
+                    <div class="col-md-12 card-effect" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card border-primary flex-md-row mb-4 shadow-sm h-md-250 WTdesign" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-primary">New Implementations of Carbon in Refractories by Depsikha Brahma</strong>
@@ -63,7 +63,7 @@ const Events2 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block p-2" alt="Thumbnail [200x250]" src="images/TS-3.png" style={{ width: "230px", height: "250px" }} />
                         </div>
                     </div>
-                    <div class="col-md-12 card-effect">
+                    <div class="col-md-12 card-effect" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                         <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 WTdesign2" >
                             <div class="card-body d-flex flex-column align-items-start">
                                 <strong class="d-inline-block mb-2 text-success">Virtual Demonstration-Tata Stee</strong>
@@ -77,7 +77,7 @@ const Events2 = () => {
                             <img class="card-img-right flex-auto d-none d-lg-block p-2" alt="Thumbnail [200x250]" src="images/TS-4.png" style={{ width: "230px", height: "250px" }} />
                         </div>
                     </div>
-                    <div class="col-md-12 card-effect" >
+                    <div class="col-md-12 card-effect" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out" >
                         <div class="card border-success flex-md-row mb-4 shadow-sm h-md-250 WTdesign2" >
                             <div class="card-body d-flex flex-column align-items-start" >
                                 <strong class="d-inline-block mb-2 text-success">Li-Ion batteries and beyond- a perspective for future energy storage</strong>
