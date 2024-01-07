@@ -16,7 +16,7 @@ const Events4 = () => {
             {/* New add */}
             <div class="d-flex flex-column flex-wrap mt-4">
                 <div class="d-flex justify-content-center " >
-                    <h2 style={{ fontSize: "2.5rem" }}>MONDAY MATTER</h2>
+                    <h2 style={{ fontSize: "2.5rem",color:"green" }}>MONDAY MATTER</h2>
                 </div>
                 <div class="text-justify px-5 py-4">
                     <p>Every week, you suffer from the same malady: a terrible case of the Mondays.
@@ -39,17 +39,17 @@ const Events4 = () => {
             <div>
                 <section class="container p-0">
                     <div class="d-flex flex-wrap">
-                        <h3 class="text-center font-weight-bold" style={{ margin: "1rem" }}>MONDAY MATTER<span class=""> INTERVIEWS</span></h3>
+                        <h3 class="text-center font-weight-bold" style={{ margin: "1rem",color:"green" }}>MONDAY MATTER<span class=""> INTERVIEWS</span></h3>
                     </div>
 
                     {/* Executive Cards HOVER EFFECT */}
-                    <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2022-23</h3>
+                    <h3 class="d-flex flex-wrap text-success" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2022-23</h3>
                     <div class="d-flex flex-wrap justify-content-center">
 
                         {
                             MondayMatter23.map((data, index)=>{
                                 return(
-                                    <div class="card hover m-3" data-wow-duration="1.4s">
+                                    <div class="card hover m-3" data-wow-duration="1.4s" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                                         <a href={data.instagram}>
                                         <img class="card-img-top" style={{ height: "230px", width: "200px" }} src={data.img} alt='Incers'/>
                                         </a>
@@ -61,14 +61,14 @@ const Events4 = () => {
                     </div>
 
 
-                    <h3 class="d-flex flex-wrap" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2021-22</h3>
+                    <h3 class="d-flex flex-wrap text-success" style={{ margin: "1.5rem", marginLeft: '10%' }}>INTERVIEW 2021-22</h3>
                     <div class="d-flex flex-wrap justify-content-center" >
                         
 
                         {
                             MondayMatter22.map((data, index)=>{
                                 return(
-                                    <div class="card hover m-3" data-wow-duration="1.4s">
+                                    <div class="card hover m-3" data-wow-duration="1.4s" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                                         <a href={data.instagram}>
                                         <img class="card-img-top" style={{ height: "230px", width: "200px" }} src={data.img} alt='Incers'/>
                                         </a>

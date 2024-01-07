@@ -44,7 +44,8 @@ const Events = () => {
                     </div>
                     <div class="col-md-8">
                         <div class="inner-section wow fadeInUp">
-                            <h3>Follow the <span>DRIVE WITH US</span></h3>
+                            <h3 className='text-success'>Follow the <span>DRIVE WITH US</span></h3>
+                            {/* <hr className='bg-success'/> */}
                             <br />
                             <p class="text-justify">Keeping all the matter aside, Placements are the things that are most looked upon!
                                 Reputed core companies such as Aditya Birla Group, Tata Steel, Reliance Industries, MPR Refractories, Vedanta, Saint- Gobain, Piramal and JSW Steel visit the campus and place students!

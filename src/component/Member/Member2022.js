@@ -18,7 +18,7 @@ const Members22 = () => {
               </h1>
               {Member22.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
@@ -57,7 +57,7 @@ const Members22 = () => {
               </h1>
               {ECMember22.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://www.nitrkl.ac.in/assets/images/gallery/1.jpg"
@@ -96,7 +96,7 @@ const Members22 = () => {
               </h1>
               {DevMember22.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"

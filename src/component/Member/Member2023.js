@@ -17,7 +17,7 @@ const Members23 = () => {
               </h1>
               {Member23.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
@@ -56,7 +56,7 @@ const Members23 = () => {
               </h1>
               {Mentor23.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/NIT_Rourkela_Colour_Logo.svg/1200px-NIT_Rourkela_Colour_Logo.svg.png"
@@ -95,7 +95,7 @@ const Members23 = () => {
               </h1>
               {ECMember23.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://www.nitrkl.ac.in/assets/images/gallery/1.jpg"
@@ -134,7 +134,7 @@ const Members23 = () => {
               </h1>
               {DevMember23.map((data, index) => {
                 return (
-                  <div class="col-md-4 col-lg-3 m-4">
+                  <div class="col-md-4 col-lg-3 m-4" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="200" data-aos-easing="ease-in-out">
                     <div class="card profile-card-1 flex-row">
                       <img
                         src="https://media.licdn.com/dms/image/C4D03AQGDLqtkyL845A/profile-displayphoto-shrink_800_800/0/1625829101446?e=2147483647&v=beta&t=slr4hAC1tooQP6rnizo3TgKMMT_iyRqUrY8BBGAMwMM"
