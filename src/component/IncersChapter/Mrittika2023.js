@@ -174,6 +174,7 @@ const Mritika = () => {
         {/* GUEST SECTION */}
         <section class="d-flex p-5 text-center mybg-music">
             <div class="container ">
+                <h3 class="font-weight-bold p-4 text-white" >GALLARY 2023</h3>
                 <div class="d-flex flex-wrap">
                 {
                             Gallary23.map((data, index)=>{
@@ -238,7 +239,7 @@ const Mritika = () => {
 
 
         {/* Theme  */}
-        <div class="container p-4" style={{ backgroundColor: "#F3F3EA" }}>
+        <div className="container p-4" style={{ backgroundColor: "#F3F3EA" }}>
             <h3 class="text-center font-weight-bold" >THEME OF THE CONFERENCE</h3>
             <div class="d-flex flex-wrap" >
                 <ol>

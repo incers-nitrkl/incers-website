@@ -28,7 +28,22 @@ import GS1 from "../../images/Sponsers/TSP5.jpeg"
 import GS2 from "../../images/Sponsers/GSP1.jpeg"
 import GS3 from "../../images/Sponsers/SSP.jpeg"
 import GS4 from "../../images/Sponsers/SSP2.jpeg"
-import G1 from  "../../images/Mrittika23Gallary/coming.jpg"
+import G1 from  "../../images/Mrittika23Gallary/23m1.jpg"
+import G2 from  "../../images/Mrittika23Gallary/23m2.jpg"
+import G3 from  "../../images/Mrittika23Gallary/23m3.jpg"
+import G4 from  "../../images/Mrittika23Gallary/23m4.jpg"
+import G5 from  "../../images/Mrittika23Gallary/23m5.jpg"
+import G6 from  "../../images/Mrittika23Gallary/23m6.jpg"
+import G7 from  "../../images/Mrittika23Gallary/23m7.jpg"
+import G8 from  "../../images/Mrittika23Gallary/23m8.jpg"
+import G9 from  "../../images/Mrittika23Gallary/23m9.jpg"
+import G10 from  "../../images/Mrittika23Gallary/23m10.jpg"
+import G11 from  "../../images/Mrittika23Gallary/23m11.jpg"
+import G12 from  "../../images/Mrittika23Gallary/23m12.jpg"
+import G13 from  "../../images/Mrittika23Gallary/23m13.jpg"
+import G14 from  "../../images/Mrittika23Gallary/23m14.jpg"
+import G15 from  "../../images/Mrittika23Gallary/23m15.jpg"
+import G16 from  "../../images/Mrittika23Gallary/23m16.jpg"
 
 export const Prof = [
     {
@@ -189,49 +204,49 @@ export const Gallary23 = [
         img: G1
     },
     {
-        img: G1
+        img: G2
     },
     {
-        img: G1
+        img: G3
     },
     {
-        img: G1
+        img: G4
     },
     {
-        img: G1
+        img: G5
     },
     {
-        img: G1
+        img: G6
     },
     {
-        img: G1
+        img: G7
     },
     {
-        img: G1
+        img: G8
     },
     {
-        img: G1
+        img: G9
     },
     {
-        img: G1
+        img: G10
     },
     {
-        img: G1
+        img: G11
     },
     {
-        img: G1
+        img: G12
     },
     {
-        img: G1
+        img: G13
     },
     {
-        img: G1
+        img: G14
     },
     {
-        img: G1
+        img: G15
     },
     {
-        img: G1
+        img: G16
     },
 ]
 
