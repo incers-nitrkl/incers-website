@@ -1,5 +1,9 @@
 # Incers Club README
 
+This Website is a contribution to Incers Club which was done by Pratyush Kundu ,Batch (2020-2024) and Jagrit Sahoo ,Batch (2020-2024) from Ceramic Dept. and was improved by Suraj K Behera ,Batch (2021-2025) and Udit Pradhan ,Batch(2021-2025).
+
+Before an welcome message we pass on this website to our upcoming juniors to take on the further responsibilities.
+
 Welcome to the Incers Club! This README file will provide you with all the information you need to get started and make the most of your membership in our club.
 
 ## Table of Contents

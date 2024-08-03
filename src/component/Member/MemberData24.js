@@ -115,11 +115,11 @@ export const ECMember24=[
         linkedin:"https://www.linkedin.com/in/suraj-kumar-behera-b3883222b/"
     },
     {
-        name:"Ashribad panda",
+        name:"Ashribad Panda",
         designation:"Scientific Head",
         img:APA,
         instagram:"https://www.instagram.com/ashirbad_15/",
-        linkedin:"https://www.linkedin.com/in/ashribad-p-7a14b0138"
+        linkedin:"https://www.linkedin.com/in/ashribad-panda/"
     },
     {
         name:"Shreeya",
